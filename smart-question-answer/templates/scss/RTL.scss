@@ -1,0 +1,40 @@
+#smartqa{
+	.asqa-list-counts {
+	    float: left;
+	}
+	.asqa-pull-right {
+	    float: left !important;
+	}
+	.asqa-pull-left {
+	    float: right !important;
+	}
+	.asqa-questions-count{
+		margin-right: 12px;
+		margin-left: 0;
+	}
+	.asqa-single-vote {
+	    left: 0;
+	    right: auto;
+	}
+	.asqa-avatar {
+	    margin-left: 10px;
+	    margin-right: 0;
+	}
+	.asqa-content {
+    	padding-left: 40px;
+    	padding-right: 0;
+    }
+    .asqa-q-cells, .asqa-a-cells{
+    	margin-left: 0;
+    }
+    .col, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{
+    	float: right;
+    }
+    #answer-form-c{
+    	margin-right: 0;
+    	margin-left: 40px;
+    }
+    .asqa-q .asqa-avatar {
+	    right: 0;
+	}
+}
