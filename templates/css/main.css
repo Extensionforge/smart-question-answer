@@ -5532,3 +5532,11 @@ font-size: 1.4em;
 line-height: 1.25em;}
 .pw-weak {display:none!important; visibility: hidden!important; }
 .asqainvisible { display:none; }
+
+#vnr_enter_customernr_submit{float:right;}
+.vnr_left {width:50%;float:left;}
+.vnr_right {width:48%;float:right;}
+
+.asqa-field-form_question-screenshot, .asqa-field-form_question-post_attachment {display: none!important;}
+
+.asqa-btn-submit {margin-top:20px;}

@@ -77,7 +77,7 @@ class ASQA_Form_Hooks {
 					'jpeg' => 'image/pjpeg',
 			),
 		),
-					'validate'       => 'required',
+					'validate'       => '',
 				),
 			),
 		);

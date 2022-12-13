@@ -3,12 +3,12 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: A Smart Question & Answer 4.3.0\n"
-"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/SmartQ&A\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/smartqa\n"
 "POT-Creation-Date: 2022-03-21 04:33:06+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2022-12-12 21:46+0000\n"
+"PO-Revision-Date: 2022-12-12 16:43+0000\n"
 "Last-Translator: \n"
 "Language-Team: Deutsch\n"
 "Language: de_DE\n"
@@ -39,24 +39,23 @@ msgstr " (anonym)"
 msgid ""
 " Question &ldquo;%s&rdquo; is converted to post and its answers are trashed"
 msgstr ""
-" Frage &ldquo;%s&rdquo; wird in einen Beitrag umgewandelt und die Antworten "
-"werden gelöscht"
+" Frage: \"%s\" ist umgewandelt zu posten und seine Antworten sind trashed\n"
 
 #. translators: First placeholder is total count and second is question title.
 #: addons/buddypress/buddypress.php:460
 msgid "%1$d answers on your question - %2$s"
-msgstr "%1$d Antworten auf deine Frage - %2$s"
+msgstr "%1$d Antworten auf Ihre Frage - %2$s"
 
 #. translators: first - comments count, second - post title, third - post type.
 #: addons/buddypress/buddypress.php:500
 msgid "%1$d comments on your %3$s - %2$s"
-msgstr "%1$d Kommentare zu deinem %3$s - %2$s"
+msgstr "%1$d Kommentare auf Ihre %3$s - %2$s"
 
 #. translators: %1 is total completed, %2 is total found count.
 #: admin/ajax.php:324 admin/ajax.php:372 admin/ajax.php:419 admin/ajax.php:466
 #: admin/ajax.php:513 admin/ajax.php:582
 msgid "%1$d done out of %2$d"
-msgstr "%1$d aus %2$d erledigt"
+msgstr "%1$d done out of %2$d"
 
 #. translators: First placeholder contains user name and link.
 #: addons/buddypress/buddypress.php:341
@@ -72,7 +71,7 @@ msgstr ""
 #. translators: First placeholder is total count and second is question title.
 #: addons/buddypress/buddypress.php:467
 msgid "%1$s answered on your question - %2$s"
-msgstr "%1$s hat auf deine Frage geantwortet - %2$s"
+msgstr "%1$s antwortete auf Ihre Frage, - %2$s"
 
 #. translators: First placeholder contains user link and name.
 #: addons/buddypress/buddypress.php:326
@@ -89,7 +88,7 @@ msgstr ""
 #. translators: first - comments count, second - post title, third - post type.
 #: addons/buddypress/buddypress.php:504
 msgid "%1$s commented on your %3$s - %2$s"
-msgstr "%1$s hat dein %3$s kommentiert - %2$s"
+msgstr "%1$s kommentiert Ihre %3$s - %2$s"
 
 #. translators: First and last contain span and middle is answer count.
 #: widgets/question_stats.php:83
@@ -119,7 +118,7 @@ msgstr[1] "%d Antworten"
 #. translators: placeholder contains total awaiting moderation question/answer.
 #: admin/views/dashboard.php:260
 msgid "%d answers awaiting moderation"
-msgstr "%d Antworten warten auf Moderation"
+msgstr "%d Antworten wartet auf moderation"
 
 #. translators: Placeholder contains child category count.
 #: addons/categories/widget.php:95
@@ -140,24 +139,24 @@ msgstr[1] "%d Kommentare"
 #. translators: placeholder contains total flagged answers count.
 #: admin/views/dashboard.php:243
 msgid "%d Flagged answers"
-msgstr "%d Markierte Antworten"
+msgstr "%d Gekennzeichnet Antworten"
 
 #. translators: Placeholder contains total flagged question count.
 #: admin/views/dashboard.php:209
 msgid "%d Flagged questions"
-msgstr "%d Markierte Fragen"
+msgstr "%d Gekennzeichnet, Fragen"
 
 #. translators: placeholder contain count.
 #. translators: Placeholder contain total awaiting moderation answers count.
 #: admin/views/dashboard.php:86 admin/views/dashboard.php:304
 msgid "%d Moderate"
-msgstr "%d Moderat"
+msgstr "%d Moderate"
 
 #. translators: placeholder contain count.
 #. translators: placeholder contains total numbers of private posts.
 #: admin/views/dashboard.php:78 admin/views/dashboard.php:296
 msgid "%d Private"
-msgstr "%d Privat"
+msgstr "%d Private"
 
 #. translators: placeholder contain count.
 #. translators: placeholder contains total number of published answer count.
@@ -184,13 +183,13 @@ msgstr[1] "%d Fragen"
 #: templates/list-head.php:37
 msgid "%d question is"
 msgid_plural "%d questions are"
-msgstr[0] "%d Frage ist"
+msgstr[0] "%d Frage"
 msgstr[1] "%d Fragen sind"
 
 #. translators: placeholder contains total question awaiting moderation.
 #: admin/views/dashboard.php:221
 msgid "%d questions awaiting moderation"
-msgstr "%d Fragen warten auf Moderation"
+msgstr "%d Fragen wartet auf moderation"
 
 #. translators: %d is count of questions.
 #: includes/ajax-hooks.php:105
@@ -203,14 +202,14 @@ msgstr[1] "%d ähnliche Fragen gefunden"
 #: templates/addons/category/categories.php:64
 msgid "%d Sub category"
 msgid_plural "%d Sub categories"
-msgstr[0] "%d Unterkategorie"
-msgstr[1] "%d Unterkategorien"
+msgstr[0] "%d-Sub-Kategorie"
+msgstr[1] "%d-Sub-Kategorien"
 
 #. translators: Placeholder contains view count.
 #: widgets/question_stats.php:75
 msgid "%d time"
 msgid_plural "%d times"
-msgstr[0] "%d Zeit"
+msgstr[0] "%d time"
 msgstr[1] "%d mal"
 
 #. translators: %d is count of net votes.
@@ -223,13 +222,13 @@ msgstr[1] "%d mal"
 #: templates/widgets/widget-questions.php:34
 msgid "%d Vote"
 msgid_plural "%d Votes"
-msgstr[0] "%d Abstimmen"
+msgstr[0] "%d Stimmen"
 msgstr[1] "%d Stimmen"
 
 #. translators: %s: human-readable time difference
 #: includes/functions.php:257
 msgid "%s ago"
-msgstr "vor %s"
+msgstr "%s Wochen"
 
 #. translators: %s comments count.
 #: templates/single-question.php:91
@@ -241,22 +240,22 @@ msgstr[1] "%s Kommentare"
 #. Translators: placeholder contain field label.
 #: lib/class-validate.php:349 lib/class-validate.php:368
 msgid "%s field is required."
-msgstr "das Feld %s ist erforderlich."
+msgstr "%s ist ein Pflichtfeld."
 
 #. translators: %s post type.
 #: includes/ajax-hooks.php:181
 msgid "%s is restored"
-msgstr "%s wird wiederhergestellt"
+msgstr "%s wiederhergestellt wird"
 
 #. translators: %s is post type.
 #: includes/ajax-hooks.php:215
 msgid "%s is trashed"
-msgstr "%s wird gelöscht"
+msgstr "%s ist kaputt"
 
 #. translators: Placeholder contains reputation points.
 #: addons/reputation/reputation.php:477
 msgid "%s Reputation"
-msgstr "%s Ruf"
+msgstr "%s Reputation"
 
 #. translators: %s is views count i.e. 2.1k views.
 #: includes/qaquery.php:453
@@ -265,72 +264,72 @@ msgstr "%s Ansichten"
 
 #: widgets/ask-form.php:28
 #| msgid "(SmartQ&A) Ask form"
-msgid "(SmartQ&A) Ask form"
-msgstr "(SmartQ&A) Formular fragen"
+msgid "(SmartQa) Ask form"
+msgstr "(SmartQ&A) Fragen-Formular"
 
 #: templates/functions.php:146
 #| msgid "(SmartQ&A) Author page"
-msgid "(SmartQ&A) Author page"
-msgstr "(SmartQ&A) Autorenseite"
+msgid "(SmartQa) Author page"
+msgstr "(SmartQ&A) Autor Seite"
 
 #: templates/functions.php:74
 #| msgid "(SmartQ&A) Before"
-msgid "(SmartQ&A) Before"
-msgstr "(SmartQ&A) Vorher"
+msgid "(SmartQa) Before"
+msgstr "(SmartQ&A) Vor"
 
 #: widgets/breadcrumbs.php:28
 #| msgid "(SmartQ&A) Breadcrumbs"
-msgid "(SmartQ&A) Breadcrumbs"
-msgstr "(SmartQ&A) Semmelbrösel"
+msgid "(SmartQa) Breadcrumbs"
+msgstr "(SmartQ&A) Breadcrumbs"
 
 #: templates/functions.php:122
 #| msgid "(SmartQ&A) Category Page"
-msgid "(SmartQ&A) Category Page"
-msgstr "(SmartQ&A) Kategorie Seite"
+msgid "(SmartQa) Category Page"
+msgstr "(SmartQ&A) Kategorie-Seite"
 
 #: templates/functions.php:86
 #| msgid "(SmartQ&A) Question List Top"
-msgid "(SmartQ&A) Question List Top"
-msgstr "(SmartQ&A) Fragenliste oben"
+msgid "(SmartQa) Question List Top"
+msgstr "(SmartQ&A) Liste Top Frage"
 
 #: templates/functions.php:110
 #| msgid "(SmartQ&A) Question Sidebar"
-msgid "(SmartQ&A) Question Sidebar"
-msgstr "(SmartQ&A) Frage-Seitenleiste"
+msgid "(SmartQa) Question Sidebar"
+msgstr "(SmartQ&A) Frage Sidebar"
 
 #: widgets/question_stats.php:32
 #| msgid "(SmartQ&A) Question Stats"
-msgid "(SmartQ&A) Question Stats"
+msgid "(SmartQa) Question Stats"
 msgstr "(SmartQ&A) Frage-Statistiken"
 
 #: widgets/questions.php:29
 #| msgid "(SmartQ&A) Questions"
-msgid "(SmartQ&A) Questions"
+msgid "(SmartQa) Questions"
 msgstr "(SmartQ&A) Fragen"
 
 #: widgets/search.php:30
 #| msgid "(SmartQ&A) Search"
-msgid "(SmartQ&A) Search"
-msgstr "(SmartQ&A) Suche"
+msgid "(SmartQa) Search"
+msgstr "(SmartQ&A) Suchen"
 
 #: templates/functions.php:98
 #| msgid "(SmartQ&A) Sidebar"
-msgid "(SmartQ&A) Sidebar"
-msgstr "(SmartQ&A) Seitenleiste"
+msgid "(SmartQa) Sidebar"
+msgstr "(SmartQ&A) Sidebar"
 
 #: templates/functions.php:134
 #| msgid "(SmartQ&A) Tag page"
-msgid "(SmartQ&A) Tag page"
+msgid "(SmartQa) Tag page"
 msgstr "(SmartQ&A) Tag-Seite"
 
 #: addons/tags/tags.php:162
 #| msgid "(SmartQ&A) Tags"
-msgid "(SmartQ&A) Tags"
+msgid "(SmartQa) Tags"
 msgstr "(SmartQ&A) Tags"
 
 #: widgets/leaderboard.php:30
 #| msgid "(SmartQ&A) User Leaderboard"
-msgid "(SmartQ&A) User Leaderboard"
+msgid "(SmartQa) User Leaderboard"
 msgstr "(SmartQ&A) Benutzer-Rangliste"
 
 #: admin/meta-box.php:126
@@ -382,7 +381,7 @@ msgstr "[Gelöst]"
 
 #: addons/email/email.php:992
 msgid "A answer is edited by"
-msgstr "Eine Antwort wird bearbeitet von"
+msgstr "Eine Antwort wird herausgegeben von"
 
 #: addons/email/email.php:989
 msgid "A answer is edited by {editor}"
@@ -390,7 +389,7 @@ msgstr "Eine Antwort wird bearbeitet von {editor}"
 
 #: addons/email/email.php:896
 msgid "A new answer is posted by"
-msgstr "Eine neue Antwort wird gepostet von"
+msgstr "Die neue Antwort ist geschrieben von"
 
 #: addons/email/email.php:944
 msgid "A new comment posted by"
@@ -398,15 +397,15 @@ msgstr "Ein neuer Kommentar gepostet von"
 
 #: addons/email/email.php:872
 msgid "A new question is posted by"
-msgstr "Eine neue Frage wird gestellt von"
+msgstr "Eine neue Frage gepostet von"
 
 #: lib/class-validate.php:627
 msgid "A PHP extension stopped the file upload."
-msgstr "Eine PHP-Erweiterung hat den Datei-Upload gestoppt."
+msgstr "A PHP extension stopped the file upload."
 
 #: addons/email/email.php:968
 msgid "A question is edited by"
-msgstr "Eine Frage wird bearbeitet von"
+msgstr "Eine Frage wird herausgegeben von"
 
 #: addons/email/email.php:965
 msgid "A question is edited by {editor}"
@@ -414,7 +413,7 @@ msgstr "Eine Frage wird von {editor} bearbeitet"
 
 #: addons/email/email.php:1016
 msgid "A question is trashed by"
-msgstr "Eine Frage wird verworfen durch"
+msgstr "Eine Frage ist, verwüstet durch"
 
 #: addons/email/email.php:1013
 msgid "A question is trashed by {user}"
@@ -422,18 +421,18 @@ msgstr "Eine Frage wird von {user} gelöscht"
 
 #: admin/updater.php:89 admin/views/licenses.php:47
 msgid "Activate License"
-msgstr "Lizenz aktivieren"
+msgstr "Lizenz Aktivieren"
 
-#: admin/SmartQ&A-admin.php:1236 admin/SmartQ&A-admin.php:1302
+#: admin/smartqa-admin.php:1236 admin/smartqa-admin.php:1302
 #: admin/views/toggle-features.php:73 includes/theme.php:387
 #: includes/theme.php:459 widgets/question_stats.php:71
 #: widgets/questions.php:127
 msgid "Active"
-msgstr "Aktiv"
+msgstr "Active"
 
 #: admin/views/licenses.php:44
 msgid "active"
-msgstr "aktiv"
+msgstr "active"
 
 #: includes/common-pages.php:29 includes/functions.php:2370
 msgid "Activities"
@@ -441,7 +440,7 @@ msgstr "Aktivitäten"
 
 #: includes/functions.php:2368
 msgid "Activities page"
-msgstr "Aktivitäten Seite"
+msgstr "Auf der Seite Aktivitäten"
 
 #: admin/views/options.php:68
 msgid "Activity"
@@ -461,37 +460,37 @@ msgstr "Einen Kommentar hinzufügen"
 
 #: admin/views/roles.php:65
 msgid "Add a new user role."
-msgstr "Füge eine neue Benutzerrolle hinzu."
+msgstr "Hinzufügen einer neuen Benutzer-Rolle."
 
 #: admin/meta-box.php:62 admin/meta-box.php:107
 msgid "Add an answer"
-msgstr "Eine Antwort hinzufügen"
+msgstr "Fügen Sie eine Antwort"
 
 #: includes/functions.php:1630
 #| msgid "Add category support in SmartQ&A questions."
-msgid "Add category support in SmartQ&A questions."
-msgstr "Füge die Unterstützung von Kategorien in SmartQ&A-Fragen hinzu."
+msgid "Add category support in SmartQa questions."
+msgstr "Kategorie hinzufügen-Unterstützung in SmartQ&A-Fragen."
 
 #: admin/views/recount.php:106
 msgid "Add fake views"
-msgstr "Falsche Ansichten hinzufügen"
+msgstr "Add fake-views"
 
 #: admin/views/recount.php:104
 msgid "Add fake views if views table is empty"
-msgstr "Fake-Views hinzufügen, wenn die Views-Tabelle leer ist"
+msgstr "Fügen Sie gefälschte Ansichten, wenn Blick auf die Tabelle leer ist"
 
 #. translators: %s is field label.
 #: lib/form/class-repeatable.php:170
 msgid "Add More %s"
-msgstr "Mehr %s hinzufügen"
+msgstr "Mehr hinzufügen %s"
 
 #: includes/post-types.php:163
 msgid "Add new answer"
-msgstr "Neue Antwort hinzufügen"
+msgstr "Fügen Sie eine neue Antwort"
 
 #: addons/categories/categories.php:191
 msgid "Add New Category"
-msgstr "Neue Kategorie hinzufügen"
+msgstr "Neue Kategorie Hinzufügen"
 
 #: includes/post-types.php:86
 msgid "Add new question"
@@ -503,53 +502,53 @@ msgstr "Neue Rolle hinzufügen"
 
 #: addons/tags/tags.php:193
 msgid "Add New Tag"
-msgstr "Neuen Tag hinzufügen"
+msgstr "Add New Tag"
 
 #: includes/functions.php:1658
 msgid "Add reCaptcha verification in question, answer and comment forms."
-msgstr ""
-"Füge reCaptcha-Verifizierung in Frage-, Antwort- und Kommentarformulare ein."
+msgstr "Add reCaptcha-überprüfung in Frage, Antwort und Kommentar-Formulare."
 
 #: admin/views/roles.php:84
 msgid "Add role"
-msgstr "Rolle hinzufügen"
+msgstr "Funktion hinzufügen"
 
 #: admin/views/roles.php:92
 #| msgid "Add SmartQ&A capabilities to 3rd party roles."
-msgid "Add SmartQ&A capabilities to 3rd party roles."
-msgstr "Füge SmartQ&A-Funktionen zu Rollen von Drittanbietern hinzu."
+msgid "Add SmartQa capabilities to 3rd party roles."
+msgstr "Fügen Sie SmartQ&A-Fähigkeiten von 3rd-party Rollen."
 
 #: includes/functions.php:1662
 msgid "Add syntax highlighter support."
-msgstr "Unterstützung für den Syntax-Highlighter hinzufügen."
+msgstr "Add syntax-highlighter-support."
 
 #: addons/tags/tags.php:344
 msgid "Add Tag"
-msgstr "Tag hinzufügen"
+msgstr "Tag Hinzufügen"
 
 #: includes/functions.php:1638
 #| msgid "Add tag support in SmartQ&A questions."
-msgid "Add tag support in SmartQ&A questions."
-msgstr "Unterstützung von Tags in SmartQ&A-Fragen hinzufügen."
+msgid "Add tag support in SmartQa questions."
+msgstr "Fügen Sie tag-Unterstützung in SmartQ&A-Fragen."
 
-#: admin/SmartQ&A-admin.php:525
+#: admin/smartqa-admin.php:525
 msgid "Add to Menu"
-msgstr "Zum Menü hinzufügen"
+msgstr "Menü hinzufügen"
 
 #: addons/tags/tags.php:345
+#, fuzzy
 msgid "added to the tags list."
-msgstr "zur Liste der Tags hinzugefügt."
+msgstr "Hinzugefügt tags-Liste."
 
-#: admin/SmartQ&A-admin.php:1451
+#: admin/smartqa-admin.php:1451
 msgid "Addon options updated successfully!"
-msgstr "Addon-Optionen erfolgreich aktualisiert!"
+msgstr "Addon Optionen erfolgreich aktualisiert!"
 
 #: includes/functions.php:1634
+#, fuzzy
 msgid ""
 "Adds a fancy user notification dropdown like Facebook and Stackoverflow."
 msgstr ""
-"Fügt ein schickes Dropdown-Menü für Benutzerbenachrichtigungen wie bei "
-"Facebook und Stackoverflow hinzu."
+"Fügt ein schickes user-notification-dropdown-wie Facebook und Stackoverflow."
 
 #: addons/email/email.php:182
 msgid "Admin email(s)"
@@ -565,103 +564,124 @@ msgstr "Akismet"
 
 #: includes/functions.php:1665
 msgid "Akismet Check"
-msgstr "Akismet Prüfung"
+msgstr "Akismet Check"
 
 #: templates/addons/notification/index.php:35
+#, fuzzy
 msgid "All"
 msgstr "Alle"
 
 #: includes/subscribers.php:155
+#, fuzzy
 msgid "All 2 arguments $event and $ref_id are deprecated."
 msgstr "Alle 2 Argumente $event und $ref_id sind veraltet."
 
 #: includes/subscribers.php:221
+#, fuzzy
 msgid "All 3 arguments $event, $ref_id and $user_id are deprecated."
-msgstr "Alle 3 Argumente $event, $ref_id und $user_id sind veraltet."
+msgstr "Alle 3 Argumente, $event, $ref_id und $user_id veraltet sind."
 
-#: admin/SmartQ&A-admin.php:200
+#: admin/smartqa-admin.php:200
+#, fuzzy
 msgid "All Answers"
 msgstr "Alle Antworten"
 
 #: includes/post-types.php:161
+#, fuzzy
 msgid "All answers"
 msgstr "Alle Antworten"
 
 #: addons/categories/categories.php:190
+#, fuzzy
 msgid "All Categories"
 msgstr "Alle Kategorien"
 
 #: admin/views/dashboard.php:229
+#, fuzzy
 msgid "All looks fine"
 msgstr "Alles sieht gut aus"
 
-#: admin/SmartQ&A-admin.php:196
+#: admin/smartqa-admin.php:196
+#, fuzzy
 msgid "All Questions"
 msgstr "Alle Fragen"
 
 #: includes/post-types.php:84
+#, fuzzy
 msgid "All questions"
 msgstr "Alle Fragen"
 
 #: addons/tags/tags.php:192
+#, fuzzy
 msgid "All Tags"
-msgstr "Alle Tags"
+msgstr "Tags"
 
-#: admin/SmartQ&A-admin.php:1155
+#: admin/smartqa-admin.php:1155
+#, fuzzy
 msgid "Allow image upload"
-msgstr "Bild-Upload zulassen"
+msgstr "Allow image upload"
 
-#: admin/SmartQ&A-admin.php:1156
+#: admin/smartqa-admin.php:1156
+#, fuzzy
 msgid "Allow logged-in users to upload image."
-msgstr "Erlaube eingeloggten Nutzern, Bilder hochzuladen."
+msgstr "Erlauben angemeldeten Benutzer Bild hochladen."
 
-#: admin/SmartQ&A-admin.php:1054
+#: admin/smartqa-admin.php:1054
+#, fuzzy
 msgid ""
 "Allow non-registered users to create account by entering their email in "
 "question. After submitting post a confirmation email will be sent to the "
 "user."
 msgstr ""
-"Erlaube nicht registrierten Nutzern, ein Konto zu erstellen, indem sie ihre "
-"E-Mail-Adresse eingeben. Nach dem Absenden des Beitrags wird eine "
-"Bestätigungs-E-Mail an den/die Nutzer/in gesendet."
+"Nicht-registrierte Benutzer Konto erstellen, indem Sie Ihre E-Mail in Frage. "
+"Nach dem Absenden post eine Bestätigung per E-Mail wird an den Benutzer "
+"gesendet."
 
-#: admin/SmartQ&A-admin.php:1171
+#: admin/smartqa-admin.php:1171
+#, fuzzy
 msgid "Allow private posts"
-msgstr "Private Beiträge zulassen"
+msgstr "Können Sie private Beiträge"
 
-#: admin/SmartQ&A-admin.php:1060
+#: admin/smartqa-admin.php:1060
+#, fuzzy
 msgid "Allow users to submit multiple answer per question."
-msgstr "Erlaube den Nutzern, mehrere Antworten pro Frage zu geben."
+msgstr "Ermöglichen es den Nutzern, mehrere Antworten pro Frage."
 
 #: addons/email/email.php:294
+#, fuzzy
 msgid "Allowed tags"
-msgstr "Erlaubte Tags"
+msgstr "Erlaubte tags"
 
-#: admin/SmartQ&A-admin.php:1172
+#: admin/smartqa-admin.php:1172
+#, fuzzy
 msgid ""
 "Allows users to create private question and answer. Private Q&A are only "
 "visible to admin and moderators."
 msgstr ""
-"Ermöglicht es Nutzern, private Fragen und Antworten zu erstellen. Private "
-"Fragen und Antworten sind nur für Administratoren und Moderatoren sichtbar."
+"Ermöglicht Benutzern das erstellen von privaten Frage und Antwort. Private "
+"Q&A sind nur sichtbar für admin-und Moderatoren."
 
-#: admin/SmartQ&A-admin.php:1178
+#: admin/smartqa-admin.php:1178
+#, fuzzy
 msgid "Allows users to post multiple answers on a question."
-msgstr "Ermöglicht es Nutzern, mehrere Antworten auf eine Frage zu posten."
+msgstr "Ermöglicht Benutzern das posten mehrere Antworten auf eine Frage."
 
 #: addons/email/email.php:1037
+#, fuzzy
 msgid "An answer is trashed by"
-msgstr "Eine Antwort wird verworfen von"
+msgstr "Eine Antwort ist verwüstet durch"
 
 #: addons/email/email.php:145 addons/email/email.php:1034
 msgid "An answer is trashed by {user}"
 msgstr "Eine Antwort wird von {user} verworfen"
 
 #: includes/functions.php:1388
+#, fuzzy
 msgid "Anonymous"
-msgstr "Anonym"
+msgstr "Anonyme"
 
 #: admin/class-list-table-hooks.php:207 templates/question-list-item.php:41
+#, fuzzy
 msgid "Ans"
 msgstr "Ans"
 
@@ -670,241 +690,296 @@ msgstr "Ans"
 #: includes/ajax-hooks.php:163 includes/comments.php:75
 #: includes/post-status.php:109 includes/post-types.php:182
 #: templates/answers.php:24
+#, fuzzy
 msgid "Answer"
 msgstr "Antwort"
 
 #: addons/buddypress/buddypress.php:494 addons/notifications/query.php:327
 #: includes/class-form-hooks.php:872 includes/post-types.php:181
+#, fuzzy
 msgid "answer"
-msgstr "antwort"
+msgstr "Antwort"
 
-#: admin/SmartQ&A-admin.php:934
+#: admin/smartqa-admin.php:934
+#, fuzzy
 msgid "Answer avatar size"
-msgstr "Antwort Avatargröße"
+msgstr "Antwort avatar Größe"
 
-#: admin/SmartQ&A-admin.php:1267
+#: admin/smartqa-admin.php:1267
+#, fuzzy
 msgid "Answer editor?"
-msgstr "Redakteur antworten?"
+msgstr "Antwort-editor?"
 
 #: includes/functions.php:540
+#, fuzzy
 msgid "Answer has been deleted permanently"
-msgstr "Die Antwort wurde endgültig gelöscht"
+msgstr "Die Antwort wurde dauerhaft gelöscht"
 
 #: includes/ajax-hooks.php:275
+#, fuzzy
 msgid "Answer is deleted permanently"
-msgstr "Antwort wird endgültig gelöscht"
+msgstr "Die Antwort wird dauerhaft gelöscht"
 
 #: addons/email/email.php:262
+#, fuzzy
 msgid "Answer selected"
 msgstr "Antwort ausgewählt"
 
 #: addons/reputation/reputation.php:182
+#, fuzzy
 msgid "Answer selected as best"
-msgstr "Antwort als beste ausgewählt"
+msgstr "Antwort als die beste ausgewählt"
 
 #: includes/functions.php:2164
+#, fuzzy
 msgid "Answer submitted successfully"
-msgstr "Antwort erfolgreich übermittelt"
+msgstr "Antwort erfolgreich gesendet"
 
 #: addons/buddypress/buddypress.php:353
+#, fuzzy
 msgid "Answer this question"
-msgstr "Beantworte diese Frage"
+msgstr "Diese Frage beantworten"
 
 #: includes/class-form-hooks.php:731
+#, fuzzy
 msgid "Answer updated successfully. Redirecting you to question page."
 msgstr ""
-"Antwort erfolgreich aktualisiert. Wir leiten dich zur Frageseite weiter."
+"Die Antwort wurde erfolgreich aktualisiert. Umleiten Sie in Frage zu stellen-"
+"Seite."
 
 #: addons/reputation/reputation.php:185
+#, fuzzy
 msgid "Answer was selected as best"
-msgstr "Antwort wurde als beste ausgewählt"
+msgstr "Antwort wurde als die beste ausgewählt"
 
 #: includes/functions.php:1308
+#, fuzzy
 msgid "answered"
-msgstr "antwortete"
+msgstr "beantwortet"
 
 #: includes/class/class-activity-helper.php:186
+#, fuzzy
 msgid "Answered question"
-msgstr "Beantwortete Frage"
+msgstr "Frage beantwortet"
 
 #: addons/reputation/reputation.php:155
+#, fuzzy
 msgid "Answering"
-msgstr "Antwort auf"
+msgstr "Beantwortung"
 
 #: addons/buddypress/buddypress.php:120 addons/buddypress/buddypress.php:276
 #: addons/profile/profile.php:51 addons/profile/profile.php:169
 #: admin/views/dashboard.php:233 includes/post-types.php:159
 #: includes/theme.php:407 widgets/question_stats.php:89
 #: widgets/questions.php:130
+#, fuzzy
 msgid "Answers"
 msgstr "Antworten"
 
 #: includes/class-theme.php:199
+#, fuzzy
 msgid "Answers Feed"
 msgstr "Antworten Feed"
 
 #: addons/profile/profile.php:106
+#, fuzzy
 msgid "Answers page slug"
 msgstr "Antworten Seite slug"
 
 #: addons/profile/profile.php:101
+#, fuzzy
 msgid "Answers page title"
 msgstr "Antworten Seitentitel"
 
-#: admin/SmartQ&A-admin.php:952
+#: admin/smartqa-admin.php:952
+#, fuzzy
 msgid "Answers per page"
 msgstr "Antworten pro Seite"
 
-#: admin/SmartQ&A-admin.php:953
+#: admin/smartqa-admin.php:953
+#, fuzzy
 msgid "Answers to show per page."
-msgstr "Antworten pro Seite anzeigen."
+msgstr "Antworten pro Seite angezeigt werden sollen."
 
-#: admin/SmartQ&A-admin.php:986 admin/SmartQ&A-admin.php:997
-#: admin/SmartQ&A-admin.php:1008 admin/SmartQ&A-admin.php:1036
-#: admin/SmartQ&A-admin.php:1047 admin/SmartQ&A-admin.php:1076
+#: admin/smartqa-admin.php:986 admin/smartqa-admin.php:997
+#: admin/smartqa-admin.php:1008 admin/smartqa-admin.php:1036
+#: admin/smartqa-admin.php:1047 admin/smartqa-admin.php:1076
+#, fuzzy
 msgid "Anyone, including non-loggedin"
-msgstr "Jeder, auch Nicht-Angemeldete"
+msgstr "Jedermann, auch nicht-loggedin"
 
 #: includes/comments.php:284
+#, fuzzy
 msgid "Approve"
-msgstr "Genehmigen Sie"
+msgstr "Genehmigen"
 
 #: includes/functions.php:1306 includes/functions.php:1307
+#, fuzzy
 msgid "approved"
 msgstr "genehmigt"
 
 #: includes/functions.php:2338
+#, fuzzy
 msgid "Archives page"
-msgstr "Archiv Seite"
+msgstr "Archiv-Seite"
 
 #: addons/categories/widget.php:171
+#, fuzzy
 msgid "ASC"
 msgstr "ASC"
 
 #: addons/categories/categories.php:293
+#, fuzzy
 msgid "Ascending"
 msgstr "Aufsteigend"
 
 #: includes/common-pages.php:26
+#, fuzzy
 msgid "Ask a Question"
-msgstr "Eine Frage stellen"
+msgstr "Stellen Sie eine Frage"
 
 #: includes/functions.php:2346
+#, fuzzy
 msgid "Ask a question"
-msgstr "Eine Frage stellen"
+msgstr "Stellen Sie eine Frage"
 
 #: addons/categories/categories.php:263
+#, fuzzy
 msgid "Ask form category order"
-msgstr "Formular Kategorie Bestellung fragen"
+msgstr "Fragen, Formular-Kategorie um"
 
 #: includes/functions.php:2344
+#, fuzzy
 msgid "Ask page"
-msgstr "Seite fragen"
+msgstr "Fragen Seite"
 
 #: includes/theme.php:554
+#, fuzzy
 msgid "Ask question"
 msgstr "Frage stellen"
 
 #: widgets/ask-form.php:72
+#, fuzzy
 msgid "Ask questions"
 msgstr "Fragen stellen"
 
 #: includes/functions.php:1305
+#, fuzzy
 msgid "asked"
-msgstr "fragte"
+msgstr "bat"
 
 #: addons/reputation/reputation.php:149
+#, fuzzy
 msgid "Asked a question"
-msgstr "Eine Frage gestellt"
+msgstr "Eine Frage stellen"
 
 #: includes/class/class-activity-helper.php:176
+#, fuzzy
 msgid "Asked question"
 msgstr "Gestellte Frage"
 
 #: addons/reputation/reputation.php:146
+#, fuzzy
 msgid "Asking"
-msgstr "Anfrage an"
+msgstr "Fragen"
 
 #: templates/attachments.php:25
+#, fuzzy
 msgid "Attachments"
 msgstr "Anhänge"
 
 #: admin/class-list-table-hooks.php:195 admin/class-list-table-hooks.php:319
+#, fuzzy
 msgid "Author"
 msgstr "Autor"
 
-#: admin/SmartQ&A-admin.php:886
+#: admin/smartqa-admin.php:886
+#, fuzzy
 msgid "Author page title"
-msgstr "Titel der Autorenseite"
+msgstr "Autor Titel Seite"
 
 #: widgets/leaderboard.php:154
+#, fuzzy
 msgid "Avatar size:"
-msgstr "Avatargröße:"
+msgstr "Avatar Größe:"
 
 #: includes/functions.php:1642
+#, fuzzy
 msgid "Award points to user based on activities."
-msgstr "Vergebe Punkte an Nutzer/innen für ihre Aktivitäten."
+msgstr "Die Vergabe der Punkte für Benutzer, die auf Aktivitäten basieren."
 
 #: addons/categories/categories.php:260
+#, fuzzy
 #| msgid ""
 #| "Base page for categories can be configured in general settings of "
 #| "SmartQ&A."
 msgid ""
-"Base page for categories can be configured in general settings of SmartQ&A."
+"Base page for categories can be configured in general settings of SmartQa."
 msgstr ""
-"Die Basisseite für Kategorien kann in den allgemeinen Einstellungen von "
-"SmartQ&A konfiguriert werden."
+"Base Seite für Kategorien können konfiguriert werden in die Allgemeinen "
+"Einstellungen SmartQ&A."
 
-#: admin/SmartQ&A-admin.php:874
+#: admin/smartqa-admin.php:874
+#, fuzzy
 msgid "Base page title"
-msgstr "Titel der Basisseite"
+msgstr "Base page title"
 
 #: admin/views/roles.php:74 admin/views/roles.php:116
+#, fuzzy
 msgid "Basic Capabilities"
-msgstr "Grundlegende Fähigkeiten"
+msgstr "Grundlegende Funktionen"
 
 #: includes/theme.php:505
+#, fuzzy
 msgid "Best answer"
 msgstr "Beste Antwort"
 
 #: ajax/toggle-best-answer.php:91
+#, fuzzy
 msgid "Best answer is selected for your question."
-msgstr "Die beste Antwort ist für deine Frage ausgewählt."
+msgstr "Beste Antwort ausgewählt für Ihre Frage."
 
 #: ajax/toggle-best-answer.php:72
+#, fuzzy
 msgid "Best answer is unselected for your question."
-msgstr "Die beste Antwort ist für deine Frage nicht ausgewählt."
+msgstr "Beste Antwort \" deaktiviert ist für Ihre Frage."
 
 #: includes/mce-languages.php:31
+#, fuzzy
 msgid "Browse from computer"
-msgstr "Vom Computer aus suchen"
+msgstr "Durchsuchen von computer"
 
 #: includes/functions.php:1649
+#, fuzzy
 msgid "BuddyPress"
 msgstr "BuddyPress"
 
 #: addons/profile/profile.php:299
+#, fuzzy
 msgid "Callback function not found for rendering this page"
-msgstr "Callback-Funktion für das Rendern dieser Seite nicht gefunden"
+msgstr "Rückruf-Funktion nicht gefunden, der für das Rendern dieser Seite"
 
 #: templates/functions.php:48
+#, fuzzy
 msgid "Cancel"
 msgstr "Abbrechen"
 
 #: addons/categories/categories.php:43 addons/categories/categories.php:477
 #: addons/categories/categories.php:489 addons/categories/widget.php:114
 #: includes/functions.php:1629 includes/functions.php:2358 includes/taxo.php:29
+#, fuzzy
 msgid "Categories"
 msgstr "Kategorien"
 
 #: addons/categories/categories.php:260
+#, fuzzy
 msgid "Categories base page"
-msgstr "Kategorien Basisseite"
+msgstr "Kategorien auf Basis-Seiten"
 
-#: lib/class-SmartQ&A-upgrader.php:372
+#: lib/class-smartqa-upgrader.php:372
 #, fuzzy
 msgid "Categories data migrated"
-msgstr "Kategorien Daten migriert"
+msgstr "Kategorien von Daten migriert"
 
 #: addons/categories/categories.php:305
 #, fuzzy
@@ -914,17 +989,17 @@ msgstr "Kategorien Bildhöhe"
 #: includes/functions.php:2356
 #, fuzzy
 msgid "Categories page"
-msgstr "Kategorien Seite"
+msgstr "- Kategorien-Seite"
 
 #: addons/categories/categories.php:289
 #, fuzzy
 msgid "Categories page order"
-msgstr "Kategorien Seitenreihenfolge"
+msgstr "- Kategorien-Seite, um"
 
 #: addons/categories/categories.php:276
 #, fuzzy
 msgid "Categories page order by"
-msgstr "Kategorien Seite bestellen nach"
+msgstr "- Kategorien-Seite, um durch"
 
 #: addons/categories/categories.php:42 addons/categories/categories.php:189
 #: addons/categories/categories.php:242 addons/categories/categories.php:423
@@ -937,12 +1012,12 @@ msgstr "Kategorie"
 #: addons/categories/categories.php:557 addons/categories/categories.php:616
 #, fuzzy
 msgid "Category icon class"
-msgstr "Kategorie Symbol Klasse"
+msgstr "Kategorie Klasse"
 
 #: addons/categories/categories.php:625
 #, fuzzy
 msgid "Category icon color"
-msgstr "Farbe des Kategoriesymbols"
+msgstr "Kategorie-Symbol-Farbe"
 
 #: widgets/questions.php:136
 #, fuzzy
@@ -962,37 +1037,37 @@ msgstr "Kategorie pro Seite"
 #: addons/categories/categories.php:300
 #, fuzzy
 msgid "Category to show per page"
-msgstr "Kategorie, die pro Seite angezeigt werden soll"
+msgstr "Kategorie anzeigen pro Seite"
 
 #: addons/akismet/akismet.php:95
 #, fuzzy
 msgid "Change status to moderate"
-msgstr "Status auf moderat ändern"
+msgstr "Status ändern zu moderieren"
 
 #: includes/class/class-activity-helper.php:201
 #, fuzzy
 msgid "Changed publish date to future"
-msgstr "Veröffentlichungsdatum in die Zukunft verschoben"
+msgstr "Geändert Veröffentlichungsdatum für die Zukunft"
 
 #: includes/functions.php:1324
 #, fuzzy
 msgid "changed status"
-msgstr "geänderter Status"
+msgstr "status geändert"
 
 #: includes/class/class-activity-helper.php:206
 #, fuzzy
 msgid "Changed status to moderate"
-msgstr "Status auf moderat geändert"
+msgstr "Changed status to moderate"
 
 #: includes/class/class-activity-helper.php:196
 #, fuzzy
 msgid "Changed status to publish"
-msgstr "Status auf veröffentlichen geändert"
+msgstr "Changed status to publish"
 
 #: includes/class/class-activity-helper.php:211
 #, fuzzy
 msgid "Changed visibility to private"
-msgstr "Sichtbarkeit auf privat geändert"
+msgstr "Verändert die Sichtbarkeit auf privat"
 
 #: includes/class/class-singleton.php:34 includes/class/class-singleton.php:44
 msgid "Cheatin&#8217; huh?"
@@ -1001,61 +1076,60 @@ msgstr "Schummeln&#8217; hm?"
 #: addons/akismet/akismet.php:234
 #, fuzzy
 msgid "Cheating"
-msgstr "Betrügen"
+msgstr "Cheating"
 
-#: admin/SmartQ&A-admin.php:1206
+#: admin/smartqa-admin.php:1206
 #, fuzzy
 msgid "Check duplicate"
-msgstr "Duplikat prüfen"
+msgstr "Check duplizieren"
 
-#: admin/SmartQ&A-admin.php:1207
+#: admin/smartqa-admin.php:1207
 #, fuzzy
 msgid "Check for duplicate posts before posting"
-msgstr "Vor dem Posten auf doppelte Beiträge prüfen"
+msgstr "Doppelte Beiträge vor der Veröffentlichung"
 
 #: includes/functions.php:1666
 #, fuzzy
 msgid "Check for spam in post content."
-msgstr "Überprüfe den Inhalt von Beiträgen auf Spam."
+msgstr "Check für spam in der post content."
 
-#: admin/SmartQ&A-admin.php:917
+#: admin/smartqa-admin.php:917
 #, fuzzy
 #| msgid ""
 #| "Check this to load SmartQ&A JS and CSS on the SmartQ&A page only. Be "
 #| "careful, this might break layout."
 msgid ""
-"Check this to load SmartQ&A JS and CSS on the SmartQ&A page only. Be careful, "
+"Check this to load SmartQa JS and CSS on the SmartQa page only. Be careful, "
 "this might break layout."
 msgstr ""
-"Aktiviere diese Option, um SmartQ&A JS und CSS nur auf der SmartQ&A-Seite zu "
-"laden. Sei vorsichtig, das könnte das Layout zerstören."
+"Überprüfen Sie diese zu laden SmartQ&JS und CSS auf SmartQ&A-Seite nur. "
+"Vorsichtig sein, diese brechen könnte layout."
 
-#: admin/SmartQ&A-admin.php:1213
+#: admin/smartqa-admin.php:1213
 #, fuzzy
 msgid "Checking this will disable question suggestion in ask form"
 msgstr ""
-"Wenn du diese Option aktivierst, werden die Fragevorschläge im "
-"Anfrageformular deaktiviert"
+"Überprüfen Sie diese deaktivieren und Frage, Anregung in Fragen der form"
 
 #: addons/avatar/avatar.php:119
 #, fuzzy
 msgid "Clear avatar cache"
-msgstr "Avatar-Cache löschen"
+msgstr "Klare avatar cache"
 
 #: addons/avatar/avatar.php:118
 #, fuzzy
 msgid "Clear Cache"
-msgstr "Cache löschen"
+msgstr "Cache Löschen"
 
 #: includes/theme.php:725
 #, fuzzy
 msgid "Clear Filter"
-msgstr "Filter löschen"
+msgstr "Filter Löschen"
 
 #: admin/class-list-table-hooks.php:179 admin/meta-box.php:150
 #, fuzzy
 msgid "Clear flag"
-msgstr "Flagge löschen"
+msgstr "Klar Flagge"
 
 #: admin/views/uninstall.php:57
 #, fuzzy
@@ -1063,47 +1137,44 @@ msgid ""
 "Clicking this button will delete all answers and its related data from "
 "database"
 msgstr ""
-"Wenn du auf diese Schaltfläche klickst, werden alle Antworten und die "
-"dazugehörigen Daten aus der Datenbank gelöscht"
+"Mit Klick auf diese Schaltfläche löschen Sie alle Antworten und die "
+"zugehörigen Daten aus der Datenbank"
 
 #: admin/views/uninstall.php:40
 #, fuzzy
 msgid ""
 "Clicking this button will delete all questions and answers data from database"
 msgstr ""
-"Wenn du auf diese Schaltfläche klickst, werden alle Fragen und Antworten aus "
-"der Datenbank gelöscht"
+"Mit Klick auf diese Schaltfläche löschen Sie alle Fragen und Antworten von "
+"Daten aus der Datenbank"
 
 #: admin/views/uninstall.php:75
 #, fuzzy
 #| msgid "Clicking this button will delete all SmartQ&A options"
-msgid "Clicking this button will delete all SmartQ&A options"
-msgstr ""
-"Wenn du auf diese Schaltfläche klickst, werden alle SmartQ&A-Optionen gelöscht"
+msgid "Clicking this button will delete all SmartQa options"
+msgstr "Mit Klick auf diese Schaltfläche löschen Sie alle SmartQ&A-Optionen"
 
 #: admin/views/uninstall.php:84
 #, fuzzy
 #| msgid "Clicking this button will delete all SmartQ&A terms data"
-msgid "Clicking this button will delete all SmartQ&A terms data"
+msgid "Clicking this button will delete all SmartQa terms data"
 msgstr ""
-"Wenn du auf diese Schaltfläche klickst, werden alle SmartQ&A-Terms-Daten "
-"gelöscht"
+"Mit Klick auf diese Schaltfläche löschen Sie alle SmartQ&A-Begriffe Daten"
 
 #: admin/views/uninstall.php:66
 #, fuzzy
 #| msgid "Clicking this button will delete all user data added by SmartQ&A"
-msgid "Clicking this button will delete all user data added by SmartQ&A"
+msgid "Clicking this button will delete all user data added by SmartQa"
 msgstr ""
-"Wenn du auf diese Schaltfläche klickst, werden alle von SmartQ&A "
-"hinzugefügten Benutzerdaten gelöscht"
+"Mit Klick auf diese Schaltfläche löschen Sie alle Benutzerdaten Hinzugefügt "
+"SmartQ&A"
 
 #: admin/views/uninstall.php:93
 #, fuzzy
 #| msgid "Clicking this button will remove all SmartQ&A DB tables"
-msgid "Clicking this button will remove all SmartQ&A DB tables"
+msgid "Clicking this button will remove all SmartQa DB tables"
 msgstr ""
-"Wenn du auf diese Schaltfläche klickst, werden alle SmartQ&A DB-Tabellen "
-"entfernt"
+"Mit Klick auf diese Schaltfläche entfernen Sie alle SmartQ&A-DB-Tabellen"
 
 #: includes/ajax-hooks.php:375 includes/mce-languages.php:29
 #: includes/theme.php:253
@@ -1111,21 +1182,21 @@ msgstr ""
 msgid "Close"
 msgstr "Schließen"
 
-#: admin/SmartQ&A-admin.php:1291
+#: admin/smartqa-admin.php:1291
 #, fuzzy
 msgid "Close question after selecting answer"
-msgstr "Frage nach Auswahl der Antwort schließen"
+msgstr "Enge Frage nach der Auswahl der Antwort"
 
 #: includes/ajax-hooks.php:376 includes/theme.php:254
 #, fuzzy
 msgid "Close this question for new answer."
-msgstr "Schließe diese Frage für eine neue Antwort."
+msgstr "Schließen Sie diese Frage neue Antwort."
 
 #: widgets/questions.php:138
 #, fuzzy
 #| msgid "Comma separated SmartQ&A category ids"
-msgid "Comma separated SmartQ&A category ids"
-msgstr "Kommagetrennte SmartQ&A-Kategorien-IDs"
+msgid "Comma separated SmartQa category ids"
+msgstr "Komma getrennt SmartQ&Eine Kategorie-ids"
 
 #: includes/class-form-hooks.php:252 templates/answer.php:52
 #: templates/functions.php:47
@@ -1136,12 +1207,12 @@ msgstr "Kommentar"
 #: includes/comments.php:142
 #, fuzzy
 msgid "Comment approved successfully."
-msgstr "Kommentar erfolgreich genehmigt."
+msgstr "Kommentar genehmigt erfolgreich."
 
-#: admin/SmartQ&A-admin.php:940
+#: admin/smartqa-admin.php:940
 #, fuzzy
 msgid "Comment avatar size"
-msgstr "Avatargröße kommentieren"
+msgstr "Kommentar avatar Größe"
 
 #: ajax/comment-delete.php:93
 #, fuzzy
@@ -1151,7 +1222,7 @@ msgstr "Kommentar erfolgreich gelöscht"
 #: includes/class-form-hooks.php:948
 #, fuzzy
 msgid "Comment successfully posted"
-msgstr "Kommentar erfolgreich abgeschickt"
+msgstr "Kommentar erfolgreich gebucht"
 
 #: includes/class-form-hooks.php:852
 #, fuzzy
@@ -1172,30 +1243,30 @@ msgstr "kommentiert"
 #: addons/reputation/reputation.php:167
 #, fuzzy
 msgid "Commented on a post"
-msgstr "Einen Beitrag kommentiert"
+msgstr "Kommentiert einen Beitrag"
 
 #: includes/functions.php:1314
 #, fuzzy
 msgid "commented on answer"
-msgstr "kommentiert die Antwort"
+msgstr "kommentiert Antwort"
 
-#. translators: %cpt% is SmartQ&A placeholder not gettext.
+#. translators: %cpt% is SmartQa placeholder not gettext.
 #: addons/notifications/notifications.php:165
 #, fuzzy
 msgid "commented on your %cpt%"
-msgstr "dein %cpt% kommentiert"
+msgstr "kommentiert Ihr %cpt%"
 
 #: addons/reputation/reputation.php:164
 #, fuzzy
 msgid "Commenting"
-msgstr "Kommentiere"
+msgstr "Kommentieren"
 
 #. Translators: %s contain post type name.
 #: includes/class-form-hooks.php:882
 #, fuzzy
 msgid "Commenting is not allowed on draft, pending or deleted %s"
 msgstr ""
-"Kommentare sind bei Entwürfen, schwebenden oder gelöschten %s nicht erlaubt"
+"Kommentieren ist nicht erlaubt, den Entwurf, ausstehend oder gelöscht %s"
 
 #: admin/class-list-table-hooks.php:208 admin/class-list-table-hooks.php:322
 #, fuzzy
@@ -1205,7 +1276,7 @@ msgstr "Kommentare"
 #: includes/comments.php:239
 #, fuzzy
 msgid "Comments awaiting moderation"
-msgstr "Kommentare warten auf Moderation"
+msgstr "Kommentare awaiting moderation"
 
 #: admin/class-list-table-hooks.php:320
 #, fuzzy
@@ -1215,64 +1286,65 @@ msgstr "Inhalt"
 #: includes/theme.php:334
 #, fuzzy
 msgid "Convert this question to blog post"
-msgstr "Diese Frage in einen Blogbeitrag umwandeln"
+msgstr "Konvertieren Frage zum blog-post"
 
 #: includes/theme.php:333
 #, fuzzy
 msgid "Convert to post"
-msgstr "In Post umwandeln"
+msgstr "Konvertieren posten"
 
 #: addons/categories/categories.php:270 addons/categories/categories.php:283
 #: addons/categories/widget.php:160
 #, fuzzy
 msgid "Count"
-msgstr "Graf"
+msgstr "Count"
 
-#: admin/SmartQ&A-admin.php:1053
+#: admin/smartqa-admin.php:1053
 #, fuzzy
 msgid "Create account for non-registered"
-msgstr "Konto für Nichtregistrierte erstellen"
+msgstr "Erstellen Sie ein Konto für nicht-registriert"
 
 #: addons/profile/profile.php:107
 #, fuzzy
 msgid "Custom slug for user profile answers page"
-msgstr "Benutzerdefinierter Slug für die Antworten im Benutzerprofil"
+msgstr "Benutzerdefinierte slug für Benutzer-Profil-Seite \"Antworten\""
 
 #: addons/notifications/notifications.php:121
 #, fuzzy
 msgid "Custom slug for user profile notifications page"
-msgstr "Benutzerdefinierter Slug für Benutzerprofil-Benachrichtigungsseite"
+msgstr ""
+"Benutzerdefinierte slug für Benutzer-Profil-Seite \"Benachrichtigungen\""
 
 #: addons/profile/profile.php:97
 #, fuzzy
 msgid "Custom slug for user profile questions page"
-msgstr "Benutzerdefinierter Slug für die Seite mit Fragen zum Benutzerprofil"
+msgstr "Benutzerdefinierte slug zum Benutzerprofil Fragen Seite"
 
 #: addons/reputation/reputation.php:112
 #, fuzzy
 msgid "Custom slug for user profile reputations page"
-msgstr "Benutzerdefinierter Slug für die Reputationsseite des Benutzerprofils"
+msgstr "Benutzerdefinierte slug für Benutzer-Profil des Rufes Seite"
 
 #: addons/profile/profile.php:102
 #, fuzzy
 msgid "Custom title for user profile answers page"
-msgstr ""
-"Benutzerdefinierter Titel für die Seite mit den Antworten des Benutzerprofils"
+msgstr "Benutzerdefinierte Titel für Benutzerprofil Antworten Seite"
 
 #: addons/notifications/notifications.php:116
 #, fuzzy
 msgid "Custom title for user profile notifications page"
-msgstr "Benutzerdefinierter Titel für Benutzerprofil-Benachrichtigungsseite"
+msgstr ""
+"Benutzerdefinierte Titel für Benutzer-Profil-Seite \"Benachrichtigungen\""
 
 #: addons/profile/profile.php:92
 #, fuzzy
 msgid "Custom title for user profile questions page"
-msgstr "Benutzerdefinierter Titel für die Seite mit Fragen zum Benutzerprofil"
+msgstr "Benutzerdefinierte Titel für Benutzerprofil Fragen Seite"
 
 #: addons/reputation/reputation.php:107
 #, fuzzy
 msgid "Custom title for user profile reputations page"
-msgstr "Benutzerdefinierter Titel für die Reputationsseite des Benutzerprofils"
+msgstr "Benutzerdefinierte Titel für Benutzer-Profil des Rufes Seite"
 
 #: addons/email/email.php:163
 #, fuzzy
@@ -1287,54 +1359,52 @@ msgstr "Datum"
 #: includes/hooks.php:848
 #, fuzzy
 msgid "day"
-msgstr "tag"
+msgstr "Tag"
 
 #: includes/hooks.php:849
 #, fuzzy
 msgid "days"
-msgstr "tage"
+msgstr "Tagen"
 
 #: admin/updater.php:88 admin/views/licenses.php:45
 #, fuzzy
 msgid "Deactivate License"
-msgstr "Lizenz deaktivieren"
+msgstr "Lizenz Deaktivieren"
 
-#: admin/SmartQ&A-admin.php:1297
+#: admin/smartqa-admin.php:1297
 #, fuzzy
 msgid "Default answers order"
-msgstr "Reihenfolge der Standardantworten"
+msgstr "Standard-Antworten, um"
 
-#: admin/SmartQ&A-admin.php:1231
+#: admin/smartqa-admin.php:1231
 #, fuzzy
 msgid "Default question order"
-msgstr "Standardreihenfolge der Fragen"
+msgstr "Standard-Frage um"
 
-#: admin/SmartQ&A-admin.php:1113
+#: admin/smartqa-admin.php:1113
 #, fuzzy
 msgid "Default status of edited answer."
-msgstr "Standardstatus der bearbeiteten Antwort."
+msgstr "Standard-status bearbeitet beantworten."
 
-#: admin/SmartQ&A-admin.php:1093
+#: admin/smartqa-admin.php:1093
 #, fuzzy
 msgid "Default status of edited question."
-msgstr "Standardstatus der bearbeiteten Frage."
+msgstr "Default-status der bearbeiteten Frage."
 
-#: admin/SmartQ&A-admin.php:1103
+#: admin/smartqa-admin.php:1103
 #, fuzzy
 msgid "Default status of new answer."
-msgstr "Standardstatus der neuen Antwort."
+msgstr "Standard-status von neuen Antwort."
 
-#: admin/SmartQ&A-admin.php:1083
+#: admin/smartqa-admin.php:1083
 #, fuzzy
 msgid "Default status of new question."
-msgstr "Standardstatus der neuen Frage."
+msgstr "Standard-status von neuen Frage."
 
-#: admin/SmartQ&A-admin.php:1123
+#: admin/smartqa-admin.php:1123
 #, fuzzy
 msgid "Default status of question or answer submitted by non-loggedin user."
-msgstr ""
-"Standardstatus der Frage oder Antwort, die von einem nicht angemeldeten "
-"Benutzer eingereicht wurde."
+msgstr "Standard-status der Frage oder Antwort verfasst von non-loggedin user."
 
 #: includes/ajax-hooks.php:177 includes/comments.php:272 includes/theme.php:297
 #: lib/form/class-group.php:84
@@ -1346,68 +1416,68 @@ msgstr "Löschen"
 #: admin/views/uninstall.php:54
 #, fuzzy
 msgid "Delete %d answers"
-msgstr "%d Antworten löschen"
+msgstr "Löschen Sie %d Antworten"
 
 #. translators: %d is total numbers of question and answer.
 #: admin/views/uninstall.php:37
 #, fuzzy
 msgid "Delete %d Q&A"
-msgstr "Lösche %d Q&A"
+msgstr "Löschen Sie %d Q&A"
 
 #: admin/views/uninstall.php:92
 #, fuzzy
 msgid "Delete all database tables"
-msgstr "Alle Datenbanktabellen löschen"
+msgstr "Löschen Sie alle Tabellen der Datenbank"
 
 #: admin/views/uninstall.php:74
 #, fuzzy
 msgid "Delete all options"
-msgstr "Alle Optionen löschen"
+msgstr "Löschen alle Optionen"
 
 #: admin/views/uninstall.php:83
 #, fuzzy
 msgid "Delete all terms"
-msgstr "Alle Begriffe löschen"
+msgstr "Löschen Sie alle Bedingungen"
 
 #: admin/views/uninstall.php:65
 #, fuzzy
 msgid "Delete all user data"
-msgstr "Alle Benutzerdaten löschen"
+msgstr "Löschen Sie alle Benutzerdaten"
 
 #: addons/email/email.php:223
 #, fuzzy
 msgid "Delete answer"
-msgstr "Antwort löschen"
+msgstr "Löschen beantworten"
 
 #: admin/class-list-table-hooks.php:141 includes/theme.php:320
 #, fuzzy
 msgid "Delete Permanently"
-msgstr "Dauerhaft löschen"
+msgstr "Löschen Dauerhaft"
 
 #: includes/theme.php:321
 #, fuzzy
 msgid "Delete post permanently (cannot be restored again)"
-msgstr "Beitrag endgültig löschen (kann nicht wiederhergestellt werden)"
+msgstr "Löschen, Beitrag dauerhaft (kann nicht wieder hergestellt werden)"
 
 #: addons/email/email.php:217
 #, fuzzy
 msgid "Delete question"
-msgstr "Frage löschen"
+msgstr "Löschen Frage"
 
 #: addons/tags/tags.php:343
 #, fuzzy
 msgid "Delete Tag"
-msgstr "Tag löschen"
+msgstr "Tag Löschen"
 
 #: admin/class-list-table-hooks.php:141
 #, fuzzy
 msgid "Delete this item permanently"
-msgstr "Diesen Artikel endgültig löschen"
+msgstr "Löschen Sie dieses Element dauerhaft"
 
 #: includes/ajax-hooks.php:178 includes/theme.php:298
 #, fuzzy
 msgid "Delete this post (can be restored again)"
-msgstr "Diesen Beitrag löschen (kann wiederhergestellt werden)"
+msgstr "Löschen Sie diesen Beitrag (wieder hergestellt werden kann)"
 
 #: includes/functions.php:1309
 #, fuzzy
@@ -1417,7 +1487,7 @@ msgstr "gelöschte Antwort"
 #: includes/functions.php:1313
 #, fuzzy
 msgid "deleted comment"
-msgstr "gelöschter Kommentar"
+msgstr "gelöscht Kommentar"
 
 #: addons/categories/widget.php:170
 #, fuzzy
@@ -1439,66 +1509,66 @@ msgstr "Beschreibung"
 msgid "Disable"
 msgstr "Deaktivieren"
 
-#: admin/SmartQ&A-admin.php:1273 admin/SmartQ&A-admin.php:1315
+#: admin/smartqa-admin.php:1273 admin/smartqa-admin.php:1315
 #, fuzzy
 msgid "Disable comments"
 msgstr "Kommentare deaktivieren"
 
-#: admin/SmartQ&A-admin.php:1316
+#: admin/smartqa-admin.php:1316
 #, fuzzy
 msgid "Disable comments on answer."
-msgstr "Deaktiviere Kommentare zur Antwort."
+msgstr "Deaktivieren Sie Kommentare auf Antworten."
 
-#: admin/SmartQ&A-admin.php:1274
+#: admin/smartqa-admin.php:1274
 #, fuzzy
 msgid "Disable comments on questions."
-msgstr "Deaktiviere Kommentare zu Fragen."
+msgstr "Deaktivieren Sie Kommentare auf Fragen."
 
-#: admin/SmartQ&A-admin.php:1285 admin/SmartQ&A-admin.php:1327
+#: admin/smartqa-admin.php:1285 admin/smartqa-admin.php:1327
 #, fuzzy
 msgid "Disable down voting"
-msgstr "Abwärtsstimmen deaktivieren"
+msgstr "Deaktivieren down-voting"
 
-#: admin/SmartQ&A-admin.php:1328
+#: admin/smartqa-admin.php:1328
 #, fuzzy
 msgid "Disable down voting on answers."
-msgstr "Deaktiviere das Downvoting für Antworten."
+msgstr "Deaktivieren down-voting auf Antworten."
 
-#: admin/SmartQ&A-admin.php:1286
+#: admin/smartqa-admin.php:1286
 #, fuzzy
 msgid "Disable down voting on questions."
-msgstr "Deaktiviere das Downvoting bei Fragen."
+msgstr "Deaktivieren Sie unten die Abstimmung über Fragen."
 
-#: admin/SmartQ&A-admin.php:1212
+#: admin/smartqa-admin.php:1212
 #, fuzzy
 msgid "Disable question suggestion"
-msgstr "Fragevorschlag deaktivieren"
+msgstr "Deaktivieren Sie die Frage, Anregung"
 
-#: admin/SmartQ&A-admin.php:1279 admin/SmartQ&A-admin.php:1321
+#: admin/smartqa-admin.php:1279 admin/smartqa-admin.php:1321
 #, fuzzy
 msgid "Disable voting"
-msgstr "Abstimmung deaktivieren"
+msgstr "Deaktivieren voting"
 
-#: admin/SmartQ&A-admin.php:1322
+#: admin/smartqa-admin.php:1322
 #, fuzzy
 msgid "Disable voting on answers."
-msgstr "Deaktiviere die Abstimmung über Antworten."
+msgstr "Deaktivieren Sie die Abstimmung über Antworten."
 
-#: admin/SmartQ&A-admin.php:1280
+#: admin/smartqa-admin.php:1280
 #, fuzzy
 msgid "Disable voting on questions."
-msgstr "Deaktiviere die Abstimmung über Fragen."
+msgstr "Deaktivieren Sie die Abstimmung über Fragen."
 
 #: addons/categories/widget.php:29
 #, fuzzy
 #| msgid "Display SmartQ&A categories"
-msgid "Display SmartQ&A categories"
-msgstr "SmartQ&A-Kategorien anzeigen"
+msgid "Display SmartQa categories"
+msgstr "Anzeige SmartQ&Kategorien"
 
 #: admin/views/uninstall.php:125
 #, fuzzy
 msgid "Do you wish to proceed? This cannot be undone."
-msgstr "Willst du fortfahren? Dies kann nicht rückgängig gemacht werden."
+msgstr "Möchten Sie fortfahren? Dies kann nicht rückgängig gemacht werden."
 
 #: admin/views/dashboard.php:386
 #, fuzzy
@@ -1508,23 +1578,23 @@ msgstr "Dokumente und FAQ"
 #: includes/votes.php:585
 #, fuzzy
 msgid "Down vote this post"
-msgstr "Stimme diesen Beitrag ab"
+msgstr "Unten Stimmen Sie diesem post"
 
-#. translators: %cpt% is SmartQ&A placeholder not gettext.
+#. translators: %cpt% is SmartQa placeholder not gettext.
 #: addons/notifications/notifications.php:185
 #, fuzzy
 msgid "down voted your %cpt%"
-msgstr "dein %cpt% heruntergestimmt"
+msgstr "unten stimmten Ihre %cpt%"
 
 #: templates/attachments.php:28
 #, fuzzy
 msgid "Download file"
-msgstr "Datei herunterladen"
+msgstr "Download file"
 
 #: addons/avatar/avatar.php:77 includes/functions.php:1645
 #, fuzzy
 msgid "Dynamic Avatar"
-msgstr "Dynamischer Avatar"
+msgstr "Dynamische Avatar"
 
 #: admin/class-list-table-hooks.php:149 admin/meta-box.php:76
 #: includes/comments.php:260 includes/theme.php:272
@@ -1536,54 +1606,54 @@ msgstr "Bearbeiten"
 #: admin/class-list-table-hooks.php:147
 #, fuzzy
 msgid "Edit &#8220;%s&#8221;"
-msgstr "Bearbeiten &#8220;%s&#8221;"
+msgstr "Bearbeiten Sie \"%s\""
 
 #: admin/views/emails.php:49 includes/common-pages.php:28
 #, fuzzy
 msgid "Edit Answer"
-msgstr "Antwort bearbeiten"
+msgstr "Antwort Bearbeiten"
 
 #: addons/email/email.php:211 addons/email/email.php:256
 #: includes/post-types.php:165
 #, fuzzy
 msgid "Edit answer"
-msgstr "Antwort bearbeiten"
+msgstr "Antwort Bearbeiten"
 
 #: addons/categories/categories.php:192
 #, fuzzy
 msgid "Edit Category"
-msgstr "Kategorie bearbeiten"
+msgstr "Kategorie Bearbeiten"
 
 #: ajax/comment-modal.php:84
 #, fuzzy
 msgid "Edit comment"
-msgstr "Kommentar bearbeiten"
+msgstr "Kommentar Bearbeiten"
 
-#: admin/SmartQ&A-admin.php:1395
+#: admin/smartqa-admin.php:1395
 #, fuzzy
 msgid "Edit page"
-msgstr "Seite bearbeiten"
+msgstr "Seite Bearbeiten"
 
 #: admin/views/emails.php:48
 #, fuzzy
 msgid "Edit Question"
-msgstr "Frage bearbeiten"
+msgstr "Frage Bearbeiten"
 
 #: addons/email/email.php:205 addons/email/email.php:250
 #: admin/class-list-table-hooks.php:379 includes/post-types.php:88
 #, fuzzy
 msgid "Edit question"
-msgstr "Frage bearbeiten"
+msgstr "Frage Bearbeiten"
 
 #: addons/tags/tags.php:194
 #, fuzzy
 msgid "Edit Tag"
-msgstr "Tag bearbeiten"
+msgstr "Tag Bearbeiten"
 
 #: admin/views/emails.php:64
 #, fuzzy
 msgid "Edit Template"
-msgstr "Vorlage bearbeiten"
+msgstr "Vorlage Bearbeiten"
 
 #: includes/class/class-activity-helper.php:191
 #, fuzzy
@@ -1598,27 +1668,27 @@ msgstr "bearbeitete Antwort"
 #: includes/class/class-activity-helper.php:236
 #, fuzzy
 msgid "Edited comment"
-msgstr "Bearbeiteter Kommentar"
+msgstr "Kommentar bearbeitet"
 
 #: includes/functions.php:1317
 #, fuzzy
 msgid "edited comment"
-msgstr "bearbeiteter Kommentar"
+msgstr "Kommentar bearbeitet"
 
 #: includes/functions.php:1318
 #, fuzzy
 msgid "edited comment on answer"
-msgstr "bearbeiteter Kommentar zur Antwort"
+msgstr "edited Kommentar auf Antworten"
 
 #: includes/class/class-activity-helper.php:181
 #, fuzzy
 msgid "Edited question"
-msgstr "Bearbeitete Frage"
+msgstr "Frage bearbeitet"
 
 #: includes/functions.php:1315
 #, fuzzy
 msgid "edited question"
-msgstr "bearbeitete Frage"
+msgstr "Frage bearbeitet"
 
 #: addons/email/email.php:159
 #, fuzzy
@@ -1628,7 +1698,7 @@ msgstr "E-Mail"
 #: addons/email/email.php:286
 #, fuzzy
 msgid "Email body"
-msgstr "E-Mail Körper"
+msgstr "E-Mail-Text"
 
 #: addons/email/email.php:283
 #, fuzzy
@@ -1639,7 +1709,7 @@ msgstr "E-Mail-Betreff"
 #: addons/email/email.php:162
 #, fuzzy
 msgid "Email templates can be customized here %s."
-msgstr "E-Mail-Vorlagen können hier angepasst werden %s."
+msgstr "E-Mail-Vorlagen können angepasst werden hier: %s."
 
 #: addons/email/email.php:183
 #, fuzzy
@@ -1647,18 +1717,18 @@ msgid ""
 "Email where all admin notification will be sent. It can have multiple emails "
 "separated by comma."
 msgstr ""
-"E-Mail, an die alle Admin-Benachrichtigungen gesendet werden sollen. Es "
-"können mehrere durch Komma getrennte E-Mail-Adressen angegeben werden."
+"E-Mail, wo alle admin-Benachrichtigung gesendet werden soll. Es können "
+"mehrere E-Mails, getrennt durch Komma getrennt werden."
 
 #: includes/functions.php:1625
 #, fuzzy
 msgid "Emails"
-msgstr "Emails"
+msgstr "E-Mails"
 
 #: admin/views/toggle-features.php:93
 #, fuzzy
 msgid "Enable"
-msgstr "Aktiviere"
+msgstr "Aktivieren"
 
 #: admin/views/options.php:289
 #, fuzzy
@@ -1669,39 +1739,37 @@ msgstr "Funktionen aktivieren"
 #: admin/views/licenses.php:31
 #, fuzzy
 msgid "Enter license key for %s"
-msgstr "Lizenzschlüssel für %s eingeben"
+msgstr "Geben Sie den Lizenzschlüssel für %s"
 
 #: includes/class-form-hooks.php:291
 #, fuzzy
 msgid "Enter link to your website."
-msgstr "Gib den Link zu deiner Website ein."
+msgstr "Geben Sie den link zu Ihrer website."
 
 #: includes/class-form-hooks.php:91 includes/class-form-hooks.php:205
 #, fuzzy
 msgid "Enter your email"
-msgstr "Gib deine E-Mail ein"
+msgstr "Geben Sie Ihre E-Mail"
 
 #: includes/class-form-hooks.php:281
 #, fuzzy
 msgid "Enter your email to get follow up notifications."
-msgstr ""
-"Gib deine E-Mail-Adresse ein, um Benachrichtigungen über Folgeaktionen zu "
-"erhalten."
+msgstr "Geben Sie Ihre E-Mail follow-up-Benachrichtigungen."
 
 #: includes/class-form-hooks.php:80 includes/class-form-hooks.php:194
 #, fuzzy
 msgid "Enter your name to display"
-msgstr "Gib deinen Namen ein, um ihn anzuzeigen"
+msgstr "Geben Sie Ihren Namen zur Anzeige"
 
 #: includes/class-form-hooks.php:272
 #, fuzzy
 msgid "Enter your name to display."
-msgstr "Gib deinen Namen ein, der angezeigt werden soll."
+msgstr "Geben Sie Ihren Namen anzeigen."
 
 #: addons/recaptcha/recaptcha.php:109
 #, fuzzy
 msgid "Enter your secret key"
-msgstr "Gib deinen geheimen Schlüssel ein"
+msgstr "Geben Sie Ihren geheimen Schlüssel"
 
 #: addons/recaptcha/recaptcha.php:104
 msgid ""
@@ -1714,7 +1782,7 @@ msgstr ""
 #: admin/updater.php:85
 #, fuzzy
 msgid "Enter your theme license key."
-msgstr "Gib deinen Theme-Lizenzschlüssel ein."
+msgstr "Geben Sie Ihren theme-Lizenz-Schlüssel."
 
 #: admin/updater.php:379
 #, fuzzy
@@ -1729,12 +1797,12 @@ msgstr "Fehler 404"
 #: lib/class-form.php:433 lib/form/class-field.php:402
 #, fuzzy
 msgid "Error found in fields, please check and re-submit"
-msgstr "Fehler in den Feldern gefunden, bitte überprüfen und erneut abschicken"
+msgstr "Fehler gefunden in Feldern, bitte überprüfen und re-Einreichen"
 
 #: admin/updater.php:94
 #, fuzzy
 msgid "Expires %s."
-msgstr "Läuft %s ab."
+msgstr "Erlischt, %en."
 
 #: admin/views/dashboard.php:374
 #, fuzzy
@@ -1744,27 +1812,27 @@ msgstr "Erweiterungen"
 #: includes/class/class-activity-helper.php:452
 #, fuzzy
 msgid "Failed to delete activity rows."
-msgstr "Das Löschen von Aktivitätszeilen ist fehlgeschlagen."
+msgstr "Fehler beim löschen Aktivität Zeilen."
 
 #: includes/class/class-activity-helper.php:380
 #, fuzzy
 msgid "Failed to insert activity"
-msgstr "Aktivität kann nicht eingefügt werden"
+msgstr "Fehler beim insert-Aktivität"
 
 #: includes/class-form-hooks.php:386 includes/class-form-hooks.php:420
 #, fuzzy
 msgid "Failed to insert question"
-msgstr "Frage kann nicht eingefügt werden"
+msgstr "Fehler beim insert-Frage"
 
 #: addons/recaptcha/recaptcha/class-captcha.php:84
 #, fuzzy
 msgid "Failed to verify captcha. Please try again."
-msgstr "Captcha konnte nicht verifiziert werden. Bitte versuche es erneut."
+msgstr "Fehler beim überprüfen captcha. Bitte versuchen Sie es erneut."
 
 #: lib/class-validate.php:626 lib/form/class-upload.php:401
 #, fuzzy
 msgid "Failed to write file to disk."
-msgstr "Die Datei konnte nicht auf die Festplatte geschrieben werden."
+msgstr "Failed to write file to disk."
 
 #: includes/ajax-hooks.php:324 includes/theme.php:856
 #, fuzzy
@@ -1774,12 +1842,12 @@ msgstr "Feature"
 #: includes/qaquery.php:443
 #, fuzzy
 msgid "Featured"
-msgstr "Ausgewählte"
+msgstr "Featured"
 
 #: addons/categories/categories.php:611
 #, fuzzy
 msgid "Featured image for category"
-msgstr "Titelbild für die Kategorie"
+msgstr "Featured image for Kategorie"
 
 #. translators: %s is file size.
 #: includes/upload.php:279
@@ -1795,72 +1863,74 @@ msgstr "Die Datei ist größer als die zulässige Grenze."
 #: lib/form/class-upload.php:414
 #, fuzzy
 msgid "File is empty. Please upload something more substantial."
-msgstr "Die Datei ist leer. Bitte lade etwas Umfangreicheres hoch."
+msgstr "Die Datei leer ist. Bitte laden Sie etwas fester."
 
 #. translators: %s is file size in MB.
 #: templates/functions.php:44
 #, fuzzy
 msgid "File size is bigger than %s MB"
-msgstr "Dateigröße ist größer als %s MB"
+msgstr "Datei-Größe ist größer als %s MB"
 
 #: lib/class-validate.php:740
 #, fuzzy
 msgid "File type is not allowed to upload."
-msgstr "Der Dateityp kann nicht hochgeladen werden."
+msgstr "Dateityp ist nicht erlaubt hochladen."
 
 #: lib/form/class-upload.php:402
 #, fuzzy
 msgid "File upload stopped by extension."
-msgstr "Datei-Upload durch Erweiterung gestoppt."
+msgstr "File upload stopped by extension."
 
 #. Translators: %s contain maximum file size user can upload.
 #: lib/class-validate.php:756
 #, fuzzy
 msgid "File(s) size is bigger than %s MB"
-msgstr "Die Größe der Datei(en) ist größer als %s MB"
+msgstr "File(s) Größe ist größer als %s MB"
 
 #: admin/class-list-table-hooks.php:399 admin/meta-box.php:149
 #: includes/flag.php:140
+#, fuzzy
 msgid "Flag"
-msgstr "Beitrag melden"
+msgstr "Flagge"
 
 #: includes/flag.php:131
 #, fuzzy
 msgid "Flag this post"
-msgstr "Diesen Beitrag markieren"
+msgstr "Flag diesem Beitrag"
 
 #: admin/class-list-table-hooks.php:61 admin/class-list-table-hooks.php:430
 #, fuzzy
 msgid "Flagged"
-msgstr "Markiert"
+msgstr "Gekennzeichnet"
 
 #: admin/class-list-table-hooks.php:210 admin/class-list-table-hooks.php:324
 #, fuzzy
 msgid "Flags"
-msgstr "Flaggen"
+msgstr "Flags"
 
 #: addons/avatar/avatar.php:122
 #, fuzzy
 msgid "Font family"
-msgstr "Schriftfamilie"
+msgstr "Font family"
 
 #: addons/categories/categories.php:559 addons/categories/categories.php:620
 #: addons/categories/categories.php:629
 #, fuzzy
 msgid "Font icon class, if image not set"
-msgstr "Schriftsymbolklasse, wenn das Bild nicht gesetzt ist"
+msgstr "Font icon Klasse, wenn das Bild nicht gesetzt"
 
 #: addons/avatar/avatar.php:135
 #, fuzzy
 msgid "Force avatar"
-msgstr "Avatar erzwingen"
+msgstr "Kraft avatar"
 
 #. Translators: placeholder contain field label.
 #: lib/class-validate.php:602
 #, fuzzy
 msgid "Found bad words in field %s. Remove them and try again."
 msgstr ""
-"Schlechte Wörter im Feld %s gefunden. Entferne sie und versuche es erneut."
+"Gefunden schlechte Worte in Feld %s ist. Entfernen Sie Sie und versuchen Sie "
+"es erneut."
 
 #: admin/views/options.php:286
 #, fuzzy
@@ -1868,40 +1938,39 @@ msgid ""
 "Functions such as email notifications, categories, tags and many more are "
 "disabled by default. Please carefully check and enable them if needed."
 msgstr ""
-"Funktionen wie E-Mail-Benachrichtigungen, Kategorien, Tags und viele mehr "
-"sind standardmäßig deaktiviert. Bitte überprüfe sie sorgfältig und aktiviere "
-"sie bei Bedarf."
+"Funktionen wie E-Mail-Benachrichtigungen, Kategorien, tags und viele mehr "
+"sind standardmäßig deaktiviert. Bitte überprüfen Sie sorgfältig aus und "
+"aktivieren Sie Sie, wenn nötig."
 
 #: includes/functions.php:1646
 #, fuzzy
 msgid "Generate user avatar based on display name initials."
-msgstr ""
-"Erstelle einen Benutzeravatar basierend auf den Initialen des Anzeigenamens."
+msgstr "Generate user-avatar basierend auf display-Namen, Initialen."
 
 #: admin/views/dashboard.php:339
 #, fuzzy
 msgid "Get Started"
-msgstr "Anfangen"
+msgstr "Loslegen"
 
 #: addons/reputation/reputation.php:218
 #, fuzzy
 msgid "Given a down vote"
-msgstr "Bei einer Abwahl"
+msgstr "Gegeben ist eine nach unten Stimmen"
 
 #: addons/reputation/reputation.php:210
 #, fuzzy
 msgid "Given an up vote"
-msgstr "Bei einer Aufwärtsstimme"
+msgstr "Gegeben eine Abstimmung bis"
 
 #: addons/reputation/reputation.php:207
 #, fuzzy
 msgid "Gives an up vote"
-msgstr "Gibt eine Aufwärtsstimme"
+msgstr "Ermöglicht vote"
 
 #: addons/reputation/reputation.php:215
 #, fuzzy
 msgid "Gives down vote"
-msgstr "Gibt eine Abwahl"
+msgstr "Gibt down vote"
 
 #: templates/content-none.php:33
 #, fuzzy
@@ -1926,36 +1995,36 @@ msgstr ""
 msgid "Help and Support!"
 msgstr "Hilfe und Unterstützung!"
 
-#: admin/SmartQ&A-admin.php:803
+#: admin/smartqa-admin.php:803
 #, fuzzy
 msgid "Hide author credits"
-msgstr "Autorennachweis ausblenden"
+msgstr "Hide credits Autor"
 
 #: addons/categories/widget.php:136
 #, fuzzy
 msgid "Hide empty:"
-msgstr "Leer ausblenden:"
+msgstr "Leere ausblenden:"
 
-#: admin/SmartQ&A-admin.php:804
+#: admin/smartqa-admin.php:804
 #, fuzzy
 #| msgid "Hide link to SmartQ&A project site."
-msgid "Hide link to SmartQ&A project site."
-msgstr "Link zur SmartQ&A-Projektseite ausblenden."
+msgid "Hide link to SmartQa project site."
+msgstr "Hide link, um SmartQ&A Projekt-Website."
 
 #: addons/recaptcha/recaptcha.php:123
 #, fuzzy
 msgid "Hide reCaptcha for roles"
-msgstr "ReCaptcha für Rollen ausblenden"
+msgstr "Ausblenden reCaptcha für Rollen"
 
 #: includes/hooks.php:846
 #, fuzzy
 msgid "hour"
-msgstr "stunde"
+msgstr "Stunde"
 
 #: includes/hooks.php:847
 #, fuzzy
 msgid "hours"
-msgstr "stunden"
+msgstr "Stunden"
 
 #. Author URI of the plugin/theme
 msgid "https://extensionforge.com"
@@ -1964,17 +2033,17 @@ msgstr "https://extensionforge.com"
 #: addons/categories/categories.php:563
 #, fuzzy
 msgid "Icon background color"
-msgstr "Hintergrundfarbe des Symbols"
+msgstr "Symbol hintergrund Farbe"
 
 #: addons/categories/widget.php:179
 #, fuzzy
 msgid "Icon height:"
-msgstr "Höhe des Symbols:"
+msgstr "Symbol height:"
 
 #: addons/categories/widget.php:175
 #, fuzzy
 msgid "Icon width:"
-msgstr "Breite des Symbols:"
+msgstr "Symbol Breite:"
 
 #: addons/categories/categories.php:267 addons/categories/categories.php:280
 #: addons/categories/widget.php:161
@@ -1982,7 +2051,7 @@ msgstr "Breite des Symbols:"
 msgid "ID"
 msgstr "ID"
 
-#: admin/SmartQ&A-admin.php:1225
+#: admin/smartqa-admin.php:1225
 msgid ""
 "If an answer is selected for question then [solved] prefix will be added in "
 "title."
@@ -1990,12 +2059,12 @@ msgstr ""
 "Wenn eine Antwort für eine Frage ausgewählt wird, wird das Präfix [gelöst] "
 "im Titel hinzugefügt."
 
-#: admin/SmartQ&A-admin.php:1292
+#: admin/smartqa-admin.php:1292
 #, fuzzy
 msgid "If enabled this will prevent user to submit answer on solved question."
 msgstr ""
-"Wenn diese Option aktiviert ist, kann der Nutzer keine Antworten auf gelöste "
-"Fragen abgeben."
+"Wenn aktiviert, verhindert dies, dass Benutzer senden Antwort auf gelöst "
+"Frage."
 
 #: admin/views/uninstall.php:21
 #, fuzzy
@@ -2003,16 +2072,16 @@ msgid ""
 "If you are unsure about this section please do not use any of these options "
 "below."
 msgstr ""
-"Wenn du dir bei diesem Abschnitt unsicher bist, benutze bitte keine der "
-"untenstehenden Optionen."
+"Wenn Sie nicht sicher sind, über diesen Abschnitt bitte nicht verwenden Sie "
+"eine der folgenden Optionen unten."
 
-#: admin/SmartQ&A-admin.php:810
+#: admin/smartqa-admin.php:810
 msgid ""
-"If you have created main pages manually then make sure to have [SmartQ&A] "
+"If you have created main pages manually then make sure to have [smartqa] "
 "shortcode in all pages."
 msgstr ""
 "Wenn du die Hauptseiten manuell erstellt hast, musst du sicherstellen, dass "
-"der [SmartQ&A] Shortcode in allen Seiten enthalten ist."
+"der [smartqa] Shortcode in allen Seiten enthalten ist."
 
 #: addons/categories/categories.php:548 addons/categories/categories.php:597
 #: includes/class-form-hooks.php:1001
@@ -2023,12 +2092,12 @@ msgstr "Bild"
 #: addons/categories/categories.php:306
 #, fuzzy
 msgid "Image height in categories page"
-msgstr "Bildhöhe auf der Kategorieseite"
+msgstr "Image height in Kategorien-Seite"
 
 #: includes/mce-languages.php:32
 #, fuzzy
 msgid "Image title"
-msgstr "Bildtitel"
+msgstr "Image title"
 
 #: includes/functions.php:536
 #, fuzzy
@@ -2048,7 +2117,7 @@ msgstr "Einfügen"
 #: addons/syntaxhighlighter/syntaxhighlighter.php:157
 #, fuzzy
 msgid "Insert Code"
-msgstr "Code einfügen"
+msgstr "Code Einfügen"
 
 #: addons/syntaxhighlighter/syntaxhighlighter.php:80
 #: includes/mce-languages.php:34
@@ -2059,13 +2128,13 @@ msgstr "Code einfügen"
 #: addons/syntaxhighlighter/syntaxhighlighter.php:78
 #, fuzzy
 msgid "Insert code snippet here ..."
-msgstr "Code-Schnipsel hier einfügen ..."
+msgstr "Insert code snippet hier ..."
 
 #: includes/mce-languages.php:35
 #, fuzzy
 #| msgid "Insert codes (SmartQ&A)"
-msgid "Insert codes (SmartQ&A)"
-msgstr "Codes einfügen (SmartQ&A)"
+msgid "Insert codes (SmartQa)"
+msgstr "Insert-codes (SmartQ&A)"
 
 #: includes/mce-languages.php:27 lib/form/class-editor.php:83
 #, fuzzy
@@ -2075,32 +2144,32 @@ msgstr "Bild einfügen"
 #: includes/mce-languages.php:28
 #, fuzzy
 #| msgid "Insert Media (SmartQ&A)"
-msgid "Insert Media (SmartQ&A)"
-msgstr "Medien einfügen (SmartQ&A)"
+msgid "Insert Media (SmartQa)"
+msgstr "Legen Sie Ein Medium (SmartQ&A)"
 
 #: addons/syntaxhighlighter/syntaxhighlighter.php:79
 #, fuzzy
 msgid "Insert to editor"
-msgstr "In den Editor einfügen"
+msgstr "Einfügen in den editor"
 
 #: includes/mce-languages.php:38
 #, fuzzy
 msgid "Insert your code."
-msgstr "Füge deinen Code ein."
+msgstr "Geben Sie Ihren code."
 
-#: admin/SmartQ&A-admin.php:1219
+#: admin/smartqa-admin.php:1219
 #, fuzzy
 msgid ""
 "Instead of showing time passed i.e. 1 Hour ago, show default format date."
 msgstr ""
-"Anstatt die vergangene Zeit anzuzeigen, z.B. vor 1 Stunde, zeige das "
-"Standardformat Datum."
+"Anstatt zu zeigen, die Zeit verging, also 1 Stunde, show default-format "
+"Datum."
 
 #: includes/functions.php:1650
 #, fuzzy
 #| msgid "Integrate SmartQ&A with BuddyPress."
-msgid "Integrate SmartQ&A with BuddyPress."
-msgstr "Integriere SmartQ&A mit BuddyPress."
+msgid "Integrate SmartQa with BuddyPress."
+msgstr "Integrieren SmartQ&A mit BuddyPress."
 
 #: widgets/leaderboard.php:150
 #, fuzzy
@@ -2115,47 +2184,47 @@ msgstr "Ungültiges Datum"
 #: includes/shortcode-question.php:72
 #, fuzzy
 msgid "Invalid or non existing question id."
-msgstr "Ungültige oder nicht vorhandene Frage-ID."
+msgstr "Ungültige oder nicht vorhandene Frage-id."
 
 #. translators: %s contain server PHP version.
-#: SmartQ&A-question-answer.php:47
+#: smartqa-question-answer.php:47
 #, fuzzy
 #| msgid ""
 #| "Irks! At least PHP version 7.2 is required to run SmartQ&A. Current PHP "
 #| "version is %s. Please ask hosting provider to update your PHP version."
 msgid ""
-"Irks! At least PHP version 7.2 is required to run SmartQ&A. Current PHP "
+"Irks! At least PHP version 7.2 is required to run SmartQa. Current PHP "
 "version is %s. Please ask hosting provider to update your PHP version."
 msgstr ""
-"Irks! Für die Ausführung von SmartQ&A ist mindestens die PHP-Version 7.2 "
-"erforderlich. Die aktuelle PHP-Version ist %s. Bitte bitte deinen Hosting-"
-"Anbieter, deine PHP-Version zu aktualisieren."
+"Ärgert! Mindestens die PHP-version 7.2 ist erforderlich zu laufen SmartQ&A. "
+"Aktuelle PHP-version ist %s. Bitte Fragen Sie hosting-Anbieter, um "
+"aktualisieren Sie Ihre PHP-version."
 
 #: addons/syntaxhighlighter/syntaxhighlighter.php:77
 #, fuzzy
 msgid "Is inline?"
-msgstr "Ist inline?"
+msgstr "Inline?"
 
 #: includes/class-form-hooks.php:70 includes/class-form-hooks.php:184
 #, fuzzy
 msgid "Is private?"
-msgstr "Ist privat?"
+msgstr "Privat ist?"
 
 #. translators: %s contain role name.
 #: admin/views/roles.php:45
 #, fuzzy
 msgid "Its look like %s role already exists ."
-msgstr "Es sieht so aus, als ob die Rolle %s bereits existiert."
+msgstr "Seine Aussehen wie %s Rolle bereits vorhanden ist ."
 
 #: includes/class/class-activity.php:487
 #, fuzzy
 msgid "Just now"
 msgstr "Gerade jetzt"
 
-#: admin/SmartQ&A-admin.php:1243
+#: admin/smartqa-admin.php:1243
 #, fuzzy
 msgid "Keep stop words in question slug"
-msgstr "Stopp-Wörter im Frage-Block beibehalten"
+msgstr "Halten Sie Stopp-Wörter in Frage slug"
 
 #: addons/syntaxhighlighter/syntaxhighlighter.php:76
 #, fuzzy
@@ -2165,12 +2234,12 @@ msgstr "Sprache"
 #: admin/views/dashboard.php:37
 #, fuzzy
 msgid "Latest Answers"
-msgstr "Letzte Antworten"
+msgstr "Neueste Antworten"
 
 #: admin/views/dashboard.php:33
 #, fuzzy
 msgid "Latest Questions"
-msgstr "Letzte Fragen"
+msgstr "Neueste Fragen"
 
 #: admin/views/options.php:56
 #, fuzzy
@@ -2185,7 +2254,7 @@ msgstr "Lizenz Aktion"
 #: admin/updater.php:99
 #, fuzzy
 msgid "License is inactive."
-msgstr "Die Lizenz ist inaktiv."
+msgstr "Lizenz inaktiv ist."
 
 #: admin/updater.php:86
 #, fuzzy
@@ -2195,33 +2264,33 @@ msgstr "Lizenzschlüssel"
 #: admin/updater.php:96
 #, fuzzy
 msgid "License key expired %s."
-msgstr "Der Lizenzschlüssel ist abgelaufen %s."
+msgstr "Lizenzschlüssel abgelaufen ist %s."
 
 #: admin/updater.php:97
 #, fuzzy
 msgid "License key has expired."
-msgstr "Der Lizenzschlüssel ist abgelaufen."
+msgstr "Lizenzschlüssel abgelaufen ist."
 
 #: admin/updater.php:93
 #, fuzzy
 msgid "License key is active."
-msgstr "Der Lizenzschlüssel ist aktiv."
+msgstr "Lizenz-Schlüssel ist aktiv."
 
 #: admin/updater.php:100
 #, fuzzy
 msgid "License key is disabled."
-msgstr "Der Lizenzschlüssel ist deaktiviert."
+msgstr "Der Lizenzschlüssel wird deaktiviert."
 
 #: admin/updater.php:98
 #, fuzzy
 msgid "License keys do not match."
-msgstr "Die Lizenzschlüssel stimmen nicht überein."
+msgstr "Lizenz-Schlüssel nicht übereinstimmen."
 
 #: admin/views/licenses.php:21
 #, fuzzy
 #| msgid "License keys for SmartQ&A products, i.e. extensions and themes."
-msgid "License keys for SmartQ&A products, i.e. extensions and themes."
-msgstr "Lizenzschlüssel für SmartQ&A-Produkte, d.h. Erweiterungen und Themen."
+msgid "License keys for SmartQa products, i.e. extensions and themes."
+msgstr "Lizenzschlüssel für SmartQ&A-Produkte, D. H. Erweiterungen und themes."
 
 #: admin/updater.php:90 admin/updater.php:102
 #, fuzzy
@@ -2236,90 +2305,90 @@ msgstr "Lizenzen"
 #: widgets/questions.php:142
 #, fuzzy
 msgid "Limit:"
-msgstr "Grenze:"
+msgstr "Limit:"
 
-#: admin/SmartQ&A-admin.php:922
+#: admin/smartqa-admin.php:922
 #, fuzzy
 msgid "List avatar size"
-msgstr "Avatargröße auflisten"
+msgstr "Liste der avatar-Größe"
 
-#: admin/SmartQ&A-admin.php:916
+#: admin/smartqa-admin.php:916
 #, fuzzy
 #| msgid "Load assets in SmartQ&A page only?"
-msgid "Load assets in SmartQ&A page only?"
-msgstr "Assets nur in SmartQ&A-Seite laden?"
+msgid "Load assets in SmartQa page only?"
+msgstr "Laden Sie assets in SmartQ&A-Seite nur?"
 
 #: includes/class/class-activity.php:550
 #: templates/addons/notification/index.php:68
 #: templates/addons/reputation/index.php:43
 #, fuzzy
 msgid "Load More"
-msgstr "Mehr laden"
+msgstr "Laden Sie Mehr"
 
 #: addons/buddypress/buddypress.php:304 templates/addons/user/answers.php:42
 #, fuzzy
 msgid "Load more answers"
-msgstr "Mehr Antworten laden"
+msgstr "Laden Sie mehr Antworten"
 
 #: addons/buddypress/buddypress.php:237
 #, fuzzy
 msgid "Load more questions"
-msgstr "Mehr Fragen laden"
+msgstr "Laden Sie weitere Fragen"
 
 #: templates/functions.php:41
 #, fuzzy
 msgid "Loading.."
-msgstr "Laden."
+msgstr "Loading.."
 
 #: templates/login-signup.php:25
 #, fuzzy
 msgid "Login"
-msgstr "Anmeldung"
+msgstr "Login"
 
-#: admin/SmartQ&A-admin.php:875
+#: admin/smartqa-admin.php:875
 #, fuzzy
 msgid "Main questions list page title"
-msgstr "Hauptfragen Liste Seitentitel"
+msgstr "Haupt-Fragen-Liste page title"
 
 #: templates/addons/notification/index.php:30 templates/functions.php:52
 #, fuzzy
 msgid "Mark all as seen"
-msgstr "Alle als gesehen markieren"
+msgstr "Markieren Sie alle gesehen"
 
 #: addons/akismet/akismet.php:259
 #, fuzzy
 msgid "Mark as spam"
-msgstr "Als Spam markieren"
+msgstr "Als spam markieren"
 
 #: addons/akismet/akismet.php:259
 #, fuzzy
 msgid "Mark this post as a spam"
-msgstr "Diesen Beitrag als Spam markieren"
+msgstr "Markieren Sie diesen post als spam"
 
 #: includes/ajax-hooks.php:323 includes/theme.php:855
 #, fuzzy
 msgid "Mark this question as featured"
-msgstr "Markiere diese Frage als \"featured"
+msgstr "Markieren Sie diese Frage als featured"
 
 #: includes/class/class-activity-helper.php:226
 #, fuzzy
 msgid "Marked as closed"
-msgstr "Markiert als geschlossen"
+msgstr "Als \"geschlossen\" markiert"
 
 #: includes/class/class-activity-helper.php:221
 #, fuzzy
 msgid "Marked as featured question"
-msgstr "Markiert als besondere Frage"
+msgstr "Markiert als featured Frage"
 
-#: admin/SmartQ&A-admin.php:1166
+#: admin/smartqa-admin.php:1166
 #, fuzzy
 msgid "Max upload size"
-msgstr "Maximale Upload-Größe"
+msgstr "Max upload size"
 
-#: admin/SmartQ&A-admin.php:1161
+#: admin/smartqa-admin.php:1161
 #, fuzzy
 msgid "Max uploads per post"
-msgstr "Maximale Uploads pro Beitrag"
+msgstr "Max-uploads pro post"
 
 #: admin/views/recount.php:113
 #, fuzzy
@@ -2329,35 +2398,34 @@ msgstr "Max. Ansichten"
 #: addons/tags/tags.php:264
 #, fuzzy
 msgid "Maximum numbers of tags that user can add when asking."
-msgstr ""
-"Maximale Anzahl von Tags, die ein Nutzer bei einer Anfrage hinzufügen kann."
+msgstr "Maximale Anzahl von tags, die Benutzer hinzufügen können, wenn Fragen."
 
 #: addons/tags/tags.php:263
 #, fuzzy
 msgid "Maximum tags"
-msgstr "Maximale Tags"
+msgstr "Maximale tags"
 
 #. Translators: placeholder contain field label.
 #: lib/class-validate.php:547
 #, fuzzy
 msgid "Maximum values allowed in field %2$s is %1$d."
-msgstr "Die maximal zulässigen Werte in Feld %2$s sind %1$d."
+msgstr "Maximale Werte dürfen im Feld %2$s %1$d."
 
 #: includes/mce-languages.php:33
 #, fuzzy
 msgid "Media preview"
-msgstr "Medienvorschau"
+msgstr "Medien-Vorschau"
 
-#: lib/class-SmartQ&A-upgrader.php:301
+#: lib/class-smartqa-upgrader.php:301
 #, fuzzy
 msgid "Migrated all reputations"
-msgstr "Alle Reputationen migriert"
+msgstr "Alle migriert Ruf"
 
 #. translators: %s is question ID.
-#: lib/class-SmartQ&A-upgrader.php:72
+#: lib/class-smartqa-upgrader.php:72
 #, fuzzy
 msgid "Migrating question: %d"
-msgstr "Migrationsfrage: %d"
+msgstr "Migration Frage: %d"
 
 #: admin/views/recount.php:112
 #, fuzzy
@@ -2368,38 +2436,39 @@ msgstr "Min. Ansichten"
 #: lib/class-validate.php:524
 #, fuzzy
 msgid "Minimum %1$d values are required in field %2$s."
-msgstr "Mindestens %1$d Werte sind in Feld %2$s erforderlich."
+msgstr "Mindestens %1$d Werte erforderlich sind, die im Feld %2$s\"."
 
 #: admin/views/recount.php:111
 #, fuzzy
 msgid "Minimum and maximum views"
-msgstr "Minimale und maximale Ansichten"
+msgstr "Minimum-und maximum-Ansichten"
 
-#: admin/SmartQ&A-admin.php:1309
+#: admin/smartqa-admin.php:1309
 #, fuzzy
 msgid "Minimum answer content"
-msgstr "Mindestinhalt der Antwort"
+msgstr "Minimale Antwort-Inhalt"
 
 #: addons/tags/tags.php:270
 #, fuzzy
 msgid "minimum numbers of tags that user must add when asking."
 msgstr ""
-"mindestanzahl von Tags, die der Nutzer bei der Anfrage hinzufügen muss."
+"die minimale Anzahl von tags, die Benutzer hinzufügen müssen, wenn gefragt "
+"wird."
 
-#: admin/SmartQ&A-admin.php:1255
+#: admin/smartqa-admin.php:1255
 #, fuzzy
 msgid "Minimum question content"
-msgstr "Mindestinhalt der Frage"
+msgstr "Minimum Frage Inhalt"
 
 #: addons/tags/tags.php:269
 #, fuzzy
 msgid "Minimum tags"
-msgstr "Minimum Tags"
+msgstr "Minimum tags"
 
-#: admin/SmartQ&A-admin.php:1249
+#: admin/smartqa-admin.php:1249
 #, fuzzy
 msgid "Minimum title length"
-msgstr "Mindestlänge des Titels"
+msgstr "Minimale Titellänge"
 
 #: includes/hooks.php:844
 #, fuzzy
@@ -2409,25 +2478,25 @@ msgstr "minute"
 #: includes/hooks.php:845
 #, fuzzy
 msgid "minutes"
-msgstr "minuten"
+msgstr "Minuten"
 
 #: lib/class-validate.php:625
 #, fuzzy
 msgid "Missing a temporary folder"
-msgstr "Fehlen eines temporären Ordners"
+msgstr "Fehlt ein temporärer Ordner"
 
 #: lib/form/class-upload.php:400
 #, fuzzy
 msgid "Missing a temporary folder."
-msgstr "Es fehlt ein temporärer Ordner."
+msgstr "Fehlt ein temporärer Ordner."
 
-#: admin/SmartQ&A-admin.php:647 admin/SmartQ&A-admin.php:656
-#: admin/SmartQ&A-admin.php:1087 admin/SmartQ&A-admin.php:1097
-#: admin/SmartQ&A-admin.php:1107 admin/SmartQ&A-admin.php:1117
-#: admin/SmartQ&A-admin.php:1127 includes/post-status.php:30
+#: admin/smartqa-admin.php:647 admin/smartqa-admin.php:656
+#: admin/smartqa-admin.php:1087 admin/smartqa-admin.php:1097
+#: admin/smartqa-admin.php:1107 admin/smartqa-admin.php:1117
+#: admin/smartqa-admin.php:1127 includes/post-status.php:30
 #, fuzzy
 msgid "Moderate"
-msgstr "Mäßig"
+msgstr "Moderate"
 
 #. translators: %s is count of post awaiting moderation.
 #: includes/post-status.php:35
@@ -2439,12 +2508,12 @@ msgstr[1] "Moderat <span class=\"count\">(%s)</span>"
 #: admin/views/roles.php:79 admin/views/roles.php:126
 #, fuzzy
 msgid "Moderator Capabilities"
-msgstr "Moderatoren-Fähigkeiten"
+msgstr "Moderator-Funktionen"
 
 #: admin/views/dashboard.php:365
 #, fuzzy
 msgid "More actions"
-msgstr "Mehr Aktionen"
+msgstr "Weitere Aktionen"
 
 #: admin/views/emails.php:32
 #, fuzzy
@@ -2454,7 +2523,7 @@ msgstr "Mehr E-Mail-Optionen"
 #: admin/views/emails.php:30
 #, fuzzy
 msgid "More email options can be found in addon options"
-msgstr "Weitere E-Mail-Optionen findest du in den Addon-Optionen"
+msgstr "Mehrere E-Mail-Optionen finden Sie im addon-Optionen"
 
 #: admin/views/emails.php:26
 #, fuzzy
@@ -2464,14 +2533,14 @@ msgstr "Mehr Optionen"
 #: admin/class-list-table-hooks.php:137
 #, fuzzy
 msgid "Move this item to the Trash"
-msgstr "Dieses Element in den Papierkorb verschieben"
+msgstr "Verschieben Sie dieses Objekt in den Papierkorb"
 
-#: admin/SmartQ&A-admin.php:1177
+#: admin/smartqa-admin.php:1177
 #, fuzzy
 msgid "Multiple Answers"
 msgstr "Mehrere Antworten"
 
-#: admin/SmartQ&A-admin.php:1059
+#: admin/smartqa-admin.php:1059
 #, fuzzy
 msgid "Multiple answers"
 msgstr "Mehrere Antworten"
@@ -2486,9 +2555,9 @@ msgstr "Name"
 #: addons/tags/tags.php:641 addons/tags/tags.php:703 includes/theme.php:392
 #, fuzzy
 msgid "New"
-msgstr "Neu"
+msgstr "Neue"
 
-#: admin/SmartQ&A-admin.php:202 admin/views/emails.php:46
+#: admin/smartqa-admin.php:202 admin/views/emails.php:46
 #, fuzzy
 msgid "New Answer"
 msgstr "Neue Antwort"
@@ -2517,18 +2586,18 @@ msgstr "Neue Kategorie"
 #: admin/views/emails.php:47
 #, fuzzy
 msgid "New Comment"
-msgstr "Neuer Kommentar"
+msgstr "Neuen Kommentar Hinzufügen"
 
 #: addons/email/email.php:199 addons/email/email.php:244
 #, fuzzy
 msgid "New comment"
-msgstr "Neuer Kommentar"
+msgstr "Neuen Kommentar hinzufügen"
 
 #: addons/email/email.php:941
 msgid "New comment by {commenter}"
 msgstr "Neuer Kommentar von {commenter}"
 
-#: admin/SmartQ&A-admin.php:198 admin/views/emails.php:45
+#: admin/smartqa-admin.php:198 admin/views/emails.php:45
 #, fuzzy
 msgid "New Question"
 msgstr "Neue Frage"
@@ -2543,14 +2612,14 @@ msgstr "Neue Frage"
 #: admin/views/roles.php:41
 #, fuzzy
 msgid "New role %s added successfully ."
-msgstr "Neue Rolle %s erfolgreich hinzugefügt."
+msgstr "Neue Rolle \" %s erfolgreich Hinzugefügt ."
 
 #: addons/tags/tags.php:195
 #, fuzzy
 msgid "New Tag"
-msgstr "Neuer Tag"
+msgstr "Der Neue Tag"
 
-#: admin/SmartQ&A-admin.php:1237 admin/SmartQ&A-admin.php:1303
+#: admin/smartqa-admin.php:1237 admin/smartqa-admin.php:1303
 #: includes/theme.php:472 widgets/questions.php:128
 #, fuzzy
 msgid "Newest"
@@ -2574,22 +2643,22 @@ msgstr "Keine Antwort gefunden"
 #: includes/post-types.php:169
 #, fuzzy
 msgid "No answer found in trash"
-msgstr "Keine Antwort im Papierkorb gefunden"
+msgstr "Keine Antwort im Mülleimer gefunden"
 
 #: templates/addons/user/answers.php:48
 #, fuzzy
 msgid "No answer posted by this user."
-msgstr "Keine Antwort von diesem Benutzer gepostet."
+msgstr "Keine Antwort gepostet, die von diesem Benutzer."
 
 #: templates/addons/category/no-category-found.php:17
 #, fuzzy
 msgid "No category is set!"
-msgstr "Es ist keine Kategorie festgelegt!"
+msgstr "Keine Kategorie gesetzt ist!"
 
 #: includes/class/class-activity-helper.php:446
 #, fuzzy
 msgid "No columns found in where clue"
-msgstr "Keine Spalten in wo Hinweis gefunden"
+msgstr "Keine Spalten gefunden, in denen clue"
 
 #: includes/comments.php:361 includes/comments.php:394
 #, fuzzy
@@ -2600,22 +2669,22 @@ msgstr "Keine Kommentare gefunden."
 #: lib/class-form.php:207
 #, fuzzy
 msgid "No fields found for form: %s"
-msgstr "Keine Felder für das Formular gefunden: %s"
+msgstr "Keine Felder gefunden, für die form: %s"
 
 #: lib/class-validate.php:624
 #, fuzzy
 msgid "No file was uploaded"
-msgstr "Es wurde keine Datei hochgeladen"
+msgstr "Keine Datei hochgeladen wurde"
 
 #: lib/form/class-upload.php:398
 #, fuzzy
 msgid "No file was uploaded."
-msgstr "Es wurde keine Datei hochgeladen."
+msgstr "Keine Datei hochgeladen wurde."
 
 #: admin/views/licenses.php:60
 #, fuzzy
 msgid "No license yet."
-msgstr "Noch keine Lizenz."
+msgstr "Keine Lizenz, noch nicht."
 
 #: templates/addons/notification/index.php:50
 #, fuzzy
@@ -2625,7 +2694,7 @@ msgstr "Keine Benachrichtigung"
 #: includes/qaquery-hooks.php:187
 #, fuzzy
 msgid "No permission"
-msgstr "Keine Erlaubnis"
+msgstr "Keine Berechtigung"
 
 #: includes/post-types.php:91
 #, fuzzy
@@ -2635,7 +2704,7 @@ msgstr "Keine Frage gefunden"
 #: includes/post-types.php:92
 #, fuzzy
 msgid "No questions found in trash"
-msgstr "Keine Fragen im Papierkorb gefunden"
+msgstr "Keine Fragen im Mülleimer gefunden"
 
 #: templates/widgets/widget-questions.php:40
 #, fuzzy
@@ -2645,29 +2714,28 @@ msgstr "Keine Fragen gefunden."
 #: includes/ajax-hooks.php:139
 #, fuzzy
 msgid "No related questions found."
-msgstr "Keine verwandten Fragen gefunden."
+msgstr "Keine Fragen gefunden."
 
 #: addons/buddypress/buddypress.php:172
 #, fuzzy
 #| msgid "No SmartQ&A template found for rendering this page."
-msgid "No SmartQ&A template found for rendering this page."
-msgstr ""
-"Es wurde keine SmartQ&A-Vorlage für die Darstellung dieser Seite gefunden."
+msgid "No SmartQa template found for rendering this page."
+msgstr "Keine SmartQ&Eine Vorlage gefunden, die für das Rendern dieser Seite."
 
 #: templates/addons/tag/no-tags-found.php:18
 #, fuzzy
 msgid "No tags is set!"
-msgstr "Es sind keine Tags gesetzt!"
+msgstr "No tags set!"
 
 #: widgets/leaderboard.php:102
 #, fuzzy
 msgid "No users found with reputation."
-msgstr "Keine Benutzer mit Ruf gefunden."
+msgstr "Keine Benutzer gefunden mit guten Ruf."
 
 #: addons/categories/widget.php:159
 #, fuzzy
 msgid "None"
-msgstr "Keine"
+msgstr "None"
 
 #: includes/class/class-activity-helper.php:344
 #, fuzzy
@@ -2677,23 +2745,23 @@ msgstr "Keine gültige Aktion"
 #: includes/comments.php:341
 #, fuzzy
 msgid "Not a valid post ID."
-msgstr "Keine gültige Post-ID."
+msgstr "Keine gültige post-ID."
 
 #: includes/activity.php:60
 #, fuzzy
 #| msgid "Not SmartQ&A posts"
-msgid "Not SmartQ&A posts"
-msgstr "Nicht SmartQ&A-Posten"
+msgid "Not SmartQa posts"
+msgstr "Nicht SmartQ&A-Beiträge"
 
 #: addons/categories/categories.php:196 addons/tags/tags.php:198
 #, fuzzy
 msgid "Nothing Found"
-msgstr "Nichts gefunden"
+msgstr "Nichts Gefunden"
 
 #: addons/categories/categories.php:197 addons/tags/tags.php:199
 #, fuzzy
 msgid "Nothing found in Trash"
-msgstr "Nichts im Papierkorb gefunden"
+msgstr "Nichts im Mülleimer gefunden"
 
 #: addons/notifications/notifications.php:97
 #, fuzzy
@@ -2711,7 +2779,7 @@ msgstr "Benachrichtigungen"
 #: addons/notifications/notifications.php:120
 #, fuzzy
 msgid "Notifications page slug"
-msgstr "Slug der Benachrichtigungsseite"
+msgstr "Benachrichtigungen Seite slug"
 
 #: addons/notifications/notifications.php:115
 #, fuzzy
@@ -2722,113 +2790,113 @@ msgstr "Benachrichtigungen Seitentitel"
 #, fuzzy
 msgid "Notifies users and admins by email for various events and activities."
 msgstr ""
-"Benachrichtigt Nutzer und Administratoren per E-Mail über verschiedene "
-"Ereignisse und Aktivitäten."
+"Benachrichtigt Benutzer und Administratoren per E-Mail für verschiedene "
+"Veranstaltungen und Aktivitäten."
 
 #: addons/categories/widget.php:153
 #, fuzzy
 msgid "Number:"
-msgstr "Nummer:"
+msgstr "Anzahl:"
 
-#: admin/SmartQ&A-admin.php:1201
+#: admin/smartqa-admin.php:1201
 #, fuzzy
 msgid "Numbers of comments to load in each query?"
-msgstr "Wie viele Kommentare sollen in jeder Abfrage geladen werden?"
+msgstr "Die Nummern der Kommentare zur Last, die in jeder Abfrage?"
 
-#: admin/SmartQ&A-admin.php:1200
+#: admin/smartqa-admin.php:1200
 #, fuzzy
 msgid "Numbers of comments to show"
-msgstr "Anzahl der Kommentare zum Anzeigen"
+msgstr "Die Nummern der Kommentare"
 
 #: addons/tags/tags.php:258
 #, fuzzy
 msgid "Numbers of tags to show in tags page."
-msgstr "Anzahl der Tags, die auf der Tags-Seite angezeigt werden sollen."
+msgstr "Anzahl von tags, um zu zeigen, in der tags-Seite."
 
-#: admin/SmartQ&A-admin.php:1238 admin/SmartQ&A-admin.php:1304
+#: admin/smartqa-admin.php:1238 admin/smartqa-admin.php:1304
 #: includes/theme.php:476
 #, fuzzy
 msgid "Oldest"
 msgstr "Älteste"
 
-#: admin/SmartQ&A-admin.php:682
+#: admin/smartqa-admin.php:682
 #, fuzzy
 #| msgid "One or more SmartQ&A page(s) does not exists."
-msgid "One or more SmartQ&A page(s) does not exists."
-msgstr "Eine oder mehrere SmartQ&A-Seite(n) ist/sind nicht vorhanden."
+msgid "One or more SmartQa page(s) does not exists."
+msgstr "Eine oder mehrere SmartQ&A-Seite(N) nicht vorhanden ist."
 
-#: admin/SmartQ&A-admin.php:987 admin/SmartQ&A-admin.php:998
-#: admin/SmartQ&A-admin.php:1009 admin/SmartQ&A-admin.php:1037
-#: admin/SmartQ&A-admin.php:1048 admin/SmartQ&A-admin.php:1077
+#: admin/smartqa-admin.php:987 admin/smartqa-admin.php:998
+#: admin/smartqa-admin.php:1009 admin/smartqa-admin.php:1037
+#: admin/smartqa-admin.php:1048 admin/smartqa-admin.php:1077
 #, fuzzy
 msgid "Only logged in"
-msgstr "Nur eingeloggt"
+msgstr "Nur angemeldet in"
 
 #: includes/ajax-hooks.php:310
 #, fuzzy
 msgid "Only question can be set as featured"
-msgstr "Nur die Frage kann als Featured eingestellt werden"
+msgstr "Nur die Frage kann so eingestellt werden, vorgestellt"
 
-#: admin/SmartQ&A-admin.php:1049
+#: admin/smartqa-admin.php:1049
 #, fuzzy
 msgid "Only user having ap_new_answer capability"
-msgstr "Nur Benutzer mit der Fähigkeit ap_new_answer"
+msgstr "Nur Benutzer mit ap_new_answer Fähigkeit"
 
-#: admin/SmartQ&A-admin.php:1078
+#: admin/smartqa-admin.php:1078
 #, fuzzy
 msgid "Only user having ap_new_comment capability"
-msgstr "Nur Benutzer mit der Fähigkeit ap_new_comment"
+msgstr "Nur Benutzer mit ap_new_comment Fähigkeit"
 
-#: admin/SmartQ&A-admin.php:1038
+#: admin/smartqa-admin.php:1038
 #, fuzzy
 msgid "Only user having ap_new_question capability"
-msgstr "Nur Benutzer mit der Fähigkeit ap_new_question"
+msgstr "Nur Benutzer mit ap_new_question Fähigkeit"
 
-#: admin/SmartQ&A-admin.php:999
+#: admin/smartqa-admin.php:999
 #, fuzzy
 msgid "Only user having ap_read_answer capability"
-msgstr "Nur Benutzer mit der Fähigkeit ap_read_answer"
+msgstr "Nur Benutzer mit ap_read_answer Fähigkeit"
 
-#: admin/SmartQ&A-admin.php:1010
+#: admin/smartqa-admin.php:1010
 #, fuzzy
 msgid "Only user having ap_read_comment capability"
-msgstr "Nur Benutzer mit der Fähigkeit ap_read_comment"
+msgstr "Nur Benutzer mit ap_read_comment Fähigkeit"
 
-#: admin/SmartQ&A-admin.php:988
+#: admin/smartqa-admin.php:988
 #, fuzzy
 msgid "Only user having ap_read_question capability"
-msgstr "Nur Benutzer mit der Fähigkeit ap_read_question"
+msgstr "Nur Benutzer mit ap_read_question Fähigkeit"
 
 #: includes/class-form-hooks.php:71 includes/class-form-hooks.php:185
 #, fuzzy
 msgid "Only visible to admin and moderator."
-msgstr "Nur für Administratoren und Moderatoren sichtbar."
+msgstr "Sichtbar nur für admin und moderator."
 
-#: admin/SmartQ&A-admin.php:1065
+#: admin/smartqa-admin.php:1065
 #, fuzzy
 msgid "OP can answer?"
-msgstr "Kann OP antworten?"
+msgstr "OP beantworten können?"
 
-#: admin/SmartQ&A-admin.php:1066
+#: admin/smartqa-admin.php:1066
 #, fuzzy
 msgid ""
 "OP: Original poster/asker. Enabling this option will prevent users to post "
 "an answer on their question."
 msgstr ""
-"OP: Ursprünglicher Poster/Fragesteller. Wenn du diese Option aktivierst, "
-"wird verhindert, dass Nutzer eine Antwort auf ihre Frage posten können."
+"OP: Original poster/asker. Durch aktivieren dieser option wird verhindert, "
+"dass Benutzer zu veröffentlichen, die Antwort auf Ihre Frage."
 
 #: includes/ajax-hooks.php:375 includes/theme.php:253
 #, fuzzy
 msgid "Open"
-msgstr "Öffnen Sie"
+msgstr "Öffnen"
 
 #: includes/ajax-hooks.php:376 includes/theme.php:254
 #, fuzzy
 msgid "Open this question for new answers"
-msgstr "Öffne diese Frage für neue Antworten"
+msgstr "Öffnen Sie diese Frage nach neuen Antworten"
 
-#: admin/SmartQ&A-admin.php:683
+#: admin/smartqa-admin.php:683
 #, fuzzy
 msgid "Or"
 msgstr "Oder"
@@ -2843,51 +2911,51 @@ msgstr "oder"
 msgid "Order"
 msgstr "Bestellung"
 
-#: admin/SmartQ&A-admin.php:1298
+#: admin/smartqa-admin.php:1298
 #, fuzzy
 msgid "Order answers by by default using selected"
-msgstr "Ordnen Sie die Antworten standardmäßig nach ausgewählten"
+msgstr "Um Antworten standardmäßig ausgewählt"
 
 #: includes/theme.php:675
 #, fuzzy
 msgid "Order By"
-msgstr "Bestellen nach"
+msgstr "Order By"
 
 #: addons/categories/widget.php:157
 #, fuzzy
 msgid "Order By:"
-msgstr "Bestellen nach:"
+msgstr "Order By:"
 
 #: widgets/questions.php:125
 #, fuzzy
 msgid "Order by:"
-msgstr "Bestellen nach:"
+msgstr "Order by:"
 
-#: admin/SmartQ&A-admin.php:1232
+#: admin/smartqa-admin.php:1232
 #, fuzzy
 msgid "Order question list by default using selected"
-msgstr "Fragenliste standardmäßig mit ausgewählten"
+msgstr "Um Frage-Liste standardmäßig ausgewählt"
 
 #: addons/categories/widget.php:168
 #, fuzzy
 msgid "Order:"
-msgstr "Bestellen:"
+msgstr "Reihenfolge:"
 
 #: admin/views/options.php:82
 #, fuzzy
 msgid "Other Permissions"
-msgstr "Andere Erlaubnisse"
+msgstr "Weitere Berechtigungen"
 
 #: includes/functions.php:2369
 #, fuzzy
 #| msgid "Page used to display all A SmartQ&A activities."
-msgid "Page used to display all SmartQ&A activities."
-msgstr "Seite, auf der alle SmartQ&A Aktivitäten angezeigt werden."
+msgid "Page used to display all smartqa activities."
+msgstr "Seite zeigt alle A Smart Q&A Aktivitäten."
 
 #: includes/functions.php:2345
 #, fuzzy
 msgid "Page used to display ask form."
-msgstr "Seite, auf der das Anfrageformular angezeigt wird."
+msgstr "Die Seite verwendet zur Anzeige von Frage form."
 
 #: includes/functions.php:2339
 #, fuzzy
@@ -2897,8 +2965,8 @@ msgstr "Seite, auf der das Anfrageformular angezeigt wird."
 #| "as <b>Base Page</b> in SmartQ&A documentations and support forum."
 msgid ""
 "Page used to display question archive (list). Sometimes this page is used "
-"for displaying other subpages of SmartQ&A.<br/>This page is also referred as "
-"<b>Base Page</b> in SmartQ&A documentations and support forum."
+"for displaying other subpages of SmartQa.<br/>This page is also referred as "
+"<b>Base Page</b> in SmartQa documentations and support forum."
 msgstr ""
 "Diese Seite wird verwendet, um das Fragenarchiv (Liste) anzuzeigen. Manchmal "
 "wird diese Seite auch für die Anzeige anderer Unterseiten von SmartQ&A "
@@ -2911,8 +2979,8 @@ msgid ""
 "Page used to display question categories. NOTE: Categories addon must be "
 "enabled to render this page."
 msgstr ""
-"Seite, auf der die Fragekategorien angezeigt werden. HINWEIS: Das Kategorien-"
-"Addon muss aktiviert sein, damit diese Seite angezeigt wird."
+"Die Seite verwendet zur Anzeige von Frage-Kategorien. HINWEIS: Kategorien in "
+"addon muss aktiviert werden, die zum Rendern dieser Seite."
 
 #: includes/functions.php:2363
 #, fuzzy
@@ -2920,13 +2988,13 @@ msgid ""
 "Page used to display question tags. NOTE: Tags addon must be enabled to "
 "render this page."
 msgstr ""
-"Seite, auf der die Frage-Tags angezeigt werden. HINWEIS: Das Tags-Addon muss "
-"aktiviert sein, um diese Seite anzuzeigen."
+"Die Seite verwendet zur Anzeige von Frage-tags. HINWEIS: die Tags addon muss "
+"aktiviert werden, die zum Rendern dieser Seite."
 
 #: includes/functions.php:2351
 #, fuzzy
 msgid "Page used to display user profile."
-msgstr "Seite, auf der das Benutzerprofil angezeigt wird."
+msgstr "Die Seite verwendet zur Anzeige von Benutzer-Profil."
 
 #: admin/views/options.php:50
 #, fuzzy
@@ -2936,17 +3004,17 @@ msgstr "Seiten"
 #: includes/post-types.php:160
 #, fuzzy
 msgid "Parent answer:"
-msgstr "Die Antwort der Eltern:"
+msgstr "Eltern beantworten:"
 
 #: includes/post-types.php:83
 #, fuzzy
 msgid "Parent question:"
-msgstr "Frage an die Eltern:"
+msgstr "Übergeordnete Frage:"
 
 #: addons/categories/widget.php:140
 #, fuzzy
 msgid "Parent:"
-msgstr "Elternteil:"
+msgstr "Eltern:"
 
 #: admin/views/options.php:53
 #, fuzzy
@@ -2956,36 +3024,36 @@ msgstr "Permalinks"
 #: admin/views/uninstall.php:45
 #, fuzzy
 msgid "Permanently delete all answers?"
-msgstr "Alle Antworten unwiderruflich löschen?"
+msgstr "Dauerhaft löschen Sie alle Antworten?"
 
 #: admin/views/uninstall.php:28
 #, fuzzy
 msgid "Permanently delete all questions and answers?"
-msgstr "Alle Fragen und Antworten unwiderruflich löschen?"
+msgstr "Dauerhaft löschen Sie alle Fragen und Antworten?"
 
 #: admin/views/uninstall.php:71
 #, fuzzy
 #| msgid "Permanently delete all SmartQ&A options?"
-msgid "Permanently delete all SmartQ&A options?"
-msgstr "Alle SmartQ&A-Optionen dauerhaft löschen?"
+msgid "Permanently delete all SmartQa options?"
+msgstr "Dauerhaft löschen Sie alle SmartQ&A-Optionen?"
 
 #: admin/views/uninstall.php:89
 #, fuzzy
 #| msgid "Permanently delete all SmartQ&A tables?"
-msgid "Permanently delete all SmartQ&A tables?"
-msgstr "Alle SmartQ&A-Tabellen unwiderruflich löschen?"
+msgid "Permanently delete all SmartQa tables?"
+msgstr "Dauerhaft löschen Sie alle SmartQ&tables?"
 
 #: admin/views/uninstall.php:80
 #, fuzzy
 #| msgid "Permanently delete all SmartQ&A terms?"
-msgid "Permanently delete all SmartQ&A terms?"
-msgstr "Alle SmartQ&A-Begriffe dauerhaft löschen?"
+msgid "Permanently delete all SmartQa terms?"
+msgstr "Dauerhaft löschen Sie alle SmartQ&A-Begriffe?"
 
 #: admin/views/uninstall.php:62
 #, fuzzy
 #| msgid "Permanently delete all SmartQ&A user data?"
-msgid "Permanently delete all SmartQ&A user data?"
-msgstr "Alle SmartQ&A-Benutzerdaten unwiderruflich löschen?"
+msgid "Permanently delete all SmartQa user data?"
+msgstr "Dauerhaft löschen Sie alle SmartQ&Ein Benutzer Daten?"
 
 #. Author of the plugin/theme
 #, fuzzy
@@ -2995,24 +3063,24 @@ msgstr "Peter Mertzlin"
 #: includes/functions.php:532
 #, fuzzy
 msgid "Please check captcha field and resubmit it again."
-msgstr "Bitte überprüfe das Captcha-Feld und sende es noch einmal ab."
+msgstr "Überprüfen Sie bitte das captcha-Feld und übermitteln Sie es erneut."
 
 #: includes/class-form-hooks.php:616
 #, fuzzy
 msgid "Please check field"
-msgstr "Bitte Feld ankreuzen"
+msgstr "Bitte überprüfen Feld"
 
 #: admin/class-list-table-hooks.php:470
 #, fuzzy
 msgid "Please fill parent question field, Answer was not saved!"
 msgstr ""
-"Bitte fülle das Feld für die Elternfrage aus, die Antwort wurde nicht "
+"Bitte füllen Sie die übergeordnete Frage, Bereich, Antwort wurde nicht "
 "gespeichert!"
 
 #: templates/addons/user/index.php:27
 #, fuzzy
 msgid "Please login to view your profile"
-msgstr "Bitte melde dich an, um dein Profil zu sehen"
+msgstr "Bitte einloggen, um dein Profil sehen"
 
 #: widgets/leaderboard.php:111
 #, fuzzy
@@ -3022,57 +3090,55 @@ msgstr "Punkte"
 #: addons/reputation/reputation.php:137
 #, fuzzy
 msgid "Points awarded when user account is created"
-msgstr "Punkte, die bei der Erstellung eines Benutzerkontos vergeben werden"
+msgstr "Punkte vergeben, wenn ein Benutzer ein Konto erstellt ist"
 
 #: addons/reputation/reputation.php:156
 #, fuzzy
 msgid "Points awarded when user answers a question"
-msgstr "Punkte werden vergeben, wenn ein Nutzer eine Frage beantwortet"
+msgstr "Punkte vergeben, wenn ein Benutzer eine Frage beantwortet"
 
 #: addons/reputation/reputation.php:147
 #, fuzzy
 msgid "Points awarded when user asks a question"
-msgstr "Punkte werden vergeben, wenn ein Nutzer eine Frage stellt"
+msgstr "Punkte vergeben, wenn ein Benutzer eine Frage stellt"
 
 #: addons/reputation/reputation.php:165
 #, fuzzy
 msgid "Points awarded when user comments on question or answer"
-msgstr ""
-"Punkte werden vergeben, wenn ein Nutzer eine Frage oder Antwort kommentiert"
+msgstr "Punkte vergeben, wenn ein user kommentiert die Frage oder die Antwort"
 
 #: addons/reputation/reputation.php:200
 #, fuzzy
 msgid "Points awarded when user receives a down vote"
-msgstr "Punkte, die vergeben werden, wenn ein Nutzer eine Abwärtsstimme erhält"
+msgstr "Punkte vergeben, wenn ein Benutzer erhält ein down vote"
 
 #: addons/reputation/reputation.php:192
 #, fuzzy
 msgid "Points awarded when user receives an upvote"
-msgstr "Punkte, die vergeben werden, wenn ein Nutzer ein Upvote erhält"
+msgstr "Punkte vergeben, wenn ein Benutzer erhält ein upvote"
 
 #: addons/reputation/reputation.php:174
 #, fuzzy
 msgid "Points awarded when user selects an answer for their question"
 msgstr ""
-"Punkte werden vergeben, wenn der Nutzer eine Antwort auf seine Frage auswählt"
+"Punkte werden vergeben, wenn der Benutzer wählt eine Antwort für Ihre Frage"
 
 #: addons/reputation/reputation.php:183
 #, fuzzy
 msgid "Points awarded when user's answer is selected as best"
 msgstr ""
-"Punkte werden vergeben, wenn die Antwort des Nutzers als beste ausgewählt "
-"wird"
+"Punkte werden vergeben, wenn der Benutzer die Antwort als die beste "
+"ausgewählt"
 
 #: addons/reputation/reputation.php:216
 #, fuzzy
 msgid "Points taken from user when they give a down vote"
-msgstr ""
-"Punkte, die dem Nutzer abgezogen werden, wenn er eine Abwärtsstimme abgibt"
+msgstr "Punkte entnommen Benutzer, wenn Sie geben ein down vote"
 
 #: addons/reputation/reputation.php:208
 #, fuzzy
 msgid "Points taken from user when they give an up vote"
-msgstr "Punkte, die dem Nutzer abgezogen werden, wenn er ein Up-Vote abgibt"
+msgstr "Punkte-Nutzers, wenn Sie ein bis Stimme"
 
 #: addons/tags/tags.php:636 addons/tags/tags.php:702
 #, fuzzy
@@ -3082,22 +3148,22 @@ msgstr "Beliebt"
 #: addons/notifications/query.php:318
 #, fuzzy
 msgid "post"
-msgstr "beitrag"
+msgstr "post"
 
 #: admin/views/dashboard.php:354
 #, fuzzy
 msgid "Post an answer"
-msgstr "Eine Antwort posten"
+msgstr "Poste eine Antwort"
 
 #: includes/class-form-hooks.php:166
 #, fuzzy
 msgid "Post Answer"
-msgstr "Beitrag Antwort"
+msgstr "Post Beantworten"
 
 #: includes/post-status.php:91
 #, fuzzy
 msgid "Post status updated successfully"
-msgstr "Poststatus erfolgreich aktualisiert"
+msgstr "Post-status wurde erfolgreich aktualisiert"
 
 #: includes/post-types.php:157
 #, fuzzy
@@ -3126,7 +3192,7 @@ msgstr "Frage"
 #: addons/email/email.php:765
 #, fuzzy
 msgid "Post updated successfully"
-msgstr "Beitrag erfolgreich aktualisiert"
+msgstr "Post wurde erfolgreich aktualisiert"
 
 #. Translators: %s contain human readable time.
 #. translators: %s is time.
@@ -3135,27 +3201,27 @@ msgstr "Beitrag erfolgreich aktualisiert"
 #: templates/shortcode/question.php:60
 #, fuzzy
 msgid "Posted %s"
-msgstr "Gepostet %s"
+msgstr "Posted %s"
 
 #: addons/reputation/reputation.php:158
 #, fuzzy
 msgid "Posted an answer"
-msgstr "Eine Antwort gepostet"
+msgstr "Eine Antwort geschrieben"
 
 #: addons/notifications/notifications.php:156
 #, fuzzy
 msgid "posted an answer on your question"
-msgstr "eine Antwort auf deine Frage gepostet"
+msgstr "posted Antwort auf Ihre Frage"
 
 #: includes/class/class-activity-helper.php:231
 #, fuzzy
 msgid "Posted new comment"
-msgstr "Neuer Kommentar geschrieben"
+msgstr "Posted neuen Kommentar"
 
 #: admin/views/options.php:79
 #, fuzzy
 msgid "Posting Permissions"
-msgstr "Posting-Erlaubnisse"
+msgstr "Posting-Berechtigungen"
 
 #: admin/class-list-table-hooks.php:158
 #, fuzzy
@@ -3166,14 +3232,14 @@ msgstr "Vorschau"
 #: admin/class-list-table-hooks.php:155
 #, fuzzy
 msgid "Preview &#8220;%s&#8221;"
-msgstr "Vorschau &#8220;%s&#8221;"
+msgstr "Vorschau \"%s\""
 
 #: includes/post-status.php:42
 #, fuzzy
 msgid "Private"
-msgstr "Privat"
+msgstr "Private"
 
-#: admin/SmartQ&A-admin.php:650 admin/SmartQ&A-admin.php:657
+#: admin/smartqa-admin.php:650 admin/smartqa-admin.php:657
 #, fuzzy
 msgid "Private Post"
 msgstr "Private Post"
@@ -3193,11 +3259,11 @@ msgstr "Profil"
 #: addons/recaptcha/recaptcha.php:145
 #, fuzzy
 msgid "Prove that you are a human"
-msgstr "Beweise, dass du ein Mensch bist"
+msgstr "Beweisen Sie, dass Sie ein Mensch sind"
 
-#: admin/SmartQ&A-admin.php:1086 admin/SmartQ&A-admin.php:1096
-#: admin/SmartQ&A-admin.php:1106 admin/SmartQ&A-admin.php:1116
-#: admin/SmartQ&A-admin.php:1126
+#: admin/smartqa-admin.php:1086 admin/smartqa-admin.php:1096
+#: admin/smartqa-admin.php:1106 admin/smartqa-admin.php:1116
+#: admin/smartqa-admin.php:1126
 #, fuzzy
 msgid "Publish"
 msgstr "Veröffentlichen"
@@ -3210,7 +3276,7 @@ msgstr "Veröffentlicht"
 #: addons/buddypress/buddypress.php:106
 #, fuzzy
 msgid "Q&A"
-msgstr "F&A"
+msgstr "Q&A"
 
 #: addons/buddypress/buddypress.php:323 addons/buddypress/buddypress.php:324
 #: admin/meta-box.php:48 includes/ajax-hooks.php:163 includes/comments.php:75
@@ -3224,22 +3290,22 @@ msgstr "Frage"
 #: includes/class-form-hooks.php:872 includes/post-types.php:104
 #, fuzzy
 msgid "question"
-msgstr "frage"
+msgstr "Frage"
 
 #: includes/shortcode-basepage.php:102
 #, fuzzy
 msgid "Question and answer is powered by"
-msgstr "Frage und Antwort werden unterstützt von"
+msgstr "Frage und Antwort ist powered by"
 
 #: widgets/search.php:31
 #, fuzzy
 msgid "Question and answer search form."
-msgstr "Suchformular für Fragen und Antworten."
+msgstr "Frage-und-Antwort-Suche form."
 
-#: admin/SmartQ&A-admin.php:928
+#: admin/smartqa-admin.php:928
 #, fuzzy
 msgid "Question avatar size"
-msgstr "Frage Avatargröße"
+msgstr "Frage avatar Größe"
 
 #: addons/categories/categories.php:188 addons/categories/categories.php:349
 msgid "Question Categories"
@@ -3248,27 +3314,27 @@ msgstr "Kategorien"
 #: addons/categories/categories.php:814
 #, fuzzy
 msgid "Question category feed"
-msgstr "Frage-Kategorie-Feed"
+msgstr "Frage feed Kategorie"
 
 #: includes/ajax-hooks.php:378
 #, fuzzy
 msgid "Question closed"
 msgstr "Frage geschlossen"
 
-#: admin/SmartQ&A-admin.php:1261
+#: admin/smartqa-admin.php:1261
 #, fuzzy
 msgid "Question editor?"
-msgstr "Frage Editor?"
+msgstr "Fragen-editor?"
 
 #: includes/class-theme.php:198
 #, fuzzy
 msgid "Question Feed"
-msgstr "Frage Zuführung"
+msgstr "Frage Feed"
 
 #: includes/class/class-activity-helper.php:339
 #, fuzzy
 msgid "Question id is required."
-msgstr "Die Frage-ID ist erforderlich."
+msgstr "Frage-id erforderlich ist."
 
 #: includes/class-form-hooks.php:42
 #, fuzzy
@@ -3278,17 +3344,17 @@ msgstr "Frage in einem Satz"
 #: includes/post-status.php:122
 #, fuzzy
 msgid "Question is closed for new answers."
-msgstr "Die Frage ist für neue Antworten geschlossen."
+msgstr "Frage ist geschlossen für neue Antworten."
 
 #: includes/ajax-hooks.php:262
 #, fuzzy
 msgid "Question is deleted permanently"
-msgstr "Frage wird endgültig gelöscht"
+msgstr "Die Frage ist, endgültig gelöscht"
 
 #: includes/ajax-hooks.php:349
 #, fuzzy
 msgid "Question is marked as featured."
-msgstr "Die Frage ist als \"featured\" markiert."
+msgstr "Frage gekennzeichnet als featured."
 
 #: includes/ajax-hooks.php:378
 #, fuzzy
@@ -3298,22 +3364,22 @@ msgstr "Frage ist geöffnet"
 #: includes/ajax-hooks.php:326
 #, fuzzy
 msgid "Question is unmarked as featured."
-msgstr "Die Frage ist nicht als \"featured\" gekennzeichnet."
+msgstr "Frage nicht markiert ist, als vorgestellt."
 
-#: admin/SmartQ&A-admin.php:858
+#: admin/smartqa-admin.php:858
 #, fuzzy
 msgid "Question permalink"
 msgstr "Frage permalink"
 
-#: admin/SmartQ&A-admin.php:852
+#: admin/smartqa-admin.php:852
 #, fuzzy
 msgid "Question slug"
-msgstr "Frage Schnecke"
+msgstr "Frage slug"
 
 #: widgets/question_stats.php:111
 #, fuzzy
 msgid "Question stats"
-msgstr "Frage-Statistiken"
+msgstr "Frage stats"
 
 #: addons/tags/tags.php:190 addons/tags/tags.php:230
 #, fuzzy
@@ -3323,18 +3389,20 @@ msgstr "Frage Tags"
 #: includes/class-form-hooks.php:45
 #, fuzzy
 msgid "Question title"
-msgstr "Frage Titel"
+msgstr "Frage title"
 
 #: includes/class-form-hooks.php:515
 #, fuzzy
 msgid "Question updated successfully, you'll be redirected in a moment."
-msgstr "Frage erfolgreich aktualisiert, wirst du gleich weitergeleitet."
+msgstr ""
+"Frage wurde erfolgreich aktualisiert haben, werden Sie umgeleitet, in einem "
+"Augenblick."
 
 #. Translators: %s contain time to publish.
 #: includes/common-pages.php:93
 #, fuzzy
 msgid "Question will be published in %s"
-msgstr "Die Frage wird in %s veröffentlicht"
+msgstr "Frage veröffentlicht wird in %s"
 
 #: addons/buddypress/buddypress.php:116 addons/buddypress/buddypress.php:210
 #: addons/profile/profile.php:50 addons/profile/profile.php:162
@@ -3349,37 +3417,37 @@ msgstr "Fragen"
 #: addons/profile/profile.php:96
 #, fuzzy
 msgid "Questions page slug"
-msgstr "Fragen Seite Slug"
+msgstr "Fragen Seite slug"
 
 #: addons/profile/profile.php:91
 #, fuzzy
 msgid "Questions page title"
-msgstr "Fragen Seitentitel"
+msgstr "Fragen page title"
 
-#: admin/SmartQ&A-admin.php:946
+#: admin/smartqa-admin.php:946
 #, fuzzy
 msgid "Questions per page"
-msgstr "Fragen pro Seite"
+msgstr "Fragen je Seite"
 
-#: admin/SmartQ&A-admin.php:947
+#: admin/smartqa-admin.php:947
 #, fuzzy
 msgid "Questions to show per page."
-msgstr "Fragen, die pro Seite angezeigt werden sollen."
+msgstr "Fragen pro Seite angezeigt werden sollen."
 
-#: admin/SmartQ&A-admin.php:1262 admin/SmartQ&A-admin.php:1268
+#: admin/smartqa-admin.php:1262 admin/smartqa-admin.php:1268
 #, fuzzy
 msgid "Quick tags editor"
-msgstr "Quick Tags Editor"
+msgstr "Quick Tag editor"
 
 #: admin/views/options.php:94
 #, fuzzy
 msgid "Re-count"
-msgstr "Nachzählen"
+msgstr "Re-count"
 
 #: admin/views/options.php:76
 #, fuzzy
 msgid "Reading Permissions"
-msgstr "Leseerlaubnis"
+msgstr "Lesen Von Berechtigungen"
 
 #: addons/recaptcha/recaptcha.php:82 includes/functions.php:1657
 #, fuzzy
@@ -3389,107 +3457,107 @@ msgstr "reCaptcha"
 #: addons/recaptcha/recaptcha.php:113
 #, fuzzy
 msgid "Recaptcha Method"
-msgstr "Recaptcha Methode"
+msgstr "Recaptcha-Methode"
 
 #: addons/recaptcha/recaptcha.php:108
 #, fuzzy
 msgid "Recaptcha secret key"
-msgstr "Recaptcha Geheimschlüssel"
+msgstr "Recaptcha secret key"
 
 #: addons/recaptcha/recaptcha.php:103
 #, fuzzy
 msgid "Recaptcha site key"
-msgstr "Recaptcha Website-Schlüssel"
+msgstr "Recaptcha-site-Taste"
 
 #: addons/reputation/reputation.php:202
 #, fuzzy
 msgid "Received a down vote"
-msgstr "Erhielt eine Ablehnung"
+msgstr "Erhielt einen runter abstimmen"
 
 #: addons/reputation/reputation.php:194
 #, fuzzy
 msgid "Received an upvote"
-msgstr "Erhielt eine Upvote"
+msgstr "Erhalten Sie ein upvote"
 
 #: addons/reputation/reputation.php:199
 #, fuzzy
 msgid "Received down vote"
-msgstr "Abgestimmt wurde"
+msgstr "Erhielt nach unten Stimmen"
 
 #: addons/reputation/reputation.php:191
 #, fuzzy
 msgid "Received up vote"
-msgstr "Erhaltene Stimme nach oben"
+msgstr "Empfangen vote"
 
 #: admin/views/select_question.php:40
 #, fuzzy
 msgid "Recently active questions"
-msgstr "Kürzlich aktive Fragen"
+msgstr "Zuletzt aktiv Fragen"
 
 #: admin/views/recount.php:23
 #, fuzzy
 msgid "Recount Answers"
-msgstr "Antworten nachzählen"
+msgstr "Erzählen Antworten"
 
 #: admin/views/recount.php:24
 #, fuzzy
 msgid "Recount answers of every question."
-msgstr "Zähle die Antworten auf jede Frage auf."
+msgstr "Erzählen Sie Antworten zu jeder Frage."
 
 #: admin/views/recount.php:27
 #, fuzzy
 msgid "Recount Flags"
-msgstr "Nachzählungsflaggen"
+msgstr "Erzählen Flags"
 
 #: admin/views/recount.php:28
 #, fuzzy
 msgid "Recount flags on questions and answers."
-msgstr "Zählfahnen auf Fragen und Antworten."
+msgstr "Erzählen Flaggen auf Fragen und Antworten."
 
 #: admin/views/recount.php:97
 #, fuzzy
 msgid "Recount question views"
-msgstr "Ansichten zur Nachzählungsfrage"
+msgstr "Erzählen Frage die Ansichten"
 
 #: admin/views/recount.php:35
 #, fuzzy
 msgid "Recount Reputation"
-msgstr "Reputation nachzählen"
+msgstr "Erzählen Ansehen"
 
 #: admin/views/recount.php:36
 #, fuzzy
 msgid "Recount reputation of all users."
-msgstr "Zähle den Ruf aller Nutzer neu."
+msgstr "Erzählen Ruf von alle Benutzer."
 
 #: admin/views/recount.php:31
 #, fuzzy
 msgid "Recount Subscribers"
-msgstr "Nachzählung Abonnenten"
+msgstr "Erzählen Abonnenten"
 
 #: admin/views/recount.php:32
 #, fuzzy
 msgid "Recount subscribers of questions."
-msgstr "Zähle die Teilnehmer der Fragen nach."
+msgstr "Erzählen die Teilnehmer über Fragen."
 
 #: admin/views/recount.php:101
 #, fuzzy
 msgid "Recount views count of all questions."
-msgstr "Zähle die Ansichten aller Fragen nach."
+msgstr "Erzählen Ansichten Zählung aller Fragen."
 
 #: admin/views/recount.php:19
 #, fuzzy
 msgid "Recount Votes"
-msgstr "Stimmen nachzählen"
+msgstr "Erzählen Sie Stimmen"
 
 #: admin/views/recount.php:20
 #, fuzzy
 msgid "Recount votes of questions and answers."
-msgstr "Zähle die Stimmen der Fragen und Antworten neu."
+msgstr "Erzählen Sie Stimmen der Fragen und Antworten."
 
 #: templates/login-signup.php:23
 #, fuzzy
 msgid "Register"
-msgstr "Register"
+msgstr "Registrieren"
 
 #: addons/reputation/reputation.php:139
 #, fuzzy
@@ -3499,7 +3567,7 @@ msgstr "Registriert"
 #: addons/reputation/reputation.php:136
 #, fuzzy
 msgid "Registration"
-msgstr "Anmeldung"
+msgstr "Registrierung"
 
 #: addons/categories/categories.php:609
 #, fuzzy
@@ -3509,7 +3577,7 @@ msgstr "Bild entfernen"
 #: addons/tags/tags.php:346
 #, fuzzy
 msgid "removed from the tags list."
-msgstr "aus der Liste der Tags entfernt."
+msgstr "entfernt von der Tag-Liste."
 
 #: admin/updater.php:91
 #, fuzzy
@@ -3520,54 +3588,54 @@ msgstr "Erneuern?"
 #: addons/reputation/reputation.php:450 includes/functions.php:1641
 #, fuzzy
 msgid "Reputation"
-msgstr "Reputation"
+msgstr "Ruf"
 
 #: widgets/leaderboard.php:119
 #, fuzzy
 msgid "Reputation add-on is not active."
-msgstr "Das Reputations-Add-on ist nicht aktiv."
+msgstr "Ruf add-on ist nicht aktiv."
 
 #: addons/reputation/reputation.php:92
 #, fuzzy
 msgid "Reputation event points can be adjusted here :"
-msgstr "Die Punkte für das Reputationsereignis können hier angepasst werden:"
+msgstr "Ruf event-Punkte können hier angepasst werden :"
 
 #: addons/reputation/reputation.php:92
 #, fuzzy
 msgid "Reputation Points"
-msgstr "Reputationspunkte"
+msgstr "Ruf Punkte"
 
 #: addons/reputation/reputation.php:45 addons/reputation/reputation.php:490
 #: addons/reputation/reputation.php:554
 #, fuzzy
 msgid "Reputations"
-msgstr "Reputationen"
+msgstr "Ruf"
 
 #: addons/reputation/reputation.php:111
 #, fuzzy
 msgid "Reputations page slug"
-msgstr "Reputations page slug"
+msgstr "Ruf Seite slug"
 
 #: addons/reputation/reputation.php:106
 #, fuzzy
 msgid "Reputations page title"
-msgstr "Reputationen Seitentitel"
+msgstr "Ruf Seitentitel"
 
 #. translators: %s contains name of the form requested.
-#: SmartQ&A-question-answer.php:483
+#: smartqa-question-answer.php:483
 #, fuzzy
 msgid "Requested form: %s is not registered ."
-msgstr "Das angeforderte Formular: %s ist nicht registriert."
+msgstr "Gewünschten form: %s ist nicht registriert ."
 
 #: admin/views/dashboard.php:29
 #, fuzzy
 msgid "Require Attention"
-msgstr "Aufmerksamkeit erfordern"
+msgstr "Die Aufmerksamkeit Erfordern"
 
 #: includes/theme.php:725
 #, fuzzy
 msgid "Reset sorting and filter"
-msgstr "Sortierung und Filter zurücksetzen"
+msgstr "Zurücksetzen der Sortierung und filter"
 
 #: admin/class-list-table-hooks.php:135
 #, fuzzy
@@ -3577,27 +3645,27 @@ msgstr "Wiederherstellen"
 #: admin/class-list-table-hooks.php:135
 #, fuzzy
 msgid "Restore this item from the Trash"
-msgstr "Dieses Element aus dem Papierkorb wiederherstellen"
+msgstr "Wiederherstellen Sie das Element aus dem Papierkorb"
 
 #: includes/ajax-hooks.php:212 includes/theme.php:295
 #, fuzzy
 msgid "Restore this post"
-msgstr "Diesen Beitrag wiederherstellen"
+msgstr "Wiederherstellen dieser Beitrag"
 
 #: includes/functions.php:1311
 #, fuzzy
 msgid "restored answer"
-msgstr "wiederhergestellte Antwort"
+msgstr "wiederhergestellt Antwort"
 
 #: includes/functions.php:1310
 #, fuzzy
 msgid "restored question"
-msgstr "wiederhergestellte Frage"
+msgstr "wiederhergestellt Frage"
 
 #: admin/views/options.php:85
 #, fuzzy
 msgid "Role Editor"
-msgstr "Rolle Redakteur"
+msgstr "Rolle Editor"
 
 #: admin/views/roles.php:68
 #, fuzzy
@@ -3607,7 +3675,7 @@ msgstr "Rollenname"
 #: admin/views/roles.php:69
 #, fuzzy
 msgid "Role slug, without any space"
-msgstr "Role Slug, ohne Leerzeichen"
+msgstr "Rolle slug, ohne Platz"
 
 #: admin/views/licenses.php:56
 #, fuzzy
@@ -3617,32 +3685,32 @@ msgstr "Speichern"
 #: addons/akismet/akismet.php:89 addons/avatar/avatar.php:115
 #, fuzzy
 msgid "Save add-on options"
-msgstr "Add-on Optionen speichern"
+msgstr "Speichern Sie add-on-Optionen"
 
 #: admin/views/reputation-events.php:34
 #, fuzzy
 msgid "Save Events Points"
-msgstr "Ereignispunkte speichern"
+msgstr "Speichern Sie Ereignisse Punkte"
 
-#: admin/SmartQ&A-admin.php:800
+#: admin/smartqa-admin.php:800
 #, fuzzy
 msgid "Save Pages"
-msgstr "Seiten speichern"
+msgstr "Speichern Von Seiten"
 
-#: admin/SmartQ&A-admin.php:849
+#: admin/smartqa-admin.php:849
 #, fuzzy
 msgid "Save Permalinks"
-msgstr "Permalinks speichern"
+msgstr "Speichern Permalinks"
 
 #: admin/views/roles.php:140
 #, fuzzy
 msgid "Save Role"
-msgstr "Rolle speichern"
+msgstr "Speichern Sie Rolle"
 
 #: templates/single-question.php:77
 #, fuzzy
 msgid "Scheduled for"
-msgstr "Geplant für"
+msgstr "Geplant"
 
 #: includes/common-pages.php:27 templates/addons/tag/tags.php:25
 #: templates/functions.php:53 templates/search-form.php:20
@@ -3654,42 +3722,42 @@ msgstr "Suche"
 #: includes/options.php:104
 #, fuzzy
 msgid "Search \"%s\""
-msgstr "Suche \"%s\""
+msgstr "Suche nach \"%s\""
 
 #: includes/post-types.php:167
 #, fuzzy
 msgid "Search answers"
-msgstr "Antworten suchen"
+msgstr "Suche nach Antworten"
 
 #: addons/categories/categories.php:195
 #, fuzzy
 msgid "Search Category"
-msgstr "Kategorie suchen"
+msgstr "Suche Nach Kategorie"
 
-#: admin/SmartQ&A-admin.php:880
+#: admin/smartqa-admin.php:880
 #, fuzzy
 msgid "Search page title"
-msgstr "Titel der Suchseite"
+msgstr "Titel-Suche-Seite"
 
 #: includes/post-types.php:90 widgets/search.php:67
 #, fuzzy
 msgid "Search questions"
-msgstr "Fragen suchen"
+msgstr "Suche Fragen"
 
 #: templates/search-form.php:22
 #, fuzzy
 msgid "Search questions..."
-msgstr "Suchfragen..."
+msgstr "Suche Fragen..."
 
 #: addons/tags/tags.php:197
 #, fuzzy
 msgid "Search Tag"
-msgstr "Tag suchen"
+msgstr "Suche Nach Tags"
 
 #: templates/addons/tag/tags.php:27
 #, fuzzy
 msgid "Search tags"
-msgstr "Tags suchen"
+msgstr "Search-tags"
 
 #: templates/addons/notification/index.php:37
 #, fuzzy
@@ -3700,117 +3768,110 @@ msgstr "Gesehen"
 #: includes/ajax-hooks.php:122 includes/theme.php:763
 #, fuzzy
 msgid "Select"
-msgstr "Wähle"
+msgstr "Wählen Sie"
 
 #: admin/views/select_question.php:21
 #, fuzzy
 msgid "Select a question for new answer"
-msgstr "Wähle eine Frage für eine neue Antwort"
+msgstr "Wählen Sie eine Frage neue Antwort"
 
 #: addons/categories/categories.php:424
 #, fuzzy
 msgid "Select a topic that best fits your question."
-msgstr "Wähle ein Thema, das am besten zu deiner Frage passt."
+msgstr "Wählen Sie ein Thema aus, das am besten passt Ihre Frage."
 
-#: admin/SmartQ&A-admin.php:521
+#: admin/smartqa-admin.php:521
 #, fuzzy
 msgid "Select All"
-msgstr "Alle auswählen"
+msgstr "Alle Auswählen"
 
 #: lib/form/class-select.php:92
 #, fuzzy
 msgid "Select an option"
-msgstr "Wähle eine Option"
+msgstr "Wählen Sie eine option"
 
 #: includes/mce-languages.php:30
 #, fuzzy
 msgid "Select File"
-msgstr "Datei auswählen"
+msgstr "Wählen Sie Datei"
 
 #: lib/form/class-upload.php:100
 #, fuzzy
 msgid "Select file(s) to upload"
-msgstr "Datei(en) zum Hochladen auswählen"
+msgstr "Wählen Sie die Datei(en) hochladen"
 
 #: addons/avatar/avatar.php:123
 #, fuzzy
 msgid "Select font family for avatar letters."
-msgstr "Wähle die Schriftfamilie für die Avatarbuchstaben aus."
+msgstr "Wählen Sie schriftart Familie für avatar Buchstaben."
 
 #: includes/upload.php:165
 #, fuzzy
 msgid "Select image file to upload"
-msgstr "Bilddatei zum Hochladen auswählen"
+msgstr "Wählen Sie Bild aus Datei hochladen"
 
 #: includes/class-form-hooks.php:1002
 #, fuzzy
 msgid "Select image(s) to upload. Only .jpg, .png and .gif files allowed."
-msgstr ""
-"Wähle ein oder mehrere Bilder zum Hochladen aus. Nur .jpg, .png und .gif "
-"Dateien sind erlaubt."
+msgstr "Select image(s) hochladen. Nur .jpg, .png und .gif-Dateien erlaubt."
 
 #: addons/recaptcha/recaptcha.php:114
 #, fuzzy
 msgid "Select method to use when verification keeps failing"
-msgstr ""
-"Wähle die Methode aus, die du verwenden willst, wenn die Überprüfung immer "
-"wieder fehlschlägt"
+msgstr "Select-Methode verwenden, wenn die überprüfung keeps failing"
 
 #: addons/recaptcha/recaptcha.php:124
 #, fuzzy
 msgid "Select roles for which reCaptcha will be hidden."
-msgstr "Wähle die Rollen aus, für die reCaptcha ausgeblendet werden soll."
+msgstr "Wählen Sie die Rollen für das reCaptcha werden ausgeblendet."
 
-#: admin/SmartQ&A-admin.php:859
+#: admin/smartqa-admin.php:859
 #, fuzzy
 msgid "Select single question permalink structure."
-msgstr "Wähle eine einzelne Frage mit Permalink-Struktur aus."
+msgstr "Wählen Sie einzelne Frage, die permalink-Struktur."
 
 #: admin/views/emails.php:39
 #, fuzzy
 msgid "Select Template"
-msgstr "Vorlage auswählen"
+msgstr "Vorlage Auswählen"
 
-#: admin/SmartQ&A-admin.php:1362
+#: admin/smartqa-admin.php:1362
 #, fuzzy
 msgid "Select the roles to exclude in activity feed."
-msgstr ""
-"Wähle die Rollen aus, die im Aktivitätsfeed ausgeschlossen werden sollen."
+msgstr "Wählen Sie die Rollen, um auszuschließen, activity feed."
 
 #: addons/email/email.php:229
 #, fuzzy
 msgid "Select the types of notification which will be sent to user."
 msgstr ""
-"Wähle die Arten von Benachrichtigungen aus, die an die Benutzer gesendet "
-"werden sollen."
+"Wählen Sie die Arten von Benachrichtigungen, die gesendet werden zu Benutzer."
 
 #: includes/theme.php:762
 #, fuzzy
 msgid "Select this answer as best"
-msgstr "Wähle diese Antwort als beste aus"
+msgstr "Wählen Sie diese Antwort als die beste"
 
 #: addons/email/email.php:179
 #, fuzzy
 msgid "Select types of notification which will be sent to admin."
 msgstr ""
-"Wähle die Arten von Benachrichtigungen aus, die an den Administrator "
-"gesendet werden sollen."
+"Wählen Sie Arten von Benachrichtigungen, die gesendet werden an den admin."
 
 #: admin/views/roles.php:98
 #, fuzzy
 msgid "Select user role"
-msgstr "Benutzerrolle auswählen"
+msgstr "Wählen Sie Benutzer-Rolle"
 
 #: templates/addons/user/answer-item.php:63
 #: templates/buddypress/answer-item.php:55
 #, fuzzy
 msgid "Selected"
-msgstr "Ausgewählte"
+msgstr "Ausgewählt"
 
 #: addons/reputation/reputation.php:176
 #, fuzzy
 msgid "Selected an answer as best"
-msgstr "Eine Antwort als beste ausgewählt"
+msgstr "Ausgewählt als beste Antwort"
 
 #: includes/functions.php:1319
 #, fuzzy
@@ -3820,190 +3881,184 @@ msgstr "ausgewählte Antwort"
 #: includes/class/class-activity-helper.php:241
 #, fuzzy
 msgid "Selected answer as best"
-msgstr "Ausgewählte Antwort als beste"
+msgstr "Ausgewählt als beste Antwort"
 
 #: includes/functions.php:1322
 #, fuzzy
 msgid "selected as best answer"
-msgstr "als beste Antwort ausgewählt"
+msgstr "ausgewählt als beste Antwort"
 
-#: admin/SmartQ&A-admin.php:1363
+#: admin/smartqa-admin.php:1363
 #, fuzzy
 msgid "Selected role's activities will be excluded in site activity feed."
 msgstr ""
-"Die Aktivitäten der ausgewählten Rolle werden im Site Activity Feed "
-"ausgeschlossen."
+"Die ausgewählte Rolle die Aktivitäten werden ausgeschlossen site activity "
+"feed."
 
 #: addons/notifications/notifications.php:193
 #, fuzzy
 msgid "selected your answer"
-msgstr "deine Antwort ausgewählt"
+msgstr "ausgewählte deine Antwort"
 
 #: addons/reputation/reputation.php:173
 #, fuzzy
 msgid "Selecting an Answer"
-msgstr "Auswählen einer Antwort"
+msgstr "Die Auswahl einer Antwort"
 
 #: addons/email/email.php:257
 #, fuzzy
 msgid "Send edit answer notification to user?"
-msgstr ""
-"Benachrichtigung über die Bearbeitung der Antwort an den Benutzer senden?"
+msgstr "Senden Sie Bearbeiten Antwort Benachrichtigung zu Benutzer?"
 
 #: addons/email/email.php:251
 #, fuzzy
 msgid "Send edit question notification to user?"
-msgstr "Benachrichtigung über Bearbeitungsfragen an Benutzer senden?"
+msgstr "Senden Sie Bearbeiten Frage Benachrichtigung zu Benutzer?"
 
 #: addons/email/email.php:212
 #, fuzzy
 msgid "Send email to admin when answer is edited."
-msgstr ""
-"Sende eine E-Mail an den Administrator, wenn die Antwort bearbeitet wurde."
+msgstr "Senden Sie eine Mail an admin bei der Antwort bearbeitet wird."
 
 #: addons/email/email.php:224
 #, fuzzy
 msgid "Send email to admin when answer is trashed."
-msgstr ""
-"Sende eine E-Mail an den Administrator, wenn die Antwort gelöscht wurde."
+msgstr "Senden Sie eine Mail an admin bei der Antwort ist kaputt."
 
 #: addons/email/email.php:218
 #, fuzzy
 msgid "Send email to admin when question is trashed."
-msgstr "Sende eine E-Mail an den Administrator, wenn die Frage gelöscht wurde."
+msgstr "Senden Sie eine Mail an admin bei der Frage ist kaputt."
 
 #: addons/email/email.php:194
 #, fuzzy
 msgid "Send new answer notification to admin."
-msgstr "Benachrichtigung über neue Antworten an den Administrator senden."
+msgstr "Senden Sie neue Antwort Benachrichtigung an den admin."
 
 #: addons/email/email.php:239
 #, fuzzy
 msgid "Send new answer notification to user?"
-msgstr "Benachrichtigung über neue Antworten an Benutzer senden?"
+msgstr "Senden Sie neue Antwort Benachrichtigung zu Benutzer?"
 
 #: addons/email/email.php:200
 #, fuzzy
 msgid "Send new comment notification to admin."
-msgstr "Benachrichtigung über neue Kommentare an den Administrator senden."
+msgstr "Senden Sie neue Kommentar-Benachrichtigung an den admin."
 
 #: addons/email/email.php:245
 #, fuzzy
 msgid "Send new comment notification to user?"
-msgstr "Benachrichtigung über neue Kommentare an Benutzer senden?"
+msgstr "Senden Sie neue Kommentar-Benachrichtigung an Benutzer?"
 
 #: addons/email/email.php:188
 #, fuzzy
 msgid "Send new question notification to admin."
-msgstr "Benachrichtigung über neue Fragen an den Administrator senden."
+msgstr "Senden Sie neue Frage Benachrichtigung an den admin."
 
 #: addons/email/email.php:233
 #, fuzzy
 msgid "Send new question notification to user?"
-msgstr "Benachrichtigung über neue Fragen an Benutzer senden?"
+msgstr "Senden Sie neue Frage Benachrichtigung zu Benutzer?"
 
 #: addons/email/email.php:206
 #, fuzzy
 msgid "Send notification to admin when question is edited."
-msgstr ""
-"Sende eine Benachrichtigung an den Administrator, wenn die Frage bearbeitet "
-"wird."
+msgstr "Senden einer Mitteilung an den admin bei der Frage bearbeitet wird."
 
 #: addons/email/email.php:263
 #, fuzzy
 msgid "Send notification to user when their answer get selected?"
-msgstr ""
-"Eine Benachrichtigung an den Nutzer senden, wenn seine Antwort ausgewählt "
-"wurde?"
+msgstr "Senden einer Mitteilung an den Benutzer, wenn Ihre Antwort ausgewählt?"
 
 #: templates/functions.php:42
 #, fuzzy
 msgid "Sending request"
-msgstr "Anfrage abschicken"
+msgstr "Anfrage senden"
 
-#: admin/SmartQ&A-admin.php:683
+#: admin/smartqa-admin.php:683
 #, fuzzy
 msgid "Set automatically"
-msgstr "Automatisch einstellen"
+msgstr "Automatisch eingestellt"
 
 #: addons/categories/categories.php:565
 #, fuzzy
 msgid "Set background color to be used with icon"
-msgstr "Hintergrundfarbe für das Symbol festlegen"
+msgstr "Set hintergrund Farbe, um verwendet werden mit dem Symbol"
 
 #: addons/categories/categories.php:277 addons/categories/categories.php:290
 #, fuzzy
 msgid "Set how you want to order categories in categories page."
 msgstr ""
-"Lege fest, wie du die Kategorien auf der Kategorieseite anordnen möchtest."
+"Einstellen, wie Sie möchten, um die Kategorien in der Kategorien-Seite."
 
 #: addons/categories/categories.php:264
 #, fuzzy
 msgid "Set how you want to order categories in form."
-msgstr "Lege fest, wie du die Kategorien im Formular anordnen willst."
+msgstr "Einstellen, wie Sie möchten, um Kategorien in form."
 
-#: admin/SmartQ&A-admin.php:1167
+#: admin/smartqa-admin.php:1167
 #, fuzzy
 msgid "Set maximum upload size."
-msgstr "Lege die maximale Upload-Größe fest."
+msgstr "Legen Sie die maximale upload-Größe."
 
-#: admin/SmartQ&A-admin.php:1310
+#: admin/smartqa-admin.php:1310
 #, fuzzy
 msgid "Set minimum letters for a answer contents."
-msgstr "Lege Mindestbuchstaben für den Inhalt einer Antwort fest."
+msgstr "Mindest-Buchstaben für eine Antwort Inhalte."
 
-#: admin/SmartQ&A-admin.php:1256
+#: admin/smartqa-admin.php:1256
 #, fuzzy
 msgid "Set minimum letters for a question contents."
-msgstr "Lege Mindestbuchstaben für den Inhalt einer Frage fest."
+msgstr "Mindest-Buchstaben für die Frage der Inhalte."
 
-#: admin/SmartQ&A-admin.php:1250
+#: admin/smartqa-admin.php:1250
 #, fuzzy
 msgid "Set minimum letters for a question title."
-msgstr "Lege die Mindestbuchstaben für einen Fragentitel fest."
+msgstr "Mindest-Buchstaben für die Frage Titel."
 
-#: admin/SmartQ&A-admin.php:1162
+#: admin/smartqa-admin.php:1162
 #, fuzzy
 msgid "Set numbers of media user can upload for each post."
 msgstr ""
-"Lege die Anzahl der Medien fest, die du für jeden Beitrag hochladen kannst."
+"Legen zahlen der media-Benutzer können hochladen, für jeden einzelnen "
+"Beitrag."
 
-#: admin/SmartQ&A-admin.php:683
+#: admin/smartqa-admin.php:683
 #, fuzzy
 msgid "Set set by yourself"
-msgstr "Selber einstellen"
+msgstr "Set von selbst"
 
-#: admin/SmartQ&A-admin.php:1072
+#: admin/smartqa-admin.php:1072
 #, fuzzy
 msgid "Set who can submit a comment from frontend."
-msgstr "Lege fest, wer einen Kommentar im Frontend abgeben kann."
+msgstr "Festlegen, wer kann Einreichen eine Kommentar-frontend."
 
-#: admin/SmartQ&A-admin.php:1032
+#: admin/smartqa-admin.php:1032
 #, fuzzy
 msgid "Set who can submit a question from frontend."
-msgstr "Lege fest, wer im Frontend eine Frage stellen kann."
+msgstr "Festlegen, wer kann uns eine Frage aus dem frontend."
 
-#: admin/SmartQ&A-admin.php:1043
+#: admin/smartqa-admin.php:1043
 #, fuzzy
 msgid "Set who can submit an answer from frontend."
-msgstr "Lege fest, wer eine Antwort vom Frontend aus senden kann."
+msgstr "Festlegen, wer kann Einreichen eine Antwort vom frontend."
 
-#: admin/SmartQ&A-admin.php:993
+#: admin/smartqa-admin.php:993
 #, fuzzy
 msgid "Set who can view or read a answer."
-msgstr "Lege fest, wer eine Antwort sehen oder lesen kann."
+msgstr "Set, die anzeigen können, oder Lesen Sie eine Antwort."
 
-#: admin/SmartQ&A-admin.php:1004
+#: admin/smartqa-admin.php:1004
 #, fuzzy
 msgid "Set who can view or read a comment."
-msgstr "Lege fest, wer einen Kommentar sehen oder lesen kann."
+msgstr "Set, die anzeigen können Lesen oder einen Kommentar."
 
-#: admin/SmartQ&A-admin.php:982
+#: admin/smartqa-admin.php:982
 #, fuzzy
 msgid "Set who can view or read a question."
-msgstr "Lege fest, wer eine Frage sehen oder lesen kann."
+msgstr "Set, die anzeigen können, oder Lesen Sie eine Frage."
 
-#: admin/SmartQ&A-admin.php:211 admin/SmartQ&A-admin.php:312
+#: admin/smartqa-admin.php:211 admin/smartqa-admin.php:312
 #, fuzzy
 msgid "Settings"
 msgstr "Einstellungen"
@@ -4012,17 +4067,17 @@ msgstr "Einstellungen"
 #: includes/comments.php:407
 #, fuzzy
 msgid "Show %s more comments"
-msgstr "Zeige %s weitere Kommentare"
+msgstr "Show %s mehr Kommentare"
 
 #: widgets/breadcrumbs.php:29
 #, fuzzy
-msgid "Show current SmartQ&A page navigation"
-msgstr "Aktuelle SmartQ&A Seitennavigation anzeigen"
+msgid "Show current smartqa page navigation"
+msgstr "Aktuelle smartqa Seitennavigation"
 
-#: admin/SmartQ&A-admin.php:1218
+#: admin/smartqa-admin.php:1218
 #, fuzzy
 msgid "Show default date format"
-msgstr "Standard-Datumsformat anzeigen"
+msgstr "Show default date format"
 
 #: addons/avatar/avatar.php:136
 #, fuzzy
@@ -4030,21 +4085,21 @@ msgstr "Standard-Datumsformat anzeigen"
 #| "Show SmartQ&A avatars by default instead of gravatar fallback. Useful in "
 #| "localhost development."
 msgid ""
-"Show SmartQ&A avatars by default instead of gravatar fallback. Useful in "
+"Show SmartQa avatars by default instead of gravatar fallback. Useful in "
 "localhost development."
 msgstr ""
-"Zeigt standardmäßig SmartQ&A-Avatare anstelle des Gravatar-Fallbacks. "
-"Nützlich für die Entwicklung auf dem lokalen Host."
+"Zeigen SmartQ&A Avatare standardmäßig anstelle von gravatar fallback. "
+"Nützliche localhost Entwicklung."
 
-#: admin/SmartQ&A-admin.php:1224
+#: admin/smartqa-admin.php:1224
 #, fuzzy
 msgid "Show solved prefix"
-msgstr "Gelöstes Präfix anzeigen"
+msgstr "Karte gelöst Präfix"
 
 #: widgets/leaderboard.php:158
 #, fuzzy
 msgid "Show users:"
-msgstr "Benutzer anzeigen:"
+msgstr "Karte Benutzer:"
 
 #. translators: %d is currently paged value.
 #: templates/content-none.php:29
@@ -4053,28 +4108,28 @@ msgid ""
 "Showing results with pagination active, you are currently on page %d. Click "
 "here to return to the initial page"
 msgstr ""
-"Bei den Ergebnissen mit aktiver Paginierung befindest du dich derzeit auf "
-"Seite %d. Klicke hier, um zur Ausgangsseite zurückzukehren"
+"Zeige Ergebnisse mit Seitenzählung aktiv ist, werden Sie derzeit auf Seite "
+"%d.... Klicken Sie hier, um zurück auf die Startseite"
 
 #: widgets/questions.php:30
 #, fuzzy
 msgid "Shows list of question shorted by option."
-msgstr "Zeigt die Liste der Fragen an, die mit einer Option verkürzt wurden."
+msgstr "Sie zeigt eine Liste der in Frage kurzgeschlossen option."
 
 #: widgets/question_stats.php:33
 #, fuzzy
 msgid "Shows question stats in single question page."
-msgstr "Zeigt die Fragenstatistiken auf einer einzelnen Frageseite an."
+msgstr "Zeigt Statistiken in Frage einzigen Frage Seite."
 
 #: widgets/leaderboard.php:31
 #, fuzzy
 msgid "Shows users leaderboard."
-msgstr "Zeigt die Benutzerrangliste an."
+msgstr "Zeigt Benutzer-Bestenliste."
 
 #: admin/updater.php:101
 #, fuzzy
 msgid "Site is inactive."
-msgstr "Die Seite ist inaktiv."
+msgstr "Website inaktiv ist."
 
 #: admin/views/select_question.php:22
 #, fuzzy
@@ -4082,180 +4137,180 @@ msgid ""
 "Slowly type for question suggestion and then click select button right to "
 "question title."
 msgstr ""
-"Tippe langsam für den Fragenvorschlag ein und klicke dann auf die "
-"Auswahltaste rechts neben dem Fragentitel."
+"Langsam geben für die Frage, Anregung und klicken Sie dann auf die "
+"Schaltfläche rechts in Frage zu stellen Titel."
 
 #: addons/categories/categories.php:269 addons/categories/categories.php:282
 #: addons/categories/widget.php:163
 #, fuzzy
 msgid "Slug"
-msgstr "Schnecke"
+msgstr "Slug"
 
-#: admin/SmartQ&A-admin.php:853
+#: admin/smartqa-admin.php:853
 #, fuzzy
 msgid "Slug for single question page."
-msgstr "Slug für eine einzelne Frageseite."
+msgstr "Slug für einzelne Frage-Seite."
 
 #: addons/tags/tags.php:276
 #, fuzzy
 msgid "Slug for tag page"
-msgstr "Slug für Tag-Seite"
+msgstr "Slug für tag-Seite"
 
 #: widgets/ask-form.php:29
 #, fuzzy
 #| msgid "SmartQ&A ask form widget"
-msgid "SmartQ&A ask form widget"
-msgstr "SmartQ&A ask form widget"
+msgid "SmartQa ask form widget"
+msgstr "SmartQ&A-Fragen-Formular-widget"
 
 #: includes/class/roles-cap.php:56
 #, fuzzy
 #| msgid "SmartQ&A Banned"
-msgid "SmartQ&A Banned"
-msgstr "SmartQ&A Geächtet"
+msgid "SmartQa Banned"
+msgstr "SmartQ&A-Verboten"
 
 #: admin/views/roles.php:91
 #, fuzzy
 #| msgid "SmartQ&A capabilities"
-msgid "SmartQ&A capabilities"
-msgstr "SmartQ&A-Fähigkeiten"
+msgid "SmartQa capabilities"
+msgstr "SmartQ&Fähigkeiten"
 
 #: lib/form/class-checkbox.php:44
 #, fuzzy
 #| msgid "SmartQ&A Checkbox Field"
-msgid "SmartQ&A Checkbox Field"
-msgstr "SmartQ&A Checkbox Feld"
+msgid "SmartQa Checkbox Field"
+msgstr "SmartQ&Ein Checkbox-Feld"
 
-#: admin/SmartQ&A-admin.php:676
+#: admin/smartqa-admin.php:676
 #, fuzzy
 #| msgid "SmartQ&A database is not updated."
-msgid "SmartQ&A database is not updated."
-msgstr "Die SmartQ&A-Datenbank wird nicht aktualisiert."
+msgid "SmartQa database is not updated."
+msgstr "SmartQ&A-Datenbank wird nicht aktualisiert."
 
 #: lib/form/class-editor.php:54
 #, fuzzy
 #| msgid "SmartQ&A Editor Field"
-msgid "SmartQ&A Editor Field"
-msgstr "SmartQ&A Editor Feld"
+msgid "SmartQa Editor Field"
+msgstr "SmartQ&Ein Editor-Feld"
 
 #: lib/form/class-group.php:52
 #, fuzzy
 #| msgid "SmartQ&A Group Field"
-msgid "SmartQ&A Group Field"
-msgstr "SmartQ&A Gruppe Feld"
+msgid "SmartQa Group Field"
+msgstr "SmartQ&A-Gruppen-Feld"
 
 #: lib/form/class-input.php:55
 #, fuzzy
 #| msgid "SmartQ&A Input Field"
-msgid "SmartQ&A Input Field"
-msgstr "SmartQ&A Eingabefeld"
+msgid "SmartQa Input Field"
+msgstr "SmartQ&Ein Input-Feld"
 
-#: SmartQ&A-question-answer.php:44
+#: smartqa-question-answer.php:44
 #, fuzzy
 #| msgid "SmartQ&A is not running!"
-msgid "SmartQ&A is not running!"
-msgstr "SmartQ&A läuft nicht!"
+msgid "SmartQa is not running!"
+msgstr "SmartQ&A ist nicht in Betrieb!"
 
 #: widgets/leaderboard.php:137
 #, fuzzy
 #| msgid "SmartQ&A Leader board"
-msgid "SmartQ&A Leader board"
-msgstr "SmartQ&A-Leaderboard"
+msgid "SmartQa Leader board"
+msgstr "SmartQ&Leader-board"
 
 #: includes/theme.php:938
 #, fuzzy
 #| msgid "SmartQ&A links"
-msgid "SmartQ&A links"
-msgstr "SmartQ&A Links"
+msgid "SmartQa links"
+msgstr "SmartQ&links"
 
 #: includes/class/roles-cap.php:51
 #, fuzzy
 #| msgid "SmartQ&A Moderator"
-msgid "SmartQ&A Moderator"
-msgstr "SmartQ&A-Moderator"
+msgid "SmartQa Moderator"
+msgstr "SmartQ&Moderator"
 
 #: admin/views/options.php:217
 #, fuzzy
 #| msgid "SmartQ&A option updated successfully!"
-msgid "SmartQ&A option updated successfully!"
-msgstr "SmartQ&A-Option erfolgreich aktualisiert!"
+msgid "SmartQa option updated successfully!"
+msgstr "SmartQ&A-option erfolgreich aktualisiert!"
 
 #: admin/views/dashboard.php:341
 #, fuzzy
 #| msgid "SmartQ&A Options"
-msgid "SmartQ&A Options"
-msgstr "SmartQ&A Optionen"
+msgid "SmartQa Options"
+msgstr "SmartQ&A-Optionen"
 
 #: includes/class/roles-cap.php:55
 #, fuzzy
 #| msgid "SmartQ&A Participants"
-msgid "SmartQ&A Participants"
-msgstr "SmartQ&A Teilnehmer"
+msgid "SmartQa Participants"
+msgstr "SmartQ&A-Teilnehmer"
 
 #. Plugin Name of the plugin/theme
 #, fuzzy
 #| msgid "SmartQ&A Question Answer"
-msgid "SmartQ&A Question Answer"
+msgid "SmartQa Question Answer"
 msgstr "SmartQ&A Frage Antwort"
 
 #: lib/form/class-radio.php:44
 #, fuzzy
 #| msgid "SmartQ&A Radio Field"
-msgid "SmartQ&A Radio Field"
-msgstr "SmartQ&A Funkfeld"
+msgid "SmartQa Radio Field"
+msgstr "SmartQ&Radio Bereich"
 
 #: addons/recaptcha/recaptcha/class-captcha.php:47
 #, fuzzy
 #| msgid "SmartQ&A reCaptcha Field"
-msgid "SmartQ&A reCaptcha Field"
-msgstr "SmartQ&A reCaptcha Feld"
+msgid "SmartQa reCaptcha Field"
+msgstr "SmartQ&A-reCaptcha-Feld"
 
 #: lib/form/class-repeatable.php:59
 #, fuzzy
 #| msgid "SmartQ&A Repeatable Field"
-msgid "SmartQ&A Repeatable Field"
-msgstr "SmartQ&A Wiederholbares Feld"
+msgid "SmartQa Repeatable Field"
+msgstr "SmartQ&Repeatable Field"
 
 #: lib/form/class-select.php:44
 #, fuzzy
 #| msgid "SmartQ&A Select Field"
-msgid "SmartQ&A Select Field"
-msgstr "SmartQ&A Feld auswählen"
+msgid "SmartQa Select Field"
+msgstr "SmartQ&Ein Select-Feld"
 
-#: admin/SmartQ&A-admin.php:211 admin/views/options.php:157
+#: admin/smartqa-admin.php:211 admin/views/options.php:157
 #, fuzzy
 #| msgid "SmartQ&A Settings"
-msgid "SmartQ&A Settings"
-msgstr "SmartQ&A Einstellungen"
+msgid "SmartQa Settings"
+msgstr "SmartQ&Settings"
 
 #: includes/shortcode-basepage.php:76
 #, fuzzy
 #| msgid "SmartQ&A shortcode cannot be nested."
-msgid "SmartQ&A shortcode cannot be nested."
-msgstr "SmartQ&A Shortcodes können nicht verschachtelt werden."
+msgid "SmartQa shortcode cannot be nested."
+msgstr "SmartQ&Eine Kurzwahlnummer können nicht geschachtelt werden."
 
 #: lib/form/class-tags.php:44
 #, fuzzy
 #| msgid "SmartQ&A Tags Field"
-msgid "SmartQ&A Tags Field"
-msgstr "SmartQ&A Tags Feld"
+msgid "SmartQa Tags Field"
+msgstr "SmartQ&A-Tags-Feld"
 
 #: lib/form/class-textarea.php:44
 #, fuzzy
 #| msgid "SmartQ&A Textarea Field"
-msgid "SmartQ&A Textarea Field"
-msgstr "SmartQ&A Textarea Feld"
+msgid "SmartQa Textarea Field"
+msgstr "SmartQ&Ein Textarea-Feld"
 
 #: lib/form/class-upload.php:98
 #, fuzzy
 #| msgid "SmartQ&A Upload Field"
-msgid "SmartQ&A Upload Field"
-msgstr "SmartQ&A Upload Feld"
+msgid "SmartQa Upload Field"
+msgstr "SmartQ&Ein Upload-Feld"
 
-#: admin/SmartQ&A-admin.php:1244
+#: admin/smartqa-admin.php:1244
 #, fuzzy
 #| msgid "SmartQ&A will not strip stop words in question slug."
-msgid "SmartQ&A will not strip stop words in question slug."
-msgstr "SmartQ&A entfernt keine Stoppwörter im Fragetext."
+msgid "SmartQa will not strip stop words in question slug."
+msgstr "SmartQ&A wird nicht strip-stop-Wörter in Frage slug."
 
 #: includes/qaquery.php:447
 #, fuzzy
@@ -4268,8 +4323,8 @@ msgid ""
 "Some features have additional settings which will be visible in the settings "
 "sidebar after they are enabled."
 msgstr ""
-"Für einige Funktionen gibt es zusätzliche Einstellungen, die nach ihrer "
-"Aktivierung in der Einstellungsseitenleiste sichtbar werden."
+"Einige Funktionen sind zusätzliche Einstellungen, die sichtbar in den "
+"Einstellungen Seitenleiste, nachdem Sie aktiviert sind."
 
 #: addons/notifications/query.php:272
 #, fuzzy
@@ -4279,17 +4334,17 @@ msgstr "Jemand"
 #: includes/functions.php:515
 #, fuzzy
 msgid "Something went wrong, last action failed."
-msgstr "Etwas ist schief gelaufen, die letzte Aktion ist fehlgeschlagen."
+msgstr "Ging etwas schief, Letzte Aktion fehlgeschlagen."
 
 #: includes/common-pages.php:157
 #, fuzzy
 msgid "Something went wrong, please try again"
-msgstr "Etwas ist schief gelaufen, bitte versuche es erneut"
+msgstr "Ging etwas schief, bitte versuchen Sie es erneut"
 
 #: classes/ajax.php:208
 #, fuzzy
 msgid "Something went wrong."
-msgstr "Etwas ist schief gelaufen."
+msgstr "Etwas ging schief."
 
 #: lib/form/class-editor.php:211
 #, fuzzy
@@ -4297,8 +4352,8 @@ msgid ""
 "Sorry an error occured while processing your image, please remove it and "
 "insert again"
 msgstr ""
-"Leider ist bei der Verarbeitung deines Bildes ein Fehler aufgetreten. Bitte "
-"entferne es und füge es erneut ein"
+"Leider ist ein Fehler aufgetreten, während der Bearbeitung Ihr Bild, bitte "
+"entfernen Sie es und legen Sie wieder"
 
 #: templates/content-none.php:18
 #, fuzzy
@@ -4308,67 +4363,67 @@ msgstr "Sorry! Keine Frage gefunden."
 #: includes/common-pages.php:86
 #, fuzzy
 msgid "Sorry! you are not allowed to read this question."
-msgstr "Sorry! Du darfst diese Frage nicht lesen."
+msgstr "Sorry! Sie sind nicht erlaubt zu Lesen diese Frage."
 
 #: includes/upload.php:135 includes/upload.php:186
 #, fuzzy
 msgid "Sorry! you do not have permission to upload image."
-msgstr "Sorry! Du hast keine Erlaubnis, ein Bild hochzuladen."
+msgstr "Sorry! Sie haben keine Berechtigung zum hochladen von Bildern."
 
 #: lib/form/class-upload.php:442
 #, fuzzy
 msgid "Sorry, this file type is not permitted for security reasons."
-msgstr "Dieser Dateityp ist aus Sicherheitsgründen leider nicht erlaubt."
+msgstr "Sorry, dieser Dateityp ist nicht zulässig, aus Gründen der Sicherheit."
 
 #: includes/comments.php:116
 #, fuzzy
 msgid "Sorry, unable to approve comment"
-msgstr "Sorry, Kommentar kann nicht genehmigt werden"
+msgstr "Sorry, unable to approve comment"
 
 #: includes/ajax-hooks.php:232
 #, fuzzy
 msgid "Sorry, unable to delete post"
-msgstr "Sorry, ich kann den Beitrag nicht löschen"
+msgstr "Sorry, unable to delete post"
 
 #: includes/ajax-hooks.php:507 includes/ajax-hooks.php:534
 #, fuzzy
 msgid "Sorry, unable to subscribe"
-msgstr "Sorry, kann nicht abonnieren"
+msgstr "Sorry, nicht in der Lage zu abonnieren"
 
 #: includes/ajax-hooks.php:436
 #, fuzzy
 msgid "Sorry, you are not allowed to convert this question to post"
-msgstr "Sorry, du darfst diese Frage nicht in einen Beitrag umwandeln"
+msgstr "Sorry, Sie sind nicht erlaubt zu konvertieren, diese Frage zu posten"
 
 #: includes/common-pages.php:190
 #, fuzzy
 msgid "Sorry, you cannot edit this answer."
-msgstr "Tut mir leid, du kannst diese Antwort nicht bearbeiten."
+msgstr "Sorry, Sie können nicht Bearbeiten dieses Antwort."
 
 #: includes/ajax-hooks.php:298
 #, fuzzy
 msgid "Sorry, you cannot toggle a featured question"
-msgstr "Leider kannst du eine angezeigte Frage nicht umschalten"
+msgstr "Sorry, Sie können nicht ändern, featured Frage"
 
 #: includes/comments.php:346
 #, fuzzy
 msgid "Sorry, you do not have permission to read comments."
-msgstr "Tut mir leid, du hast keine Erlaubnis, Kommentare zu lesen."
+msgstr "Sorry, Sie haben nicht die Berechtigung, um Kommentare zu Lesen."
 
 #: admin/ajax.php:266
 #, fuzzy
 msgid "Sorry, you do not have permission!"
-msgstr "Tut mir leid, du hast keine Erlaubnis!"
+msgstr "Sorry, Sie haben keine Berechtigung!"
 
 #: templates/functions.php:54
 #, fuzzy
 msgid "Sorry, you don't have permission to read comments."
-msgstr "Tut mir leid, du hast keine Erlaubnis, Kommentare zu lesen."
+msgstr "Sorry, Sie haben nicht die Berechtigung, um Kommentare zu Lesen."
 
 #: lib/form/class-upload.php:424
 #, fuzzy
 msgid "Specified file failed upload test."
-msgstr "Die angegebene Datei hat den Upload-Test nicht bestanden."
+msgstr "Angegebene Datei nicht hochladen test."
 
 #: admin/class-list-table-hooks.php:206 admin/class-list-table-hooks.php:321
 #: includes/theme.php:284
@@ -4376,30 +4431,30 @@ msgstr "Die angegebene Datei hat den Upload-Test nicht bestanden."
 msgid "Status"
 msgstr "Status"
 
-#: admin/SmartQ&A-admin.php:1112
+#: admin/smartqa-admin.php:1112
 #, fuzzy
 msgid "Status of edited answer"
-msgstr "Status der bearbeiteten Antwort"
+msgstr "Status bearbeitet beantworten"
 
-#: admin/SmartQ&A-admin.php:1092
+#: admin/smartqa-admin.php:1092
 #, fuzzy
 msgid "Status of edited question"
 msgstr "Status der bearbeiteten Frage"
 
-#: admin/SmartQ&A-admin.php:1102
+#: admin/smartqa-admin.php:1102
 #, fuzzy
 msgid "Status of new answer"
-msgstr "Status der neuen Antwort"
+msgstr "Status neue Antwort"
 
-#: admin/SmartQ&A-admin.php:1082
+#: admin/smartqa-admin.php:1082
 #, fuzzy
 msgid "Status of new question"
-msgstr "Status der neuen Frage"
+msgstr "Status neue Frage stellen"
 
-#: admin/SmartQ&A-admin.php:1122
+#: admin/smartqa-admin.php:1122
 #, fuzzy
 msgid "Status of non-loggedin post"
-msgstr "Status des nicht eingeloggten Beitrags"
+msgstr "Der Status der nicht-loggedin-post"
 
 #: templates/addons/category/single-category.php:69
 #, fuzzy
@@ -4414,12 +4469,12 @@ msgstr "Einreichen"
 #: includes/class-form-hooks.php:248
 #, fuzzy
 msgid "Submit Comment"
-msgstr "Kommentar abgeben"
+msgstr "Kommentar Abgeben"
 
 #: includes/class-form-hooks.php:37
 #, fuzzy
 msgid "Submit Question"
-msgstr "Frage einreichen"
+msgstr "Frage Senden"
 
 #: includes/ajax-hooks.php:522 includes/theme.php:890
 #, fuzzy
@@ -4431,68 +4486,68 @@ msgstr "Abonnieren"
 msgid "Success"
 msgstr "Erfolg"
 
-#: lib/class-SmartQ&A-cli.php:90
+#: lib/class-smartqa-cli.php:90
 #, fuzzy
 msgid "Successfully enabled addon"
-msgstr "Addon erfolgreich aktiviert"
+msgstr "Erfolgreich aktiviert addon"
 
 #: admin/ajax.php:285
 #, fuzzy
 msgid "Successfully enabled addon. Redirecting!"
-msgstr "Addon erfolgreich aktiviert. Umleiten!"
+msgstr "Erfolgreich aktiviert addon. Umleitung!"
 
-#: lib/class-SmartQ&A-upgrader.php:275 lib/class-SmartQ&A-upgrader.php:283
+#: lib/class-smartqa-upgrader.php:275 lib/class-smartqa-upgrader.php:283
 #, fuzzy
 msgid "Successfully migrated all reputations"
-msgstr "Erfolgreich alle Reputationen migriert"
+msgstr "Erfolgreich migriert alle Ruf"
 
 #: includes/ajax-hooks.php:542
 #, fuzzy
 msgid "Successfully subscribed to question"
-msgstr "Erfolgreich an der Frage teilgenommen"
+msgstr "Erfolgreich abonniert Frage"
 
 #: includes/ajax-hooks.php:520
 #, fuzzy
 msgid "Successfully unsubscribed from question"
-msgstr "Erfolgreich von der Frage abgemeldet"
+msgstr "Erfolgreich abgemeldet Frage"
 
 #: addons/notifications/notifications.php:505
 #, fuzzy
 msgid "Successfully updated all notifications"
-msgstr "Erfolgreich alle Benachrichtigungen aktualisiert"
+msgstr "Erfolgreich aktualisiert alle Meldungen"
 
 #: addons/reputation/reputation.php:279
 #, fuzzy
 msgid "Successfully updated reputation points!"
-msgstr "Rufpunkte erfolgreich aktualisiert!"
+msgstr "Erfolgreich aktualisiert reputation Punkte!"
 
 #: includes/upload.php:223
 #, fuzzy
 msgid "Successfully uploaded image"
-msgstr "Erfolgreich hochgeladenes Bild"
+msgstr "Erfolgreich hochgeladenen Bild"
 
 #: addons/tags/tags.php:347
 #, fuzzy
 msgid "Suggestions are available. Use the up and down arrow keys to read it."
 msgstr ""
-"Es sind Vorschläge verfügbar. Benutze die Pfeiltasten nach oben und unten, "
-"um sie zu lesen."
+"Vorschläge sind verfügbar. Verwenden Sie die aufwärts-und abwärtspfeiltasten,"
+" um es zu Lesen."
 
 #: includes/functions.php:1661
 #, fuzzy
 msgid "Syntax Highlighter"
-msgstr "Syntax-Highlighter"
+msgstr "Syntax Highlighter"
 
 #: addons/tags/tags.php:39 addons/tags/tags.php:191 addons/tags/tags.php:242
 #: addons/tags/tags.php:583 admin/class-list-table-hooks.php:203
 #, fuzzy
 msgid "Tag"
-msgstr "Tag"
+msgstr "Tags"
 
 #: addons/tags/tags.php:275
 #, fuzzy
 msgid "Tag page slug"
-msgstr "Tag page slug"
+msgstr "Tag-Seite slug"
 
 #: includes/taxo.php:347
 #, fuzzy
@@ -4507,8 +4562,8 @@ msgid ""
 "Tagging will helps others to easily find your question. Minimum %1$d and "
 "maximum %2$d tags."
 msgstr ""
-"Das Taggen hilft anderen, deine Frage leichter zu finden. Mindestens %1$d "
-"und maximal %2$d Tags."
+"Tagging hilft anderen, leicht zu finden, Ihre Frage. Mindestens %1$d \" und "
+"\" maximale %2$d tags."
 
 #: addons/tags/tags.php:40 addons/tags/tags.php:230 addons/tags/tags.php:314
 #: addons/tags/tags.php:393 addons/tags/tags.php:464 addons/tags/tags.php:478
@@ -4525,22 +4580,22 @@ msgstr "Tags Seite"
 #: addons/tags/tags.php:257
 #, fuzzy
 msgid "Tags to show"
-msgstr "Tags zum Anzeigen"
+msgstr "Tags anzeigen"
 
 #: addons/categories/widget.php:164
 #, fuzzy
 msgid "Term group"
-msgstr "Begriffsgruppe"
+msgstr "Begriff Gruppe"
 
 #: includes/flag.php:54
 #, fuzzy
 msgid "Thank you for reporting this post."
-msgstr "Danke, dass du diesen Beitrag gemeldet hast."
+msgstr "Danke für die Meldung dieses post."
 
 #: includes/votes.php:107
 #, fuzzy
 msgid "Thank you for voting."
-msgstr "Danke, dass du abgestimmt hast."
+msgstr "Wir danken Ihnen für die Stimmabgabe."
 
 #: templates/activities/activities.php:44
 #, fuzzy
@@ -4554,19 +4609,18 @@ msgid ""
 "The comment is locked and cannot be deleted. Any comments posted before %s "
 "cannot be deleted."
 msgstr ""
-"Der Kommentar ist gesperrt und kann nicht gelöscht werden. Kommentare, die "
-"vor %s gepostet wurden, können nicht gelöscht werden."
+"Der Kommentar ist gesperrt und kann nicht gelöscht werden. Alle Kommentare, "
+"bevor Sie %s kann nicht gelöscht werden."
 
 #. Description of the plugin/theme
 #, fuzzy
 msgid "The most advance community question and answer system for WordPress"
-msgstr ""
-"Das fortschrittlichste Community Frage- und Antwortsystem für WordPress"
+msgstr "Die Voraus-community-Frage-und-Antwort-system für WordPress"
 
 #: admin/views/emails.php:59
 #, fuzzy
 msgid "The template selected here will appear below."
-msgstr "Die hier ausgewählte Vorlage wird unten angezeigt."
+msgstr "Die Vorlage ausgewählt, hier wird unten erscheinen."
 
 #: lib/class-validate.php:622
 #, fuzzy
@@ -4574,8 +4628,8 @@ msgid ""
 "The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in "
 "the HTML form"
 msgstr ""
-"Die hochgeladene Datei überschreitet die MAX_FILE_SIZE-Direktive, die im "
-"HTML-Formular angegeben wurde"
+"Die hochgeladene Datei überschreitet die MAX_FILE_SIZE Richtlinie angegeben "
+"wurde, die in das HTML-Formular"
 
 #: lib/form/class-upload.php:396
 #, fuzzy
@@ -4583,21 +4637,21 @@ msgid ""
 "The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in "
 "the HTML form."
 msgstr ""
-"Die hochgeladene Datei überschreitet die MAX_FILE_SIZE-Direktive, die im "
-"HTML-Formular angegeben wurde."
+"Die hochgeladene Datei überschreitet die MAX_FILE_SIZE Richtlinie angegeben "
+"wurde in den HTML-Formular."
 
 #: lib/class-validate.php:621
 #, fuzzy
 msgid "The uploaded file exceeds the upload_max_filesize directive in php.ini"
 msgstr ""
 "Die hochgeladene Datei überschreitet die upload_max_filesize Direktive in "
-"php.ini"
+"der php.ini"
 
 #: lib/form/class-upload.php:395
 #, fuzzy
 msgid "The uploaded file exceeds the upload_max_filesize directive in php.ini."
 msgstr ""
-"Die hochgeladene Datei überschreitet die Richtlinie upload_max_filesize in "
+"Die hochgeladene Datei überschreitet die upload_max_filesize Direktive in "
 "der php.ini."
 
 #: lib/class-validate.php:623
@@ -4627,8 +4681,8 @@ msgid ""
 "There are no questions matching your query or you do not have permission to "
 "read them."
 msgstr ""
-"Es gibt keine Fragen, die zu deiner Anfrage passen, oder du hast nicht die "
-"Erlaubnis, sie zu lesen."
+"Es gibt keine Fragen die mit Ihrer Suchanfrage übereinstimmen oder Sie keine "
+"Berechtigung haben, Sie zu Lesen."
 
 #: admin/updater.php:237
 msgid ""
@@ -4651,41 +4705,41 @@ msgstr ""
 #: includes/class-form-hooks.php:813
 #, fuzzy
 msgid "There is no change in your comment."
-msgstr "An deinem Kommentar hat sich nichts geändert."
+msgstr "Es ist keine änderung in Ihrem Kommentar."
 
 #: lib/class-validate.php:620
 #, fuzzy
 msgid "There is no error, the file uploaded with success"
-msgstr "Es liegt kein Fehler vor, die Datei wurde erfolgreich hochgeladen"
+msgstr "Es gibt keine Fehlermeldung, die Datei wurde hochgeladen mit Erfolg"
 
 #. translators: %s is name of wp hook.
-#: admin/SmartQ&A-admin.php:1460
+#: admin/smartqa-admin.php:1460
 #, fuzzy
 msgid ""
 "There is no option registered by this addon. Custom options can be "
 "registered by using hook: %s"
 msgstr ""
-"Es gibt keine Option, die von diesem Addon registriert wird. "
-"Benutzerdefinierte Optionen können über den Haken: %s registriert werden"
+"Es gibt keine option, registriert von diesem addon. Benutzerdefinierte "
+"Optionen registriert werden können durch die Verwendung von Haken: %s"
 
 #: addons/notifications/notifications.php:493
 #, fuzzy
 msgid "There was a problem processing your request"
-msgstr "Es gab ein Problem bei der Bearbeitung deiner Anfrage"
+msgstr "Es gab ein problem bei der Bearbeitung Ihrer Anfrage"
 
 #. translators: %s is post type.
 #: includes/post-status.php:125
 #, fuzzy
 msgid "This %s has been trashed, you can delete it permanently from wp-admin."
-msgstr "Dieses %s wurde gelöscht. Du kannst es im wp-admin dauerhaft löschen."
+msgstr "Diese %s wurde verwüstet, löschen Sie es dauerhaft von wp-admin."
 
 #. translators: %s is post type.
 #: includes/post-status.php:116
 #, fuzzy
 msgid "This %s is marked as a private, only admin and post author can see."
 msgstr ""
-"Dieses %s ist als privat markiert, nur der Admin und der Autor des Beitrags "
-"können es sehen."
+"Das %s ist gekennzeichnet als ein eigenes, nur mit admin-und post-Autors "
+"sehen können."
 
 #. translators: %s is post type.
 #: includes/post-status.php:129
@@ -4694,14 +4748,14 @@ msgid ""
 "This %s is not published yet and is not accessible to anyone until it get "
 "published."
 msgstr ""
-"Dieses %s wurde noch nicht veröffentlicht und ist für niemanden zugänglich, "
-"bis es veröffentlicht wird."
+"Das %s ist noch nicht veröffentlicht und ist nicht für jedermann zugänglich, "
+"bis Sie veröffentlicht."
 
 #. translators: %s is post type.
 #: includes/post-status.php:120
 #, fuzzy
 msgid "This %s is waiting for the approval by the moderator."
-msgstr "Dieser %s wartet auf die Genehmigung des Moderators."
+msgstr "Das %s ist auf die Zustimmung der Moderatoren."
 
 #: ajax/toggle-best-answer.php:80
 #, fuzzy
@@ -4709,25 +4763,25 @@ msgid ""
 "This answer cannot be selected as best, update status to select as best "
 "answer."
 msgstr ""
-"Diese Antwort kann nicht als beste Antwort ausgewählt werden, aktualisiere "
-"den Status, um sie als beste Antwort auszuwählen."
+"Diese Antwort kann nicht als die beste ausgewählt, update-status zu wählen "
+"\" als beste Antwort."
 
 #: templates/addons/user/answer-item.php:63
 #: templates/buddypress/answer-item.php:55
 #, fuzzy
 msgid "This answer is selected as best"
-msgstr "Diese Antwort wird als beste ausgewählt"
+msgstr "Diese Antwort als die beste ausgewählt"
 
 #: lib/form/class-upload.php:110
 #, fuzzy
 msgid "This file type is not allowed to upload."
-msgstr "Dieser Dateityp kann nicht hochgeladen werden."
+msgstr "Dieser Dateityp ist nicht erlaubt hochladen."
 
 #. translators: %s is human time difference.
 #: includes/ajax-hooks.php:199
 #, fuzzy
 msgid "This post was created %s, hence you cannot trash it"
-msgstr "Dieser Beitrag wurde %s erstellt, daher kannst du ihn nicht löschen"
+msgstr "Dieser Beitrag wurde erstellt, %s, damit Sie nicht trash"
 
 #: includes/common-pages.php:84
 #, fuzzy
@@ -4735,8 +4789,8 @@ msgid ""
 "This question is awaiting moderation and cannot be viewed. Please check back "
 "later."
 msgstr ""
-"Diese Frage wird gerade moderiert und kann nicht angezeigt werden. Bitte "
-"schau später noch einmal vorbei."
+"Diese Frage wartet auf moderation und kann nicht angezeigt werden. "
+"Überprüfen Sie bitte zurück später."
 
 #: includes/common-pages.php:97
 #, fuzzy
@@ -4744,33 +4798,33 @@ msgid ""
 "This question is not published yet and is not accessible to anyone until it "
 "get published."
 msgstr ""
-"Diese Frage wurde noch nicht veröffentlicht und ist für niemanden zugänglich,"
-" bis sie veröffentlicht wird."
+"Diese Frage ist noch nicht veröffentlicht und ist nicht für jedermann "
+"zugänglich, bis Sie veröffentlicht."
 
 #: admin/class-list-table-hooks.php:359
 #, fuzzy
 msgid "This question is orphan, no question is selected for this answer"
-msgstr "Diese Frage ist verwaist, keine Frage ist für diese Antwort ausgewählt"
+msgstr "Diese Frage ist Waise, keine Frage ausgewählt wird, für diese Antwort"
 
 #: widgets/question_stats.php:93
 #, fuzzy
 msgid "This widget can only be used in single question page"
-msgstr "Dieses Widget kann nur auf einer einzelnen Frageseite verwendet werden"
+msgstr "Dieses widget kann nur verwendet werden in Einzel-Frage-Seite"
 
 #: admin/class-list-table-hooks.php:196 includes/class-form-hooks.php:41
 #, fuzzy
 msgid "Title"
 msgstr "Titel"
 
-#: admin/SmartQ&A-admin.php:887
+#: admin/smartqa-admin.php:887
 #, fuzzy
 msgid "Title of the author page"
-msgstr "Titel der Autorenseite"
+msgstr "Titel Autor Seite"
 
-#: admin/SmartQ&A-admin.php:881
+#: admin/smartqa-admin.php:881
 #, fuzzy
 msgid "Title of the search page"
-msgstr "Titel der Suchseite"
+msgstr "Titel der Seite suchen"
 
 #: addons/categories/widget.php:132 widgets/ask-form.php:78
 #: widgets/leaderboard.php:146 widgets/question_stats.php:115
@@ -4787,7 +4841,7 @@ msgstr "Heute"
 #: admin/views/options.php:33
 #, fuzzy
 msgid "Toggle Features"
-msgstr "Umschaltbare Funktionen"
+msgstr "Toggle Features"
 
 #: addons/categories/widget.php:142
 #, fuzzy
@@ -4797,12 +4851,12 @@ msgstr "Oberste Ebene"
 #: admin/class-list-table-hooks.php:137 admin/meta-box.php:77
 #, fuzzy
 msgid "Trash"
-msgstr "Papierkorb"
+msgstr "Trash"
 
 #: addons/akismet/akismet.php:96
 #, fuzzy
 msgid "Trash the post"
-msgstr "Lösche den Beitrag"
+msgstr "Trash the post"
 
 #: includes/class/class-activity-helper.php:216
 #, fuzzy
@@ -4812,86 +4866,84 @@ msgstr "Trashed"
 #: admin/views/options.php:21
 #, fuzzy
 msgid "Trying to cheat, huh!"
-msgstr "Du versuchst zu schummeln, hm!"
+msgstr "Versuchen, zu betrügen, nicht wahr!"
 
 #: addons/email/email.php:690 classes/ajax.php:129
 #: includes/class-form-hooks.php:339 includes/class-form-hooks.php:567
 #: includes/class-form-hooks.php:779
 #, fuzzy
 msgid "Trying to cheat?!"
-msgstr "Versuchst du zu betrügen?!"
+msgstr "Versuchen, zu betrügen?!"
 
-#: lib/class-SmartQ&A-cli.php:87
+#: lib/class-smartqa-cli.php:87
 #, fuzzy
 msgid ""
 "Unable to activate addon. May be its already active or wrong name passed."
 msgstr ""
-"Addon kann nicht aktiviert werden. Möglicherweise ist es bereits aktiv oder "
-"es wurde ein falscher Name übergeben."
+"Nicht in der Lage zu aktivieren addon. Sein bereits aktiv oder falsch-name "
+"übergeben."
 
 #: includes/upload.php:48
 #, fuzzy
 msgid "Unable to delete attachment"
-msgstr "Anhang kann nicht gelöscht werden"
+msgstr "Nicht löschen Anhang"
 
 #: includes/qameta.php:129
 #, fuzzy
 #| msgid "Unable to insert SmartQ&A qameta"
-msgid "Unable to insert SmartQ&A qameta"
-msgstr "SmartQ&A qameta kann nicht eingefügt werden"
+msgid "Unable to insert SmartQa qameta"
+msgstr "Nicht einfügen SmartQ&A qameta"
 
 #: addons/email/email.php:717 includes/class-form-hooks.php:610
 #, fuzzy
 msgid "Unable to post answer."
-msgstr "Ich kann keine Antwort posten."
+msgstr "Keine-post-Antwort."
 
 #. Translators: placeholder contain error message.
 #: includes/class-form-hooks.php:677
 #, fuzzy
 msgid "Unable to post answer. Error: %s"
-msgstr "Antwort kann nicht gepostet werden. Fehler: %s"
+msgstr "Keine-post-Antwort. Fehler: %s"
 
 #: includes/class-form-hooks.php:788
 #, fuzzy
 msgid "Unable to post comment."
-msgstr "Du kannst keinen Kommentar abgeben."
+msgstr "Nicht zu posten ein Kommentar."
 
 #: includes/class-form-hooks.php:380 includes/class-form-hooks.php:414
 #, fuzzy
 msgid "Unable to post question."
-msgstr "Du kannst die Frage nicht posten."
+msgstr "Nicht nach post-Frage."
 
 #. Translators: placeholder contain error message.
 #: includes/class-form-hooks.php:471
 #, fuzzy
 msgid "Unable to post question. Error: %s"
-msgstr "Frage kann nicht gestellt werden. Fehler: %s"
+msgstr "Nicht nach post-Frage. Fehler: %s"
 
 #: addons/recaptcha/recaptcha/class-captcha.php:98
 #, fuzzy
 #| msgid ""
 #| "Unable to render captcha. Please add reCpatcha keys in SmartQ&A options."
-msgid "Unable to render captcha. Please add reCpatcha keys in SmartQ&A options."
+msgid "Unable to render captcha. Please add reCpatcha keys in SmartQa options."
 msgstr ""
-"Captcha kann nicht gerendert werden. Bitte füge reCpatcha-Schlüssel in den "
-"SmartQ&A-Optionen hinzu."
+"Unmöglich captcha. Bitte fügen Sie reCpatcha Schlüssel in SmartQ&A-Optionen."
 
 #. Translators: placeholder contain error message.
 #: addons/email/email.php:739
 #, fuzzy
 msgid "Unable to save template. Error: %s"
-msgstr "Vorlage kann nicht gespeichert werden. Fehler: %s"
+msgstr "Keine Vorlage speichern. Fehler: %s"
 
 #: includes/ajax-hooks.php:154
 #, fuzzy
 msgid "Unable to trash this post"
-msgstr "Dieser Beitrag kann nicht gelöscht werden"
+msgstr "Nicht in den Papierkorb, diesem post"
 
 #: includes/upload.php:206
 #, fuzzy
 msgid "Unable to upload image(s). Please check errors."
-msgstr ""
-"Bild(er) konnte(n) nicht hochgeladen werden. Bitte überprüfe die Fehler."
+msgstr "Unable to upload image(s). Bitte überprüfen Sie Fehler."
 
 #: includes/theme.php:417 widgets/questions.php:131
 #, fuzzy
@@ -4901,12 +4953,12 @@ msgstr "Unbeantwortet"
 #: includes/ajax-hooks.php:211 includes/theme.php:294
 #, fuzzy
 msgid "Undelete"
-msgstr "Ungelöscht"
+msgstr "Undelete"
 
 #: includes/votes.php:89
 #, fuzzy
 msgid "Undo your vote first."
-msgstr "Mach zuerst deine Stimme rückgängig."
+msgstr "Lösen Sie Ihre Stimme zuerst."
 
 #: includes/ajax-hooks.php:347 includes/theme.php:853
 #, fuzzy
@@ -4926,37 +4978,37 @@ msgstr "unbegrenzt"
 #: includes/ajax-hooks.php:346 includes/theme.php:852
 #, fuzzy
 msgid "Unmark this question as featured"
-msgstr "Diese Frage als \"featured\" deaktivieren"
+msgstr "Die Markierung aufzuheben, diese Frage als featured"
 
 #: templates/addons/notification/index.php:36
 #, fuzzy
 msgid "Unseen"
-msgstr "Unsichtbar"
+msgstr "Ungesehen"
 
 #: ajax/toggle-best-answer.php:90 includes/theme.php:771
 #, fuzzy
 msgid "Unselect"
-msgstr "Abwählen"
+msgstr "Auswahl aufheben"
 
 #: includes/theme.php:770
 #, fuzzy
 msgid "Unselect this answer"
-msgstr "Wähle diese Antwort ab"
+msgstr "Deaktivieren Sie diese Antwort"
 
 #: includes/class/class-activity-helper.php:246
 #, fuzzy
 msgid "Unselected an answer"
-msgstr "Eine Antwort nicht ausgewählt"
+msgstr "Deaktiviert die Antwort"
 
 #: includes/functions.php:1320
 #, fuzzy
 msgid "unselected answer"
-msgstr "nicht gewählte Antwort"
+msgstr "nicht ausgewählte Antwort"
 
 #: includes/functions.php:1323
 #, fuzzy
 msgid "unselected as best answer"
-msgstr "nicht als beste Antwort ausgewählt"
+msgstr "nicht ausgewählt als beste Antwort"
 
 #: includes/theme.php:422
 #, fuzzy
@@ -4966,18 +5018,18 @@ msgstr "Ungelöst"
 #: includes/ajax-hooks.php:544 includes/theme.php:890
 #, fuzzy
 msgid "Unsubscribe"
-msgstr "Abbestellen"
+msgstr "Unsubscribe"
 
 #: includes/votes.php:580
 #, fuzzy
 msgid "Up vote this post"
-msgstr "Stimme diesen Beitrag hoch"
+msgstr "Up vote diesem Beitrag"
 
-#. translators: %cpt% is SmartQ&A placeholder not gettext.
+#. translators: %cpt% is SmartQa placeholder not gettext.
 #: addons/notifications/notifications.php:174
 #, fuzzy
 msgid "up voted your %cpt%"
-msgstr "ihr %cpt% hochgestimmt"
+msgstr "bis stimmten Ihre %cpt%"
 
 #: templates/functions.php:49
 #, fuzzy
@@ -4987,14 +5039,14 @@ msgstr "Update"
 #: includes/class-form-hooks.php:227 includes/functions.php:2226
 #, fuzzy
 msgid "Update Answer"
-msgstr "Update Antwort"
+msgstr "Update Beantworten"
 
 #: includes/post-types.php:166
 #, fuzzy
 msgid "Update answer"
-msgstr "Antwort aktualisieren"
+msgstr "Update beantworten"
 
-#: admin/SmartQ&A-admin.php:677
+#: admin/smartqa-admin.php:677
 #, fuzzy
 msgid "Update now"
 msgstr "Jetzt aktualisieren"
@@ -5007,12 +5059,12 @@ msgstr "Update Frage"
 #: includes/post-types.php:89
 #, fuzzy
 msgid "Update question"
-msgstr "Frage aktualisieren"
+msgstr "Update Frage"
 
 #: includes/functions.php:1321
 #, fuzzy
 msgid "updated status"
-msgstr "aktualisierter Status"
+msgstr "der aktualisierte status"
 
 #: admin/updater.php:103
 #, fuzzy
@@ -5020,58 +5072,58 @@ msgid ""
 "Updating this theme will lose any customizations you have made. 'Cancel' to "
 "stop, 'OK' to update."
 msgstr ""
-"Wenn du das Theme aktualisierst, gehen alle Anpassungen, die du vorgenommen "
-"hast, verloren. abbrechen\" zum Abbrechen, \"OK\" zum Aktualisieren."
+"Die Aktualisierung wird dieses Thema verlieren alle Anpassungen, die Sie "
+"vorgenommen haben. Mit \"Abbrechen\" zu stoppen, 'OK' zu aktualisieren."
 
 #: includes/class-form-hooks.php:998
 #, fuzzy
 msgid "Upload & insert"
-msgstr "Hochladen & Einfügen"
+msgstr "Hochladen & einfügen"
 
 #: addons/categories/categories.php:549 addons/categories/categories.php:600
 #, fuzzy
 msgid "Upload image"
 msgstr "Bild hochladen"
 
-#: admin/SmartQ&A-admin.php:935
+#: admin/smartqa-admin.php:935
 #, fuzzy
 msgid "User avatar size for answer."
-msgstr "Größe des Benutzeravatars als Antwort."
+msgstr "User-avatar Größe für die Antwort."
 
-#: admin/SmartQ&A-admin.php:941
+#: admin/smartqa-admin.php:941
 #, fuzzy
 msgid "User avatar size for comments."
-msgstr "Größe des Benutzeravatars für Kommentare."
+msgstr "User-avatar Größe für Kommentare."
 
-#: admin/SmartQ&A-admin.php:929
+#: admin/smartqa-admin.php:929
 #, fuzzy
 msgid "User avatar size for question."
-msgstr "Benutzer-Avatargröße für Frage."
+msgstr "User-avatar Größe für die Frage."
 
-#: admin/SmartQ&A-admin.php:923
+#: admin/smartqa-admin.php:923
 #, fuzzy
 msgid "User avatar size for questions list."
-msgstr "Größe des Benutzeravatars für die Fragenliste."
+msgstr "User-avatar Größe für Fragen Liste."
 
 #: addons/email/email.php:229
 #, fuzzy
 msgid "User Notifications"
-msgstr "Benutzerbenachrichtigungen"
+msgstr "Benutzer-Benachrichtigungen"
 
 #: includes/functions.php:2350
 #, fuzzy
 msgid "User page"
-msgstr "Benutzer Seite"
+msgstr "Benutzer-Seite"
 
 #: includes/functions.php:1653
 #, fuzzy
 msgid "User Profile"
-msgstr "Benutzerprofil"
+msgstr "Benutzer-Profil"
 
 #: addons/profile/profile.php:57
 #, fuzzy
 msgid "User profile"
-msgstr "Benutzerprofil"
+msgstr "Benutzer-Profil"
 
 #: includes/functions.php:1654
 #, fuzzy
@@ -5087,97 +5139,95 @@ msgstr "Benutzer pro Zeile:"
 #: lib/class-validate.php:451
 #, fuzzy
 msgid "Value provided in field %1$s must be at least %2$d characters long."
-msgstr ""
-"Der in Feld %1$s angegebene Wert muss mindestens %2$d Zeichen lang sein."
+msgstr "Wert in Feld %1$s muss mindestens %2$d Zeichen lang sein."
 
 #. Translators: placeholder contain field label.
 #: lib/class-validate.php:479
 #, fuzzy
 msgid "Value provided in field %1$s must not exceeds %2$d characters."
-msgstr ""
-"Der in Feld %1$s angegebene Wert darf %2$d Zeichen nicht überschreiten."
+msgstr "Wert in Feld %1$s muss nicht überschreitet, %2$d Zeichen."
 
 #. Translators: placeholder contain field label.
 #: lib/class-validate.php:387
 #, fuzzy
 msgid "Value provided in field %s is not a valid email."
-msgstr "Der in Feld %s angegebene Wert ist keine gültige E-Mail."
+msgstr "Wert in Feld %s ist keine gültige E-Mail."
 
 #. Translators: placeholder contain field label.
 #: lib/class-validate.php:406
 #, fuzzy
 msgid "Value provided in field %s is not a valid URL."
-msgstr "Der in Feld %s angegebene Wert ist keine gültige URL."
+msgstr "Wert in Feld %s ist keine gültige URL."
 
 #. Translators: placeholder contain field label.
 #: lib/class-validate.php:502
 #, fuzzy
 msgid "Value provided in field %s is not an array."
-msgstr "Der in Feld %s angegebene Wert ist kein Array."
+msgstr "Wert in Feld %s ist kein array."
 
 #. Translators: placeholder contain field label.
 #: lib/class-validate.php:425
 #, fuzzy
 msgid "Value provided in field %s is not numeric."
-msgstr "Der im Feld %s angegebene Wert ist nicht numerisch."
+msgstr "Wert in Feld %s ist nicht numerisch."
 
 #: admin/class-list-table-hooks.php:163
 #, fuzzy
 msgid "View"
-msgstr "Siehe"
+msgstr "Ansicht"
 
 #. translators: %s is post title.
 #: admin/class-list-table-hooks.php:161
 #, fuzzy
 msgid "View &#8220;%s&#8221;"
-msgstr "Ansicht &#8220;%s&#8221;"
+msgstr "Anzeigen von \"%s\""
 
 #: templates/shortcode/question.php:101
 #, fuzzy
 msgid "View all answers"
-msgstr "Alle Antworten ansehen"
+msgstr "Alle Antworten anzeigen"
 
 #: includes/post-types.php:162
 #, fuzzy
 msgid "View answer"
-msgstr "Antwort ansehen"
+msgstr "Antwort"
 
 #: addons/categories/categories.php:194
 #, fuzzy
 msgid "View Category"
-msgstr "Kategorie ansehen"
+msgstr "View Kategorie"
 
 #: templates/activities/activity-ref-content.php:32
 #, fuzzy
 msgid "View comment"
-msgstr "Kommentar ansehen"
+msgstr "Kommentare anzeigen"
 
-#: admin/SmartQ&A-admin.php:1394
+#: admin/smartqa-admin.php:1394
 #, fuzzy
 msgid "View page"
-msgstr "Seite ansehen"
+msgstr "Ansicht Seite"
 
 #: templates/addons/user/answer-item.php:51
 #: templates/buddypress/answer-item.php:43
 #: templates/buddypress/question-item.php:53
 #, fuzzy
 msgid "View Question"
-msgstr "Ansicht Frage"
+msgstr "- Sicht Frage"
 
 #: includes/post-types.php:85
 #, fuzzy
 msgid "View question"
-msgstr "Frage ansehen"
+msgstr "- Sicht Frage"
 
 #: admin/views/dashboard.php:359
 #, fuzzy
 msgid "View questions"
-msgstr "Fragen ansehen"
+msgstr "Fragen anzeigen"
 
 #: addons/tags/tags.php:196
 #, fuzzy
 msgid "View Tag"
-msgstr "Ansicht Tag"
+msgstr "Anzeigen-Tag"
 
 #: admin/views/recount.php:85 includes/theme.php:412
 #: widgets/question_stats.php:79
@@ -5185,124 +5235,120 @@ msgstr "Ansicht Tag"
 msgid "Views"
 msgstr "Ansichten"
 
-#: admin/SmartQ&A-admin.php:1235 admin/SmartQ&A-admin.php:1301
+#: admin/smartqa-admin.php:1235 admin/smartqa-admin.php:1301
 #: includes/theme.php:466 widgets/questions.php:129
 #, fuzzy
 msgid "Voted"
-msgstr "Abgestimmt"
+msgstr "Gewählt"
 
 #: admin/class-list-table-hooks.php:209 admin/class-list-table-hooks.php:323
 #: includes/theme.php:400 templates/question-list-item.php:34
 #, fuzzy
 msgid "Votes"
-msgstr "Abstimmungen"
+msgstr "Stimmen"
 
 #: includes/functions.php:552
 #, fuzzy
 msgid "Voting down is disabled."
-msgstr "Das Herunterstimmen ist deaktiviert."
+msgstr "Voting down ist deaktiviert."
 
 #: includes/class/roles-cap.php:1309
 #, fuzzy
 msgid "Voting on own post is not allowed"
-msgstr "Abstimmen über den eigenen Beitrag ist nicht erlaubt"
+msgstr "Voting auf der eigenen post ist nicht erlaubt"
 
 #: includes/class/roles-cap.php:1317
 #, fuzzy
 msgid "Voting on restricted posts are not allowed."
-msgstr "Abstimmungen über eingeschränkte Beiträge sind nicht erlaubt."
+msgstr "Die Abstimmung über eingeschränkte Beiträge sind nicht erlaubt."
 
 #: includes/ajax-hooks.php:106
 #, fuzzy
 msgid "We have found some similar questions that have been asked earlier."
-msgstr ""
-"Wir haben einige ähnliche Fragen gefunden, die schon früher gestellt worden "
-"sind."
+msgstr "Wir haben einige ähnliche Fragen gestellt wurden zuvor."
 
 #: includes/hooks.php:850
 #, fuzzy
 msgid "week"
-msgstr "woche"
+msgstr "Woche"
 
 #: includes/hooks.php:851
 #, fuzzy
 msgid "weeks"
-msgstr "wochen"
+msgstr "Wochen"
 
 #: admin/views/dashboard.php:333
 #, fuzzy
 #| msgid "Welcome to A SmartQ&A!"
-msgid "Welcome to SmartQ&A!"
-msgstr "Willkommen bei SmartQ&A!"
+msgid "Welcome to SmartQa!"
+msgstr "Willkommen zu Einem SmartQ&A!"
 
 #: admin/views/dashboard.php:335
 #, fuzzy
 msgid "We’ve assembled some links to get you started:"
-msgstr ""
-"Wir haben einige Links zusammengestellt, die dir den Einstieg erleichtern:"
+msgstr "Wir haben versammelt einige links zum Einstieg:"
 
 #: addons/akismet/akismet.php:92
 #, fuzzy
 msgid "What to do when post is a spam?"
-msgstr "Was ist zu tun, wenn ein Beitrag ein Spam ist?"
+msgstr "Was tun, wenn post ist ein spam?"
 
-#: admin/SmartQ&A-admin.php:1042
+#: admin/smartqa-admin.php:1042
 #, fuzzy
 msgid "Who can post answer?"
-msgstr "Wer kann eine Antwort posten?"
+msgstr "Wer kann eine post-Antwort?"
 
-#: admin/SmartQ&A-admin.php:1071
+#: admin/smartqa-admin.php:1071
 #, fuzzy
 msgid "Who can post comment?"
-msgstr "Wer kann einen Kommentar abgeben?"
+msgstr "Wer kann eine post-Kommentar?"
 
-#: admin/SmartQ&A-admin.php:1031
+#: admin/smartqa-admin.php:1031
 #, fuzzy
 msgid "Who can post question?"
-msgstr "Wer kann eine Frage stellen?"
+msgstr "Wer kann post Frage?"
 
-#: admin/SmartQ&A-admin.php:992
+#: admin/smartqa-admin.php:992
 #, fuzzy
 msgid "Who can read answers?"
-msgstr "Wer kann Antworten lesen?"
+msgstr "Wer Lesen kann Antworten?"
 
-#: admin/SmartQ&A-admin.php:1003
+#: admin/smartqa-admin.php:1003
 #, fuzzy
 msgid "Who can read comment?"
-msgstr "Wer kann Kommentare lesen?"
+msgstr "Wer Lesen kann-Kommentar?"
 
-#: admin/SmartQ&A-admin.php:981
+#: admin/smartqa-admin.php:981
 #, fuzzy
 msgid "Who can read question?"
-msgstr "Wer kann die Frage lesen?"
+msgstr "Wer Lesen kann Frage?"
 
 #: templates/functions.php:90
 #, fuzzy
 msgid "Widgets in this area will be shown before questions list."
-msgstr "Widgets in diesem Bereich werden vor der Fragenliste angezeigt."
+msgstr "Widgets in diesem Bereich wird angezeigt, bevor Sie Fragen-Liste."
 
 #: templates/functions.php:78
 #, fuzzy
-msgid "Widgets in this area will be shown before SmartQ&A body."
-msgstr "Widgets in diesem Bereich werden vor dem SmartQ&A Body angezeigt."
+msgid "Widgets in this area will be shown before smartqa body."
+msgstr "Widgets in diesem Bereich wird angezeigt, bevor smartqa Körper."
 
 #: templates/functions.php:150
 #, fuzzy
 msgid "Widgets in this area will be shown in authors page."
-msgstr "Widgets in diesem Bereich werden auf der Autorenseite angezeigt."
+msgstr "Widgets in diesem Bereich wird angezeigt, in Autoren-Seite."
 
 #: templates/functions.php:126
 #, fuzzy
 msgid "Widgets in this area will be shown in category listing page."
 msgstr ""
-"Widgets in diesem Bereich werden auf der Seite mit den Kategorien angezeigt."
+"Widgets in diesem Bereich wird angezeigt, in der Kategorie Auflistung Seite."
 
 #: templates/functions.php:114
 #, fuzzy
 msgid "Widgets in this area will be shown in single question page sidebar."
 msgstr ""
-"Die Widgets in diesem Bereich werden in der Seitenleiste der einzelnen "
-"Frageseiten angezeigt."
+"Widgets in diesem Bereich wird angezeigt, in Einzel-Frage-Seite, sidebar."
 
 #: templates/functions.php:102
 #, fuzzy
@@ -5310,54 +5356,54 @@ msgstr ""
 #| "Widgets in this area will be shown in SmartQ&A sidebar except single "
 #| "question page."
 msgid ""
-"Widgets in this area will be shown in SmartQ&A sidebar except single question "
+"Widgets in this area will be shown in SmartQa sidebar except single question "
 "page."
 msgstr ""
-"Die Widgets in diesem Bereich werden in der SmartQ&A-Seitenleiste angezeigt, "
-"außer auf der Seite mit der einzelnen Frage."
+"Widgets in diesem Bereich wird angezeigt, in SmartQ&Eine Seitenleiste außer "
+"Frage Seite."
 
 #: addons/tags/tags.php:166
 #, fuzzy
-msgid "Widgets in this area will be shown in SmartQ&A tags page."
-msgstr "Widgets in diesem Bereich werden auf der SmartQ&A Tags-Seite angezeigt."
+msgid "Widgets in this area will be shown in smartqa tags page."
+msgstr "Widgets in diesem Bereich wird angezeigt, in smartqa-tags Seite."
 
 #: templates/functions.php:138
 #, fuzzy
 msgid "Widgets in this area will be shown in tag listing page."
-msgstr "Widgets in diesem Bereich werden auf der Tag-Listing-Seite angezeigt."
+msgstr "Widgets in diesem Bereich wird angezeigt, im tag-Auflistung Seite."
 
 #. translators: %d is activity count.
 #: templates/activities/activity.php:56
 #, fuzzy
 msgid "with other activity"
 msgid_plural "with other %d activities"
-msgstr[0] "mit anderer Aktivität"
+msgstr[0] "mit anderen Tätigkeit"
 msgstr[1] "mit anderen %d Aktivitäten"
 
 #: includes/votes.php:580 includes/votes.php:585
 #, fuzzy
 msgid "Withdraw your vote"
-msgstr "Ziehe deine Stimme zurück"
+msgstr "Widerruf Ihrer Stimme"
 
 #: templates/answer-form.php:34
 #, fuzzy
 msgid "Write your answer."
-msgstr "Schreibe deine Antwort auf."
+msgstr "Schreiben Sie Ihre Antwort."
 
 #: includes/class-form-hooks.php:256
 #, fuzzy
 msgid "Write your comment here..."
-msgstr "Schreibe deinen Kommentar hier..."
+msgstr "Schreiben Sie hier Ihren Kommentar ein..."
 
 #: templates/functions.php:50
 #, fuzzy
 msgid "Write your comment..."
-msgstr "Schreibe deinen Kommentar..."
+msgstr "Schreiben Sie Ihren Kommentar..."
 
 #: admin/views/dashboard.php:349
 #, fuzzy
 msgid "Write your first question"
-msgstr "Schreibe deine erste Frage"
+msgstr "Schreiben Sie die erste Frage"
 
 #: includes/api.php:48
 #, fuzzy
@@ -5367,12 +5413,12 @@ msgstr "Falsche Daten geliefert"
 #: includes/hooks.php:852
 #, fuzzy
 msgid "year"
-msgstr "jahr"
+msgstr "Jahr"
 
 #: includes/hooks.php:853
 #, fuzzy
 msgid "years"
-msgstr "jahre"
+msgstr "Jahre"
 
 #: includes/class/class-activity.php:491
 #, fuzzy
@@ -5382,18 +5428,18 @@ msgstr "Gestern"
 #: includes/post-status.php:66
 #, fuzzy
 msgid "You are not allowed to change post status"
-msgstr "Du darfst den Beitragsstatus nicht ändern"
+msgstr "Sie sind nicht erlaubt zu ändern post-status"
 
 #: lib/class-validate.php:717
 #, fuzzy
 msgid "You are not allowed to upload file(s)"
-msgstr "Du darfst keine Datei(en) hochladen"
+msgstr "Sie sind nicht erlaubt, hochladen, Datei(en)"
 
 #. Translators: placeholder contain field label.
 #: lib/class-validate.php:780
 #, fuzzy
 msgid "You are required to check %s field"
-msgstr "Du musst das Feld %s überprüfen"
+msgstr "Sie sind erforderlich, um zu überprüfen, %s field"
 
 #: includes/class-form-hooks.php:408
 #, fuzzy
@@ -5401,202 +5447,203 @@ msgid ""
 "You are trying to post a duplicate question. Please search existing "
 "questions before posting a new one."
 msgstr ""
-"Du versuchst, eine doppelte Frage zu stellen. Bitte durchsuche bestehende "
-"Fragen, bevor du eine neue stellst."
+"Sie versuchen zu buchen, eine doppelte Frage. Suchen Sie bitte vorhandene "
+"Fragen vor dem posten Sie eine neue ein."
 
 #. translators: %d is total answer count of question.
 #: includes/answer-loop.php:361
 #, fuzzy
 msgid "You are viewing 1 out of %d answers, click here to view all answers."
 msgstr ""
-"Du siehst gerade 1 von %d Antworten. Klicke hier, um alle Antworten zu sehen."
+"Sie betrachten 1 von %d Antworten, klicken Sie hier, um alle Antworten."
 
 #. Translators: %d contains maximum files allowed to upload.
 #: lib/form/class-upload.php:118
 #, fuzzy
 msgid "You cannot add more then %d files"
-msgstr "Du kannst nicht mehr als %d Dateien hinzufügen"
+msgstr "Sie dürfen nicht mehr als %d Dateien"
 
 #: includes/ajax-hooks.php:368
 #, fuzzy
 msgid "You cannot close a question"
-msgstr "Du kannst eine Frage nicht schließen"
+msgstr "Sie können eine Frage"
 
 #: includes/functions.php:2195
 #, fuzzy
 msgid "You cannot edit this answer."
-msgstr "Du kannst diese Antwort nicht bearbeiten."
+msgstr "Sie können nicht Bearbeiten dieses Antwort."
 
 #: includes/class-form-hooks.php:803
 #, fuzzy
 msgid "You cannot edit this comment."
-msgstr "Du kannst diesen Kommentar nicht bearbeiten."
+msgstr "Sie können nicht Bearbeiten dieses Kommentars."
 
 #: includes/functions.php:2054
 #, fuzzy
 msgid "You cannot edit this question."
-msgstr "Du kannst diese Frage nicht bearbeiten."
+msgstr "Sie können die Bearbeitung dieser Frage."
 
 #. Translators: %1$d contain maximum files user can upload, %2$s contain label
 #. of field.
 #: lib/class-validate.php:730
 #, fuzzy
 msgid "You cannot upload more than %1$d file in field %2$s"
-msgstr "Du kannst nicht mehr als %1$d Datei in Feld %2$s hochladen"
+msgstr "Sie können nicht laden mehr als %1$d-Datei in Feld %2$s"
 
 #: includes/functions.php:556
 #, fuzzy
 msgid "You cannot vote on restricted posts"
-msgstr "Du kannst nicht über eingeschränkte Beiträge abstimmen"
+msgstr "Sie können keine Abstimmung über eingeschränkte Beiträge"
 
 #: includes/functions.php:524
 #, fuzzy
 msgid "You cannot vote on your own question or answer."
-msgstr "Du kannst nicht über deine eigene Frage oder Antwort abstimmen."
+msgstr "Sie können keine Abstimmung über Ihre eigene Frage oder Antwort."
 
 #: includes/functions.php:2200
 #, fuzzy
 msgid "You do not have permission to answer this question."
-msgstr "Du hast nicht die Erlaubnis, diese Frage zu beantworten."
+msgstr "Sie haben keine Berechtigung, um diese Frage zu beantworten."
 
 #: includes/functions.php:2059 templates/ask.php:21
 #, fuzzy
 msgid "You do not have permission to ask a question."
-msgstr "Du hast nicht die Erlaubnis, eine Frage zu stellen."
+msgstr "Sie haben keine Berechtigung eine Frage zu stellen."
 
 #: admin/updater.php:379
 #, fuzzy
 msgid "You do not have permission to install plugin updates"
-msgstr "Du hast nicht die Erlaubnis, Plugin-Updates zu installieren"
+msgstr "Sie haben keine Berechtigung zum installieren von updates für plugins"
 
 #: includes/qaquery-hooks.php:188
 #, fuzzy
 msgid "You do not have permission to read this question."
-msgstr "Du hast nicht die Erlaubnis, diese Frage zu lesen."
+msgstr "Sie haben keine Berechtigung zum Lesen dieser Frage."
 
 #: includes/functions.php:528
 #, fuzzy
 msgid "You do not have permission to view private posts."
-msgstr "Du hast nicht die Erlaubnis, private Beiträge zu sehen."
+msgstr "Sie haben keine Berechtigung zum anzeigen privater Beiträge."
 
 #: addons/notifications/notifications.php:248
 #, fuzzy
 msgid "You do not have permission to view this page"
-msgstr "Du hast keine Erlaubnis, diese Seite zu sehen"
+msgstr "Sie haben nicht die Berechtigung diese Seite anzuzeigen"
 
 #: includes/class/roles-cap.php:1327
 #, fuzzy
 msgid "You do not have permission to vote."
-msgstr "Du hast nicht die Erlaubnis zu wählen."
+msgstr "Sie haben nicht die Berechtigung zu wählen."
 
 #: classes/ajax.php:144
 #, fuzzy
 msgid "You don't have enough permissions to do this action."
-msgstr "Du hast nicht genug Rechte, um diese Aktion durchzuführen."
+msgstr "Sie haben nicht genügend Berechtigungen, um dies zu tun Aktion."
 
 #: admin/updater.php:95
 #, fuzzy
 msgid "You have %1$s / %2$s sites activated."
-msgstr "Du hast %1$s / %2$s Sites aktiviert."
+msgstr "Sie haben %1$s / %2$s Websites aktiviert."
 
 #: templates/functions.php:45
 #, fuzzy
 msgid "You have already attached maximum numbers of allowed attachments"
-msgstr "Du hast bereits die maximale Anzahl der erlaubten Anhänge angehängt"
+msgstr "Sie haben bereits mit der maximalen Anzahl der erlaubten Anhänge"
 
 #: includes/functions.php:544
 #, fuzzy
 msgid "You have already attached maximum numbers of allowed uploads."
-msgstr "Du hast bereits die maximale Anzahl der erlaubten Uploads angegeben."
+msgstr "Sie haben bereits mit der maximalen Anzahl der erlaubten uploads."
 
 #: includes/flag.php:39
 #, fuzzy
 msgid "You have already reported this post."
-msgstr "Du hast diesen Beitrag bereits gemeldet."
+msgstr "Sie haben bereits berichtet dieser Beitrag."
 
 #: includes/votes.php:580 includes/votes.php:585
 #, fuzzy
 msgid "You have already voted"
-msgstr "Du hast bereits abgestimmt"
+msgstr "Sie haben bereits abgestimmt"
 
 #: addons/notifications/notifications.php:201
 #, fuzzy
 msgid "You have earned %points% points"
-msgstr "Du hast %points% Punkte verdient"
+msgstr "Sie haben es verdient, % - Punkte% - Punkte"
 
 #: includes/flag.php:131
 #, fuzzy
 msgid "You have flagged this post"
-msgstr "Du hast diesen Beitrag markiert"
+msgstr "Sie markiert diesen Beitrag"
 
 #: addons/notifications/notifications.php:209
 #, fuzzy
 msgid "You lose %points% points"
-msgstr "Du verlierst %Punkte% Punkte"
+msgstr "Sie verlieren, % - Punkte% - Punkte"
 
 #: includes/ajax-hooks.php:496
 #, fuzzy
 msgid "You must be logged in to subscribe to a question"
-msgstr "Du musst eingeloggt sein, um eine Frage zu abonnieren"
+msgstr "Sie müssen angemeldet sein, um abonnieren Sie eine Frage"
 
-#: lib/class-SmartQ&A-cli.php:80
+#: lib/class-smartqa-cli.php:80
 #, fuzzy
 msgid "You must pass a addon name i.e. free/avatar.php"
-msgstr "Du musst einen Addon-Namen angeben, z.B. free/avatar.php"
+msgstr "Du musst eine addon-name, d.h. free/avatar.php"
 
 #. Translators: Placeholder contain link to unpublished questions.
 #: templates/list-head.php:42
 #, fuzzy
 msgid "Your %s unpublished. "
-msgstr "Dein %s ist unveröffentlicht"
+msgstr "Ihre %s unpublished. "
 
 #: includes/class-form-hooks.php:733
 #, fuzzy
 msgid "Your answer is posted successfully."
-msgstr "Deine Antwort wurde erfolgreich gepostet."
+msgstr "Ihre Antwort veröffentlicht wurde, ist erfolgreich."
 
 #: addons/email/email.php:920
 #, fuzzy
 msgid "Your answer is selected as best by "
-msgstr "Deine Antwort ist am besten gewählt von"
+msgstr "Ihre Antwort als die beste ausgewählt von "
 
 #: addons/email/email.php:917
 #, fuzzy
 msgid "Your answer is selected as best!"
-msgstr "Deine Antwort wird als beste ausgewählt!"
+msgstr "Ihre Antwort als die beste ausgewählt!"
 
 #: includes/class-form-hooks.php:89 includes/class-form-hooks.php:203
 #: includes/class-form-hooks.php:279
 #, fuzzy
 msgid "Your Email"
-msgstr "Deine E-Mail"
+msgstr "Ihre E-Mail"
 
 #: includes/class-form-hooks.php:78 includes/class-form-hooks.php:192
 #: includes/class-form-hooks.php:270
 #, fuzzy
 msgid "Your Name"
-msgstr "Dein Name"
+msgstr "Ihr Name"
 
 #: includes/functions.php:548
 #, fuzzy
 msgid "Your profile has been updated successfully."
-msgstr "Dein Profil wurde erfolgreich aktualisiert."
+msgstr "Ihr Profil wurde erfolgreich aktualisiert."
 
 #: includes/class-form-hooks.php:517
 #, fuzzy
 msgid "Your question is posted successfully, you'll be redirected in a moment."
 msgstr ""
-"Deine Frage wurde erfolgreich gestellt. Du wirst gleich weitergeleitet."
+"Ihre Frage ist erfolgreich gebucht, werden Sie umgeleitet werden, in einem "
+"Augenblick."
 
 #: includes/votes.php:73
 #, fuzzy
 msgid "Your vote has been removed."
-msgstr "Deine Stimme wurde entfernt."
+msgstr "Ihre Stimme wurde entfernt."
 
 #: includes/class-form-hooks.php:289
 #, fuzzy
 msgid "Your Website"
-msgstr "Deine Website"
+msgstr "Ihre Website"
 
 #: addons/email/email.php:869
 msgid "{asker} have posted a new question"

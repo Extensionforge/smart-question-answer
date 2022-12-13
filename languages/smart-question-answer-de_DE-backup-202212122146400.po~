@@ -3,12 +3,12 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: A Smart Question & Answer 4.3.0\n"
-"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/SmartQ&A\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/smartqa\n"
 "POT-Creation-Date: 2022-03-21 04:33:06+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2022-12-12 21:46+0000\n"
+"PO-Revision-Date: 2022-12-12 21:00+0000\n"
 "Last-Translator: \n"
 "Language-Team: Deutsch\n"
 "Language: de_DE\n"
@@ -265,73 +265,73 @@ msgstr "%s Ansichten"
 
 #: widgets/ask-form.php:28
 #| msgid "(SmartQ&A) Ask form"
-msgid "(SmartQ&A) Ask form"
-msgstr "(SmartQ&A) Formular fragen"
+msgid "(SmartQa) Ask form"
+msgstr "(SmartQa) Formular fragen"
 
 #: templates/functions.php:146
 #| msgid "(SmartQ&A) Author page"
-msgid "(SmartQ&A) Author page"
-msgstr "(SmartQ&A) Autorenseite"
+msgid "(SmartQa) Author page"
+msgstr "(SmartQa) Autorenseite"
 
 #: templates/functions.php:74
 #| msgid "(SmartQ&A) Before"
-msgid "(SmartQ&A) Before"
-msgstr "(SmartQ&A) Vorher"
+msgid "(SmartQa) Before"
+msgstr "(SmartQa) Vorher"
 
 #: widgets/breadcrumbs.php:28
 #| msgid "(SmartQ&A) Breadcrumbs"
-msgid "(SmartQ&A) Breadcrumbs"
-msgstr "(SmartQ&A) Semmelbrösel"
+msgid "(SmartQa) Breadcrumbs"
+msgstr "(SmartQa) Semmelbrösel"
 
 #: templates/functions.php:122
 #| msgid "(SmartQ&A) Category Page"
-msgid "(SmartQ&A) Category Page"
-msgstr "(SmartQ&A) Kategorie Seite"
+msgid "(SmartQa) Category Page"
+msgstr "(SmartQa) Kategorie Seite"
 
 #: templates/functions.php:86
 #| msgid "(SmartQ&A) Question List Top"
-msgid "(SmartQ&A) Question List Top"
-msgstr "(SmartQ&A) Fragenliste oben"
+msgid "(SmartQa) Question List Top"
+msgstr "(SmartQa) Fragenliste oben"
 
 #: templates/functions.php:110
 #| msgid "(SmartQ&A) Question Sidebar"
-msgid "(SmartQ&A) Question Sidebar"
-msgstr "(SmartQ&A) Frage-Seitenleiste"
+msgid "(SmartQa) Question Sidebar"
+msgstr "(SmartQa) Frage-Seitenleiste"
 
 #: widgets/question_stats.php:32
 #| msgid "(SmartQ&A) Question Stats"
-msgid "(SmartQ&A) Question Stats"
-msgstr "(SmartQ&A) Frage-Statistiken"
+msgid "(SmartQa) Question Stats"
+msgstr "(SmartQa) Frage-Statistiken"
 
 #: widgets/questions.php:29
 #| msgid "(SmartQ&A) Questions"
-msgid "(SmartQ&A) Questions"
-msgstr "(SmartQ&A) Fragen"
+msgid "(SmartQa) Questions"
+msgstr "(SmartQa) Fragen"
 
 #: widgets/search.php:30
 #| msgid "(SmartQ&A) Search"
-msgid "(SmartQ&A) Search"
-msgstr "(SmartQ&A) Suche"
+msgid "(SmartQa) Search"
+msgstr "(SmartQa) Suche"
 
 #: templates/functions.php:98
 #| msgid "(SmartQ&A) Sidebar"
-msgid "(SmartQ&A) Sidebar"
-msgstr "(SmartQ&A) Seitenleiste"
+msgid "(SmartQa) Sidebar"
+msgstr "(SmartQa) Seitenleiste"
 
 #: templates/functions.php:134
 #| msgid "(SmartQ&A) Tag page"
-msgid "(SmartQ&A) Tag page"
-msgstr "(SmartQ&A) Tag-Seite"
+msgid "(SmartQa) Tag page"
+msgstr "(SmartQa) Tag-Seite"
 
 #: addons/tags/tags.php:162
 #| msgid "(SmartQ&A) Tags"
-msgid "(SmartQ&A) Tags"
-msgstr "(SmartQ&A) Tags"
+msgid "(SmartQa) Tags"
+msgstr "(SmartQa) Tags"
 
 #: widgets/leaderboard.php:30
 #| msgid "(SmartQ&A) User Leaderboard"
-msgid "(SmartQ&A) User Leaderboard"
-msgstr "(SmartQ&A) Benutzer-Rangliste"
+msgid "(SmartQa) User Leaderboard"
+msgstr "(SmartQa) Benutzer-Rangliste"
 
 #: admin/meta-box.php:126
 #, fuzzy
@@ -424,7 +424,7 @@ msgstr "Eine Frage wird von {user} gelöscht"
 msgid "Activate License"
 msgstr "Lizenz aktivieren"
 
-#: admin/SmartQ&A-admin.php:1236 admin/SmartQ&A-admin.php:1302
+#: admin/smartqa-admin.php:1236 admin/smartqa-admin.php:1302
 #: admin/views/toggle-features.php:73 includes/theme.php:387
 #: includes/theme.php:459 widgets/question_stats.php:71
 #: widgets/questions.php:127
@@ -469,8 +469,8 @@ msgstr "Eine Antwort hinzufügen"
 
 #: includes/functions.php:1630
 #| msgid "Add category support in SmartQ&A questions."
-msgid "Add category support in SmartQ&A questions."
-msgstr "Füge die Unterstützung von Kategorien in SmartQ&A-Fragen hinzu."
+msgid "Add category support in SmartQa questions."
+msgstr "Füge die Unterstützung von Kategorien in SmartQa-Fragen hinzu."
 
 #: admin/views/recount.php:106
 msgid "Add fake views"
@@ -516,8 +516,8 @@ msgstr "Rolle hinzufügen"
 
 #: admin/views/roles.php:92
 #| msgid "Add SmartQ&A capabilities to 3rd party roles."
-msgid "Add SmartQ&A capabilities to 3rd party roles."
-msgstr "Füge SmartQ&A-Funktionen zu Rollen von Drittanbietern hinzu."
+msgid "Add SmartQa capabilities to 3rd party roles."
+msgstr "Füge SmartQa-Funktionen zu Rollen von Drittanbietern hinzu."
 
 #: includes/functions.php:1662
 msgid "Add syntax highlighter support."
@@ -529,10 +529,10 @@ msgstr "Tag hinzufügen"
 
 #: includes/functions.php:1638
 #| msgid "Add tag support in SmartQ&A questions."
-msgid "Add tag support in SmartQ&A questions."
-msgstr "Unterstützung von Tags in SmartQ&A-Fragen hinzufügen."
+msgid "Add tag support in SmartQa questions."
+msgstr "Unterstützung von Tags in SmartQa-Fragen hinzufügen."
 
-#: admin/SmartQ&A-admin.php:525
+#: admin/smartqa-admin.php:525
 msgid "Add to Menu"
 msgstr "Zum Menü hinzufügen"
 
@@ -540,7 +540,7 @@ msgstr "Zum Menü hinzufügen"
 msgid "added to the tags list."
 msgstr "zur Liste der Tags hinzugefügt."
 
-#: admin/SmartQ&A-admin.php:1451
+#: admin/smartqa-admin.php:1451
 msgid "Addon options updated successfully!"
 msgstr "Addon-Optionen erfolgreich aktualisiert!"
 
@@ -579,7 +579,7 @@ msgstr "Alle 2 Argumente $event und $ref_id sind veraltet."
 msgid "All 3 arguments $event, $ref_id and $user_id are deprecated."
 msgstr "Alle 3 Argumente $event, $ref_id und $user_id sind veraltet."
 
-#: admin/SmartQ&A-admin.php:200
+#: admin/smartqa-admin.php:200
 msgid "All Answers"
 msgstr "Alle Antworten"
 
@@ -595,7 +595,7 @@ msgstr "Alle Kategorien"
 msgid "All looks fine"
 msgstr "Alles sieht gut aus"
 
-#: admin/SmartQ&A-admin.php:196
+#: admin/smartqa-admin.php:196
 msgid "All Questions"
 msgstr "Alle Fragen"
 
@@ -607,15 +607,15 @@ msgstr "Alle Fragen"
 msgid "All Tags"
 msgstr "Alle Tags"
 
-#: admin/SmartQ&A-admin.php:1155
+#: admin/smartqa-admin.php:1155
 msgid "Allow image upload"
 msgstr "Bild-Upload zulassen"
 
-#: admin/SmartQ&A-admin.php:1156
+#: admin/smartqa-admin.php:1156
 msgid "Allow logged-in users to upload image."
 msgstr "Erlaube eingeloggten Nutzern, Bilder hochzuladen."
 
-#: admin/SmartQ&A-admin.php:1054
+#: admin/smartqa-admin.php:1054
 msgid ""
 "Allow non-registered users to create account by entering their email in "
 "question. After submitting post a confirmation email will be sent to the "
@@ -625,11 +625,11 @@ msgstr ""
 "E-Mail-Adresse eingeben. Nach dem Absenden des Beitrags wird eine "
 "Bestätigungs-E-Mail an den/die Nutzer/in gesendet."
 
-#: admin/SmartQ&A-admin.php:1171
+#: admin/smartqa-admin.php:1171
 msgid "Allow private posts"
 msgstr "Private Beiträge zulassen"
 
-#: admin/SmartQ&A-admin.php:1060
+#: admin/smartqa-admin.php:1060
 msgid "Allow users to submit multiple answer per question."
 msgstr "Erlaube den Nutzern, mehrere Antworten pro Frage zu geben."
 
@@ -637,7 +637,7 @@ msgstr "Erlaube den Nutzern, mehrere Antworten pro Frage zu geben."
 msgid "Allowed tags"
 msgstr "Erlaubte Tags"
 
-#: admin/SmartQ&A-admin.php:1172
+#: admin/smartqa-admin.php:1172
 msgid ""
 "Allows users to create private question and answer. Private Q&A are only "
 "visible to admin and moderators."
@@ -645,7 +645,7 @@ msgstr ""
 "Ermöglicht es Nutzern, private Fragen und Antworten zu erstellen. Private "
 "Fragen und Antworten sind nur für Administratoren und Moderatoren sichtbar."
 
-#: admin/SmartQ&A-admin.php:1178
+#: admin/smartqa-admin.php:1178
 msgid "Allows users to post multiple answers on a question."
 msgstr "Ermöglicht es Nutzern, mehrere Antworten auf eine Frage zu posten."
 
@@ -678,11 +678,11 @@ msgstr "Antwort"
 msgid "answer"
 msgstr "antwort"
 
-#: admin/SmartQ&A-admin.php:934
+#: admin/smartqa-admin.php:934
 msgid "Answer avatar size"
 msgstr "Antwort Avatargröße"
 
-#: admin/SmartQ&A-admin.php:1267
+#: admin/smartqa-admin.php:1267
 msgid "Answer editor?"
 msgstr "Redakteur antworten?"
 
@@ -751,17 +751,17 @@ msgstr "Antworten Seite slug"
 msgid "Answers page title"
 msgstr "Antworten Seitentitel"
 
-#: admin/SmartQ&A-admin.php:952
+#: admin/smartqa-admin.php:952
 msgid "Answers per page"
 msgstr "Antworten pro Seite"
 
-#: admin/SmartQ&A-admin.php:953
+#: admin/smartqa-admin.php:953
 msgid "Answers to show per page."
 msgstr "Antworten pro Seite anzeigen."
 
-#: admin/SmartQ&A-admin.php:986 admin/SmartQ&A-admin.php:997
-#: admin/SmartQ&A-admin.php:1008 admin/SmartQ&A-admin.php:1036
-#: admin/SmartQ&A-admin.php:1047 admin/SmartQ&A-admin.php:1076
+#: admin/smartqa-admin.php:986 admin/smartqa-admin.php:997
+#: admin/smartqa-admin.php:1008 admin/smartqa-admin.php:1036
+#: admin/smartqa-admin.php:1047 admin/smartqa-admin.php:1076
 msgid "Anyone, including non-loggedin"
 msgstr "Jeder, auch Nicht-Angemeldete"
 
@@ -833,7 +833,7 @@ msgstr "Anhänge"
 msgid "Author"
 msgstr "Autor"
 
-#: admin/SmartQ&A-admin.php:886
+#: admin/smartqa-admin.php:886
 msgid "Author page title"
 msgstr "Titel der Autorenseite"
 
@@ -850,12 +850,12 @@ msgstr "Vergebe Punkte an Nutzer/innen für ihre Aktivitäten."
 #| "Base page for categories can be configured in general settings of "
 #| "SmartQ&A."
 msgid ""
-"Base page for categories can be configured in general settings of SmartQ&A."
+"Base page for categories can be configured in general settings of SmartQa."
 msgstr ""
 "Die Basisseite für Kategorien kann in den allgemeinen Einstellungen von "
-"SmartQ&A konfiguriert werden."
+"SmartQa konfiguriert werden."
 
-#: admin/SmartQ&A-admin.php:874
+#: admin/smartqa-admin.php:874
 msgid "Base page title"
 msgstr "Titel der Basisseite"
 
@@ -901,7 +901,7 @@ msgstr "Kategorien"
 msgid "Categories base page"
 msgstr "Kategorien Basisseite"
 
-#: lib/class-SmartQ&A-upgrader.php:372
+#: lib/class-smartqa-upgrader.php:372
 #, fuzzy
 msgid "Categories data migrated"
 msgstr "Kategorien Daten migriert"
@@ -1003,12 +1003,12 @@ msgstr "Schummeln&#8217; hm?"
 msgid "Cheating"
 msgstr "Betrügen"
 
-#: admin/SmartQ&A-admin.php:1206
+#: admin/smartqa-admin.php:1206
 #, fuzzy
 msgid "Check duplicate"
 msgstr "Duplikat prüfen"
 
-#: admin/SmartQ&A-admin.php:1207
+#: admin/smartqa-admin.php:1207
 #, fuzzy
 msgid "Check for duplicate posts before posting"
 msgstr "Vor dem Posten auf doppelte Beiträge prüfen"
@@ -1018,19 +1018,19 @@ msgstr "Vor dem Posten auf doppelte Beiträge prüfen"
 msgid "Check for spam in post content."
 msgstr "Überprüfe den Inhalt von Beiträgen auf Spam."
 
-#: admin/SmartQ&A-admin.php:917
+#: admin/smartqa-admin.php:917
 #, fuzzy
 #| msgid ""
 #| "Check this to load SmartQ&A JS and CSS on the SmartQ&A page only. Be "
 #| "careful, this might break layout."
 msgid ""
-"Check this to load SmartQ&A JS and CSS on the SmartQ&A page only. Be careful, "
+"Check this to load SmartQa JS and CSS on the SmartQa page only. Be careful, "
 "this might break layout."
 msgstr ""
-"Aktiviere diese Option, um SmartQ&A JS und CSS nur auf der SmartQ&A-Seite zu "
+"Aktiviere diese Option, um SmartQa JS und CSS nur auf der SmartQa-Seite zu "
 "laden. Sei vorsichtig, das könnte das Layout zerstören."
 
-#: admin/SmartQ&A-admin.php:1213
+#: admin/smartqa-admin.php:1213
 #, fuzzy
 msgid "Checking this will disable question suggestion in ask form"
 msgstr ""
@@ -1077,32 +1077,32 @@ msgstr ""
 #: admin/views/uninstall.php:75
 #, fuzzy
 #| msgid "Clicking this button will delete all SmartQ&A options"
-msgid "Clicking this button will delete all SmartQ&A options"
+msgid "Clicking this button will delete all SmartQa options"
 msgstr ""
-"Wenn du auf diese Schaltfläche klickst, werden alle SmartQ&A-Optionen gelöscht"
+"Wenn du auf diese Schaltfläche klickst, werden alle SmartQa-Optionen gelöscht"
 
 #: admin/views/uninstall.php:84
 #, fuzzy
 #| msgid "Clicking this button will delete all SmartQ&A terms data"
-msgid "Clicking this button will delete all SmartQ&A terms data"
+msgid "Clicking this button will delete all SmartQa terms data"
 msgstr ""
-"Wenn du auf diese Schaltfläche klickst, werden alle SmartQ&A-Terms-Daten "
+"Wenn du auf diese Schaltfläche klickst, werden alle SmartQa-Terms-Daten "
 "gelöscht"
 
 #: admin/views/uninstall.php:66
 #, fuzzy
 #| msgid "Clicking this button will delete all user data added by SmartQ&A"
-msgid "Clicking this button will delete all user data added by SmartQ&A"
+msgid "Clicking this button will delete all user data added by SmartQa"
 msgstr ""
-"Wenn du auf diese Schaltfläche klickst, werden alle von SmartQ&A "
+"Wenn du auf diese Schaltfläche klickst, werden alle von SmartQa "
 "hinzugefügten Benutzerdaten gelöscht"
 
 #: admin/views/uninstall.php:93
 #, fuzzy
 #| msgid "Clicking this button will remove all SmartQ&A DB tables"
-msgid "Clicking this button will remove all SmartQ&A DB tables"
+msgid "Clicking this button will remove all SmartQa DB tables"
 msgstr ""
-"Wenn du auf diese Schaltfläche klickst, werden alle SmartQ&A DB-Tabellen "
+"Wenn du auf diese Schaltfläche klickst, werden alle SmartQa DB-Tabellen "
 "entfernt"
 
 #: includes/ajax-hooks.php:375 includes/mce-languages.php:29
@@ -1111,7 +1111,7 @@ msgstr ""
 msgid "Close"
 msgstr "Schließen"
 
-#: admin/SmartQ&A-admin.php:1291
+#: admin/smartqa-admin.php:1291
 #, fuzzy
 msgid "Close question after selecting answer"
 msgstr "Frage nach Auswahl der Antwort schließen"
@@ -1124,8 +1124,8 @@ msgstr "Schließe diese Frage für eine neue Antwort."
 #: widgets/questions.php:138
 #, fuzzy
 #| msgid "Comma separated SmartQ&A category ids"
-msgid "Comma separated SmartQ&A category ids"
-msgstr "Kommagetrennte SmartQ&A-Kategorien-IDs"
+msgid "Comma separated SmartQa category ids"
+msgstr "Kommagetrennte SmartQa-Kategorien-IDs"
 
 #: includes/class-form-hooks.php:252 templates/answer.php:52
 #: templates/functions.php:47
@@ -1138,7 +1138,7 @@ msgstr "Kommentar"
 msgid "Comment approved successfully."
 msgstr "Kommentar erfolgreich genehmigt."
 
-#: admin/SmartQ&A-admin.php:940
+#: admin/smartqa-admin.php:940
 #, fuzzy
 msgid "Comment avatar size"
 msgstr "Avatargröße kommentieren"
@@ -1179,7 +1179,7 @@ msgstr "Einen Beitrag kommentiert"
 msgid "commented on answer"
 msgstr "kommentiert die Antwort"
 
-#. translators: %cpt% is SmartQ&A placeholder not gettext.
+#. translators: %cpt% is SmartQa placeholder not gettext.
 #: addons/notifications/notifications.php:165
 #, fuzzy
 msgid "commented on your %cpt%"
@@ -1228,7 +1228,7 @@ msgstr "In Post umwandeln"
 msgid "Count"
 msgstr "Graf"
 
-#: admin/SmartQ&A-admin.php:1053
+#: admin/smartqa-admin.php:1053
 #, fuzzy
 msgid "Create account for non-registered"
 msgstr "Konto für Nichtregistrierte erstellen"
@@ -1299,37 +1299,37 @@ msgstr "tage"
 msgid "Deactivate License"
 msgstr "Lizenz deaktivieren"
 
-#: admin/SmartQ&A-admin.php:1297
+#: admin/smartqa-admin.php:1297
 #, fuzzy
 msgid "Default answers order"
 msgstr "Reihenfolge der Standardantworten"
 
-#: admin/SmartQ&A-admin.php:1231
+#: admin/smartqa-admin.php:1231
 #, fuzzy
 msgid "Default question order"
 msgstr "Standardreihenfolge der Fragen"
 
-#: admin/SmartQ&A-admin.php:1113
+#: admin/smartqa-admin.php:1113
 #, fuzzy
 msgid "Default status of edited answer."
 msgstr "Standardstatus der bearbeiteten Antwort."
 
-#: admin/SmartQ&A-admin.php:1093
+#: admin/smartqa-admin.php:1093
 #, fuzzy
 msgid "Default status of edited question."
 msgstr "Standardstatus der bearbeiteten Frage."
 
-#: admin/SmartQ&A-admin.php:1103
+#: admin/smartqa-admin.php:1103
 #, fuzzy
 msgid "Default status of new answer."
 msgstr "Standardstatus der neuen Antwort."
 
-#: admin/SmartQ&A-admin.php:1083
+#: admin/smartqa-admin.php:1083
 #, fuzzy
 msgid "Default status of new question."
 msgstr "Standardstatus der neuen Frage."
 
-#: admin/SmartQ&A-admin.php:1123
+#: admin/smartqa-admin.php:1123
 #, fuzzy
 msgid "Default status of question or answer submitted by non-loggedin user."
 msgstr ""
@@ -1439,52 +1439,52 @@ msgstr "Beschreibung"
 msgid "Disable"
 msgstr "Deaktivieren"
 
-#: admin/SmartQ&A-admin.php:1273 admin/SmartQ&A-admin.php:1315
+#: admin/smartqa-admin.php:1273 admin/smartqa-admin.php:1315
 #, fuzzy
 msgid "Disable comments"
 msgstr "Kommentare deaktivieren"
 
-#: admin/SmartQ&A-admin.php:1316
+#: admin/smartqa-admin.php:1316
 #, fuzzy
 msgid "Disable comments on answer."
 msgstr "Deaktiviere Kommentare zur Antwort."
 
-#: admin/SmartQ&A-admin.php:1274
+#: admin/smartqa-admin.php:1274
 #, fuzzy
 msgid "Disable comments on questions."
 msgstr "Deaktiviere Kommentare zu Fragen."
 
-#: admin/SmartQ&A-admin.php:1285 admin/SmartQ&A-admin.php:1327
+#: admin/smartqa-admin.php:1285 admin/smartqa-admin.php:1327
 #, fuzzy
 msgid "Disable down voting"
 msgstr "Abwärtsstimmen deaktivieren"
 
-#: admin/SmartQ&A-admin.php:1328
+#: admin/smartqa-admin.php:1328
 #, fuzzy
 msgid "Disable down voting on answers."
 msgstr "Deaktiviere das Downvoting für Antworten."
 
-#: admin/SmartQ&A-admin.php:1286
+#: admin/smartqa-admin.php:1286
 #, fuzzy
 msgid "Disable down voting on questions."
 msgstr "Deaktiviere das Downvoting bei Fragen."
 
-#: admin/SmartQ&A-admin.php:1212
+#: admin/smartqa-admin.php:1212
 #, fuzzy
 msgid "Disable question suggestion"
 msgstr "Fragevorschlag deaktivieren"
 
-#: admin/SmartQ&A-admin.php:1279 admin/SmartQ&A-admin.php:1321
+#: admin/smartqa-admin.php:1279 admin/smartqa-admin.php:1321
 #, fuzzy
 msgid "Disable voting"
 msgstr "Abstimmung deaktivieren"
 
-#: admin/SmartQ&A-admin.php:1322
+#: admin/smartqa-admin.php:1322
 #, fuzzy
 msgid "Disable voting on answers."
 msgstr "Deaktiviere die Abstimmung über Antworten."
 
-#: admin/SmartQ&A-admin.php:1280
+#: admin/smartqa-admin.php:1280
 #, fuzzy
 msgid "Disable voting on questions."
 msgstr "Deaktiviere die Abstimmung über Fragen."
@@ -1492,8 +1492,8 @@ msgstr "Deaktiviere die Abstimmung über Fragen."
 #: addons/categories/widget.php:29
 #, fuzzy
 #| msgid "Display SmartQ&A categories"
-msgid "Display SmartQ&A categories"
-msgstr "SmartQ&A-Kategorien anzeigen"
+msgid "Display SmartQa categories"
+msgstr "SmartQa-Kategorien anzeigen"
 
 #: admin/views/uninstall.php:125
 #, fuzzy
@@ -1510,7 +1510,7 @@ msgstr "Dokumente und FAQ"
 msgid "Down vote this post"
 msgstr "Stimme diesen Beitrag ab"
 
-#. translators: %cpt% is SmartQ&A placeholder not gettext.
+#. translators: %cpt% is SmartQa placeholder not gettext.
 #: addons/notifications/notifications.php:185
 #, fuzzy
 msgid "down voted your %cpt%"
@@ -1559,7 +1559,7 @@ msgstr "Kategorie bearbeiten"
 msgid "Edit comment"
 msgstr "Kommentar bearbeiten"
 
-#: admin/SmartQ&A-admin.php:1395
+#: admin/smartqa-admin.php:1395
 #, fuzzy
 msgid "Edit page"
 msgstr "Seite bearbeiten"
@@ -1821,8 +1821,9 @@ msgstr "Die Größe der Datei(en) ist größer als %s MB"
 
 #: admin/class-list-table-hooks.php:399 admin/meta-box.php:149
 #: includes/flag.php:140
+#, fuzzy
 msgid "Flag"
-msgstr "Beitrag melden"
+msgstr "Flagge"
 
 #: includes/flag.php:131
 #, fuzzy
@@ -1926,7 +1927,7 @@ msgstr ""
 msgid "Help and Support!"
 msgstr "Hilfe und Unterstützung!"
 
-#: admin/SmartQ&A-admin.php:803
+#: admin/smartqa-admin.php:803
 #, fuzzy
 msgid "Hide author credits"
 msgstr "Autorennachweis ausblenden"
@@ -1936,11 +1937,11 @@ msgstr "Autorennachweis ausblenden"
 msgid "Hide empty:"
 msgstr "Leer ausblenden:"
 
-#: admin/SmartQ&A-admin.php:804
+#: admin/smartqa-admin.php:804
 #, fuzzy
 #| msgid "Hide link to SmartQ&A project site."
-msgid "Hide link to SmartQ&A project site."
-msgstr "Link zur SmartQ&A-Projektseite ausblenden."
+msgid "Hide link to SmartQa project site."
+msgstr "Link zur SmartQa-Projektseite ausblenden."
 
 #: addons/recaptcha/recaptcha.php:123
 #, fuzzy
@@ -1982,7 +1983,7 @@ msgstr "Breite des Symbols:"
 msgid "ID"
 msgstr "ID"
 
-#: admin/SmartQ&A-admin.php:1225
+#: admin/smartqa-admin.php:1225
 msgid ""
 "If an answer is selected for question then [solved] prefix will be added in "
 "title."
@@ -1990,7 +1991,7 @@ msgstr ""
 "Wenn eine Antwort für eine Frage ausgewählt wird, wird das Präfix [gelöst] "
 "im Titel hinzugefügt."
 
-#: admin/SmartQ&A-admin.php:1292
+#: admin/smartqa-admin.php:1292
 #, fuzzy
 msgid "If enabled this will prevent user to submit answer on solved question."
 msgstr ""
@@ -2006,13 +2007,13 @@ msgstr ""
 "Wenn du dir bei diesem Abschnitt unsicher bist, benutze bitte keine der "
 "untenstehenden Optionen."
 
-#: admin/SmartQ&A-admin.php:810
+#: admin/smartqa-admin.php:810
 msgid ""
-"If you have created main pages manually then make sure to have [SmartQ&A] "
+"If you have created main pages manually then make sure to have [smartqa] "
 "shortcode in all pages."
 msgstr ""
 "Wenn du die Hauptseiten manuell erstellt hast, musst du sicherstellen, dass "
-"der [SmartQ&A] Shortcode in allen Seiten enthalten ist."
+"der [smartqa] Shortcode in allen Seiten enthalten ist."
 
 #: addons/categories/categories.php:548 addons/categories/categories.php:597
 #: includes/class-form-hooks.php:1001
@@ -2064,8 +2065,8 @@ msgstr "Code-Schnipsel hier einfügen ..."
 #: includes/mce-languages.php:35
 #, fuzzy
 #| msgid "Insert codes (SmartQ&A)"
-msgid "Insert codes (SmartQ&A)"
-msgstr "Codes einfügen (SmartQ&A)"
+msgid "Insert codes (SmartQa)"
+msgstr "Codes einfügen (SmartQa)"
 
 #: includes/mce-languages.php:27 lib/form/class-editor.php:83
 #, fuzzy
@@ -2075,8 +2076,8 @@ msgstr "Bild einfügen"
 #: includes/mce-languages.php:28
 #, fuzzy
 #| msgid "Insert Media (SmartQ&A)"
-msgid "Insert Media (SmartQ&A)"
-msgstr "Medien einfügen (SmartQ&A)"
+msgid "Insert Media (SmartQa)"
+msgstr "Medien einfügen (SmartQa)"
 
 #: addons/syntaxhighlighter/syntaxhighlighter.php:79
 #, fuzzy
@@ -2088,7 +2089,7 @@ msgstr "In den Editor einfügen"
 msgid "Insert your code."
 msgstr "Füge deinen Code ein."
 
-#: admin/SmartQ&A-admin.php:1219
+#: admin/smartqa-admin.php:1219
 #, fuzzy
 msgid ""
 "Instead of showing time passed i.e. 1 Hour ago, show default format date."
@@ -2099,8 +2100,8 @@ msgstr ""
 #: includes/functions.php:1650
 #, fuzzy
 #| msgid "Integrate SmartQ&A with BuddyPress."
-msgid "Integrate SmartQ&A with BuddyPress."
-msgstr "Integriere SmartQ&A mit BuddyPress."
+msgid "Integrate SmartQa with BuddyPress."
+msgstr "Integriere SmartQa mit BuddyPress."
 
 #: widgets/leaderboard.php:150
 #, fuzzy
@@ -2118,16 +2119,16 @@ msgid "Invalid or non existing question id."
 msgstr "Ungültige oder nicht vorhandene Frage-ID."
 
 #. translators: %s contain server PHP version.
-#: SmartQ&A-question-answer.php:47
+#: smartqa-question-answer.php:47
 #, fuzzy
 #| msgid ""
 #| "Irks! At least PHP version 7.2 is required to run SmartQ&A. Current PHP "
 #| "version is %s. Please ask hosting provider to update your PHP version."
 msgid ""
-"Irks! At least PHP version 7.2 is required to run SmartQ&A. Current PHP "
+"Irks! At least PHP version 7.2 is required to run SmartQa. Current PHP "
 "version is %s. Please ask hosting provider to update your PHP version."
 msgstr ""
-"Irks! Für die Ausführung von SmartQ&A ist mindestens die PHP-Version 7.2 "
+"Irks! Für die Ausführung von SmartQa ist mindestens die PHP-Version 7.2 "
 "erforderlich. Die aktuelle PHP-Version ist %s. Bitte bitte deinen Hosting-"
 "Anbieter, deine PHP-Version zu aktualisieren."
 
@@ -2152,7 +2153,7 @@ msgstr "Es sieht so aus, als ob die Rolle %s bereits existiert."
 msgid "Just now"
 msgstr "Gerade jetzt"
 
-#: admin/SmartQ&A-admin.php:1243
+#: admin/smartqa-admin.php:1243
 #, fuzzy
 msgid "Keep stop words in question slug"
 msgstr "Stopp-Wörter im Frage-Block beibehalten"
@@ -2220,8 +2221,8 @@ msgstr "Die Lizenzschlüssel stimmen nicht überein."
 #: admin/views/licenses.php:21
 #, fuzzy
 #| msgid "License keys for SmartQ&A products, i.e. extensions and themes."
-msgid "License keys for SmartQ&A products, i.e. extensions and themes."
-msgstr "Lizenzschlüssel für SmartQ&A-Produkte, d.h. Erweiterungen und Themen."
+msgid "License keys for SmartQa products, i.e. extensions and themes."
+msgstr "Lizenzschlüssel für SmartQa-Produkte, d.h. Erweiterungen und Themen."
 
 #: admin/updater.php:90 admin/updater.php:102
 #, fuzzy
@@ -2238,16 +2239,16 @@ msgstr "Lizenzen"
 msgid "Limit:"
 msgstr "Grenze:"
 
-#: admin/SmartQ&A-admin.php:922
+#: admin/smartqa-admin.php:922
 #, fuzzy
 msgid "List avatar size"
 msgstr "Avatargröße auflisten"
 
-#: admin/SmartQ&A-admin.php:916
+#: admin/smartqa-admin.php:916
 #, fuzzy
 #| msgid "Load assets in SmartQ&A page only?"
-msgid "Load assets in SmartQ&A page only?"
-msgstr "Assets nur in SmartQ&A-Seite laden?"
+msgid "Load assets in SmartQa page only?"
+msgstr "Assets nur in SmartQa-Seite laden?"
 
 #: includes/class/class-activity.php:550
 #: templates/addons/notification/index.php:68
@@ -2276,7 +2277,7 @@ msgstr "Laden."
 msgid "Login"
 msgstr "Anmeldung"
 
-#: admin/SmartQ&A-admin.php:875
+#: admin/smartqa-admin.php:875
 #, fuzzy
 msgid "Main questions list page title"
 msgstr "Hauptfragen Liste Seitentitel"
@@ -2311,12 +2312,12 @@ msgstr "Markiert als geschlossen"
 msgid "Marked as featured question"
 msgstr "Markiert als besondere Frage"
 
-#: admin/SmartQ&A-admin.php:1166
+#: admin/smartqa-admin.php:1166
 #, fuzzy
 msgid "Max upload size"
 msgstr "Maximale Upload-Größe"
 
-#: admin/SmartQ&A-admin.php:1161
+#: admin/smartqa-admin.php:1161
 #, fuzzy
 msgid "Max uploads per post"
 msgstr "Maximale Uploads pro Beitrag"
@@ -2348,13 +2349,13 @@ msgstr "Die maximal zulässigen Werte in Feld %2$s sind %1$d."
 msgid "Media preview"
 msgstr "Medienvorschau"
 
-#: lib/class-SmartQ&A-upgrader.php:301
+#: lib/class-smartqa-upgrader.php:301
 #, fuzzy
 msgid "Migrated all reputations"
 msgstr "Alle Reputationen migriert"
 
 #. translators: %s is question ID.
-#: lib/class-SmartQ&A-upgrader.php:72
+#: lib/class-smartqa-upgrader.php:72
 #, fuzzy
 msgid "Migrating question: %d"
 msgstr "Migrationsfrage: %d"
@@ -2375,7 +2376,7 @@ msgstr "Mindestens %1$d Werte sind in Feld %2$s erforderlich."
 msgid "Minimum and maximum views"
 msgstr "Minimale und maximale Ansichten"
 
-#: admin/SmartQ&A-admin.php:1309
+#: admin/smartqa-admin.php:1309
 #, fuzzy
 msgid "Minimum answer content"
 msgstr "Mindestinhalt der Antwort"
@@ -2386,7 +2387,7 @@ msgid "minimum numbers of tags that user must add when asking."
 msgstr ""
 "mindestanzahl von Tags, die der Nutzer bei der Anfrage hinzufügen muss."
 
-#: admin/SmartQ&A-admin.php:1255
+#: admin/smartqa-admin.php:1255
 #, fuzzy
 msgid "Minimum question content"
 msgstr "Mindestinhalt der Frage"
@@ -2396,7 +2397,7 @@ msgstr "Mindestinhalt der Frage"
 msgid "Minimum tags"
 msgstr "Minimum Tags"
 
-#: admin/SmartQ&A-admin.php:1249
+#: admin/smartqa-admin.php:1249
 #, fuzzy
 msgid "Minimum title length"
 msgstr "Mindestlänge des Titels"
@@ -2421,10 +2422,10 @@ msgstr "Fehlen eines temporären Ordners"
 msgid "Missing a temporary folder."
 msgstr "Es fehlt ein temporärer Ordner."
 
-#: admin/SmartQ&A-admin.php:647 admin/SmartQ&A-admin.php:656
-#: admin/SmartQ&A-admin.php:1087 admin/SmartQ&A-admin.php:1097
-#: admin/SmartQ&A-admin.php:1107 admin/SmartQ&A-admin.php:1117
-#: admin/SmartQ&A-admin.php:1127 includes/post-status.php:30
+#: admin/smartqa-admin.php:647 admin/smartqa-admin.php:656
+#: admin/smartqa-admin.php:1087 admin/smartqa-admin.php:1097
+#: admin/smartqa-admin.php:1107 admin/smartqa-admin.php:1117
+#: admin/smartqa-admin.php:1127 includes/post-status.php:30
 #, fuzzy
 msgid "Moderate"
 msgstr "Mäßig"
@@ -2466,12 +2467,12 @@ msgstr "Mehr Optionen"
 msgid "Move this item to the Trash"
 msgstr "Dieses Element in den Papierkorb verschieben"
 
-#: admin/SmartQ&A-admin.php:1177
+#: admin/smartqa-admin.php:1177
 #, fuzzy
 msgid "Multiple Answers"
 msgstr "Mehrere Antworten"
 
-#: admin/SmartQ&A-admin.php:1059
+#: admin/smartqa-admin.php:1059
 #, fuzzy
 msgid "Multiple answers"
 msgstr "Mehrere Antworten"
@@ -2488,7 +2489,7 @@ msgstr "Name"
 msgid "New"
 msgstr "Neu"
 
-#: admin/SmartQ&A-admin.php:202 admin/views/emails.php:46
+#: admin/smartqa-admin.php:202 admin/views/emails.php:46
 #, fuzzy
 msgid "New Answer"
 msgstr "Neue Antwort"
@@ -2528,7 +2529,7 @@ msgstr "Neuer Kommentar"
 msgid "New comment by {commenter}"
 msgstr "Neuer Kommentar von {commenter}"
 
-#: admin/SmartQ&A-admin.php:198 admin/views/emails.php:45
+#: admin/smartqa-admin.php:198 admin/views/emails.php:45
 #, fuzzy
 msgid "New Question"
 msgstr "Neue Frage"
@@ -2550,7 +2551,7 @@ msgstr "Neue Rolle %s erfolgreich hinzugefügt."
 msgid "New Tag"
 msgstr "Neuer Tag"
 
-#: admin/SmartQ&A-admin.php:1237 admin/SmartQ&A-admin.php:1303
+#: admin/smartqa-admin.php:1237 admin/smartqa-admin.php:1303
 #: includes/theme.php:472 widgets/questions.php:128
 #, fuzzy
 msgid "Newest"
@@ -2650,9 +2651,9 @@ msgstr "Keine verwandten Fragen gefunden."
 #: addons/buddypress/buddypress.php:172
 #, fuzzy
 #| msgid "No SmartQ&A template found for rendering this page."
-msgid "No SmartQ&A template found for rendering this page."
+msgid "No SmartQa template found for rendering this page."
 msgstr ""
-"Es wurde keine SmartQ&A-Vorlage für die Darstellung dieser Seite gefunden."
+"Es wurde keine SmartQa-Vorlage für die Darstellung dieser Seite gefunden."
 
 #: templates/addons/tag/no-tags-found.php:18
 #, fuzzy
@@ -2682,8 +2683,8 @@ msgstr "Keine gültige Post-ID."
 #: includes/activity.php:60
 #, fuzzy
 #| msgid "Not SmartQ&A posts"
-msgid "Not SmartQ&A posts"
-msgstr "Nicht SmartQ&A-Posten"
+msgid "Not SmartQa posts"
+msgstr "Nicht SmartQa-Posten"
 
 #: addons/categories/categories.php:196 addons/tags/tags.php:198
 #, fuzzy
@@ -2730,12 +2731,12 @@ msgstr ""
 msgid "Number:"
 msgstr "Nummer:"
 
-#: admin/SmartQ&A-admin.php:1201
+#: admin/smartqa-admin.php:1201
 #, fuzzy
 msgid "Numbers of comments to load in each query?"
 msgstr "Wie viele Kommentare sollen in jeder Abfrage geladen werden?"
 
-#: admin/SmartQ&A-admin.php:1200
+#: admin/smartqa-admin.php:1200
 #, fuzzy
 msgid "Numbers of comments to show"
 msgstr "Anzahl der Kommentare zum Anzeigen"
@@ -2745,21 +2746,21 @@ msgstr "Anzahl der Kommentare zum Anzeigen"
 msgid "Numbers of tags to show in tags page."
 msgstr "Anzahl der Tags, die auf der Tags-Seite angezeigt werden sollen."
 
-#: admin/SmartQ&A-admin.php:1238 admin/SmartQ&A-admin.php:1304
+#: admin/smartqa-admin.php:1238 admin/smartqa-admin.php:1304
 #: includes/theme.php:476
 #, fuzzy
 msgid "Oldest"
 msgstr "Älteste"
 
-#: admin/SmartQ&A-admin.php:682
+#: admin/smartqa-admin.php:682
 #, fuzzy
 #| msgid "One or more SmartQ&A page(s) does not exists."
-msgid "One or more SmartQ&A page(s) does not exists."
-msgstr "Eine oder mehrere SmartQ&A-Seite(n) ist/sind nicht vorhanden."
+msgid "One or more SmartQa page(s) does not exists."
+msgstr "Eine oder mehrere SmartQa-Seite(n) ist/sind nicht vorhanden."
 
-#: admin/SmartQ&A-admin.php:987 admin/SmartQ&A-admin.php:998
-#: admin/SmartQ&A-admin.php:1009 admin/SmartQ&A-admin.php:1037
-#: admin/SmartQ&A-admin.php:1048 admin/SmartQ&A-admin.php:1077
+#: admin/smartqa-admin.php:987 admin/smartqa-admin.php:998
+#: admin/smartqa-admin.php:1009 admin/smartqa-admin.php:1037
+#: admin/smartqa-admin.php:1048 admin/smartqa-admin.php:1077
 #, fuzzy
 msgid "Only logged in"
 msgstr "Nur eingeloggt"
@@ -2769,32 +2770,32 @@ msgstr "Nur eingeloggt"
 msgid "Only question can be set as featured"
 msgstr "Nur die Frage kann als Featured eingestellt werden"
 
-#: admin/SmartQ&A-admin.php:1049
+#: admin/smartqa-admin.php:1049
 #, fuzzy
 msgid "Only user having ap_new_answer capability"
 msgstr "Nur Benutzer mit der Fähigkeit ap_new_answer"
 
-#: admin/SmartQ&A-admin.php:1078
+#: admin/smartqa-admin.php:1078
 #, fuzzy
 msgid "Only user having ap_new_comment capability"
 msgstr "Nur Benutzer mit der Fähigkeit ap_new_comment"
 
-#: admin/SmartQ&A-admin.php:1038
+#: admin/smartqa-admin.php:1038
 #, fuzzy
 msgid "Only user having ap_new_question capability"
 msgstr "Nur Benutzer mit der Fähigkeit ap_new_question"
 
-#: admin/SmartQ&A-admin.php:999
+#: admin/smartqa-admin.php:999
 #, fuzzy
 msgid "Only user having ap_read_answer capability"
 msgstr "Nur Benutzer mit der Fähigkeit ap_read_answer"
 
-#: admin/SmartQ&A-admin.php:1010
+#: admin/smartqa-admin.php:1010
 #, fuzzy
 msgid "Only user having ap_read_comment capability"
 msgstr "Nur Benutzer mit der Fähigkeit ap_read_comment"
 
-#: admin/SmartQ&A-admin.php:988
+#: admin/smartqa-admin.php:988
 #, fuzzy
 msgid "Only user having ap_read_question capability"
 msgstr "Nur Benutzer mit der Fähigkeit ap_read_question"
@@ -2804,12 +2805,12 @@ msgstr "Nur Benutzer mit der Fähigkeit ap_read_question"
 msgid "Only visible to admin and moderator."
 msgstr "Nur für Administratoren und Moderatoren sichtbar."
 
-#: admin/SmartQ&A-admin.php:1065
+#: admin/smartqa-admin.php:1065
 #, fuzzy
 msgid "OP can answer?"
 msgstr "Kann OP antworten?"
 
-#: admin/SmartQ&A-admin.php:1066
+#: admin/smartqa-admin.php:1066
 #, fuzzy
 msgid ""
 "OP: Original poster/asker. Enabling this option will prevent users to post "
@@ -2828,7 +2829,7 @@ msgstr "Öffnen Sie"
 msgid "Open this question for new answers"
 msgstr "Öffne diese Frage für neue Antworten"
 
-#: admin/SmartQ&A-admin.php:683
+#: admin/smartqa-admin.php:683
 #, fuzzy
 msgid "Or"
 msgstr "Oder"
@@ -2843,7 +2844,7 @@ msgstr "oder"
 msgid "Order"
 msgstr "Bestellung"
 
-#: admin/SmartQ&A-admin.php:1298
+#: admin/smartqa-admin.php:1298
 #, fuzzy
 msgid "Order answers by by default using selected"
 msgstr "Ordnen Sie die Antworten standardmäßig nach ausgewählten"
@@ -2863,7 +2864,7 @@ msgstr "Bestellen nach:"
 msgid "Order by:"
 msgstr "Bestellen nach:"
 
-#: admin/SmartQ&A-admin.php:1232
+#: admin/smartqa-admin.php:1232
 #, fuzzy
 msgid "Order question list by default using selected"
 msgstr "Fragenliste standardmäßig mit ausgewählten"
@@ -2881,8 +2882,8 @@ msgstr "Andere Erlaubnisse"
 #: includes/functions.php:2369
 #, fuzzy
 #| msgid "Page used to display all A SmartQ&A activities."
-msgid "Page used to display all SmartQ&A activities."
-msgstr "Seite, auf der alle SmartQ&A Aktivitäten angezeigt werden."
+msgid "Page used to display all smartqa activities."
+msgstr "Seite, auf der alle smartqa Aktivitäten angezeigt werden."
 
 #: includes/functions.php:2345
 #, fuzzy
@@ -2897,12 +2898,12 @@ msgstr "Seite, auf der das Anfrageformular angezeigt wird."
 #| "as <b>Base Page</b> in SmartQ&A documentations and support forum."
 msgid ""
 "Page used to display question archive (list). Sometimes this page is used "
-"for displaying other subpages of SmartQ&A.<br/>This page is also referred as "
-"<b>Base Page</b> in SmartQ&A documentations and support forum."
+"for displaying other subpages of SmartQa.<br/>This page is also referred as "
+"<b>Base Page</b> in SmartQa documentations and support forum."
 msgstr ""
 "Diese Seite wird verwendet, um das Fragenarchiv (Liste) anzuzeigen. Manchmal "
-"wird diese Seite auch für die Anzeige anderer Unterseiten von SmartQ&A "
-"verwendet.<br/>Diese Seite wird in den SmartQ&A-Dokumentationen und im "
+"wird diese Seite auch für die Anzeige anderer Unterseiten von SmartQa "
+"verwendet.<br/>Diese Seite wird in den SmartQa-Dokumentationen und im "
 "Support-Forum auch als <b>Basisseite</b> bezeichnet."
 
 #: includes/functions.php:2357
@@ -2966,26 +2967,26 @@ msgstr "Alle Fragen und Antworten unwiderruflich löschen?"
 #: admin/views/uninstall.php:71
 #, fuzzy
 #| msgid "Permanently delete all SmartQ&A options?"
-msgid "Permanently delete all SmartQ&A options?"
-msgstr "Alle SmartQ&A-Optionen dauerhaft löschen?"
+msgid "Permanently delete all SmartQa options?"
+msgstr "Alle SmartQa-Optionen dauerhaft löschen?"
 
 #: admin/views/uninstall.php:89
 #, fuzzy
 #| msgid "Permanently delete all SmartQ&A tables?"
-msgid "Permanently delete all SmartQ&A tables?"
-msgstr "Alle SmartQ&A-Tabellen unwiderruflich löschen?"
+msgid "Permanently delete all SmartQa tables?"
+msgstr "Alle SmartQa-Tabellen unwiderruflich löschen?"
 
 #: admin/views/uninstall.php:80
 #, fuzzy
 #| msgid "Permanently delete all SmartQ&A terms?"
-msgid "Permanently delete all SmartQ&A terms?"
-msgstr "Alle SmartQ&A-Begriffe dauerhaft löschen?"
+msgid "Permanently delete all SmartQa terms?"
+msgstr "Alle SmartQa-Begriffe dauerhaft löschen?"
 
 #: admin/views/uninstall.php:62
 #, fuzzy
 #| msgid "Permanently delete all SmartQ&A user data?"
-msgid "Permanently delete all SmartQ&A user data?"
-msgstr "Alle SmartQ&A-Benutzerdaten unwiderruflich löschen?"
+msgid "Permanently delete all SmartQa user data?"
+msgstr "Alle SmartQa-Benutzerdaten unwiderruflich löschen?"
 
 #. Author of the plugin/theme
 #, fuzzy
@@ -3173,7 +3174,7 @@ msgstr "Vorschau &#8220;%s&#8221;"
 msgid "Private"
 msgstr "Privat"
 
-#: admin/SmartQ&A-admin.php:650 admin/SmartQ&A-admin.php:657
+#: admin/smartqa-admin.php:650 admin/smartqa-admin.php:657
 #, fuzzy
 msgid "Private Post"
 msgstr "Private Post"
@@ -3195,9 +3196,9 @@ msgstr "Profil"
 msgid "Prove that you are a human"
 msgstr "Beweise, dass du ein Mensch bist"
 
-#: admin/SmartQ&A-admin.php:1086 admin/SmartQ&A-admin.php:1096
-#: admin/SmartQ&A-admin.php:1106 admin/SmartQ&A-admin.php:1116
-#: admin/SmartQ&A-admin.php:1126
+#: admin/smartqa-admin.php:1086 admin/smartqa-admin.php:1096
+#: admin/smartqa-admin.php:1106 admin/smartqa-admin.php:1116
+#: admin/smartqa-admin.php:1126
 #, fuzzy
 msgid "Publish"
 msgstr "Veröffentlichen"
@@ -3236,7 +3237,7 @@ msgstr "Frage und Antwort werden unterstützt von"
 msgid "Question and answer search form."
 msgstr "Suchformular für Fragen und Antworten."
 
-#: admin/SmartQ&A-admin.php:928
+#: admin/smartqa-admin.php:928
 #, fuzzy
 msgid "Question avatar size"
 msgstr "Frage Avatargröße"
@@ -3255,7 +3256,7 @@ msgstr "Frage-Kategorie-Feed"
 msgid "Question closed"
 msgstr "Frage geschlossen"
 
-#: admin/SmartQ&A-admin.php:1261
+#: admin/smartqa-admin.php:1261
 #, fuzzy
 msgid "Question editor?"
 msgstr "Frage Editor?"
@@ -3300,12 +3301,12 @@ msgstr "Frage ist geöffnet"
 msgid "Question is unmarked as featured."
 msgstr "Die Frage ist nicht als \"featured\" gekennzeichnet."
 
-#: admin/SmartQ&A-admin.php:858
+#: admin/smartqa-admin.php:858
 #, fuzzy
 msgid "Question permalink"
 msgstr "Frage permalink"
 
-#: admin/SmartQ&A-admin.php:852
+#: admin/smartqa-admin.php:852
 #, fuzzy
 msgid "Question slug"
 msgstr "Frage Schnecke"
@@ -3356,17 +3357,17 @@ msgstr "Fragen Seite Slug"
 msgid "Questions page title"
 msgstr "Fragen Seitentitel"
 
-#: admin/SmartQ&A-admin.php:946
+#: admin/smartqa-admin.php:946
 #, fuzzy
 msgid "Questions per page"
 msgstr "Fragen pro Seite"
 
-#: admin/SmartQ&A-admin.php:947
+#: admin/smartqa-admin.php:947
 #, fuzzy
 msgid "Questions to show per page."
 msgstr "Fragen, die pro Seite angezeigt werden sollen."
 
-#: admin/SmartQ&A-admin.php:1262 admin/SmartQ&A-admin.php:1268
+#: admin/smartqa-admin.php:1262 admin/smartqa-admin.php:1268
 #, fuzzy
 msgid "Quick tags editor"
 msgstr "Quick Tags Editor"
@@ -3554,7 +3555,7 @@ msgid "Reputations page title"
 msgstr "Reputationen Seitentitel"
 
 #. translators: %s contains name of the form requested.
-#: SmartQ&A-question-answer.php:483
+#: smartqa-question-answer.php:483
 #, fuzzy
 msgid "Requested form: %s is not registered ."
 msgstr "Das angeforderte Formular: %s ist nicht registriert."
@@ -3624,12 +3625,12 @@ msgstr "Add-on Optionen speichern"
 msgid "Save Events Points"
 msgstr "Ereignispunkte speichern"
 
-#: admin/SmartQ&A-admin.php:800
+#: admin/smartqa-admin.php:800
 #, fuzzy
 msgid "Save Pages"
 msgstr "Seiten speichern"
 
-#: admin/SmartQ&A-admin.php:849
+#: admin/smartqa-admin.php:849
 #, fuzzy
 msgid "Save Permalinks"
 msgstr "Permalinks speichern"
@@ -3666,7 +3667,7 @@ msgstr "Antworten suchen"
 msgid "Search Category"
 msgstr "Kategorie suchen"
 
-#: admin/SmartQ&A-admin.php:880
+#: admin/smartqa-admin.php:880
 #, fuzzy
 msgid "Search page title"
 msgstr "Titel der Suchseite"
@@ -3712,7 +3713,7 @@ msgstr "Wähle eine Frage für eine neue Antwort"
 msgid "Select a topic that best fits your question."
 msgstr "Wähle ein Thema, das am besten zu deiner Frage passt."
 
-#: admin/SmartQ&A-admin.php:521
+#: admin/smartqa-admin.php:521
 #, fuzzy
 msgid "Select All"
 msgstr "Alle auswählen"
@@ -3761,7 +3762,7 @@ msgstr ""
 msgid "Select roles for which reCaptcha will be hidden."
 msgstr "Wähle die Rollen aus, für die reCaptcha ausgeblendet werden soll."
 
-#: admin/SmartQ&A-admin.php:859
+#: admin/smartqa-admin.php:859
 #, fuzzy
 msgid "Select single question permalink structure."
 msgstr "Wähle eine einzelne Frage mit Permalink-Struktur aus."
@@ -3771,7 +3772,7 @@ msgstr "Wähle eine einzelne Frage mit Permalink-Struktur aus."
 msgid "Select Template"
 msgstr "Vorlage auswählen"
 
-#: admin/SmartQ&A-admin.php:1362
+#: admin/smartqa-admin.php:1362
 #, fuzzy
 msgid "Select the roles to exclude in activity feed."
 msgstr ""
@@ -3827,7 +3828,7 @@ msgstr "Ausgewählte Antwort als beste"
 msgid "selected as best answer"
 msgstr "als beste Antwort ausgewählt"
 
-#: admin/SmartQ&A-admin.php:1363
+#: admin/smartqa-admin.php:1363
 #, fuzzy
 msgid "Selected role's activities will be excluded in site activity feed."
 msgstr ""
@@ -3921,7 +3922,7 @@ msgstr ""
 msgid "Sending request"
 msgstr "Anfrage abschicken"
 
-#: admin/SmartQ&A-admin.php:683
+#: admin/smartqa-admin.php:683
 #, fuzzy
 msgid "Set automatically"
 msgstr "Automatisch einstellen"
@@ -3942,68 +3943,68 @@ msgstr ""
 msgid "Set how you want to order categories in form."
 msgstr "Lege fest, wie du die Kategorien im Formular anordnen willst."
 
-#: admin/SmartQ&A-admin.php:1167
+#: admin/smartqa-admin.php:1167
 #, fuzzy
 msgid "Set maximum upload size."
 msgstr "Lege die maximale Upload-Größe fest."
 
-#: admin/SmartQ&A-admin.php:1310
+#: admin/smartqa-admin.php:1310
 #, fuzzy
 msgid "Set minimum letters for a answer contents."
 msgstr "Lege Mindestbuchstaben für den Inhalt einer Antwort fest."
 
-#: admin/SmartQ&A-admin.php:1256
+#: admin/smartqa-admin.php:1256
 #, fuzzy
 msgid "Set minimum letters for a question contents."
 msgstr "Lege Mindestbuchstaben für den Inhalt einer Frage fest."
 
-#: admin/SmartQ&A-admin.php:1250
+#: admin/smartqa-admin.php:1250
 #, fuzzy
 msgid "Set minimum letters for a question title."
 msgstr "Lege die Mindestbuchstaben für einen Fragentitel fest."
 
-#: admin/SmartQ&A-admin.php:1162
+#: admin/smartqa-admin.php:1162
 #, fuzzy
 msgid "Set numbers of media user can upload for each post."
 msgstr ""
 "Lege die Anzahl der Medien fest, die du für jeden Beitrag hochladen kannst."
 
-#: admin/SmartQ&A-admin.php:683
+#: admin/smartqa-admin.php:683
 #, fuzzy
 msgid "Set set by yourself"
 msgstr "Selber einstellen"
 
-#: admin/SmartQ&A-admin.php:1072
+#: admin/smartqa-admin.php:1072
 #, fuzzy
 msgid "Set who can submit a comment from frontend."
 msgstr "Lege fest, wer einen Kommentar im Frontend abgeben kann."
 
-#: admin/SmartQ&A-admin.php:1032
+#: admin/smartqa-admin.php:1032
 #, fuzzy
 msgid "Set who can submit a question from frontend."
 msgstr "Lege fest, wer im Frontend eine Frage stellen kann."
 
-#: admin/SmartQ&A-admin.php:1043
+#: admin/smartqa-admin.php:1043
 #, fuzzy
 msgid "Set who can submit an answer from frontend."
 msgstr "Lege fest, wer eine Antwort vom Frontend aus senden kann."
 
-#: admin/SmartQ&A-admin.php:993
+#: admin/smartqa-admin.php:993
 #, fuzzy
 msgid "Set who can view or read a answer."
 msgstr "Lege fest, wer eine Antwort sehen oder lesen kann."
 
-#: admin/SmartQ&A-admin.php:1004
+#: admin/smartqa-admin.php:1004
 #, fuzzy
 msgid "Set who can view or read a comment."
 msgstr "Lege fest, wer einen Kommentar sehen oder lesen kann."
 
-#: admin/SmartQ&A-admin.php:982
+#: admin/smartqa-admin.php:982
 #, fuzzy
 msgid "Set who can view or read a question."
 msgstr "Lege fest, wer eine Frage sehen oder lesen kann."
 
-#: admin/SmartQ&A-admin.php:211 admin/SmartQ&A-admin.php:312
+#: admin/smartqa-admin.php:211 admin/smartqa-admin.php:312
 #, fuzzy
 msgid "Settings"
 msgstr "Einstellungen"
@@ -4016,10 +4017,10 @@ msgstr "Zeige %s weitere Kommentare"
 
 #: widgets/breadcrumbs.php:29
 #, fuzzy
-msgid "Show current SmartQ&A page navigation"
-msgstr "Aktuelle SmartQ&A Seitennavigation anzeigen"
+msgid "Show current smartqa page navigation"
+msgstr "Aktuelle smartqa Seitennavigation anzeigen"
 
-#: admin/SmartQ&A-admin.php:1218
+#: admin/smartqa-admin.php:1218
 #, fuzzy
 msgid "Show default date format"
 msgstr "Standard-Datumsformat anzeigen"
@@ -4030,13 +4031,13 @@ msgstr "Standard-Datumsformat anzeigen"
 #| "Show SmartQ&A avatars by default instead of gravatar fallback. Useful in "
 #| "localhost development."
 msgid ""
-"Show SmartQ&A avatars by default instead of gravatar fallback. Useful in "
+"Show SmartQa avatars by default instead of gravatar fallback. Useful in "
 "localhost development."
 msgstr ""
-"Zeigt standardmäßig SmartQ&A-Avatare anstelle des Gravatar-Fallbacks. "
+"Zeigt standardmäßig SmartQa-Avatare anstelle des Gravatar-Fallbacks. "
 "Nützlich für die Entwicklung auf dem lokalen Host."
 
-#: admin/SmartQ&A-admin.php:1224
+#: admin/smartqa-admin.php:1224
 #, fuzzy
 msgid "Show solved prefix"
 msgstr "Gelöstes Präfix anzeigen"
@@ -4091,7 +4092,7 @@ msgstr ""
 msgid "Slug"
 msgstr "Schnecke"
 
-#: admin/SmartQ&A-admin.php:853
+#: admin/smartqa-admin.php:853
 #, fuzzy
 msgid "Slug for single question page."
 msgstr "Slug für eine einzelne Frageseite."
@@ -4104,158 +4105,158 @@ msgstr "Slug für Tag-Seite"
 #: widgets/ask-form.php:29
 #, fuzzy
 #| msgid "SmartQ&A ask form widget"
-msgid "SmartQ&A ask form widget"
-msgstr "SmartQ&A ask form widget"
+msgid "SmartQa ask form widget"
+msgstr "SmartQa ask form widget"
 
 #: includes/class/roles-cap.php:56
 #, fuzzy
 #| msgid "SmartQ&A Banned"
-msgid "SmartQ&A Banned"
-msgstr "SmartQ&A Geächtet"
+msgid "SmartQa Banned"
+msgstr "SmartQa Geächtet"
 
 #: admin/views/roles.php:91
 #, fuzzy
 #| msgid "SmartQ&A capabilities"
-msgid "SmartQ&A capabilities"
-msgstr "SmartQ&A-Fähigkeiten"
+msgid "SmartQa capabilities"
+msgstr "SmartQa-Fähigkeiten"
 
 #: lib/form/class-checkbox.php:44
 #, fuzzy
 #| msgid "SmartQ&A Checkbox Field"
-msgid "SmartQ&A Checkbox Field"
-msgstr "SmartQ&A Checkbox Feld"
+msgid "SmartQa Checkbox Field"
+msgstr "SmartQa Checkbox Feld"
 
-#: admin/SmartQ&A-admin.php:676
+#: admin/smartqa-admin.php:676
 #, fuzzy
 #| msgid "SmartQ&A database is not updated."
-msgid "SmartQ&A database is not updated."
-msgstr "Die SmartQ&A-Datenbank wird nicht aktualisiert."
+msgid "SmartQa database is not updated."
+msgstr "Die SmartQa-Datenbank wird nicht aktualisiert."
 
 #: lib/form/class-editor.php:54
 #, fuzzy
 #| msgid "SmartQ&A Editor Field"
-msgid "SmartQ&A Editor Field"
-msgstr "SmartQ&A Editor Feld"
+msgid "SmartQa Editor Field"
+msgstr "SmartQa Editor Feld"
 
 #: lib/form/class-group.php:52
 #, fuzzy
 #| msgid "SmartQ&A Group Field"
-msgid "SmartQ&A Group Field"
-msgstr "SmartQ&A Gruppe Feld"
+msgid "SmartQa Group Field"
+msgstr "SmartQa Gruppe Feld"
 
 #: lib/form/class-input.php:55
 #, fuzzy
 #| msgid "SmartQ&A Input Field"
-msgid "SmartQ&A Input Field"
-msgstr "SmartQ&A Eingabefeld"
+msgid "SmartQa Input Field"
+msgstr "SmartQa Eingabefeld"
 
-#: SmartQ&A-question-answer.php:44
+#: smartqa-question-answer.php:44
 #, fuzzy
 #| msgid "SmartQ&A is not running!"
-msgid "SmartQ&A is not running!"
-msgstr "SmartQ&A läuft nicht!"
+msgid "SmartQa is not running!"
+msgstr "SmartQa läuft nicht!"
 
 #: widgets/leaderboard.php:137
 #, fuzzy
 #| msgid "SmartQ&A Leader board"
-msgid "SmartQ&A Leader board"
-msgstr "SmartQ&A-Leaderboard"
+msgid "SmartQa Leader board"
+msgstr "SmartQa-Leaderboard"
 
 #: includes/theme.php:938
 #, fuzzy
 #| msgid "SmartQ&A links"
-msgid "SmartQ&A links"
-msgstr "SmartQ&A Links"
+msgid "SmartQa links"
+msgstr "SmartQa Links"
 
 #: includes/class/roles-cap.php:51
 #, fuzzy
 #| msgid "SmartQ&A Moderator"
-msgid "SmartQ&A Moderator"
-msgstr "SmartQ&A-Moderator"
+msgid "SmartQa Moderator"
+msgstr "SmartQa-Moderator"
 
 #: admin/views/options.php:217
 #, fuzzy
 #| msgid "SmartQ&A option updated successfully!"
-msgid "SmartQ&A option updated successfully!"
-msgstr "SmartQ&A-Option erfolgreich aktualisiert!"
+msgid "SmartQa option updated successfully!"
+msgstr "SmartQa-Option erfolgreich aktualisiert!"
 
 #: admin/views/dashboard.php:341
 #, fuzzy
 #| msgid "SmartQ&A Options"
-msgid "SmartQ&A Options"
-msgstr "SmartQ&A Optionen"
+msgid "SmartQa Options"
+msgstr "SmartQa Optionen"
 
 #: includes/class/roles-cap.php:55
 #, fuzzy
 #| msgid "SmartQ&A Participants"
-msgid "SmartQ&A Participants"
-msgstr "SmartQ&A Teilnehmer"
+msgid "SmartQa Participants"
+msgstr "SmartQa Teilnehmer"
 
 #. Plugin Name of the plugin/theme
 #, fuzzy
 #| msgid "SmartQ&A Question Answer"
-msgid "SmartQ&A Question Answer"
-msgstr "SmartQ&A Frage Antwort"
+msgid "SmartQa Question Answer"
+msgstr "SmartQa Frage Antwort"
 
 #: lib/form/class-radio.php:44
 #, fuzzy
 #| msgid "SmartQ&A Radio Field"
-msgid "SmartQ&A Radio Field"
-msgstr "SmartQ&A Funkfeld"
+msgid "SmartQa Radio Field"
+msgstr "SmartQa Funkfeld"
 
 #: addons/recaptcha/recaptcha/class-captcha.php:47
 #, fuzzy
 #| msgid "SmartQ&A reCaptcha Field"
-msgid "SmartQ&A reCaptcha Field"
-msgstr "SmartQ&A reCaptcha Feld"
+msgid "SmartQa reCaptcha Field"
+msgstr "SmartQa reCaptcha Feld"
 
 #: lib/form/class-repeatable.php:59
 #, fuzzy
 #| msgid "SmartQ&A Repeatable Field"
-msgid "SmartQ&A Repeatable Field"
-msgstr "SmartQ&A Wiederholbares Feld"
+msgid "SmartQa Repeatable Field"
+msgstr "SmartQa Wiederholbares Feld"
 
 #: lib/form/class-select.php:44
 #, fuzzy
 #| msgid "SmartQ&A Select Field"
-msgid "SmartQ&A Select Field"
-msgstr "SmartQ&A Feld auswählen"
+msgid "SmartQa Select Field"
+msgstr "SmartQa Feld auswählen"
 
-#: admin/SmartQ&A-admin.php:211 admin/views/options.php:157
+#: admin/smartqa-admin.php:211 admin/views/options.php:157
 #, fuzzy
 #| msgid "SmartQ&A Settings"
-msgid "SmartQ&A Settings"
-msgstr "SmartQ&A Einstellungen"
+msgid "SmartQa Settings"
+msgstr "SmartQa Einstellungen"
 
 #: includes/shortcode-basepage.php:76
 #, fuzzy
 #| msgid "SmartQ&A shortcode cannot be nested."
-msgid "SmartQ&A shortcode cannot be nested."
-msgstr "SmartQ&A Shortcodes können nicht verschachtelt werden."
+msgid "SmartQa shortcode cannot be nested."
+msgstr "SmartQa Shortcodes können nicht verschachtelt werden."
 
 #: lib/form/class-tags.php:44
 #, fuzzy
 #| msgid "SmartQ&A Tags Field"
-msgid "SmartQ&A Tags Field"
-msgstr "SmartQ&A Tags Feld"
+msgid "SmartQa Tags Field"
+msgstr "SmartQa Tags Feld"
 
 #: lib/form/class-textarea.php:44
 #, fuzzy
 #| msgid "SmartQ&A Textarea Field"
-msgid "SmartQ&A Textarea Field"
-msgstr "SmartQ&A Textarea Feld"
+msgid "SmartQa Textarea Field"
+msgstr "SmartQa Textarea Feld"
 
 #: lib/form/class-upload.php:98
 #, fuzzy
 #| msgid "SmartQ&A Upload Field"
-msgid "SmartQ&A Upload Field"
-msgstr "SmartQ&A Upload Feld"
+msgid "SmartQa Upload Field"
+msgstr "SmartQa Upload Feld"
 
-#: admin/SmartQ&A-admin.php:1244
+#: admin/smartqa-admin.php:1244
 #, fuzzy
 #| msgid "SmartQ&A will not strip stop words in question slug."
-msgid "SmartQ&A will not strip stop words in question slug."
-msgstr "SmartQ&A entfernt keine Stoppwörter im Fragetext."
+msgid "SmartQa will not strip stop words in question slug."
+msgstr "SmartQa entfernt keine Stoppwörter im Fragetext."
 
 #: includes/qaquery.php:447
 #, fuzzy
@@ -4376,27 +4377,27 @@ msgstr "Die angegebene Datei hat den Upload-Test nicht bestanden."
 msgid "Status"
 msgstr "Status"
 
-#: admin/SmartQ&A-admin.php:1112
+#: admin/smartqa-admin.php:1112
 #, fuzzy
 msgid "Status of edited answer"
 msgstr "Status der bearbeiteten Antwort"
 
-#: admin/SmartQ&A-admin.php:1092
+#: admin/smartqa-admin.php:1092
 #, fuzzy
 msgid "Status of edited question"
 msgstr "Status der bearbeiteten Frage"
 
-#: admin/SmartQ&A-admin.php:1102
+#: admin/smartqa-admin.php:1102
 #, fuzzy
 msgid "Status of new answer"
 msgstr "Status der neuen Antwort"
 
-#: admin/SmartQ&A-admin.php:1082
+#: admin/smartqa-admin.php:1082
 #, fuzzy
 msgid "Status of new question"
 msgstr "Status der neuen Frage"
 
-#: admin/SmartQ&A-admin.php:1122
+#: admin/smartqa-admin.php:1122
 #, fuzzy
 msgid "Status of non-loggedin post"
 msgstr "Status des nicht eingeloggten Beitrags"
@@ -4431,7 +4432,7 @@ msgstr "Abonnieren"
 msgid "Success"
 msgstr "Erfolg"
 
-#: lib/class-SmartQ&A-cli.php:90
+#: lib/class-smartqa-cli.php:90
 #, fuzzy
 msgid "Successfully enabled addon"
 msgstr "Addon erfolgreich aktiviert"
@@ -4441,7 +4442,7 @@ msgstr "Addon erfolgreich aktiviert"
 msgid "Successfully enabled addon. Redirecting!"
 msgstr "Addon erfolgreich aktiviert. Umleiten!"
 
-#: lib/class-SmartQ&A-upgrader.php:275 lib/class-SmartQ&A-upgrader.php:283
+#: lib/class-smartqa-upgrader.php:275 lib/class-smartqa-upgrader.php:283
 #, fuzzy
 msgid "Successfully migrated all reputations"
 msgstr "Erfolgreich alle Reputationen migriert"
@@ -4659,7 +4660,7 @@ msgid "There is no error, the file uploaded with success"
 msgstr "Es liegt kein Fehler vor, die Datei wurde erfolgreich hochgeladen"
 
 #. translators: %s is name of wp hook.
-#: admin/SmartQ&A-admin.php:1460
+#: admin/smartqa-admin.php:1460
 #, fuzzy
 msgid ""
 "There is no option registered by this addon. Custom options can be "
@@ -4762,12 +4763,12 @@ msgstr "Dieses Widget kann nur auf einer einzelnen Frageseite verwendet werden"
 msgid "Title"
 msgstr "Titel"
 
-#: admin/SmartQ&A-admin.php:887
+#: admin/smartqa-admin.php:887
 #, fuzzy
 msgid "Title of the author page"
 msgstr "Titel der Autorenseite"
 
-#: admin/SmartQ&A-admin.php:881
+#: admin/smartqa-admin.php:881
 #, fuzzy
 msgid "Title of the search page"
 msgstr "Titel der Suchseite"
@@ -4821,7 +4822,7 @@ msgstr "Du versuchst zu schummeln, hm!"
 msgid "Trying to cheat?!"
 msgstr "Versuchst du zu betrügen?!"
 
-#: lib/class-SmartQ&A-cli.php:87
+#: lib/class-smartqa-cli.php:87
 #, fuzzy
 msgid ""
 "Unable to activate addon. May be its already active or wrong name passed."
@@ -4837,8 +4838,8 @@ msgstr "Anhang kann nicht gelöscht werden"
 #: includes/qameta.php:129
 #, fuzzy
 #| msgid "Unable to insert SmartQ&A qameta"
-msgid "Unable to insert SmartQ&A qameta"
-msgstr "SmartQ&A qameta kann nicht eingefügt werden"
+msgid "Unable to insert SmartQa qameta"
+msgstr "SmartQa qameta kann nicht eingefügt werden"
 
 #: addons/email/email.php:717 includes/class-form-hooks.php:610
 #, fuzzy
@@ -4871,10 +4872,10 @@ msgstr "Frage kann nicht gestellt werden. Fehler: %s"
 #, fuzzy
 #| msgid ""
 #| "Unable to render captcha. Please add reCpatcha keys in SmartQ&A options."
-msgid "Unable to render captcha. Please add reCpatcha keys in SmartQ&A options."
+msgid "Unable to render captcha. Please add reCpatcha keys in SmartQa options."
 msgstr ""
 "Captcha kann nicht gerendert werden. Bitte füge reCpatcha-Schlüssel in den "
-"SmartQ&A-Optionen hinzu."
+"SmartQa-Optionen hinzu."
 
 #. Translators: placeholder contain error message.
 #: addons/email/email.php:739
@@ -4973,7 +4974,7 @@ msgstr "Abbestellen"
 msgid "Up vote this post"
 msgstr "Stimme diesen Beitrag hoch"
 
-#. translators: %cpt% is SmartQ&A placeholder not gettext.
+#. translators: %cpt% is SmartQa placeholder not gettext.
 #: addons/notifications/notifications.php:174
 #, fuzzy
 msgid "up voted your %cpt%"
@@ -4994,7 +4995,7 @@ msgstr "Update Antwort"
 msgid "Update answer"
 msgstr "Antwort aktualisieren"
 
-#: admin/SmartQ&A-admin.php:677
+#: admin/smartqa-admin.php:677
 #, fuzzy
 msgid "Update now"
 msgstr "Jetzt aktualisieren"
@@ -5033,22 +5034,22 @@ msgstr "Hochladen & Einfügen"
 msgid "Upload image"
 msgstr "Bild hochladen"
 
-#: admin/SmartQ&A-admin.php:935
+#: admin/smartqa-admin.php:935
 #, fuzzy
 msgid "User avatar size for answer."
 msgstr "Größe des Benutzeravatars als Antwort."
 
-#: admin/SmartQ&A-admin.php:941
+#: admin/smartqa-admin.php:941
 #, fuzzy
 msgid "User avatar size for comments."
 msgstr "Größe des Benutzeravatars für Kommentare."
 
-#: admin/SmartQ&A-admin.php:929
+#: admin/smartqa-admin.php:929
 #, fuzzy
 msgid "User avatar size for question."
 msgstr "Benutzer-Avatargröße für Frage."
 
-#: admin/SmartQ&A-admin.php:923
+#: admin/smartqa-admin.php:923
 #, fuzzy
 msgid "User avatar size for questions list."
 msgstr "Größe des Benutzeravatars für die Fragenliste."
@@ -5152,7 +5153,7 @@ msgstr "Kategorie ansehen"
 msgid "View comment"
 msgstr "Kommentar ansehen"
 
-#: admin/SmartQ&A-admin.php:1394
+#: admin/smartqa-admin.php:1394
 #, fuzzy
 msgid "View page"
 msgstr "Seite ansehen"
@@ -5185,7 +5186,7 @@ msgstr "Ansicht Tag"
 msgid "Views"
 msgstr "Ansichten"
 
-#: admin/SmartQ&A-admin.php:1235 admin/SmartQ&A-admin.php:1301
+#: admin/smartqa-admin.php:1235 admin/smartqa-admin.php:1301
 #: includes/theme.php:466 widgets/questions.php:129
 #, fuzzy
 msgid "Voted"
@@ -5232,8 +5233,8 @@ msgstr "wochen"
 #: admin/views/dashboard.php:333
 #, fuzzy
 #| msgid "Welcome to A SmartQ&A!"
-msgid "Welcome to SmartQ&A!"
-msgstr "Willkommen bei SmartQ&A!"
+msgid "Welcome to SmartQa!"
+msgstr "Willkommen bei SmartQa!"
 
 #: admin/views/dashboard.php:335
 #, fuzzy
@@ -5246,32 +5247,32 @@ msgstr ""
 msgid "What to do when post is a spam?"
 msgstr "Was ist zu tun, wenn ein Beitrag ein Spam ist?"
 
-#: admin/SmartQ&A-admin.php:1042
+#: admin/smartqa-admin.php:1042
 #, fuzzy
 msgid "Who can post answer?"
 msgstr "Wer kann eine Antwort posten?"
 
-#: admin/SmartQ&A-admin.php:1071
+#: admin/smartqa-admin.php:1071
 #, fuzzy
 msgid "Who can post comment?"
 msgstr "Wer kann einen Kommentar abgeben?"
 
-#: admin/SmartQ&A-admin.php:1031
+#: admin/smartqa-admin.php:1031
 #, fuzzy
 msgid "Who can post question?"
 msgstr "Wer kann eine Frage stellen?"
 
-#: admin/SmartQ&A-admin.php:992
+#: admin/smartqa-admin.php:992
 #, fuzzy
 msgid "Who can read answers?"
 msgstr "Wer kann Antworten lesen?"
 
-#: admin/SmartQ&A-admin.php:1003
+#: admin/smartqa-admin.php:1003
 #, fuzzy
 msgid "Who can read comment?"
 msgstr "Wer kann Kommentare lesen?"
 
-#: admin/SmartQ&A-admin.php:981
+#: admin/smartqa-admin.php:981
 #, fuzzy
 msgid "Who can read question?"
 msgstr "Wer kann die Frage lesen?"
@@ -5283,8 +5284,8 @@ msgstr "Widgets in diesem Bereich werden vor der Fragenliste angezeigt."
 
 #: templates/functions.php:78
 #, fuzzy
-msgid "Widgets in this area will be shown before SmartQ&A body."
-msgstr "Widgets in diesem Bereich werden vor dem SmartQ&A Body angezeigt."
+msgid "Widgets in this area will be shown before smartqa body."
+msgstr "Widgets in diesem Bereich werden vor dem smartqa Body angezeigt."
 
 #: templates/functions.php:150
 #, fuzzy
@@ -5310,16 +5311,16 @@ msgstr ""
 #| "Widgets in this area will be shown in SmartQ&A sidebar except single "
 #| "question page."
 msgid ""
-"Widgets in this area will be shown in SmartQ&A sidebar except single question "
+"Widgets in this area will be shown in SmartQa sidebar except single question "
 "page."
 msgstr ""
-"Die Widgets in diesem Bereich werden in der SmartQ&A-Seitenleiste angezeigt, "
+"Die Widgets in diesem Bereich werden in der SmartQa-Seitenleiste angezeigt, "
 "außer auf der Seite mit der einzelnen Frage."
 
 #: addons/tags/tags.php:166
 #, fuzzy
-msgid "Widgets in this area will be shown in SmartQ&A tags page."
-msgstr "Widgets in diesem Bereich werden auf der SmartQ&A Tags-Seite angezeigt."
+msgid "Widgets in this area will be shown in smartqa tags page."
+msgstr "Widgets in diesem Bereich werden auf der smartqa Tags-Seite angezeigt."
 
 #: templates/functions.php:138
 #, fuzzy
@@ -5539,7 +5540,7 @@ msgstr "Du verlierst %Punkte% Punkte"
 msgid "You must be logged in to subscribe to a question"
 msgstr "Du musst eingeloggt sein, um eine Frage zu abonnieren"
 
-#: lib/class-SmartQ&A-cli.php:80
+#: lib/class-smartqa-cli.php:80
 #, fuzzy
 msgid "You must pass a addon name i.e. free/avatar.php"
 msgstr "Du musst einen Addon-Namen angeben, z.B. free/avatar.php"

@@ -191,7 +191,7 @@ class SmartQa_Admin {
 		$counts = self::menu_counts();
 		$pos    = self::get_free_menu_position( 12.11 );
 
-		add_menu_page( 'SmartQa', 'SmartQa' . $counts['total'], 'delete_pages', 'smartqa', array( __CLASS__, 'dashboard_page' ), SMARTQA_URL . '/assets/answer.png', $pos );
+		add_menu_page( 'SmartQ&A', 'SmartQ&A' . $counts['total'], 'delete_pages', 'smartqa', array( __CLASS__, 'dashboard_page' ), SMARTQA_URL . '/assets/answer.png', $pos );
 
 		add_submenu_page( 'smartqa', __( 'All Questions', 'smart-question-answer' ), __( 'All Questions', 'smart-question-answer' ) . $counts['question'], 'delete_pages', 'edit.php?post_type=question', '' );
 
@@ -208,7 +208,7 @@ class SmartQa_Admin {
 		 */
 		do_action( 'asqa_admin_menu' );
 
-		add_submenu_page( 'smartqa', __( 'SmartQa Settings', 'smart-question-answer' ), __( 'Settings', 'smart-question-answer' ), 'manage_options', 'smartqa_options', array( __CLASS__, 'display_plugin_options_page' ) );
+		add_submenu_page( 'smartqa', __( 'SmartQ&A Settings', 'smart-question-answer' ), __( 'Settings', 'smart-question-answer' ), 'manage_options', 'smartqa_options', array( __CLASS__, 'display_plugin_options_page' ) );
 
 		$submenu['smartqa'][500] = array( 'Theme & Extensions', 'manage_options', 'https://extensionforge.com/themes/' ); // phpcs:ignore WordPress.WP.GlobalVariablesOverride.Prohibited
 	}
@@ -366,7 +366,7 @@ class SmartQa_Admin {
 	 */
 	public static function change_post_menu_label() {
 		global $submenu;
-		$submenu['smartqa'][0][0] = 'SmartQa'; // phpcs:ignore WordPress.WP.GlobalVariablesOverride.Prohibited
+		$submenu['smartqa'][0][0] = 'SmartQ&A'; // phpcs:ignore WordPress.WP.GlobalVariablesOverride.Prohibited
 	}
 
 	/**
@@ -465,7 +465,7 @@ class SmartQa_Admin {
 	 * @since unknown
 	 */
 	public static function asqa_menu_metaboxes() {
-		add_meta_box( 'smartqa-menu-mb', 'SmartQa', array( __CLASS__, 'render_menu' ), 'nav-menus', 'side', 'high' );
+		add_meta_box( 'smartqa-menu-mb', 'SmartQ&A', array( __CLASS__, 'render_menu' ), 'nav-menus', 'side', 'high' );
 	}
 
 	/**

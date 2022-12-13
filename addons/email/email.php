@@ -331,7 +331,24 @@ class Email extends \SmartQa\Singleton {
 	public function asqa_after_new_question( $question_id ) {
 		$args = array();
 
+		global $wpdb;
+		$table_name = $wpdb->prefix . 'term_relationships';
 		$admin_emails = $this->get_admin_emails( 'email_admin_new_question' );
+		$cat = $wpdb->get_row($wpdb->prepare("SELECT * FROM $table_name WHERE object_id='%d'", $question_id));
+		$category_id = $cat->term_taxonomy_id;
+		
+		$table_name = $wpdb->prefix . 'asqa_moderators';
+		$mods = $wpdb->get_results($wpdb->prepare("SELECT * FROM $table_name WHERE cat_id='%d'", $category_id));
+
+		foreach($mods as $moderator) {
+			$modid = $moderator->user_id;
+			$user = get_user_by('id', $modid);
+			$modemail = $user->user_email;
+			$insert = asqa_new_subscriber( $modid, 'question', $question_id );
+			$admin_emails[] = $modemail;
+		}
+
+		$admin_emails = array_unique($admin_emails);
 
 		if ( ! empty( $admin_emails ) ) {
 			$args['users'] = $admin_emails;

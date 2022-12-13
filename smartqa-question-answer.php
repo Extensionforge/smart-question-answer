@@ -11,7 +11,7 @@
  * @package   SmartQa
  *
  * @wordpress-plugin
- * Plugin Name:       SmartQa Question Answer
+ * Plugin Name:       SmartQ&A
  * Plugin URI:        https://extensionforge.com
  * Description:       The most advance community question and answer system for WordPress
  * Donate link:       https://paypal.me/smartqa
@@ -53,6 +53,7 @@ if ( version_compare( PHP_VERSION, '7.2' ) < 0 ) {
 	add_action( 'admin_notices', 'asqa_admin_php_version__error' );
 	return;
 }
+
 
 if ( ! class_exists( 'SmartQa' ) ) {
 
@@ -696,3 +697,24 @@ function my_asqa_allowed_mimes( $default_mimes ) {
   return $default_mimes;
 }  
 add_filter( 'asqa_allowed_mimes', 'my_asqa_allowed_mimes' );
+
+function my_custom_question_field( $form ) {
+  $form['fields']['screenshot'] = array(
+    'fields' => array(
+	'pdf' => array( 
+		'label'       => __( 'PDF File' ),
+		'desc'        => __( 'Allow single PDF file upload.' ),
+		'type'        => 'upload',
+		'upload_options' => array(
+			'multiple'  => false,
+			'allowed_mimes' => array(
+					'pdf' => 'application/pdf',
+			),
+		),
+	),
+     ),
+  );
+  return $form;
+}
+
+add_filter( 'asqa_question_form_fields', 'my_custom_question_field' );
