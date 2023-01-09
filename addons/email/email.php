@@ -335,7 +335,7 @@ class Email extends \SmartQa\Singleton {
 		$table_name = $wpdb->prefix . 'term_relationships';
 		$admin_emails = $this->get_admin_emails( 'email_admin_new_question' );
 		$cat = $wpdb->get_row($wpdb->prepare("SELECT * FROM $table_name WHERE object_id='%d'", $question_id));
-		$category_id = $cat->term_taxonomy_id;
+		if(isset($cat->term_taxonomy_id)) {$category_id = $cat->term_taxonomy_id;} else {$category_id = 0;}
 		
 		$table_name = $wpdb->prefix . 'asqa_moderators';
 		$mods = $wpdb->get_results($wpdb->prepare("SELECT * FROM $table_name WHERE cat_id='%d'", $category_id));

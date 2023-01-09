@@ -8,7 +8,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2023-01-06 18:18+0000\n"
+"PO-Revision-Date: 2022-12-14 09:43+0000\n"
 "Last-Translator: \n"
 "Language-Team: Deutsch\n"
 "Language: de_DE\n"
@@ -2020,6 +2020,7 @@ msgstr ""
 "untenstehenden Optionen."
 
 #: admin/smartqa-admin.php:810
+#, fuzzy
 #| msgid ""
 #| "If you have created main pages manually then make sure to have [SmartQ&A] "
 #| "shortcode in all pages."
@@ -2028,7 +2029,7 @@ msgid ""
 "shortcode in all pages."
 msgstr ""
 "Wenn du die Hauptseiten manuell erstellt hast, musst du sicherstellen, dass "
-"der [smartqa] Shortcode in allen Seiten enthalten ist."
+"der [SmartQ&A] Shortcode in allen Seiten enthalten ist."
 
 #: addons/categories/categories.php:548 addons/categories/categories.php:597
 #: includes/class-form-hooks.php:1001
@@ -2826,12 +2827,13 @@ msgid "OP can answer?"
 msgstr "Kann OP antworten?"
 
 #: admin/smartqa-admin.php:1066
+#, fuzzy
 msgid ""
 "OP: Original poster/asker. Enabling this option will prevent users to post "
 "an answer on their question."
 msgstr ""
 "OP: Ursprünglicher Poster/Fragesteller. Wenn du diese Option aktivierst, "
-"wird verhindert, dass Nutzer eine Antwort auf deren Fragen posten können."
+"wird verhindert, dass Nutzer eine Antwort auf ihre Frage posten können."
 
 #: includes/ajax-hooks.php:375 includes/theme.php:253
 #, fuzzy
@@ -3460,8 +3462,9 @@ msgid "Recount flags on questions and answers."
 msgstr "Zählfahnen auf Fragen und Antworten."
 
 #: admin/views/recount.php:97
+#, fuzzy
 msgid "Recount question views"
-msgstr "Ansichten nachzählen"
+msgstr "Ansichten zur Nachzählungsfrage"
 
 #: admin/views/recount.php:35
 #, fuzzy
@@ -5448,8 +5451,9 @@ msgstr "Du kannst diese Frage nicht bearbeiten."
 #. Translators: %1$d contain maximum files user can upload, %2$s contain label
 #. of field.
 #: lib/class-validate.php:730
+#, fuzzy
 msgid "You cannot upload more than %1$d file in field %2$s"
-msgstr "Du kannst nicht mehr als %1$d Dateien im Feld %2$s hochladen"
+msgstr "Du kannst nicht mehr als %1$d Datei in Feld %2$s hochladen"
 
 #: includes/functions.php:556
 #, fuzzy

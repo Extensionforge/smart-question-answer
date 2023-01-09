@@ -140,7 +140,32 @@ if ( $extraclass == "asqafrontpagetrue" ) {
 			echo '<div class="asqa-credits">' . esc_attr__( 'Question and answer is powered by', 'smart-question-answer' ) . ' <a href="https://extensionforge.com" target="_blank">extensionforge.com</a></div>';
 		}
 		?>
-		<script type="text/javascript">	
+
+
+
+<script type="text/javascript">	
+	function asqa_uploadclick(){
+		document.getElementById('form_question-post_attachment').click();	
+	}
+
+	function asqa_delete_file_in_list(id){
+		var result = id;
+		maxuploadsize="<?php echo round( asqa_opt( 'max_upload_size' ) / ( 1024 * 1024 ), 2 ); ?>";
+		
+		const myArray = result.split("-");
+		var number = myArray[2];
+		var find1 = "form_question-post_attachmentx-"+number;
+		var find2 = "form_question-post_attachmentx-"+number+"-filenamedisplay";
+		document.getElementById(find1).remove();
+		document.getElementById(find2).remove();
+		document.getElementById("asqa_upload_button_fake").innerHTML = "Dateien hochladen (Maximale Dateigröße: <b>"+maxuploadsize+" MB</b>)";
+
+		document.getElementById("asqa_upload_button_fake").setAttribute("onclick","asqa_uploadclick()");
+		document.getElementById("asqa_maximum_attachs").setAttribute("style","color:#666;");
+		
+	}
+
+
     function switch_question() { 
     	x = document.getElementById('form_question');
         y = document.getElementsByClassName('asqa-field-form_question-category');
@@ -149,8 +174,8 @@ if ( $extraclass == "asqafrontpagetrue" ) {
         y[0].style.display = "block";
        
         document.getElementById('fragebereichclose').style.display = 'block';
-        x = document.getElementsByClassName('asqa-btn-insertimage')[0];
-        x.style.display = "none";
+        xi = document.getElementsByClassName('asqa-btn-insertimage')[0];
+        //x.style.display = "none";
         test = document.getElementById("asqa_description_question");
         if (test!==null){
         test.style.display = "block";} else {
@@ -177,7 +202,7 @@ if ( $extraclass == "asqafrontpagetrue" ) {
         y = document.getElementsByClassName('asqa-field-form_question-post_content');
         y[0].style.display = "none";
         y = document.getElementsByClassName('asqa-field-form_question-post_attachment');
-        y[0].style.display = "none";
+        //y[0].style.display = "none";
         document.getElementById('fragebereichclose').style.display = 'none';
     }
     

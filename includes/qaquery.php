@@ -423,6 +423,29 @@ function asqa_question_status( $_post = null ) {
 	echo '<span class="asqa-post-status ' . esc_attr( $_post->post_status ) . '">' . esc_attr( $status_obj->label ) . '</span>';
 }
 
+
+
+
+
+
+/**
+ * Question views to display.
+ *
+ */
+function asqa_question_views( $question_id = false ) {
+	if ( false === $question_id ) {
+		$question_id = get_the_ID();
+	}
+
+	$metas = array();
+	$view_count = asqa_get_post_field( 'views' );
+
+	
+
+	echo $view_count; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+}
+
+
 /**
  * Question meta to display.
  *
@@ -443,14 +466,11 @@ function asqa_question_metas( $question_id = false ) {
 		$metas['featured'] = __( 'Featured', 'smart-question-answer' );
 	}
 
-	if ( asqa_have_answer_selected() ) {
-		$metas['solved'] = '<i class="apicon-check"></i><i>' . __( 'Solved', 'smart-question-answer' ) . '</i>';
-	}
-
+	
 	$view_count = asqa_get_post_field( 'views' );
 
 	// translators: %s is views count i.e. 2.1k views.
-	$metas['views'] = '<i class="apicon-eye"></i><i>' . sprintf( __( '%s views', 'smart-question-answer' ), asqa_short_num( $view_count ) ) . '</i>';
+	//$metas['views'] = '<i class="apicon-eye"></i><i>' . sprintf( __( '%s views', 'smart-question-answer' ), asqa_short_num( $view_count ) ) . '</i>';
 
 	if ( is_question() ) {
 		$last_active     = asqa_get_last_active( get_question_id() );

@@ -175,6 +175,128 @@ function asqa_get_recent_activity( $_post = false, $deprecated = null ) {
 	return $activity;
 }
 
+
+
+
+
+function TimeAgo ($oldTime, $newTime) {
+$timeCalc = strtotime($newTime) - strtotime($oldTime);
+if ($timeCalc >= (60*60*24*30*12*2)){
+	$timeCalc = "vor " . intval($timeCalc/60/60/24/30/12) . " Jahren";
+	}else if ($timeCalc >= (60*60*24*30*12)){
+		$timeCalc = "vor " . intval($timeCalc/60/60/24/30/12) . " Jahr";
+	}else if ($timeCalc >= (60*60*24*30*2)){
+		$timeCalc = "vor " . intval($timeCalc/60/60/24/30) . " Monaten";
+	}else if ($timeCalc >= (60*60*24*30)){
+		$timeCalc = "vor " . intval($timeCalc/60/60/24/30) . " Monat";
+	}else if ($timeCalc >= (60*60*24*2)){
+		$timeCalc = "vor " . intval($timeCalc/60/60/24) . " Tagen";
+	}else if ($timeCalc >= (60*60*24)){
+		$timeCalc = " gestern";
+	}else if ($timeCalc >= (60*60*2)){
+		$timeCalc = "vor " . intval($timeCalc/60/60) . " Stunden";
+	}else if ($timeCalc >= (60*60)){
+		$timeCalc = "vor " . intval($timeCalc/60/60) . " Stunde";
+	}else if ($timeCalc >= 60*2){
+		$timeCalc = "vor " . intval($timeCalc/60) . " Minuten";
+	}else if ($timeCalc >= 60){
+		$timeCalc = "vor " . intval($timeCalc/60) . " Minute";
+	}else if ($timeCalc > 0){
+		$timeCalc = "vor " . intval($timeCalc) . " Sekunden";
+	}
+return $timeCalc;
+}
+
+
+function TimeAgoo ($oldTime, $newTime) {
+$timeCalc = strtotime($newTime) - strtotime($oldTime);
+
+return $timeCalc;
+}
+
+
+
+
+
+
+
+/**
+ * Output recent activities of a post.
+ *
+ * @param Wp_Post|integer|null $_post WordPress post object or null for global post.
+ * @param boolean              $echo  Echo or return. Default is `echo`.
+ * @param boolean              $query_db  Get rows from database. Default is `false`.
+ * @return void|string
+ */
+function asqa_recent_activity_ago( $_post = null, $echo = true, $query_db = null ) {
+	$html     = '';
+	$_post    = asqa_get_post( $_post );
+	$activity = asqa_get_recent_activity( $_post );
+
+
+	if ( $activity ) {
+		
+		$html .= ' ' . esc_html( $activity->action['verb'] );
+	
+		if ( 'answer' === $activity->action['ref_type'] ) {
+			$link = asqa_get_short_link( array( 'asqa_a' => $activity->a_id ) );
+		} elseif ( 'comment' === $activity->action['ref_type'] ) {
+			$link = asqa_get_short_link( array( 'asqa_c' => $activity->c_id ) );
+		} else {
+			$link = asqa_get_short_link( array( 'asqa_q' => $activity->q_id ) );
+		}
+
+		
+		$html .= ' am <time itemprop="dateModified" datetime="' . mysql2date( 'c', $activity->date ) . '">' . asqa_human_time( $activity->date, false ) . '</time>';
+		
+		
+	} else {
+		$post_id = false;
+
+		// Fallback to old activities.
+		$html = asqa_latest_post_activity_html( $post_id, ! is_question() );
+	}
+
+	/**
+	 * Filter recent post activity html.
+	 *
+	 * @param string $html HTML wrapped activity.
+	 * @since 1.0.0
+	 */
+	$html = apply_filters( 'asqa_recent_activity', $html );
+
+	if ( false === $echo ) {
+		return $html;
+	}
+
+
+	//echo wp_kses_post( $html );
+	echo "Letzte Aktualisierung ".TimeAgo($activity->date ,date("Y-m-d H:i:s"));
+}
+
+
+
+/**
+ * USer tooltip to display.
+ *
+ */
+function asqa_user_tooltip( $_post = null, $echo = true, $query_db = null  ) {
+	$_post    = asqa_get_post( $_post );
+	$activity = asqa_get_recent_activity( $_post );
+	$isvip = array("");
+	if(isset($activity->user_id)){
+	$user_id = $activity->user_id;
+	$user = get_user_by( 'id', $user_id );
+	echo $user->user_login." (Neu hier) - X Fragen - X Antworten"; 
+
+} else { echo "hideme";}
+
+	
+	// phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+}
+
+
+
 /**
  * Output recent activities of a post.
  *
@@ -187,11 +309,14 @@ function asqa_recent_activity( $_post = null, $echo = true, $query_db = null ) {
 	$html     = '';
 	$_post    = asqa_get_post( $_post );
 	$activity = asqa_get_recent_activity( $_post );
+	$isvip = array("");
+	$user_id = $activity->user_id;
 
 	if ( $activity ) {
 		$html .= '<span class="asqa-post-history">';
-		$html .= '<a href="' . asqa_user_link( $activity->user_id ) . '" itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">' . asqa_user_display_name( $activity->user_id ) . '</span></a>';
 		$html .= ' ' . esc_html( $activity->action['verb'] );
+		$html .= ' von <a href="' . asqa_user_link( $activity->user_id ) . '" itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">' . asqa_user_display_name( $activity->user_id ) . '</span></a>';
+		
 
 		if ( 'answer' === $activity->action['ref_type'] ) {
 			$link = asqa_get_short_link( array( 'asqa_a' => $activity->a_id ) );
@@ -202,7 +327,16 @@ function asqa_recent_activity( $_post = null, $echo = true, $query_db = null ) {
 		}
 
 		$html .= ' <a href="' . esc_url( $link ) . '">';
-		$html .= '<time itemprop="dateModified" datetime="' . mysql2date( 'c', $activity->date ) . '">' . asqa_human_time( $activity->date, false ) . '</time>';
+
+		$isvip = get_user_meta($user_id,"bp_verified_member"); 
+		if(isset($isvip[0])) { 
+		if($isvip[0]!="") { 
+
+		$html .= '<span class="bp-verified-badge"></span>'; 
+
+		}}
+
+		$html .= ' am <time itemprop="dateModified" datetime="' . mysql2date( 'c', $activity->date ) . '">' . asqa_human_time( $activity->date, false ) . '</time>';
 		$html .= '</a>';
 		$html .= '</span>';
 	} else {

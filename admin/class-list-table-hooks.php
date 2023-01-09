@@ -125,10 +125,10 @@ class SmartQa_Post_Table_Hooks {
 		// First set up some variables.
 		$actions          = array();
 		$post_type_object = get_post_type_object( $post->post_type ); // override ok.
-		$can_edit_post    = current_user_can( $post_type_object->casqa->edit_post, $post->ID );
+		$can_edit_post    = current_user_can( $post_type_object->cap->edit_post, $post->ID );
 
 		// Actions to delete/trash.
-		if ( current_user_can( $post_type_object->casqa->delete_post, $post->ID ) ) {
+		if ( current_user_can( $post_type_object->cap->delete_post, $post->ID ) ) {
 			if ( 'trash' === $post->post_status ) {
 				$_wpnonce           = wp_create_nonce( 'untrash-post_' . $post_id );
 				$url                = admin_url( 'post.php?post=' . $post_id . '&action=untrash&_wpnonce=' . $_wpnonce );

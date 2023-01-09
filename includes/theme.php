@@ -635,6 +635,12 @@ function asqa_assets() {
 	wp_register_script( 'smartqa-notifications', SMARTQA_URL . 'assets/js/notifications.js', array( 'smartqa-common' ), ASQA_VERSION, true );
 	wp_register_script( 'smartqa-theme', asqa_get_theme_url( 'js/theme.js', false, false ), array( 'smartqa-common', 'smartqa-question', 'smartqa-ask', 'smartqa-list', 'smartqa-notifications' ), ASQA_VERSION, true );
 
+		$script_params = array(
+    'asqa_maximum_uploads' => round( asqa_opt( 'max_upload_size' ) / ( 1024 * 1024 ), 2 ) 
+);
+	wp_localize_script( 'smartqa-theme', 'scriptParams', $script_params );
+	
+
 	wp_register_style( 'smartqa-fonts', asqa_get_theme_url( 'css/fonts.css', false, false ), array(), ASQA_VERSION );
 	wp_register_style( 'smartqa-main', asqa_get_theme_url( 'css/main.css', false, false ), array( 'smartqa-fonts' ), ASQA_VERSION );
 	wp_register_style( 'smartqa-rtl', asqa_get_theme_url( 'css/rtl.css', false, false ), array( 'smartqa-main' ), ASQA_VERSION );

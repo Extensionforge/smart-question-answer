@@ -9,6 +9,92 @@
  * @copyright 2014 Peter Mertzlin
  */
 
+
+
+// To show the column header
+function custom_column_header_moderator( $columns ){
+  $columns['moderator'] = 'Moderator(en)'; 
+  return $columns;
+}
+
+add_filter( "manage_edit-question_category_columns", 'custom_column_header_moderator', 10,2);
+
+function manage_category_custom_fields($deprecated,$column_name,$term_id)
+{
+ if ($column_name == 'moderator') {
+ 	$term = get_term($term_id);
+
+ 	global $wpdb;
+	
+	$users = $wpdb->prefix . 'users';
+	$usersid = $wpdb->prefix . 'users.ID';
+	$capabilities = $wpdb->prefix . 'capabilities';
+	$usermeta = $wpdb->prefix . 'usermeta';
+	$usermetauserid = $wpdb->prefix . 'usermeta.user_id';
+	$usermetakey = $wpdb->prefix . 'usermeta.meta_key';
+	$usermetavalue = $wpdb->prefix . 'usermeta.meta_value';
+	$moderators = $wpdb->prefix . 'asqa_moderators';
+	$moderatorsid = $wpdb->prefix . 'asqa_moderators.user_id';
+	$cat_id = $wpdb->prefix . 'asqa_moderators.cat_id';
+
+ 	$moderatoren = $wpdb->get_results( "SELECT * FROM $moderators inner join $users ON $usersid=$moderatorsid where $cat_id='$term_id'"); 
+ 	$output = "";
+ 	foreach($moderatoren as $singlemod){
+ 		$output .= $singlemod->user_login.",";
+ 	}
+
+	echo substr($output,0,strlen($output)-1); 
+   
+ }
+}
+add_filter ('manage_question_category_custom_column', 'manage_category_custom_fields', 10,3);
+
+function crunchify_reorder_columns($columns) {
+  $crunchify_columns = array();
+  $categories = 'moderator'; 
+  $title = 'description'; 
+  foreach($columns as $key => $value) {
+    if ($key==$title){
+      $crunchify_columns[$categories] = $categories;
+    }
+      $crunchify_columns[$key] = $value;
+  }
+  return $crunchify_columns;
+}
+add_filter('manage_edit-question_category_columns', 'crunchify_reorder_columns');
+
+
+
+
+function asqa_delete_attachment_forced() {
+    
+    $attachmentid = $_POST["attachmentid"]; 
+  
+    $ok = wp_delete_attachment($attachmentid, true); 
+
+    if ($ok==true) {
+
+		$meta         = wp_get_attachment_metadata( $attachmentid );
+		$backup_sizes = get_post_meta( $attachmentid, '_wp_attachment_backup_sizes', true );
+		$file         = get_attached_file( $attachmentid );
+
+		wp_delete_attachment_files( $attachmentid, $meta, $backup_sizes, $file );
+
+    $msg = array( "code" => "success", "message" => __( "Die Datei wurde gelöscht.", "smart-question-answer" ) );
+            } else {
+            $msg = array( "code" => "error", "message" => __( "Achtung. Die Datei konnte nicht gelöscht werden!", "smart-question-answer" ) );
+        }
+   
+    wp_send_json( $msg );
+}
+
+
+add_action('wp_ajax_nopriv_asqa_delete_attachment_forced', 'asqa_delete_attachment_forced');
+add_action('wp_ajax_asqa_delete_attachment_forced', 'asqa_delete_attachment_forced');
+
+
+
+
 /**
  * Get slug of base page.
  *

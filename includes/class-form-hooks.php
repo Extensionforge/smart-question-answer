@@ -62,19 +62,44 @@ class ASQA_Form_Hooks {
 				),
 				'post_attachment'   => array(
 					'type'       => 'upload',
-					'save'           => array( __CLASS__, 'image_upload_save' ),
-					'label'      => __( 'Attachment', 'smart-question-answer' ),
-					'desc'       => __( 'Attachment', 'smart-question-answer' ),
+					'save'           => array( __CLASS__, 'attachment_upload_save' ),
+					'label'      => __( 'Anhänge', 'smart-question-answer' ),
+					'desc'       => __( 'Lade Bilder hoch indem Du auf den nachfolgenden Button klickst. Unterstützt gif,jpg,jpeg,png,zip,rar,pdf,doc,docx,rtf,txt,list,xlsx,xls,odt,log,JPG<br><span id="asqa_maximum_attachs"><b>(Maximal 5 Anhänge)</b></span>', 'smart-question-answer' ),
 
 					'upload_options' => array(
-			'multiple'  => TRUE,
+			'multiple'  => true,
+			'max_files'     => 5,
 			'allowed_mimes' => array(
+				'gif' => 'image/gif',
+				'JPG' => 'image/jpeg',
+				'JPG' => 'image/jpg',
+				'JPG' => 'image/pjpeg',
+				'pdf' => 'application/pdf',
+				'PDF' => 'application/pdf',
+				'zip' => 'application/zip',
+				'rar' => 'application/rar',
+				'ZIP' => 'application/zip',
+				'RAR' => 'application/rar',
+				'png' => 'image/png',
+				'PNG' => 'image/png',
 					'pdf' => 'application/pdf',
 					'jpg' => 'image/jpeg',
 					'jpg' => 'image/jpg',
 					'jpg' => 'image/pjpeg',
 					'jpeg' => 'image/jpeg',
 					'jpeg' => 'image/pjpeg',
+					'doc' => 'application/msword',
+					'docx' => 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+					'rtf' => 'application/rtf',
+					'txt' => 'text/plain',
+					'log' => 'text/plain',
+					'list' => 'text/plain',
+					'xls' => 'application/excel',
+					'xls' => 'application/vnd.ms-excel',
+					'xls' => 'application/x-excel',
+					'xls' => 'application/x-msexcel',
+					'xlsx' => 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
+'odt' => 'application/vnd.oasis.opendocument.text',
 			),
 		),
 					'validate'       => '',
@@ -149,6 +174,7 @@ class ASQA_Form_Hooks {
 			$form['submit_label']                    = __( 'Update Question', 'smart-question-answer' );
 			$form['fields']['post_title']['value']   = $question->post_title;
 			$form['fields']['post_content']['value'] = $question->post_content;
+			$form['fields']['post_attachment']['value'] = $question->post_attachment;
 			$form['fields']['is_private']['value']   = 'private_post' === $question->post_status ? true : false;
 
 			if ( isset( $form['fields']['anonymous_name'] ) ) {
@@ -192,8 +218,52 @@ class ASQA_Form_Hooks {
 					'editor_args' => array(
 						'quicktags' => asqa_opt( 'question_text_editor' ) ? true : false,
 					),
-				),
+				),'post_attachment'   => array(
+					'type'       => 'upload',
+					'save'           => array( __CLASS__, 'attachment_upload_save' ),
+					'label'      => __( 'Anhänge', 'smart-question-answer' ),
+					'desc'       => __( 'Lade Bilder hoch indem Du auf den nachfolgenden Button klickst. Unterstützt gif,jpg,jpeg,png,zip,rar,pdf,doc,docx,rtf,txt,list,xlsx,xls,odt,log,JPG<br><span id="asqa_maximum_attachs"><b>(Maximal 5 Anhänge)</b></span>', 'smart-question-answer' ),
+
+					'upload_options' => array(
+			'multiple'  => true,
+			'max_files'     => 5,
+			'allowed_mimes' => array(
+					'gif' => 'image/gif',
+				'JPG' => 'image/jpeg',
+				'JPG' => 'image/jpg',
+				'JPG' => 'image/pjpeg',
+				'pdf' => 'application/pdf',
+				'PDF' => 'application/pdf',
+				'zip' => 'application/zip',
+				'rar' => 'application/rar',
+				'ZIP' => 'application/zip',
+				'RAR' => 'application/rar',
+				'png' => 'image/png',
+				'PNG' => 'image/png',
+					'pdf' => 'application/pdf',
+					'jpg' => 'image/jpeg',
+					'jpg' => 'image/jpg',
+					'jpg' => 'image/pjpeg',
+					'jpeg' => 'image/jpeg',
+					'jpeg' => 'image/pjpeg',
+					'doc' => 'application/msword',
+					'docx' => 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+					'rtf' => 'application/rtf',
+					'txt' => 'text/plain',
+					'log' => 'text/plain',
+					'list' => 'text/plain',
+					'xls' => 'application/excel',
+					'xls' => 'application/vnd.ms-excel',
+					'xls' => 'application/x-excel',
+					'xls' => 'application/x-msexcel',
+					'xlsx' => 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
+'odt' => 'application/vnd.oasis.opendocument.text',
 			),
+		),
+					'validate'       => '',
+				)
+			),
+
 		);
 
 		// Add private field checkbox if enabled.
@@ -336,6 +406,8 @@ class ASQA_Form_Hooks {
 	 * @since 4.1.5 Added new argument `$manual` for allowing form to be submitted manually.
 	 */
 	public static function submit_question_form( $manual = false ) {
+		global $wpdb;
+
 		$editing = false;
 		$form    = smartqa()->get_form( 'question' );
 
@@ -361,9 +433,16 @@ class ASQA_Form_Hooks {
 			);
 		}
 
+
+		//$test = $wpdb->insert('tester', array('text' => json_encode($values['post_id']['value'])), array('%s') );
+
+		$upload_overrides = array( 'test_form' => false );
+		$uploadedfile = $values['post_attachment']['value'];
+		
+
 		$question_args = array(
 			'post_title'   => $values['post_title']['value'],
-			'post_content' => $values['post_content']['value'],
+			'post_content' => $values['post_content']['value']		
 		);
 
 		if ( ! empty( $values['post_id']['value'] ) ) {
@@ -518,10 +597,52 @@ class ASQA_Form_Hooks {
 
 
 
-		//setcookie('asqa_pitquestionform', json_encode($values), time()+86400,"/");
+		//setcookie('asqa_pitquestionform', json_encode($uploadedfile), time()+86400,"/");
+        //$movefile = wp_handle_upload( $uploadedfile, $upload_overrides );
 
-
+        // for multiple file upload.
+		$files = $uploadedfile;
 		
+		$zahler = 0;
+		foreach($files as $file){
+			$zahler++;
+			$file = array(
+					'name' => $file['name'],
+					'type' => $file['type'],
+					'tmp_name' => $file['tmp_name'],
+					'error' => $file['error'],
+					'size' => $file['size']
+			);
+
+			$movefile = wp_handle_upload( $file, $upload_overrides );
+
+			 if ( $movefile && !isset( $movefile['error'] ) ) {
+          
+			        $attachment_id = wp_insert_attachment(
+					array(
+						'guid'           => $movefile[ 'url' ],
+						'post_mime_type' => $movefile[ 'type' ],
+						'post_title'     => basename( $movefile[ 'file' ] ),
+						'post_content'   => '',
+						'post_status'    => 'inherit'
+					),
+					$movefile[ 'file' ], $post_id
+					);
+
+
+
+					wp_update_attachment_metadata(
+					$attachment_id,
+					wp_generate_attachment_metadata( $attachment_id, $movefile[ 'file' ] )
+					);
+
+					$attlink = wp_get_attachment_url($attachment_id);
+			        add_post_meta( $post_id, 'smartqa-attached', $attlink, true );
+					//endif moved file
+			        }
+		}
+
+
 
 		// Clear temporary images.
 		if ( $post_id ) {
@@ -625,6 +746,9 @@ class ASQA_Form_Hooks {
 		$values = $form->get_values();
 		// Store current values in session.
 		$form->save_values_session( $question_id );
+
+		$upload_overrides = array( 'test_form' => false );
+		$uploadedfile = $values['post_attachment']['value'];
 
 		// Check nonce and is valid form.
 		if ( false === $manual && ( ! $form->is_submitted() || ! asqa_user_can_answer( $question_id ) ) ) {
@@ -774,6 +898,53 @@ class ASQA_Form_Hooks {
 			)
 		);
 
+		$upload_overrides = array( 'test_form' => false );
+		$uploadedfile = $values['post_attachment']['value'];
+
+		 // for multiple file upload.
+		$files = $uploadedfile;
+		
+		$zahler = 0;
+		foreach($files as $file){
+			$zahler++;
+			$file = array(
+					'name' => $file['name'],
+					'type' => $file['type'],
+					'tmp_name' => $file['tmp_name'],
+					'error' => $file['error'],
+					'size' => $file['size']
+			);
+
+			$movefile = wp_handle_upload( $file, $upload_overrides );
+
+			 if ( $movefile && !isset( $movefile['error'] ) ) {
+          
+			        $attachment_id = wp_insert_attachment(
+					array(
+						'guid'           => $movefile[ 'url' ],
+						'post_mime_type' => $movefile[ 'type' ],
+						'post_title'     => basename( $movefile[ 'file' ] ),
+						'post_content'   => '',
+						'post_status'    => 'inherit'
+					),
+					$movefile[ 'file' ], $post_id
+					);
+
+
+					wp_update_attachment_metadata(
+					$attachment_id,
+					wp_generate_attachment_metadata( $attachment_id, $movefile[ 'file' ] )
+					);
+
+
+					$attlink = wp_get_attachment_url($attachment_id);
+			        add_post_meta( $post_id, 'smartqa-attached', $attlink, true );
+
+					//endif moved file
+			        }
+		}
+
+
 		// Clear temporary images.
 		if ( $post_id ) {
 			asqa_clear_unattached_media();
@@ -812,6 +983,9 @@ class ASQA_Form_Hooks {
 				)
 			);
 		}
+
+
+
 
 		return $post_id;
 	}
@@ -1051,6 +1225,20 @@ class ASQA_Form_Hooks {
 
 		return $field->get_uploaded_files_url();
 	}
+
+	public static function attachment_upload_save( $values, $field ) {
+		$field->save_uploads();
+
+		// Set files in session, so that it can be validated while saving post.
+		if ( ! empty( $field->uploaded_files ) ) {
+			foreach ( $field->uploaded_files as $new ) {
+				smartqa()->session->set_file( $new );
+			}
+		}
+
+		return $field->get_uploaded_files_url();
+	}
+
 
 	/**
 	 * Image upload form.
