@@ -25,6 +25,8 @@ function custom_get_logged_in_cookie_asqa($logged_in_cookie, $expire, $expiratio
 		    	
 		    	
 		    	$table_name = $wpdb->prefix . 'posts';
+		    	$activity = $wpdb->prefix . 'asqa_activity';
+
 		    	foreach($neueposts as $single){ $newid = intval($single);
 		    		$wpdb->update($table_name, array(
 			            'post_author' => $user_id
@@ -44,6 +46,16 @@ function custom_get_logged_in_cookie_asqa($logged_in_cookie, $expire, $expiratio
 			            '%s'
 			        ) , array(
 			            '%d'
+			        ));
+
+			        $wpdb->update($activity, array(
+			            'activity_user_id' => $user_id
+			        ) , array(
+			            'activity_q_id' => $newid, 'activity_action' => 'new_q'
+			        ) , array(
+			            '%d'
+			        ) , array(
+			            '%d','%s'
 			        ));
 
 
