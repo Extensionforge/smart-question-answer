@@ -204,6 +204,10 @@ if ( $extraclass == "asqafrontpagetrue" ) {
         y = document.getElementsByClassName('asqa-field-form_question-post_attachment');
         //y[0].style.display = "none";
         document.getElementById('fragebereichclose').style.display = 'none';
+
+        test = document.getElementById("asqa_description_question");
+        if (test!==null){
+        test.style.display = "none";}
     }
     
 </script>
