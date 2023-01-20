@@ -1311,6 +1311,11 @@ function asqa_new_edit_post_status( $user_id = false, $post_type = 'question', $
 		$status = 'moderate';
 	}
 
+	// If anonymous post status is set to draft.
+	if ( empty( $user_id ) && asqa_opt( 'anonymous_post_status' ) === 'draft' ) {
+		$status = 'draft';
+	}
+
 	return $status;
 }
 

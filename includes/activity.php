@@ -287,7 +287,11 @@ function asqa_user_tooltip( $_post = null, $echo = true, $query_db = null  ) {
 	if(isset($activity->user_id)){
 	$user_id = $activity->user_id;
 	$user = get_user_by( 'id', $user_id );
-	echo $user->user_login." (Neu hier) - X Fragen - X Antworten"; 
+	$dname = "FEHLT!";
+	if(isset($user->user_login)){
+		$dname = $user->user_login;
+	}
+	echo $dname." (Neu hier) - X Fragen - X Antworten"; 
 
 } else { echo "hideme";}
 

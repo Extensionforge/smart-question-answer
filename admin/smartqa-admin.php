@@ -1125,6 +1125,7 @@ class SmartQa_Admin {
 					'options' => array(
 						'publish'  => __( 'Publish', 'smart-question-answer' ),
 						'moderate' => __( 'Moderate', 'smart-question-answer' ),
+						'draft' => __( 'Draft', 'smart-question-answer' ),
 					),
 					'value'   => $opt['anonymous_post_status'],
 				),
