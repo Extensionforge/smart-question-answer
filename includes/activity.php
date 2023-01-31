@@ -317,7 +317,7 @@ function asqa_recent_activity( $_post = null, $echo = true, $query_db = null ) {
 	$user_id = $activity->user_id;
 
 	if ( $activity ) {
-		$html .= '**uo*<span class="asqa-post-history">';
+		$html .= '<span class="asqa-post-history">';
 		$html .= ' ' . esc_html( $activity->action['verb'] );
 		$html .= ' von <a href="' . asqa_user_link( $activity->user_id ) . '" itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">' . asqa_user_display_name( $activity->user_id ) . '</span></a>';
 		
@@ -340,7 +340,7 @@ function asqa_recent_activity( $_post = null, $echo = true, $query_db = null ) {
 
 		}}
 
-		$html .= ' am <time itemprop="dateModified" datetime="' . mysql2date( 'c', $activity->date ) . '">' . asqa_human_time( $activity->date, false ) . '</time>';
+		$html .= ' <time itemprop="dateModified" datetime="' . mysql2date( 'c', $activity->date ) . '">' . asqa_human_time( $activity->date, false ) . '</time>';
 		$html .= '</a>';
 		$html .= '</span>';
 	} else {
