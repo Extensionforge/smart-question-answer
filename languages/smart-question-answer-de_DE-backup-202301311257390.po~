@@ -8,7 +8,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2023-01-31 13:35+0000\n"
+"PO-Revision-Date: 2023-01-20 14:06+0000\n"
 "Last-Translator: \n"
 "Language-Team: Deutsch\n"
 "Language: de_DE\n"
@@ -2474,8 +2474,8 @@ msgid ""
 "OP: Original poster/asker. Enabling this option will prevent users to post "
 "an answer on their question."
 msgstr ""
-"OP: Ursprünglicher Poster/Fragesteller. Wenn Sie diese Option deaktivieren, "
-"können Benutzer keine Antwort auf ihre Frage posten."
+"OP: Ursprünglicher Poster/Fragesteller. Wenn du diese Option aktivierst, "
+"wird verhindert, dass Nutzer eine Antwort auf deren Fragen posten können."
 
 #: includes/ajax-hooks.php:375 includes/theme.php:253
 msgid "Open"
@@ -2892,7 +2892,7 @@ msgstr "Frage Tags"
 
 #: includes/class-form-hooks.php:45
 msgid "Question title"
-msgstr "Titel Ihrer Frage hier eingeben..."
+msgstr "Frage Titel"
 
 #: includes/class-form-hooks.php:515
 msgid "Question updated successfully, you'll be redirected in a moment."

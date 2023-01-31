@@ -8,7 +8,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2023-01-31 13:35+0000\n"
+"PO-Revision-Date: 2023-01-20 14:04+0000\n"
 "Last-Translator: \n"
 "Language-Team: Deutsch\n"
 "Language: de_DE\n"
@@ -2474,8 +2474,8 @@ msgid ""
 "OP: Original poster/asker. Enabling this option will prevent users to post "
 "an answer on their question."
 msgstr ""
-"OP: Ursprünglicher Poster/Fragesteller. Wenn Sie diese Option deaktivieren, "
-"können Benutzer keine Antwort auf ihre Frage posten."
+"OP: Ursprünglicher Poster/Fragesteller. Wenn du diese Option aktivierst, "
+"wird verhindert, dass Nutzer eine Antwort auf deren Fragen posten können."
 
 #: includes/ajax-hooks.php:375 includes/theme.php:253
 msgid "Open"
@@ -2892,7 +2892,7 @@ msgstr "Frage Tags"
 
 #: includes/class-form-hooks.php:45
 msgid "Question title"
-msgstr "Titel Ihrer Frage hier eingeben..."
+msgstr "Frage Titel"
 
 #: includes/class-form-hooks.php:515
 msgid "Question updated successfully, you'll be redirected in a moment."
@@ -4444,22 +4444,26 @@ msgid "Voting on own post is not allowed"
 msgstr "Abstimmen über den eigenen Beitrag ist nicht erlaubt"
 
 #: includes/class/roles-cap.php:1317
+#, fuzzy
 msgid "Voting on restricted posts are not allowed."
 msgstr "Abstimmungen über eingeschränkte Beiträge sind nicht erlaubt."
 
 #: includes/ajax-hooks.php:106
+#, fuzzy
 msgid "We have found some similar questions that have been asked earlier."
 msgstr ""
 "Wir haben einige ähnliche Fragen gefunden, die schon früher gestellt worden "
 "sind."
 
 #: includes/hooks.php:850
+#, fuzzy
 msgid "week"
-msgstr "Woche"
+msgstr "woche"
 
 #: includes/hooks.php:851
+#, fuzzy
 msgid "weeks"
-msgstr "Wochen"
+msgstr "wochen"
 
 #: admin/views/dashboard.php:333
 #| msgid "Welcome to SmartQ&A!"
@@ -4467,31 +4471,38 @@ msgid "Welcome to SmartQa!"
 msgstr "Willkommen bei SmartQ&amp;A!"
 
 #: admin/views/dashboard.php:335
+#, fuzzy
 msgid "We’ve assembled some links to get you started:"
 msgstr ""
 "Wir haben einige Links zusammengestellt, die dir den Einstieg erleichtern:"
 
 #: addons/akismet/akismet.php:92
+#, fuzzy
 msgid "What to do when post is a spam?"
 msgstr "Was ist zu tun, wenn ein Beitrag ein Spam ist?"
 
 #: admin/smartqa-admin.php:1042
+#, fuzzy
 msgid "Who can post answer?"
 msgstr "Wer kann eine Antwort posten?"
 
 #: admin/smartqa-admin.php:1071
+#, fuzzy
 msgid "Who can post comment?"
 msgstr "Wer kann einen Kommentar abgeben?"
 
 #: admin/smartqa-admin.php:1031
+#, fuzzy
 msgid "Who can post question?"
 msgstr "Wer kann eine Frage stellen?"
 
 #: admin/smartqa-admin.php:992
+#, fuzzy
 msgid "Who can read answers?"
 msgstr "Wer kann Antworten lesen?"
 
 #: admin/smartqa-admin.php:1003
+#, fuzzy
 msgid "Who can read comment?"
 msgstr "Wer kann Kommentare lesen?"
 
@@ -4500,30 +4511,36 @@ msgid "Who can read question?"
 msgstr "Wer kann Fragen lesen?"
 
 #: templates/functions.php:90
+#, fuzzy
 msgid "Widgets in this area will be shown before questions list."
 msgstr "Widgets in diesem Bereich werden vor der Fragenliste angezeigt."
 
 #: templates/functions.php:78
+#, fuzzy
 #| msgid "Widgets in this area will be shown before SmartQ&A body."
 msgid "Widgets in this area will be shown before smartqa body."
 msgstr "Widgets in diesem Bereich werden vor dem SmartQ&A Body angezeigt."
 
 #: templates/functions.php:150
+#, fuzzy
 msgid "Widgets in this area will be shown in authors page."
 msgstr "Widgets in diesem Bereich werden auf der Autorenseite angezeigt."
 
 #: templates/functions.php:126
+#, fuzzy
 msgid "Widgets in this area will be shown in category listing page."
 msgstr ""
 "Widgets in diesem Bereich werden auf der Seite mit den Kategorien angezeigt."
 
 #: templates/functions.php:114
+#, fuzzy
 msgid "Widgets in this area will be shown in single question page sidebar."
 msgstr ""
 "Die Widgets in diesem Bereich werden in der Seitenleiste der einzelnen "
 "Frageseiten angezeigt."
 
 #: templates/functions.php:102
+#, fuzzy
 #| msgid ""
 #| "Widgets in this area will be shown in SmartQ&A sidebar except single "
 #| "question page."
@@ -4535,35 +4552,42 @@ msgstr ""
 "außer auf der Seite mit der einzelnen Frage."
 
 #: addons/tags/tags.php:166
+#, fuzzy
 #| msgid "Widgets in this area will be shown in SmartQ&A tags page."
 msgid "Widgets in this area will be shown in smartqa tags page."
 msgstr ""
 "Widgets in diesem Bereich werden auf der SmartQ&A Tags-Seite angezeigt."
 
 #: templates/functions.php:138
+#, fuzzy
 msgid "Widgets in this area will be shown in tag listing page."
 msgstr "Widgets in diesem Bereich werden auf der Tag-Listing-Seite angezeigt."
 
 #. translators: %d is activity count.
 #: templates/activities/activity.php:56
+#, fuzzy
 msgid "with other activity"
 msgid_plural "with other %d activities"
 msgstr[0] "mit anderer Aktivität"
 msgstr[1] "mit anderen %d Aktivitäten"
 
 #: includes/votes.php:580 includes/votes.php:585
+#, fuzzy
 msgid "Withdraw your vote"
 msgstr "Ziehe deine Stimme zurück"
 
 #: templates/answer-form.php:34
+#, fuzzy
 msgid "Write your answer."
 msgstr "Schreibe deine Antwort auf."
 
 #: includes/class-form-hooks.php:256
+#, fuzzy
 msgid "Write your comment here..."
 msgstr "Schreibe deinen Kommentar hier..."
 
 #: templates/functions.php:50
+#, fuzzy
 msgid "Write your comment..."
 msgstr "Schreibe deinen Kommentar..."
 
@@ -4572,36 +4596,43 @@ msgid "Write your first question"
 msgstr "Erstelle deine erste Frage"
 
 #: includes/api.php:48
+#, fuzzy
 msgid "Wrong data supplied"
 msgstr "Falsche Daten geliefert"
 
 #: includes/hooks.php:852
+#, fuzzy
 msgid "year"
-msgstr "Jahr"
+msgstr "jahr"
 
 #: includes/hooks.php:853
+#, fuzzy
 msgid "years"
-msgstr ""
-"Jahre\n"
+msgstr "jahre"
 
 #: includes/class/class-activity.php:491
+#, fuzzy
 msgid "Yesterday"
 msgstr "Gestern"
 
 #: includes/post-status.php:66
+#, fuzzy
 msgid "You are not allowed to change post status"
 msgstr "Du darfst den Beitragsstatus nicht ändern"
 
 #: lib/class-validate.php:717
+#, fuzzy
 msgid "You are not allowed to upload file(s)"
 msgstr "Du darfst keine Datei(en) hochladen"
 
 #. Translators: placeholder contain field label.
 #: lib/class-validate.php:780
+#, fuzzy
 msgid "You are required to check %s field"
 msgstr "Du musst das Feld %s überprüfen"
 
 #: includes/class-form-hooks.php:408
+#, fuzzy
 msgid ""
 "You are trying to post a duplicate question. Please search existing "
 "questions before posting a new one."
@@ -4611,28 +4642,34 @@ msgstr ""
 
 #. translators: %d is total answer count of question.
 #: includes/answer-loop.php:361
+#, fuzzy
 msgid "You are viewing 1 out of %d answers, click here to view all answers."
 msgstr ""
 "Du siehst gerade 1 von %d Antworten. Klicke hier, um alle Antworten zu sehen."
 
 #. Translators: %d contains maximum files allowed to upload.
 #: lib/form/class-upload.php:118
+#, fuzzy
 msgid "You cannot add more then %d files"
 msgstr "Du kannst nicht mehr als %d Dateien hinzufügen"
 
 #: includes/ajax-hooks.php:368
+#, fuzzy
 msgid "You cannot close a question"
 msgstr "Du kannst eine Frage nicht schließen"
 
 #: includes/functions.php:2195
+#, fuzzy
 msgid "You cannot edit this answer."
 msgstr "Du kannst diese Antwort nicht bearbeiten."
 
 #: includes/class-form-hooks.php:803
+#, fuzzy
 msgid "You cannot edit this comment."
 msgstr "Du kannst diesen Kommentar nicht bearbeiten."
 
 #: includes/functions.php:2054
+#, fuzzy
 msgid "You cannot edit this question."
 msgstr "Du kannst diese Frage nicht bearbeiten."
 
@@ -4643,126 +4680,156 @@ msgid "You cannot upload more than %1$d file in field %2$s"
 msgstr "Du kannst nicht mehr als %1$d Dateien im Feld %2$s hochladen"
 
 #: includes/functions.php:556
+#, fuzzy
 msgid "You cannot vote on restricted posts"
 msgstr "Du kannst nicht über eingeschränkte Beiträge abstimmen"
 
 #: includes/functions.php:524
+#, fuzzy
 msgid "You cannot vote on your own question or answer."
 msgstr "Du kannst nicht über deine eigene Frage oder Antwort abstimmen."
 
 #: includes/functions.php:2200
+#, fuzzy
 msgid "You do not have permission to answer this question."
 msgstr "Du hast nicht die Erlaubnis, diese Frage zu beantworten."
 
 #: includes/functions.php:2059 templates/ask.php:21
+#, fuzzy
 msgid "You do not have permission to ask a question."
 msgstr "Du hast nicht die Erlaubnis, eine Frage zu stellen."
 
 #: admin/updater.php:379
+#, fuzzy
 msgid "You do not have permission to install plugin updates"
 msgstr "Du hast nicht die Erlaubnis, Plugin-Updates zu installieren"
 
 #: includes/qaquery-hooks.php:188
+#, fuzzy
 msgid "You do not have permission to read this question."
 msgstr "Du hast nicht die Erlaubnis, diese Frage zu lesen."
 
 #: includes/functions.php:528
+#, fuzzy
 msgid "You do not have permission to view private posts."
 msgstr "Du hast nicht die Erlaubnis, private Beiträge zu sehen."
 
 #: addons/notifications/notifications.php:248
+#, fuzzy
 msgid "You do not have permission to view this page"
 msgstr "Du hast keine Erlaubnis, diese Seite zu sehen"
 
 #: includes/class/roles-cap.php:1327
+#, fuzzy
 msgid "You do not have permission to vote."
 msgstr "Du hast nicht die Erlaubnis zu wählen."
 
 #: classes/ajax.php:144
+#, fuzzy
 msgid "You don't have enough permissions to do this action."
 msgstr "Du hast nicht genug Rechte, um diese Aktion durchzuführen."
 
 #: admin/updater.php:95
+#, fuzzy
 msgid "You have %1$s / %2$s sites activated."
 msgstr "Du hast %1$s / %2$s Sites aktiviert."
 
 #: templates/functions.php:45
+#, fuzzy
 msgid "You have already attached maximum numbers of allowed attachments"
 msgstr "Du hast bereits die maximale Anzahl der erlaubten Anhänge angehängt"
 
 #: includes/functions.php:544
+#, fuzzy
 msgid "You have already attached maximum numbers of allowed uploads."
 msgstr "Du hast bereits die maximale Anzahl der erlaubten Uploads angegeben."
 
 #: includes/flag.php:39
+#, fuzzy
 msgid "You have already reported this post."
 msgstr "Du hast diesen Beitrag bereits gemeldet."
 
 #: includes/votes.php:580 includes/votes.php:585
+#, fuzzy
 msgid "You have already voted"
 msgstr "Du hast bereits abgestimmt"
 
 #: addons/notifications/notifications.php:201
+#, fuzzy
 msgid "You have earned %points% points"
 msgstr "Du hast %points% Punkte verdient"
 
 #: includes/flag.php:131
+#, fuzzy
 msgid "You have flagged this post"
 msgstr "Du hast diesen Beitrag markiert"
 
 #: addons/notifications/notifications.php:209
+#, fuzzy
 msgid "You lose %points% points"
 msgstr "Du verlierst %Punkte% Punkte"
 
 #: includes/ajax-hooks.php:496
+#, fuzzy
 msgid "You must be logged in to subscribe to a question"
 msgstr "Du musst eingeloggt sein, um eine Frage zu abonnieren"
 
 #: lib/class-smartqa-cli.php:80
+#, fuzzy
 msgid "You must pass a addon name i.e. free/avatar.php"
 msgstr "Du musst einen Addon-Namen angeben, z.B. free/avatar.php"
 
 #. Translators: Placeholder contain link to unpublished questions.
 #: templates/list-head.php:42
+#, fuzzy
 msgid "Your %s unpublished. "
 msgstr "Dein %s ist unveröffentlicht"
 
 #: includes/class-form-hooks.php:733
+#, fuzzy
 msgid "Your answer is posted successfully."
 msgstr "Deine Antwort wurde erfolgreich gepostet."
 
 #: addons/email/email.php:920
+#, fuzzy
 msgid "Your answer is selected as best by "
 msgstr "Deine Antwort ist am besten gewählt von"
 
 #: addons/email/email.php:917
+#, fuzzy
 msgid "Your answer is selected as best!"
 msgstr "Deine Antwort wird als beste ausgewählt!"
 
 #: includes/class-form-hooks.php:89 includes/class-form-hooks.php:203
 #: includes/class-form-hooks.php:279
+#, fuzzy
 msgid "Your Email"
 msgstr "Deine E-Mail"
 
 #: includes/class-form-hooks.php:78 includes/class-form-hooks.php:192
 #: includes/class-form-hooks.php:270
+#, fuzzy
 msgid "Your Name"
 msgstr "Dein Name"
 
 #: includes/functions.php:548
+#, fuzzy
 msgid "Your profile has been updated successfully."
 msgstr "Dein Profil wurde erfolgreich aktualisiert."
 
 #: includes/class-form-hooks.php:517
+#, fuzzy
 msgid "Your question is posted successfully, you'll be redirected in a moment."
 msgstr ""
 "Deine Frage wurde erfolgreich gestellt. Du wirst gleich weitergeleitet."
 
 #: includes/votes.php:73
+#, fuzzy
 msgid "Your vote has been removed."
 msgstr "Deine Stimme wurde entfernt."
 
 #: includes/class-form-hooks.php:289
+#, fuzzy
 msgid "Your Website"
 msgstr "Deine Website"
 

@@ -1202,7 +1202,7 @@ body{font-family: 'Open Sans',arial;}
 	width:100%;
 	position:relative
 }
-.categories {position:absolute; right:0; bottom:12px;}
+
 .asqa-vnr-intro {clear:both;}
 .asqa-vnr-newicon, .asqa-vnr-lastupdate {clear:both; display: flex; padding-left:15px; padding-right:15px;}
 .asqa-vnr-bottom {border: 1px solid #e1e1e1; background-color: #f5f5f5; color:#000; display: flex;

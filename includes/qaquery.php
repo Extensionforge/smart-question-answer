@@ -722,7 +722,7 @@ function asqa_latest_post_activity_html( $post_id = false, $answer_activities = 
 			$html .= '</a>';
 		}
 
-		$html .= '</span>';
+		$html .= '</span>***';
 	}
 
 	if ( $html ) {
