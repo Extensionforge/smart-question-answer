@@ -9,7 +9,6 @@
  * @copyright 2014 Peter Mertzlin
  */
 
-add_filter('use_block_editor_for_post', '__return_false', 10);
 
 // To show the column header
 function custom_column_header_moderator( $columns ){
