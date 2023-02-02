@@ -8,7 +8,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2023-02-01 17:10+0000\n"
+"PO-Revision-Date: 2023-02-01 15:13+0000\n"
 "Last-Translator: \n"
 "Language-Team: Deutsch\n"
 "Language: de_DE\n"
@@ -2694,7 +2694,7 @@ msgstr "Beliebt"
 
 #: addons/notifications/query.php:318
 msgid "post"
-msgstr "senden"
+msgstr "beitrag"
 
 #: admin/views/dashboard.php:354
 msgid "Post an answer"
@@ -2702,7 +2702,7 @@ msgstr "Eine Antwort posten"
 
 #: includes/class-form-hooks.php:166
 msgid "Post Answer"
-msgstr "Sende Antwort"
+msgstr "Beitrag Antwort"
 
 #: includes/post-status.php:91
 msgid "Post status updated successfully"
@@ -3179,7 +3179,7 @@ msgstr "Fragen suchen"
 
 #: templates/search-form.php:22
 msgid "Search questions..."
-msgstr "Etwas bestimmtes suchen ..."
+msgstr "Suchfragen..."
 
 #: addons/tags/tags.php:197
 msgid "Search Tag"
@@ -3294,7 +3294,7 @@ msgstr "ausgewählte Antwort"
 
 #: includes/class/class-activity-helper.php:241
 msgid "Selected answer as best"
-msgstr "Ausgewählte Antwort als Beste ausgewählt"
+msgstr "Ausgewählte Antwort als beste"
 
 #: includes/functions.php:1322
 msgid "selected as best answer"
@@ -4733,7 +4733,7 @@ msgstr "Deine Antwort wurde erfolgreich gepostet."
 
 #: addons/email/email.php:920
 msgid "Your answer is selected as best by "
-msgstr "Deine Antwort wurde als die Beste ausgewählt von"
+msgstr "Deine Antwort ist am besten gewählt von"
 
 #: addons/email/email.php:917
 msgid "Your answer is selected as best!"

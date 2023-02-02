@@ -45,7 +45,7 @@ if ( ! asqa_user_can_view_post( get_the_ID() ) ) {
 				<a href="<?php the_permalink(); ?>" class="apicon-answer asqa-bpsingle-acount">
 					<?php
 						// translators: %d is total answer count.
-						echo esc_attr( printf( _n( '%d Answer', '%d Answers', asqa_get_answers_count(), 'smart-question-answer' ), asqa_get_answers_count() ) );
+		echo esc_attr( sprintf( _n( '%d Answer', '%d Answers', asqa_get_answers_count(), 'smart-question-answer' ), asqa_get_answers_count() ) );
 					?>
 				</a>
 
