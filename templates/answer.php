@@ -126,12 +126,13 @@ if(asqa_is_selected()){
 					?>
 
 				</div>
-				<div class="accepted-answer-bewertung ph-10">
+				 <?php if(asqa_is_selected()){ ?>
+				<div class="accepted-answer-bewertung">
 			<a href="https://www.computerwissen.de/live.html?_ga=2.135663223.712027186.1675330128-1326490809.1672965027" target="_blank"><img src="<?php echo plugin_dir_url( __FILE__ ).'images/cw-vsp-header.png';?>" alt="Webinar Bild"></a>
 			<br><br>
 			<p><strong>Schön, dass Ihre Frage beantwortet wurde!</strong></p>
 			<p>Um weiterhin auf dem Laufenden zum Thema Technik und PC zu bleiben, nehmen Sie doch kostenlos teil an unseren monatlichen LIVE-Webinaren: <a href="https://www.computerwissen.de/live.html" target="_blank">hier</a> klicken für Registrierungsseite. Bei diesen Online-Shows können Sie uns <strong>all Ihre Fragen</strong> rund um das Thema <strong>Computer</strong> stellen und lernen jeden Monat etwas Neues.</p>
-		</div>
+		</div><?php } ?>
 
 				<div class="asqa-post-footer clearfix">
 					<?php echo asqa_select_answer_btn_html(); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>

@@ -5760,5 +5760,7 @@ border-radius: .25em; margin-right:5px;}
 .asqa_right_answer-background_inner {background-color: #dcedc8;}
 .bp-login-widget-user-logout {display:none;}
 .widget_bp_core_login_widget {height: 60px;}
-.accepted-answer-bewertung {padding:10px;}
+.accepted-answer-bewertung { padding: 20px;
+    background: #dcedc8;
+    border-top: 1px solid #ccc;}
 
