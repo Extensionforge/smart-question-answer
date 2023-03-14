@@ -291,7 +291,30 @@ function asqa_user_tooltip( $_post = null, $echo = true, $query_db = null  ) {
 	if(isset($user->user_login)){
 		$dname = $user->user_login;
 	}
-	echo $dname." (Neu hier) - X Fragen - X Antworten"; 
+	global $wpdb;
+	$tb_posts = $wpdb->prefix . 'posts';
+	$sec1 = "question";
+	$sec2 = $activity->user_id;
+	$fragen = $wpdb->get_results($wpdb->prepare("SELECT * FROM $tb_posts WHERE `post_type` = 'question' AND `post_author` = '%d'",$sec2));
+	$fragenanzahl = 0;
+	foreach ($fragen as $frage) { 
+	 	$fragenanzahl++;
+	} 
+	$antworten = $wpdb->get_results($wpdb->prepare("SELECT * FROM $tb_posts WHERE `post_type` = 'answer' AND `post_author` = '%d'",$sec2));
+	$antwortenanzahl = 0;
+	foreach ($antworten as $antwort) { 
+	 	$antwortenanzahl++;
+	}
+	$status = "Neu hier";
+
+
+	if($antwortenanzahl>50){ $status = "Guter Antworter"; } 
+	if($antwortenanzahl>150){ $status = "Senior Mitglied"; } 
+	if($antwortenanzahl>350){ $status = "Experte"; } 
+	if($antwortenanzahl>600){ $status = "Profi"; } 
+	
+	echo $dname." (".$status.") - ".$fragenanzahl." Fragen - ".$antwortenanzahl." Antworten"; 
+
 
 } else { echo "hideme";}
 

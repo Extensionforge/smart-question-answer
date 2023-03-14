@@ -60,47 +60,78 @@ class ASQA_Form_Hooks {
 						'quicktags' => asqa_opt( 'question_text_editor' ) ? true : false,
 					),
 				),
-				'post_attachment'   => array(
+
+'post_attachment'   => array(
 					'type'       => 'upload',
 					'save'           => array( __CLASS__, 'attachment_upload_save' ),
-					'label'      => __( 'Anhänge', 'smart-question-answer' ),
-					'desc'       => __( 'Lade Bilder hoch indem Du auf den nachfolgenden Button klickst. Unterstützt gif,jpg,jpeg,png,zip,rar,pdf,doc,docx,rtf,txt,list,xlsx,xls,odt,log,JPG<br><span id="asqa_maximum_attachs"><b>(Maximal 5 Anhänge)</b></span>', 'smart-question-answer' ),
+					'label'      => __( '', 'smart-question-answer' ),
+					'desc'       => __( '', 'smart-question-answer' ),
 
 					'upload_options' => array(
 			'multiple'  => true,
 			'max_files'     => 5,
-			'allowed_mimes' => array(
-				'gif' => 'image/gif',
-				'JPG' => 'image/jpeg',
-				'JPG' => 'image/jpg',
-				'JPG' => 'image/pjpeg',
-				'pdf' => 'application/pdf',
-				'PDF' => 'application/pdf',
-				'zip' => 'application/zip',
-				'rar' => 'application/rar',
-				'ZIP' => 'application/zip',
-				'RAR' => 'application/rar',
-				'png' => 'image/png',
-				'PNG' => 'image/png',
-					'pdf' => 'application/pdf',
-					'jpg' => 'image/jpeg',
-					'jpg' => 'image/jpg',
-					'jpg' => 'image/pjpeg',
-					'jpeg' => 'image/jpeg',
-					'jpeg' => 'image/pjpeg',
-					'doc' => 'application/msword',
-					'docx' => 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
-					'rtf' => 'application/rtf',
-					'txt' => 'text/plain',
-					'log' => 'text/plain',
-					'list' => 'text/plain',
-					'xls' => 'application/excel',
-					'xls' => 'application/vnd.ms-excel',
-					'xls' => 'application/x-excel',
-					'xls' => 'application/x-msexcel',
-					'xlsx' => 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
-'odt' => 'application/vnd.oasis.opendocument.text',
-			),
+			'allowed_mimes' => asqa_allowed_mimes(),
+		),
+					'validate'       => '',
+				),
+
+
+'post_attachment2'   => array(
+					'type'       => 'upload',
+					'save'           => array( __CLASS__, 'attachment_upload_save' ),
+					'label'      => __( '', 'smart-question-answer' ),
+					'desc'       => __( '', 'smart-question-answer' ),
+
+					'upload_options' => array(
+			'multiple'  => true,
+			'max_files'     => 2,
+			'allowed_mimes' => asqa_allowed_mimes(),
+		),
+					'validate'       => '',
+				),
+
+				'post_attachment3'   => array(
+					'type'       => 'upload',
+					'save'           => array( __CLASS__, 'attachment_upload_save' ),
+					'label'      => __( '', 'smart-question-answer' ),
+					'desc'       => __( '', 'smart-question-answer' ),
+
+					'upload_options' => array(
+			'multiple'  => true,
+			'max_files'     => 2,
+			'allowed_mimes' => asqa_allowed_mimes(),
+		),
+					'validate'       => '',
+				),
+
+				'post_attachment4'   => array(
+					'type'       => 'upload',
+					'save'           => array( __CLASS__, 'attachment_upload_save' ),
+					'label'      => __( '', 'smart-question-answer' ),
+					'desc'       => __( '', 'smart-question-answer' ),
+
+					'upload_options' => array(
+			'multiple'  => true,
+			'max_files'     => 2,
+			'allowed_mimes' => asqa_allowed_mimes(),
+		),
+					'validate'       => '',
+				),
+
+
+
+
+
+						'post_attachment5'   => array(
+					'type'       => 'upload',
+					'save'           => array( __CLASS__, 'attachment_upload_save' ),
+					'label'      => __( '', 'smart-question-answer' ),
+					'desc'       => __( 'Lade Dateien hoch indem Du auf den nachfolgenden Button klickst. Unterstützt werden gif,jpg,jpeg,png,zip,rar,pdf,doc,docx,rtf,txt,list,xlsx,xls,odt,log,JPG<br><span id="asqa_maximum_attachs"><b>(Maximal 5 Anhänge)</b></span>', 'smart-question-answer' ),
+
+					'upload_options' => array(
+			'multiple'  => true,
+			'max_files'     => 2,
+			'allowed_mimes' => asqa_allowed_mimes(),
 		),
 					'validate'       => '',
 				),
@@ -218,53 +249,87 @@ class ASQA_Form_Hooks {
 					'editor_args' => array(
 						'quicktags' => asqa_opt( 'question_text_editor' ) ? true : false,
 					),
-				),'post_attachment'   => array(
+				),
+
+
+'post_attachment'   => array(
 					'type'       => 'upload',
 					'save'           => array( __CLASS__, 'attachment_upload_save' ),
-					'label'      => __( 'Anhänge', 'smart-question-answer' ),
-					'desc'       => __( 'Lade Bilder hoch indem Du auf den nachfolgenden Button klickst. Unterstützt gif,jpg,jpeg,png,zip,rar,pdf,doc,docx,rtf,txt,list,xlsx,xls,odt,log,JPG<br><span id="asqa_maximum_attachs"><b>(Maximal 5 Anhänge)</b></span>', 'smart-question-answer' ),
+					'label'      => __( '', 'smart-question-answer' ),
+					'desc'       => __( '', 'smart-question-answer' ),
 
 					'upload_options' => array(
 			'multiple'  => true,
 			'max_files'     => 5,
-			'allowed_mimes' => array(
-					'gif' => 'image/gif',
-				'JPG' => 'image/jpeg',
-				'JPG' => 'image/jpg',
-				'JPG' => 'image/pjpeg',
-				'pdf' => 'application/pdf',
-				'PDF' => 'application/pdf',
-				'zip' => 'application/zip',
-				'rar' => 'application/rar',
-				'ZIP' => 'application/zip',
-				'RAR' => 'application/rar',
-				'png' => 'image/png',
-				'PNG' => 'image/png',
-					'pdf' => 'application/pdf',
-					'jpg' => 'image/jpeg',
-					'jpg' => 'image/jpg',
-					'jpg' => 'image/pjpeg',
-					'jpeg' => 'image/jpeg',
-					'jpeg' => 'image/pjpeg',
-					'doc' => 'application/msword',
-					'docx' => 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
-					'rtf' => 'application/rtf',
-					'txt' => 'text/plain',
-					'log' => 'text/plain',
-					'list' => 'text/plain',
-					'xls' => 'application/excel',
-					'xls' => 'application/vnd.ms-excel',
-					'xls' => 'application/x-excel',
-					'xls' => 'application/x-msexcel',
-					'xlsx' => 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
-'odt' => 'application/vnd.oasis.opendocument.text',
-			),
+			'allowed_mimes' => asqa_allowed_mimes(),
 		),
 					'validate'       => '',
-				)
-			),
+				),
 
+
+'post_attachment2'   => array(
+					'type'       => 'upload',
+					'save'           => array( __CLASS__, 'attachment_upload_save' ),
+					'label'      => __( '', 'smart-question-answer' ),
+					'desc'       => __( '', 'smart-question-answer' ),
+
+					'upload_options' => array(
+			'multiple'  => true,
+			'max_files'     => 2,
+			'allowed_mimes' => asqa_allowed_mimes(),
+		),
+					'validate'       => '',
+				),
+
+				'post_attachment3'   => array(
+					'type'       => 'upload',
+					'save'           => array( __CLASS__, 'attachment_upload_save' ),
+					'label'      => __( '', 'smart-question-answer' ),
+					'desc'       => __( '', 'smart-question-answer' ),
+
+					'upload_options' => array(
+			'multiple'  => true,
+			'max_files'     => 2,
+			'allowed_mimes' => asqa_allowed_mimes(),
+		),
+					'validate'       => '',
+				),
+
+				'post_attachment4'   => array(
+					'type'       => 'upload',
+					'save'           => array( __CLASS__, 'attachment_upload_save' ),
+					'label'      => __( '', 'smart-question-answer' ),
+					'desc'       => __( '', 'smart-question-answer' ),
+
+					'upload_options' => array(
+			'multiple'  => true,
+			'max_files'     => 2,
+			'allowed_mimes' => asqa_allowed_mimes(),
+		),
+					'validate'       => '',
+				),
+
+
+
+
+
+						'post_attachment5'   => array(
+					'type'       => 'upload',
+					'save'           => array( __CLASS__, 'attachment_upload_save' ),
+					'label'      => __( '', 'smart-question-answer' ),
+					'desc'       => __( 'Lade Dateien hoch indem Du auf den nachfolgenden Button klickst. Unterstützt werden gif,jpg,jpeg,png,zip,rar,pdf,doc,docx,rtf,txt,list,xlsx,xls,odt,log,JPG<br><span id="asqa_maximum_attachs"><b>(Maximal 5 Anhänge)</b></span>', 'smart-question-answer' ),
+
+					'upload_options' => array(
+			'multiple'  => true,
+			'max_files'     => 2,
+			'allowed_mimes' => asqa_allowed_mimes(),
+		),
+					'validate'       => '',
+				),
+			),
 		);
+
+		
 
 		// Add private field checkbox if enabled.
 		if ( asqa_opt( 'allow_private_posts' ) ) {

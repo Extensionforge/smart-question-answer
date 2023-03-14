@@ -1,222 +1,153 @@
 (function ($) {
   
     $(document).ready(function () {
-    maxuploadsize = scriptParams.asqa_maximum_uploads;
-    //alert(maxuploadsize);
-        $( "#form_question-post_attachment" ).addClass("asqa_special_upload");
-        $(".asqa-field-form_question-post_attachment").append("<div id='asqa-uploadfiles' class='asqa-field-group-w'><div id='asqa-file-row' class='asqa-file-row'><div id='asqa-file-name' class='asqa-file-name'>dateiname</div><div id='asqa-file-delete' class='asqa-file-delete'><input type='button' onclick='asqa_delete_file_in_list(this.parentNode.id)' value='entfernen'></div></div></div>");
-        
-        $(".asqa-field-form_question-post_attachment .asqa-upload-c").insertAfter(".asqa-field-form_question-post_attachment .asqa-field-desc");
-        $("#asqa-uploadfiles").insertAfter(".asqa-field-form_question-post_attachment .asqa-form-label");
+        maxuploadsize = scriptParams.asqa_maximum_uploads;
 
-        $(".asqa-field-form_question-post_attachment .asqa-upload-c").append("<span id='asqa_upload_button_fake' class='btn btn-default extf-btn-file' onclick='asqa_uploadclick()' data-attachment-item-input=''>Dateien hochladen (Maximale Dateigröße: <b>"+maxuploadsize+" MB</b>)</span>");
-        
-        $('#form_question-post_attachment').attr("name", "form_question-post_attachment[]");
-        $('#form_question-post_attachment').removeAttr("multiple");
+$( ".asqa-editor-fade" ).click(function() { 
+     
+  setTimeout(function() { 
+   $(".asqa-field-form_answer-post_attachment").prepend("<div id='attachareatitle'><b>Anhänge</b></div><script>function asqa_uploadclick2(){var clickedalready = false;var test = '';if(clickedalready==false){test = document.getElementById('form_answer-post_attachment').value;if (test==''){document.getElementById('form_answer-post_attachment').click();clickedalready = true;}}if(clickedalready==false){test = document.getElementById('form_answer-post_attachment2').value;if (test==''){document.getElementById('form_answer-post_attachment2').click();clickedalready = true;}}if(clickedalready==false){test = document.getElementById('form_answer-post_attachment3').value;if (test==''){document.getElementById('form_answer-post_attachment3').click();clickedalready = true;}}if(clickedalready==false){test = document.getElementById('form_answer-post_attachment4').value;if (test==''){document.getElementById('form_answer-post_attachment4').click();clickedalready = true;}}if(clickedalready==false){test = document.getElementById('form_answer-post_attachment5').value;if (test==''){document.getElementById('form_answer-post_attachment5').click();clickedalready = true;}}}function asqa_delete_file_in_list2(id){number = id.substr(16,1);if(number==1) { document.getElementById('form_answer-post_attachment').value = null;document.getElementById('asqa-file-name1').remove();document.getElementById('asqa-file-delete1').remove();}if(number==2) { document.getElementById('form_answer-post_attachment').value = null;document.getElementById('asqa-file-name2').remove();document.getElementById('asqa-file-delete2').remove();}if(number==3) { document.getElementById('form_answer-post_attachment3').value = null;document.getElementById('asqa-file-name3').remove();document.getElementById('asqa-file-delete3').remove(); }if(number==4) { document.getElementById('form_answer-post_attachment4').value = null;document.getElementById('asqa-file-name4').remove();document.getElementById('asqa-file-delete4').remove();  }if(number==5) { document.getElementById('form_answer-post_attachment5').value = null;document.getElementById('asqa-file-name5').remove();document.getElementById('asqa-file-delete5').remove();  }}</script>");
+
+$(".asqa-field-form_answer-post_id.asqa-field-type-input").append("<span id='asqa_upload_button_fake' class='btn btn-default extf-btn-file' onclick='asqa_uploadclick2()' data-attachment-item-input=''>Dateien hochladen (Maximale Dateigröße: <b>"+maxuploadsize+" MB</b>)</span>");  
+        $('#form_answer-post_attachment2').attr('name', 'form_answer-post_attachment[]');
+        $('#form_answer-post_attachment3').attr('name', 'form_answer-post_attachment[]');
+        $('#form_answer-post_attachment4').attr('name', 'form_answer-post_attachment[]');
+        $('#form_answer-post_attachment5').attr('name', 'form_answer-post_attachment[]');
+         $('#form_answer-post_attachment').css("display", "none");
+        $('#form_answer-post_attachment2').css("display", "none");
+        $('#form_answer-post_attachment3').css("display", "none");
+        $('#form_answer-post_attachment4').css("display", "none");
+        $('#form_answer-post_attachment5').css("display", "none");
+
+        $( "#form_answer-post_attachment" ).change(function() {
+             if(checkdoubles2("#form_answer-post_attachment")==true) {
+             $('.asqa-field-form_answer-post_attachment .asqa-field-group-w .asqa-field-desc').css("display", "none");
+ $( ".asqa-field-form_answer-post_attachment .asqa-field-group-w .asqa-upload-c" ).append("<div id='asqa-file-name1'>DATEINAME-DUMMY</div>");
+    $('#asqa-file-name1').html( $('#form_answer-post_attachment').val().substring(12,$('#form_answer-post_attachment').val().length)); 
+    $('#form_answer-post_attachment').css("display", "none");
+ $( ".asqa-field-form_answer-post_attachment .asqa-field-group-w .asqa-upload-c" ).append("<div id='asqa-file-delete1' class='asqa-file-delete'><input type='button' onclick='asqa_delete_file_in_list2(this.parentNode.id)' value='entfernen'></div>");
+ $('#asqa-file-delete1').css("display", "block");  
+
+              }
+        });
+
+
+        $( "#form_answer-post_attachment2" ).change(function() {
+             if(checkdoubles2("#form_answer-post_attachment2")==true) {
+             $('.asqa-field-form_answer-post_attachment2 .asqa-field-group-w .asqa-field-desc').css("display", "none");
+              $( ".asqa-field-form_answer-post_attachment2 .asqa-field-group-w .asqa-upload-c" ).append("<div id='asqa-file-name2'>DATEINAME-DUMMY</div>");
+ $( ".asqa-field-form_answer-post_attachment2 .asqa-field-group-w .asqa-upload-c" ).append("<div id='asqa-file-delete2' class='asqa-file-delete'><input type='button' onclick='asqa_delete_file_in_list2(this.parentNode.id)' value='entfernen'></div>");
+     $('#asqa-file-name2').html( $('#form_answer-post_attachment2').val().substring(12,$('#form_answer-post_attachment2').val().length));              
+              $('#asqa-file-delete2').css("display", "block");  
+         }   
+        });
+
+        $( "#form_answer-post_attachment3" ).change(function() {
+             if(checkdoubles2("#form_answer-post_attachment3")==true) {
+         
+             $('.asqa-field-form_answer-post_attachment3 .asqa-field-group-w .asqa-field-desc').css("display", "none");
+              $( ".asqa-field-form_answer-post_attachment3 .asqa-field-group-w .asqa-upload-c" ).append("<div id='asqa-file-name3'>DATEINAME-DUMMY</div>"); 
+          $( ".asqa-field-form_answer-post_attachment3 .asqa-field-group-w .asqa-upload-c" ).append("<div id='asqa-file-delete3' class='asqa-file-delete'><input type='button' onclick='asqa_delete_file_in_list2(this.parentNode.id)' value='entfernen'></div>");
+              $('#asqa-file-name3').html( $('#form_answer-post_attachment3').val().substring(12,$('#form_answer-post_attachment3').val().length));     
+              $('#asqa-file-delete3').css("display", "block");  
+          }  
+        });
+
+        $( "#form_answer-post_attachment4" ).change(function() {
+             if(checkdoubles2("#form_answer-post_attachment4")==true) {
+
+             $('.asqa-field-form_answer-post_attachment4 .asqa-field-group-w .asqa-field-desc').css("display", "none");
+              $( ".asqa-field-form_answer-post_attachment4 .asqa-field-group-w .asqa-upload-c" ).append("<div id='asqa-file-name4'>DATEINAME-DUMMY</div>"); 
+ $( ".asqa-field-form_answer-post_attachment4 .asqa-field-group-w .asqa-upload-c" ).append("<div id='asqa-file-delete4' class='asqa-file-delete'><input type='button' onclick='asqa_delete_file_in_list2(this.parentNode.id)' value='entfernen'></div>");
+      $('#asqa-file-name4').html( $('#form_answer-post_attachment4').val().substring(12,$('#form_answer-post_attachment4').val().length));             
+              $('#asqa-file-delete4').css("display", "block"); 
+         }  
+        });
+
+        $( "#form_answer-post_attachment5" ).change(function() {
+             checkdoubles2("#form_answer-post_attachment5");
+              $( ".asqa-field-form_answer-post_attachment5 .asqa-field-group-w .asqa-upload-c" ).append("<div id='asqa-file-name5'>DATEINAME-DUMMY</div>");
+              $( ".asqa-field-form_answer-post_attachment5 .asqa-field-group-w .asqa-upload-c" ).append("<div id='asqa-file-delete5' class='asqa-file-delete'><input type='button' onclick='asqa_delete_file_in_list2(this.parentNode.id)' value='entfernen'></div>");
+     $('#asqa-file-name5').html( $('#form_answer-post_attachment5').val().substring(12,$('#form_answer-post_attachment5').val().length));               $('#asqa-file-delete5').css("display", "block"); 
+        });
+    
+
+
+
+    }, 1000);
+
+  
+
+
+
+
+});
+        //alert(maxuploadsize);
+$(".asqa-field-form_question-post_attachment").prepend("<div id='attachareatitle'><b>Anhänge</b></div>");
+$(".asqa-field-form_question-post_id.asqa-field-type-input").append("<span id='asqa_upload_button_fake' class='btn btn-default extf-btn-file' onclick='asqa_uploadclick()' data-attachment-item-input=''>Dateien hochladen (Maximale Dateigröße: <b>"+maxuploadsize+" MB</b>)</span>");  
+        $('#form_question-post_attachment2').attr('name', 'form_question-post_attachment[]');
+        $('#form_question-post_attachment3').attr('name', 'form_question-post_attachment[]');
+        $('#form_question-post_attachment4').attr('name', 'form_question-post_attachment[]');
+        $('#form_question-post_attachment5').attr('name', 'form_question-post_attachment[]');
+         $('#form_question-post_attachment').css("display", "none");
+        $('#form_question-post_attachment2').css("display", "none");
+        $('#form_question-post_attachment3').css("display", "none");
+        $('#form_question-post_attachment4').css("display", "none");
+        $('#form_question-post_attachment5').css("display", "none");
+
+        $( "#form_question-post_attachment" ).change(function() {
+             if(checkdoubles("#form_question-post_attachment")==true) {
+             $('.asqa-field-form_question-post_attachment .asqa-field-group-w .asqa-field-desc').css("display", "none");
+ $( ".asqa-field-form_question-post_attachment .asqa-field-group-w .asqa-upload-c" ).append("<div id='asqa-file-name1'>DATEINAME-DUMMY</div>");
+    $('#asqa-file-name1').html( $('#form_question-post_attachment').val().substring(12,$('#form_question-post_attachment').val().length)); 
+    $('#form_question-post_attachment').css("display", "none");
+ $( ".asqa-field-form_question-post_attachment .asqa-field-group-w .asqa-upload-c" ).append("<div id='asqa-file-delete1' class='asqa-file-delete'><input type='button' onclick='asqa_delete_file_in_list(this.parentNode.id)' value='entfernen'></div>");
+ $('#asqa-file-delete1').css("display", "block");  
+
+              }
+        });
+
+
+        $( "#form_question-post_attachment2" ).change(function() {
+             if(checkdoubles("#form_question-post_attachment2")==true) {
+             $('.asqa-field-form_question-post_attachment2 .asqa-field-group-w .asqa-field-desc').css("display", "none");
+              $( ".asqa-field-form_question-post_attachment2 .asqa-field-group-w .asqa-upload-c" ).append("<div id='asqa-file-name2'>DATEINAME-DUMMY</div>");
+ $( ".asqa-field-form_question-post_attachment2 .asqa-field-group-w .asqa-upload-c" ).append("<div id='asqa-file-delete2' class='asqa-file-delete'><input type='button' onclick='asqa_delete_file_in_list(this.parentNode.id)' value='entfernen'></div>");
+     $('#asqa-file-name2').html( $('#form_question-post_attachment2').val().substring(12,$('#form_question-post_attachment2').val().length));              
+              $('#asqa-file-delete2').css("display", "block");  
+         }   
+        });
+
+        $( "#form_question-post_attachment3" ).change(function() {
+             if(checkdoubles("#form_question-post_attachment3")==true) {
+         
+             $('.asqa-field-form_question-post_attachment3 .asqa-field-group-w .asqa-field-desc').css("display", "none");
+              $( ".asqa-field-form_question-post_attachment3 .asqa-field-group-w .asqa-upload-c" ).append("<div id='asqa-file-name3'>DATEINAME-DUMMY</div>"); 
+          $( ".asqa-field-form_question-post_attachment3 .asqa-field-group-w .asqa-upload-c" ).append("<div id='asqa-file-delete3' class='asqa-file-delete'><input type='button' onclick='asqa_delete_file_in_list(this.parentNode.id)' value='entfernen'></div>");
+              $('#asqa-file-name3').html( $('#form_question-post_attachment3').val().substring(12,$('#form_question-post_attachment3').val().length));     
+              $('#asqa-file-delete3').css("display", "block");  
+          }  
+        });
+
+        $( "#form_question-post_attachment4" ).change(function() {
+             if(checkdoubles("#form_question-post_attachment4")==true) {
+
+             $('.asqa-field-form_question-post_attachment4 .asqa-field-group-w .asqa-field-desc').css("display", "none");
+              $( ".asqa-field-form_question-post_attachment4 .asqa-field-group-w .asqa-upload-c" ).append("<div id='asqa-file-name4'>DATEINAME-DUMMY</div>"); 
+ $( ".asqa-field-form_question-post_attachment4 .asqa-field-group-w .asqa-upload-c" ).append("<div id='asqa-file-delete4' class='asqa-file-delete'><input type='button' onclick='asqa_delete_file_in_list(this.parentNode.id)' value='entfernen'></div>");
+      $('#asqa-file-name4').html( $('#form_question-post_attachment4').val().substring(12,$('#form_question-post_attachment4').val().length));             
+              $('#asqa-file-delete4').css("display", "block"); 
+         }  
+        });
+
+        $( "#form_question-post_attachment5" ).change(function() {
+             checkdoubles("#form_question-post_attachment5");
+              $( ".asqa-field-form_question-post_attachment5 .asqa-field-group-w .asqa-upload-c" ).append("<div id='asqa-file-name5'>DATEINAME-DUMMY</div>");
+              $( ".asqa-field-form_question-post_attachment5 .asqa-field-group-w .asqa-upload-c" ).append("<div id='asqa-file-delete5' class='asqa-file-delete'><input type='button' onclick='asqa_delete_file_in_list(this.parentNode.id)' value='entfernen'></div>");
+     $('#asqa-file-name5').html( $('#form_question-post_attachment5').val().substring(12,$('#form_question-post_attachment5').val().length));               $('#asqa-file-delete5').css("display", "block"); 
+        });
 
      
-        $( ".asqa_special_upload" ).change(function() {
-            var derfilesarray = [];
-            $('.asqa_special_upload').filter(':input').each(function(){
-                derfilesarray.push(this.value);
-            
-            });
-            console.log(derfilesarray);
-
-            function hasDuplicates(arr) {
-                //alert("f1 works");
-                return new Set(arr).size !== arr.length;
-            }
-
-            if (hasDuplicates(derfilesarray)) {
-
-                console.log("Duplicate elements found.");
-
-                alert("Sie haben diese Datei doppelt hinzugefügt.\nDie Auswahl wird ignoriert.");
-                //alert(this.value);
-                this.value = "";
-
-                return;
-               
-                }
-                else {
-                console.log("No Duplicates found.");
-                }
-
-            nummer = $( 'input[type="file"]').length;
-            wen = nummer;
-            nummer = nummer + 1;
-            
-            var newel = $('.asqa_special_upload:last').clone();
-            var counter = this.id+"x-"+nummer;
-            
-            $(newel).attr("id",counter);
-            $(newel).insertBefore(".asqa_special_upload:last"); 
-            $( "#form_question-post_attachment" ).val('');
-
-            counterx = counter + "-filenamedisplay";
-
-            $("#asqa-uploadfiles").append('<div id="'+counterx+'" class="asqa-file-row" style="display:flex;"><div id="'+counterx+'asqa-file-name" class="asqa-file-name" style="display:none;">filedummy.txt</div><div id="'+counterx+'asqa-file-delete" class="asqa-file-delete" style="display:none;"><input type="button"  onclick="asqa_delete_file_in_list(this.parentNode.id)"  value="entfernen"></div></div>');
-            var find = '#form_question-post_attachmentx-'+nummer+'-filenamedisplay';
-            
-            $(find).attr("style", "border-top:0;");
-
-            var find2 = "#form_question-post_attachmentx-"+nummer+"-filenamedisplayasqa-file-name";
-            var find3 = "#form_question-post_attachmentx-"+nummer+"-filenamedisplayasqa-file-delete";
-            var find4 = "#form_question-post_attachmentx-"+nummer;
-            var filename = $(find4).val().replace(/C:\\fakepath\\/i, '');
-           
-            $(find2).html(filename);
-            $(find2).attr("style", "display:block;");
-            $(find3).attr("style", "display:block;");
-
-            if(nummer>5){   
-                $("#asqa_upload_button_fake").attr('onclick','');
-                $("#asqa_upload_button_fake").html('Maximalanzahl erreicht!');
-                $("#asqa_maximum_attachs").attr('style','color:red;');
-            } 
-
-     });
-
-        $( ".asqa-editor-fade" ).click(function() {
-
-        myInterval = setInterval(function() { 
-        var testinger = $( "#asqa_answer_uploader" ).text();
-        var testr = testinger.substring(0,17);
-        //alert(testr);
-        $( "#form_answer-post_attachment" ).addClass("asqa_special_upload_a");
-        $(".asqa-field-form_answer-post_attachment").append("<script>function asqa_delete_file_in_list_a(id){const myArray = id.split('-');var buttontext = 'Dateien hochladen (Maximale Dateigröße: <b>"+maxuploadsize+" MB</b>)'; var number = myArray[2];var find1 = 'form_answer-post_attachmentx-'+number;var find5='asqa_answer_uploader'; var find2 = 'form_answer-post_attachmentx-'+number+'-filenamedisplay';document.getElementById(find1).remove();document.getElementById(find2).remove(); document.getElementById(find5).innerHTML=buttontext;document.getElementById('asqa_maximum_attachs').setAttribute('style','color:#666;');}</script><div id='asqa-uploadfiles' class='asqa-field-group-w'><div id='asqa-file-row' class='asqa-file-row'><div id='asqa-file-name' class='asqa-file-name'>dateiname</div><div id='asqa-file-delete' class='asqa-file-delete'><input type='button' onclick='asqa_delete_file_in_list_a(this.parentNode.id)' value='entfernen'></div></div></div>");
-        
-        $(".asqa-field-form_answer-post_attachment .asqa-upload-c").insertAfter(".asqa-field-form_answer-post_attachment .asqa-field-desc");
-        $("#asqa-uploadfiles").insertAfter(".asqa-field-form_answer-post_attachment .asqa-form-label");
-
-        $(".asqa-field-form_answer-post_attachment .asqa-upload-c").append("<span class='btn btn-default extf-btn-file' id='asqa_answer_uploader' data-attachment-item-input=''>Dateien hochladen (Maximale Dateigröße: <b>"+maxuploadsize+" MB</b>)</span>");
-
-        $( "#asqa_answer_uploader" ).click(function() {
-            nummer3 = $( 'input[type="file"]').length;
-            if(nummer3<6){
-        document.getElementById('form_answer-post_attachment').click(); }  });
-        
-        $('#form_answer-post_attachment').attr("name", "form_answer-post_attachment[]");
-        $('#form_answer-post_attachment').removeAttr("multiple");
-
-        $( ".asqa_special_upload_a" ).change(function() { //alert("changed!");
-              var derfilesarray = [];
-            $('.asqa_special_upload_a').filter(':input').each(function(){
-                derfilesarray.push(this.value);
-            
-            });
-            console.log(derfilesarray);
-
-            function hasDuplicates(arr) {
-                //alert("f1 works");
-                return new Set(arr).size !== arr.length;
-            }
-
-            if (hasDuplicates(derfilesarray)) {
-
-                console.log("Duplicate elements found.");
-
-                alert("Sie haben diese Datei doppelt hinzugefügt.\nDie Auswahl wird ignoriert.");
-                //alert(this.value);
-                this.value = "";
-
-                return;
-               
-                }
-                else {
-                console.log("No Duplicates found.");
-                }
-
-        nummer = $( 'input[type="file"]').length;
-        wen = nummer;
-        nummer = nummer + 1;
-        
-        var newel = $('.asqa_special_upload_a:last').clone();
-        var counter = this.id+"x-"+nummer;
-        
-        $(newel).attr("id",counter);
-        $(newel).insertBefore(".asqa_special_upload_a:last"); 
-        $( "#form_answer-post_attachment" ).val('');
-
-        counterx = counter + "-filenamedisplay";
-
-        $("#asqa-uploadfiles").append('<div id="'+counterx+'" class="asqa-file-row" style="display:flex;"><div id="'+counterx+'asqa-file-name" class="asqa-file-name" style="display:none;">filedummy.txt</div><div id="'+counterx+'asqa-file-delete" class="asqa-file-delete" style="display:none;"><input type="button"  onclick="asqa_delete_file_in_list_a(this.parentNode.id)"  value="entfernen"></div></div>');
-        var find = '#form_answer-post_attachmentx-'+nummer+'-filenamedisplay';
-        
-        $(find).attr("style", "border-top:0;");
-
-        var find2 = "#form_answer-post_attachmentx-"+nummer+"-filenamedisplayasqa-file-name";
-        var find3 = "#form_answer-post_attachmentx-"+nummer+"-filenamedisplayasqa-file-delete";
-        var find4 = "#form_answer-post_attachmentx-"+nummer;
-        var filename = $(find4).val().replace(/C:\\fakepath\\/i, '');
-       
-        $(find2).html(filename);
-        $(find2).attr("style", "display:block;");
-        $(find3).attr("style", "display:block;");
-
-        
-        if(nummer>5){   
-                $("#asqa_answer_uploader").attr('onclick','');
-                $("#asqa_answer_uploader").html('Maximalanzahl erreicht!');
-                $("#asqa_maximum_attachs").attr('style','color:red;');
-            } 
-
-
-        
-        });
-        testinger = $( "#asqa_answer_uploader" ).text();
-        testr = testinger.substr(0,17);
-        //alert(testr);
-        if(testr=='Dateien hochladen'){
-         //   alert('fertig');
-        clearInterval(myInterval); 
-        }
-
-        }, 500);
-    
-        });
-
-
-        $( ".asqa-attachment-item__btn-del" ).click(function() {
-            var title = this.title;
-            if (confirm("Achtung! Sie sind gerade dabei diese\nDatei["+title+"] endgültig zu löschen.\n\nSind Sie sich absolut sicher?") == true) {
-
-                par = this.id.split("-");
-                nummer = par[3];
-                                                            
-                document.getElementById("asqa-attachment-item-id-"+nummer).remove();
-
-                x = document.getElementsByClassName("asqa-attachment-item").length;
-                if (x<1){ document.getElementById("asqa-display-attachments").remove();}
-
-                 //call php function with ajax
-                asqaredirect = "#";
-                $.ajax({
-                        type: 'POST',
-                        url: ajaxurl,
-                        data: {
-                           action: 'asqa_delete_attachment_forced',
-                           attachmentid: nummer,
-                        },  
-                       success: function(resp) {
-                                  if( resp && resp.code != undefined && resp.code == 'success' ) {
-                                    alert(resp.message);
-                                   
-                                    } else {
-                                    alert(resp.message);
-                                  
-                                    }
-                                  },
-                                  error: function() {
-                                    alert('There was some error performing!');
-                                  }
-                        });
-
-            } 
-        });
-
-
        
 
     
@@ -250,6 +181,160 @@
         });
 
     });
+
+
+    function asqa_uploadclick2(){
+        alert("test1");
+        var clickedalready = false;
+        var test = "";
+        if(clickedalready==false){
+            test = document.getElementById('form_answer-post_attachment').value;
+            if (test==""){
+            document.getElementById('form_answer-post_attachment').click();
+            clickedalready = true;      
+            }
+        }
+
+        if(clickedalready==false){
+            test = document.getElementById('form_answer-post_attachment2').value;
+            if (test==""){
+            document.getElementById('form_answer-post_attachment2').click();
+            clickedalready = true;      
+            }
+        }
+
+        if(clickedalready==false){
+            test = document.getElementById('form_answer-post_attachment3').value;
+            if (test==""){
+            document.getElementById('form_answer-post_attachment3').click();
+            clickedalready = true;      
+            }
+        }
+
+        if(clickedalready==false){
+            test = document.getElementById('form_answer-post_attachment4').value;
+            if (test==""){
+            document.getElementById('form_answer-post_attachment4').click();
+            clickedalready = true;      
+            }
+        }
+
+        if(clickedalready==false){
+            test = document.getElementById('form_answer-post_attachment5').value;
+            if (test==""){
+            document.getElementById('form_answer-post_attachment5').click();
+            clickedalready = true;      
+            }
+        }
+        
+    }
+
+    function asqa_delete_file_in_list2(id){
+        number = id.substr(16,1);
+    
+        if(number==1) { 
+        document.getElementById("form_answer-post_attachment").value = null;
+        document.getElementById("asqa-file-name1").remove();
+        document.getElementById("asqa-file-delete1").remove();  
+        }
+
+        if(number==2) { 
+        document.getElementById("form_answer-post_attachment2").value = null;
+        document.getElementById("asqa-file-name2").remove();
+        document.getElementById("asqa-file-delete2").remove();  
+        }
+
+        if(number==3) { 
+        document.getElementById("form_answer-post_attachment3").value = null;
+        document.getElementById("asqa-file-name3").remove();
+        document.getElementById("asqa-file-delete3").remove();  
+        }
+
+        if(number==4) { 
+        document.getElementById("form_answer-post_attachment4").value = null;
+        document.getElementById("asqa-file-name4").remove();
+        document.getElementById("asqa-file-delete4").remove();  
+        }
+
+        if(number==5) { 
+        document.getElementById("form_answer-post_attachment5").value = null;
+        document.getElementById("asqa-file-name5").remove();
+        document.getElementById("asqa-file-delete5").remove();  
+        }
+
+        
+        
+    }
+
+
+
+      function checkdoubles2(inputid){
+           // alert("checkdoubles....");
+var input1 = $( "#form_answer-post_attachment" ).val();  if (input1==""){ input1 = "input1";} 
+var input2 = $( "#form_answer-post_attachment2" ).val();  if (input2==""){ input2 = "input2";} 
+var input3 = $( "#form_answer-post_attachment3" ).val();  if (input3==""){ input3 = "input3";} 
+var input4 = $( "#form_answer-post_attachment4" ).val();  if (input4==""){ input4 = "input4";} 
+var input5 = $( "#form_answer-post_attachment5" ).val();  if (input5==""){ input5 = "input5";} 
+var arr = 
+[   
+    input1,   
+    input2,
+    input3, 
+    input4, 
+    input5
+    ];
+console.log(arr);
+if (hasDuplicates(arr)) {
+    console.log("Duplicate elements found.");
+    
+    alert("Sie haben diese Datei doppelt gewählt. Die Doppelte Datei wird ignoriert.");
+ 
+    $(inputid).val('');
+    return false;
+
+}
+else {
+    console.log("No Duplicates found.");
+    return true;
+}
+ 
+        }
+    function hasDuplicates(arr) {
+    return new Set(arr).size !== arr.length;
+}
+
+       function checkdoubles(inputid){
+           // alert("checkdoubles....");
+var input1 = $( "#form_question-post_attachment" ).val();  if (input1==""){ input1 = "input1";} 
+var input2 = $( "#form_question-post_attachment2" ).val();  if (input2==""){ input2 = "input2";} 
+var input3 = $( "#form_question-post_attachment3" ).val();  if (input3==""){ input3 = "input3";} 
+var input4 = $( "#form_question-post_attachment4" ).val();  if (input4==""){ input4 = "input4";} 
+var input5 = $( "#form_question-post_attachment5" ).val();  if (input5==""){ input5 = "input5";} 
+var arr = 
+[   
+    input1,   
+    input2,
+    input3, 
+    input4, 
+    input5
+    ];
+console.log(arr);
+if (hasDuplicates(arr)) {
+    console.log("Duplicate elements found.");
+    
+    alert("Sie haben diese Datei doppelt gewählt. Die Doppelte Datei wird ignoriert.");
+ 
+    $(inputid).val('');
+    return false;
+
+}
+else {
+    console.log("No Duplicates found.");
+    return true;
+}
+ 
+        }
+
 
     $('[asqa-loadmore]').on('click', function (e) {
         e.preventDefault();

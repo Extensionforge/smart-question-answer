@@ -145,28 +145,93 @@ if ( $extraclass == "asqafrontpagetrue" ) {
 
 <script type="text/javascript">	
 	function asqa_uploadclick(){
-		document.getElementById('form_question-post_attachment').click();	
+		var clickedalready = false;
+		var test = "";
+		if(clickedalready==false){
+			test = document.getElementById('form_question-post_attachment').value;
+			if (test==""){
+			document.getElementById('form_question-post_attachment').click();
+			clickedalready = true;		
+			}
+		}
+
+		if(clickedalready==false){
+			test = document.getElementById('form_question-post_attachment2').value;
+			if (test==""){
+			document.getElementById('form_question-post_attachment2').click();
+			clickedalready = true;		
+			}
+		}
+
+		if(clickedalready==false){
+			test = document.getElementById('form_question-post_attachment3').value;
+			if (test==""){
+			document.getElementById('form_question-post_attachment3').click();
+			clickedalready = true;		
+			}
+		}
+
+		if(clickedalready==false){
+			test = document.getElementById('form_question-post_attachment4').value;
+			if (test==""){
+			document.getElementById('form_question-post_attachment4').click();
+			clickedalready = true;		
+			}
+		}
+
+		if(clickedalready==false){
+			test = document.getElementById('form_question-post_attachment5').value;
+			if (test==""){
+			document.getElementById('form_question-post_attachment5').click();
+			clickedalready = true;		
+			}
+		}
+		
 	}
 
 	function asqa_delete_file_in_list(id){
-		var result = id;
-		maxuploadsize="<?php echo round( asqa_opt( 'max_upload_size' ) / ( 1024 * 1024 ), 2 ); ?>";
-		
-		const myArray = result.split("-");
-		var number = myArray[2];
-		var find1 = "form_question-post_attachmentx-"+number;
-		var find2 = "form_question-post_attachmentx-"+number+"-filenamedisplay";
-		document.getElementById(find1).remove();
-		document.getElementById(find2).remove();
-		document.getElementById("asqa_upload_button_fake").innerHTML = "Dateien hochladen (Maximale Dateigröße: <b>"+maxuploadsize+" MB</b>)";
+		number = id.substr(16,1);
+	
+		if(number==1) { 
+		document.getElementById("form_question-post_attachment").value = null;
+	 	document.getElementById("asqa-file-name1").remove();
+	 	document.getElementById("asqa-file-delete1").remove();	
+	 	}
 
-		document.getElementById("asqa_upload_button_fake").setAttribute("onclick","asqa_uploadclick()");
-		document.getElementById("asqa_maximum_attachs").setAttribute("style","color:#666;");
+	 	if(number==2) { 
+		document.getElementById("form_question-post_attachment2").value = null;
+	 	document.getElementById("asqa-file-name2").remove();
+	 	document.getElementById("asqa-file-delete2").remove();	
+	 	}
+
+	 	if(number==3) { 
+		document.getElementById("form_question-post_attachment3").value = null;
+	 	document.getElementById("asqa-file-name3").remove();
+	 	document.getElementById("asqa-file-delete3").remove();	
+	 	}
+
+	 	if(number==4) { 
+		document.getElementById("form_question-post_attachment4").value = null;
+	 	document.getElementById("asqa-file-name4").remove();
+	 	document.getElementById("asqa-file-delete4").remove();	
+	 	}
+
+	 	if(number==5) { 
+		document.getElementById("form_question-post_attachment5").value = null;
+	 	document.getElementById("asqa-file-name5").remove();
+	 	document.getElementById("asqa-file-delete5").remove();	
+	 	}
+
+		
 		
 	}
 
 
     function switch_question() { 
+    	let text = " "+window.location.href
+    	test = text.includes("eine-frage-stellen");
+    	//alert(test);
+    	if (test!=true){
     	x = document.getElementById('form_question');
         y = document.getElementsByClassName('asqa-field-form_question-category');
         y[0].style.display = "block";
@@ -188,7 +253,7 @@ if ( $extraclass == "asqafrontpagetrue" ) {
 		
 		x.appendChild(iDiv);
 
-        }
+        }}
     }
 
     function check_questionform() {
