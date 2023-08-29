@@ -282,19 +282,18 @@ function asqa_recent_activity_ago( $_post = null, $echo = true, $query_db = null
  */
 function asqa_user_tooltip( $_post = null, $echo = true, $query_db = null  ) {
 	$_post    = asqa_get_post( $_post );
-	$activity = asqa_get_recent_activity( $_post );
-	$isvip = array("");
-	if(isset($activity->user_id)){
-	$user_id = $activity->user_id;
+
+	if(isset($_post->post_author)){
+	$user_id = $_post->post_author;
 	$user = get_user_by( 'id', $user_id );
-	$dname = "FEHLT!";
+	$dname = "Kein Eintrag";
 	if(isset($user->user_login)){
 		$dname = $user->user_login;
 	}
 	global $wpdb;
 	$tb_posts = $wpdb->prefix . 'posts';
 	$sec1 = "question";
-	$sec2 = $activity->user_id;
+	$sec2 = $_post->post_author;
 	$fragen = $wpdb->get_results($wpdb->prepare("SELECT * FROM $tb_posts WHERE `post_type` = 'question' AND `post_author` = '%d'",$sec2));
 	$fragenanzahl = 0;
 	foreach ($fragen as $frage) { 
@@ -306,8 +305,6 @@ function asqa_user_tooltip( $_post = null, $echo = true, $query_db = null  ) {
 	 	$antwortenanzahl++;
 	}
 	$status = "Neu hier";
-
-
 	if($antwortenanzahl>50){ $status = "Guter Antworter"; } 
 	if($antwortenanzahl>150){ $status = "Senior Mitglied"; } 
 	if($antwortenanzahl>350){ $status = "Experte"; } 
