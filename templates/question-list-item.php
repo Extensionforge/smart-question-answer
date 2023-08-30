@@ -71,10 +71,46 @@ $clearfix_class = array( 'asqa-questions-item clearfix' );
 		<div class="asqa-questions-summery">
 			<span class="asqa-questions-title" itemprop="name">
 				<?php asqa_question_status(); ?>
-			
 			</span>
+
+			
+			<?php $author = 0 == $thepost->post_author ? 'anonymous_' . $thepost->ID : $thepost->post_author; // @codingStandardsIgnoreLine
+
+	// @codingStandardsIgnoreLine
+	if ( false !== strpos( $author, 'anonymous' ) && is_array( $thepost->fields ) && ! empty( $thepost->fields['anonymous_name'] ) ) {
+		$author = $thepost->fields['anonymous_name'];
+	}
+
+	$verify = get_user_meta( $author, "bp_verified_member", true );
+
+	$verifybadge = '<span class="bp-verified-badge mainpage"></span>';
+
+	if($verify==1){
+			$addon = '<div class="asqa_profile_container"><div  style="float:left;"  class="asqa_profile_userlink">'.bp_core_get_userlink($author).'</div><div  style="float:left;"  class="asqa_profile_badge">'.$verifybadge.'</div></div>';
+	}else {
+
+	$addon =  '<div class="asqa_profile_container"><div  style="float:left;"  class="asqa_profile_userlink">'.bp_core_get_userlink($author).'</div></div>';
+} ?>
 			<div class="asqa-display-question-meta">
-				<?php asqa_question_metas(); ?>
+				<span style="float:left;" class="asqa_username_addon_container"><?php echo $addon ?></span>
+				<?php asqa_question_metas(); 
+// check if and how many attachments exist
+global $wpdb;
+$tb_posts = $wpdb->prefix . 'posts';
+$attachments = $wpdb->get_results($wpdb->prepare("SELECT * FROM $tb_posts WHERE `post_type` = 'attachment' AND `post_parent` = '%d'",$post_id));
+	$anzahl = 0;
+	foreach ($attachments as $att) { $anzahl++; } 
+	
+	if ($anzahl>0) {
+		$anhangtext = "Dieser Beitrag enthält einen Anhang.";
+		if($anzahl>1){$anhangtext = "Dieser Beitrag enthält ".$anzahl." Anhänge.";}
+?>
+			
+<span style="float:right; color:#888; line-height:2em; font-size:12px" class="asqa_username_addon_container_bottom">
+	
+<span asqa-data-tooltip="<?php echo $anhangtext ?>" data-flow="top"><i class="apicon-file-archive-o"></i>&nbsp;x&nbsp;<?php echo $anzahl ?></span>
+	<span>
+	<?php } ?>
 			</div>
 	
 		</div>

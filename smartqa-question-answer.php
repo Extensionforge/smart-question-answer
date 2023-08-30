@@ -718,3 +718,17 @@ function my_custom_question_field( $form ) {
 }
 
 add_filter( 'asqa_question_form_fields', 'my_custom_question_field' );
+
+
+add_filter('bp_unserialize_profile_field','MyCustomfilterProfile',$priority = 10, $args = 1);
+
+function MyCustomfilterProfile($value) { 
+if ( is_serialized($value) ) {
+		//$field_value = @unserialize($value);
+		//$field_value = implode( ', ', $field_value );
+		$field_value = json_decode($value);
+		return $field_value;
+	}
+
+	return $value;
+}
