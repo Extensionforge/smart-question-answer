@@ -21,7 +21,8 @@ $count = ( '' !== get_query_var( 'answer_id' ) ? asqa_get_answers_count() : asqa
 		<div class="asqa-sorting-tab clearfix">
 			<h3 class="asqa-answers-label asqa-pull-left" ap="answers_count_t">
 				<span itemprop="answerCount"><?php echo (int) $count; ?></span>
-				<?php echo esc_attr( _n( 'Answer', 'Answers', $count, 'smart-question-answer' ) ); ?>
+				<?php $a1 = __( 'Answer', 'smart-question-answer' ); $a2 = __( 'Answers', 'smart-question-answer' ); ?>
+				<?php echo esc_attr( _n( $a1, $a2, $count, 'smart-question-answer' ) ); ?>
 			</h3>
 
 			<?php asqa_answers_tab( get_the_permalink() ); ?>
