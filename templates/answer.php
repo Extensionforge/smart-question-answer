@@ -50,8 +50,9 @@ if(asqa_is_selected()){
 					<span class="asqa-comments-count">
 						<?php $comment_count = get_comments_number(); ?>
 						<span itemprop="commentCount"><?php echo (int) $comment_count; ?></span>
-						<?php
-							echo esc_attr( sprintf( _n( 'Comment', 'Comments', $comment_count, 'smart-question-answer' ) ) );
+						<?php $comment_translation = __( 'Comment', 'smart-question-answer' );
+	$comments_translation = __( 'Comments', 'smart-question-answer' );
+							echo esc_attr( sprintf( _n( $comment_translation, $comments_translation, $comment_count, 'smart-question-answer' ) ) );
 						?>
 					</span>
 				</div>
